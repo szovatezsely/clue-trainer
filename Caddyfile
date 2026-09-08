@@ -12,10 +12,11 @@
 # docker-compose.prod.yml defaults it to :80, so HTTPS is opt-in by setting a
 # hostname in .env.
 {
-	# nginx in the frontend container already logs every request; this keeps
-	# Caddy to problems worth reading.
+	# INFO on purpose: this is where certificate issuance and renewal show up,
+	# and on a server that is the log you actually need. nginx in the frontend
+	# container handles per-request logging.
 	log {
-		level WARN
+		level INFO
 	}
 }
 

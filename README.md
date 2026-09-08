@@ -197,28 +197,30 @@ hours — ARM capacity frees up. Alternatively use `VM.Standard.E2.1.Micro` (1/8
 is always available; see [the micro shape](#the-1-gb-micro-shape) below, because you cannot build
 the images on it.
 
-### 3. Open the ports — in both places
+### 3. Open ports 80 and 443 in the security list
 
-This is the one step that reliably wastes an hour: Oracle's Ubuntu images carry their own
-restrictive `iptables` rules *in addition* to the cloud firewall, and opening only one of them
-leaves the site unreachable in a way that looks like an application fault.
+A fresh VCN allows SSH and ICMP only, so the site stays unreachable until you add a rule. The
+symptom is a browser tab that spins forever — the packets are dropped, not refused — while SSH
+keeps working perfectly.
 
-**In the console:** Networking → Virtual cloud networks → your VCN → the subnet → its security
-list → Add ingress rules, source `0.0.0.0/0`, TCP, destination ports `80` and `443`.
+**Networking → Virtual cloud networks → your VCN → Subnets → your subnet → Security Lists → the
+list attached to it → Add Ingress Rules:**
 
-**On the machine**, over SSH (`ssh -i <your-key> ubuntu@<public-ip>`):
+| Field | Value |
+| --- | --- |
+| Stateless | unchecked |
+| Source Type / CIDR | CIDR, `0.0.0.0/0` |
+| IP Protocol | TCP |
+| Destination Port Range | `80,443` |
 
-```bash
-sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
-```
+It applies immediately, no reboot. Reach the list by clicking through the **subnet**: a VCN can
+hold several security lists, and adding the rule to one that is not attached to this subnet looks
+exactly like doing nothing.
 
-```bash
-sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
-```
-
-```bash
-sudo netfilter-persistent save
-```
+That is the only firewall in the way. Oracle's Ubuntu images do carry restrictive local
+`iptables` rules, but **Docker's published ports bypass the `INPUT` chain** — it DNATs in
+`nat/PREROUTING` and filters in its own chains — so container traffic never meets them. Local
+rules only matter for ports served by a process running directly on the host.
 
 ### 4. Install Docker
 
@@ -230,13 +232,26 @@ curl -fsSL https://get.docker.com | sudo sh
 sudo usermod -aG docker $USER && sudo systemctl enable --now docker
 ```
 
-Log out and back in so the group membership applies, otherwise every `docker` needs `sudo`.
+The script brings the Compose v2 plugin with it, so `docker compose` (with a space) works
+straight away. **Log out and back in** afterwards — the `docker` group only applies to a new
+login session, and until then every command fails with
+`permission denied ... /var/run/docker.sock`.
+
+The image ships `git`; if yours does not, `sudo apt-get update && sudo apt-get install -y git`.
+Check the tooling before going further:
+
+```bash
+git --version && docker compose version && docker run --rm hello-world
+```
 
 ### 5. Start the stack
 
 ```bash
-git clone <your-repo-url> clue-trainer && cd clue-trainer
+git clone https://github.com/<you>/<repo>.git clue-trainer && cd clue-trainer
 ```
+
+Use the **HTTPS** URL, not `git@github.com:…` — the VM has no SSH key for GitHub. A private repo
+needs a personal access token instead of a password, or a deploy key on the machine.
 
 ```bash
 cp .env.example .env
@@ -264,9 +279,20 @@ sed -i 's|^SITE_ADDRESS=.*|SITE_ADDRESS=something.duckdns.org|' .env
 docker compose -f docker-compose.prod.yml up -d
 ```
 
-Caddy obtains the certificate on first request, renews it on its own, serves HTTP/2 and HTTP/3,
-and redirects `http://` to `https://`. Certificates live in the `caddy-data` volume, so restarts
-do not ask Let's Encrypt for new ones.
+Caddy obtains the certificate at startup, renews it on its own, serves HTTP/2 and HTTP/3, and
+redirects `http://` to `https://`. Certificates live in the `caddy-data` volume, so restarts do
+not ask Let's Encrypt for new ones. To watch or confirm:
+
+```bash
+docker compose -f docker-compose.prod.yml logs -f caddy
+```
+
+```bash
+docker compose -f docker-compose.prod.yml exec caddy ls /data/caddy/certificates/*/*
+```
+
+If the certificate is missing, port 80 was unreachable when Caddy last tried; fix the ingress
+rule and `up -d --force-recreate caddy` to make it retry immediately.
 
 ### Day-to-day
 
@@ -316,11 +342,23 @@ Do the same for `./frontend`, replace the two `build:` blocks in `docker-compose
 `image:` lines, and add `JAVA_OPTS=-Xmx256m` to `.env` so the JVM does not size its heap for a
 machine that small.
 
+Give that shape a swap file too — 1 GB with none is fragile even when only running:
+
+```bash
+sudo fallocate -l 2G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile
+```
+
+```bash
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
 ### If something is wrong
 
 | Symptom | Cause | Fix |
 | --- | --- | --- |
-| Site unreachable, no error | Only one of the two firewalls is open | Redo step 3 — both the security list *and* `iptables` |
+| Browser spins forever, SSH fine | No ingress rule for 80/443 | Step 3 — and check the rule is on the list attached to *this* subnet |
+| `ERR_SSL_PROTOCOL_ERROR` | Caddy has no certificate yet, usually because port 80 was closed when it last tried | `up -d --force-recreate caddy`, then read its log |
+| Kotlin build fails with `Unresolved reference 'data'` | The clone is missing files: a `.gitignore` pattern without a leading slash matches at every level | `git ls-files --others --ignored --exclude-standard -- backend/src` |
 | "Out of host capacity" | ARM demand in your region | Another availability domain, retry later, or the micro shape |
 | Certificate never issued | Hostname does not resolve to the VM, or :80 is closed | `dig +short <host>`, and check the ingress rule for 80 (Let's Encrypt validates over HTTP) |
 | Clue images broken | plonkit.net is rate-limiting | Expected; the panel says how long is left, cached clues keep working |
