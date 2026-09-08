@@ -25,6 +25,7 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.serialization.json.Json
 import net.geoclue.trainer.data.ClueRepository
+import net.geoclue.trainer.data.ImageWarmer
 import net.geoclue.trainer.game.ApiException
 import net.geoclue.trainer.game.GameService
 import net.geoclue.trainer.game.SessionStore
@@ -100,6 +101,12 @@ fun Application.module(config: AppConfig) {
     routing {
         apiRoutes(config, repository, sessions, game, appScope)
         imageRoutes(repository, imageCache)
+    }
+
+    if (config.warmCache) {
+        // Pull the clue images in one slow background pass, so that playing
+        // never waits on - or gets rate-limited by - the guide site.
+        ImageWarmer(config, repository, imageCache).start(appScope)
     }
 
     if (config.scrapeOnStart) {

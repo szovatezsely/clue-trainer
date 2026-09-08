@@ -26,6 +26,14 @@ services:
       ALLOW_REFRESH: "false"
       DATASET_MAX_AGE_DAYS: "30"
       SESSION_TTL_HOURS: "12"
+      # Smallest gap between two image fetches from the guide site. Pacing is
+      # what keeps normal play under its rate limit.
+      IMAGE_MIN_INTERVAL_MS: "${IMAGE_MIN_INTERVAL_MS:-3000}"
+      # Pull the clue images in one slow background pass after boot, so that
+      # playing never waits on the guide site. See .env.example.
+      WARM_CACHE: "${WARM_CACHE:-false}"
+      WARM_CACHE_ALL: "${WARM_CACHE_ALL:-false}"
+      WARM_START_DELAY_MS: "${WARM_START_DELAY_MS:-20000}"
       # The JVM sizes its heap from the container limit. That is fine on the
       # 12 GB ARM shape; on the 1 GB micro shape, cap it:
       #   JAVA_OPTS: "-Xmx256m"

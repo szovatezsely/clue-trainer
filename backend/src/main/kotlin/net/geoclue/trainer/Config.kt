@@ -22,6 +22,18 @@ data class AppConfig(
     val scrapeDelayMillis: Long = env("SCRAPE_DELAY_MS")?.toLongOrNull() ?: 1_200,
     /** How long an idle game session is kept in memory. */
     val sessionTtlHours: Long = env("SESSION_TTL_HOURS")?.toLongOrNull() ?: 12,
+    /**
+     * Smallest gap between two image fetches from the origin. The guide site
+     * rate-limits bursts, and a player reads for far longer than this between
+     * clues, so pacing costs nothing and makes a burst impossible.
+     */
+    val imageMinIntervalMillis: Long = env("IMAGE_MIN_INTERVAL_MS")?.toLongOrNull() ?: 3_000,
+    /** Fill the image cache in the background on boot (see ImageWarmer). */
+    val warmCache: Boolean = env("WARM_CACHE").toBoolean(),
+    /** Warm every clue image rather than only the country-level ones. */
+    val warmCacheAll: Boolean = env("WARM_CACHE_ALL").toBoolean(),
+    /** Grace period before warming starts, so booting is not competing with it. */
+    val warmStartDelayMillis: Long = env("WARM_START_DELAY_MS")?.toLongOrNull() ?: 20_000,
 ) {
     val clueCacheFile: Path get() = dataDir.resolve("clues.json")
     val imageCacheDir: Path get() = dataDir.resolve("images")

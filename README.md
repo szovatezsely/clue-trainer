@@ -134,6 +134,10 @@ Environment variables on the `backend` service (all optional):
 | `ALLOW_REFRESH` | `true` | Whether `POST /api/dataset/refresh` is allowed |
 | `SCRAPE_DELAY_MS` | `1200` | Politeness delay between two guide page requests |
 | `SESSION_TTL_HOURS` | `12` | How long an idle game session is kept in memory |
+| `IMAGE_MIN_INTERVAL_MS` | `3000` | Smallest gap between two image fetches from the origin |
+| `WARM_CACHE` | `false` | Fill the image cache in the background after boot |
+| `WARM_CACHE_ALL` | `false` | Warm every clue image, not only the country-level ones |
+| `WARM_START_DELAY_MS` | `20000` | Grace period before warming starts |
 
 `docker-compose.prod.yml` sets `ALLOW_REFRESH=false` and reads `SITE_ADDRESS` and `JAVA_OPTS`
 from `.env` (see [`.env.example`](.env.example)).
@@ -151,6 +155,36 @@ curl -X POST http://localhost:8081/api/dataset/refresh
 Watch it with `docker compose logs -f backend`, and check `GET /api/dataset/status`. Setting
 `SCRAPE_ON_START=true` does the same on every boot where the cache is older than
 `DATASET_MAX_AGE_DAYS`.
+
+### Warming the image cache
+
+A fresh deployment has an empty image cache, so every clue is a cold fetch from plonkit.net — and
+a handful of those in a row is exactly what its rate limiter punishes. Two things prevent that.
+
+**Pacing** is always on: fetches from the origin happen one at a time, at most one every
+`IMAGE_MIN_INTERVAL_MS`. A player spends 10–20 seconds reading each explanation, so this costs
+nothing during normal play while making a burst impossible. A request a player is waiting on
+always goes ahead of the warmer.
+
+**Warming** is opt-in. With `WARM_CACHE=true` the backend walks the clue list once after boot and
+downloads what is missing at that same pace:
+
+| Scope | Images | Disk | Time at 3 s each |
+| --- | --- | --- | --- |
+| `WARM_CACHE=true` (country-level clues, the default game mode) | 1,711 | ~710 MB | ~85 min |
+| `WARM_CACHE_ALL=true` (everything) | 5,107 | ~2.1 GB | ~4.3 h |
+
+Afterwards every clue is served from local disk: instant, and the origin is never touched while
+anyone plays, so the rate limit cannot apply. The images live in the `clue-data` volume, not in
+the repository or the Docker image, and they survive restarts. Running it again is a no-op —
+cached images are skipped without a request — so it is safe to leave enabled.
+
+```bash
+docker compose -f docker-compose.prod.yml logs -f backend | grep -i warm
+```
+
+If the origin does rate-limit the crawl, warming pauses for exactly as long as it asks and then
+resumes at the same image.
 
 ## Deploy it for free, always on
 

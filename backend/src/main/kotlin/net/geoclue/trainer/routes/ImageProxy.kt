@@ -16,8 +16,8 @@ import io.ktor.server.routing.Route
 import io.ktor.server.routing.get
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.sync.Semaphore
-import kotlinx.coroutines.sync.withPermit
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import net.geoclue.trainer.AppConfig
 import net.geoclue.trainer.data.ClueRepository
@@ -29,6 +29,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption
 import java.security.MessageDigest
+import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.atomic.AtomicLong
 
 /**
@@ -39,8 +40,9 @@ import java.util.concurrent.atomic.AtomicLong
  * the backend. Every fetched file is cached on disk, meaning a clue is pulled
  * from the origin at most once per container volume.
  *
- * The origin also rate-limits bursts with 429. Retrying through that only
- * feeds its limiter, so a 429 pauses every fetch for a while and the affected
+ * The origin also rate-limits bursts with 429, so fetches are paced: one at a
+ * time, never closer than [AppConfig.imageMinIntervalMillis]. If a 429 arrives
+ * anyway, every fetch pauses for as long as the origin asks and the affected
  * clues fail fast until the window drains; cached clues keep working.
  *
  * Only paths that appear in the scraped dataset are proxied - the endpoint
@@ -48,8 +50,17 @@ import java.util.concurrent.atomic.AtomicLong
  */
 class ImageCache(private val config: AppConfig, private val client: HttpClient) {
     private val log = LoggerFactory.getLogger(ImageCache::class.java)
-    // The origin throttles bursts, so only a few fetches are ever in flight.
-    private val upstreamLimit = Semaphore(3)
+
+    /**
+     * One fetch from the origin at a time, never closer together than
+     * [AppConfig.imageMinIntervalMillis]. The rate limiter punishes bursts, so
+     * the queue is the point: it is what keeps normal play under the limit.
+     */
+    private val pacer = Mutex()
+    private val lastFetchAt = AtomicLong(0)
+
+    /** Fetches a player is waiting on; the warmer stands aside while any are. */
+    private val playersWaiting = AtomicInteger(0)
 
     /** Epoch millis until which the origin has asked us to stop asking. */
     private val throttledUntil = AtomicLong(0)
@@ -65,9 +76,36 @@ class ImageCache(private val config: AppConfig, private val client: HttpClient) 
     suspend fun get(imagePath: String): Entry {
         val key = sha256(imagePath)
         readFromDisk(key)?.let { return it }
+        failIfThrottled()
 
-        // While the origin is throttling us, asking again only feeds its rate
-        // limiter and keeps the window from draining, so fail fast instead.
+        playersWaiting.incrementAndGet()
+        try {
+            return pacer.withLock {
+                // Another request may have populated the cache while we queued.
+                readFromDisk(key) ?: paceThenDownload(imagePath, key)
+            }
+        } finally {
+            playersWaiting.decrementAndGet()
+        }
+    }
+
+    /**
+     * Downloads an image only if it is missing, without reading it back.
+     * Returns true when it actually had to fetch. Used by [ImageWarmer].
+     */
+    suspend fun cacheIfMissing(imagePath: String): Boolean {
+        val key = sha256(imagePath)
+        if (isOnDisk(key)) return false
+        failIfThrottled()
+        return pacer.withLock {
+            if (isOnDisk(key)) false else { paceThenDownload(imagePath, key); true }
+        }
+    }
+
+    /** True while a player is queued for an image; warming should yield. */
+    fun playersAreWaiting(): Boolean = playersWaiting.get() > 0
+
+    private fun failIfThrottled() {
         val pauseLeft = throttledUntil.get() - System.currentTimeMillis()
         if (pauseLeft > 0) {
             throw ApiException(
@@ -77,10 +115,17 @@ class ImageCache(private val config: AppConfig, private val client: HttpClient) 
                     ((pauseLeft / 1000) + 1) + "s.",
             )
         }
+    }
 
-        return upstreamLimit.withPermit {
-            // Another request may have populated the cache while we queued.
-            readFromDisk(key) ?: download(imagePath, key)
+    /** Holds the pacer's lock, so the wait also spaces out everyone behind it. */
+    private suspend fun paceThenDownload(imagePath: String, key: String): Entry {
+        val since = System.currentTimeMillis() - lastFetchAt.get()
+        val wait = config.imageMinIntervalMillis - since
+        if (wait > 0) delay(wait)
+        try {
+            return download(imagePath, key)
+        } finally {
+            lastFetchAt.set(System.currentTimeMillis())
         }
     }
 
@@ -143,6 +188,9 @@ class ImageCache(private val config: AppConfig, private val client: HttpClient) 
         }
         throw ApiException(HttpStatusCode.BadGateway, "image_unavailable", "Could not load the clue image.")
     }
+
+    private fun isOnDisk(key: String): Boolean =
+        Files.exists(blobPath(key)) && Files.exists(metaPath(key))
 
     private suspend fun readFromDisk(key: String): Entry? = withContext(Dispatchers.IO) {
         val blob = blobPath(key)
