@@ -1,0 +1,233 @@
+/*
+ * Design tokens: a dark, high-contrast layout with a single green accent,
+ * thin slab-serif display type and pill-shaped buttons.
+ */
+:root {
+  color-scheme: dark;
+
+  --green: #00c95b;
+  --green-bright: #3ee183;
+  --green-ink: #002e1d;
+  --green-veil: rgba(0, 201, 91, 0.14);
+
+  --bg: #0a0a0b;
+  --surface: #131316;
+  --surface-alt: #1a1a1e;
+  --surface-hover: #202026;
+  --line: #2b2b31;
+  --line-strong: #45454e;
+
+  --text: #f4f4f5;
+  --text-dim: #a1a1aa;
+  --text-faint: #71717a;
+
+  --red: #ff6b6b;
+  --red-veil: rgba(255, 107, 107, 0.13);
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Roboto Slab', Georgia, Cambria, 'Times New Roman', serif;
+
+  --radius: 4px;
+  --radius-lg: 10px;
+  --shadow: 0 20px 46px -28px rgba(0, 0, 0, 0.9);
+  --transition: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.08;
+}
+
+h2 {
+  font-size: clamp(1.2rem, 2.1vw, 1.6rem);
+  line-height: 1.2;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--green);
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--green-bright);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+kbd {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  border-bottom-width: 2px;
+  background: var(--surface-alt);
+  border-radius: 5px;
+  padding: 2px 7px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.shell {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 24px;
+  border-radius: 999px;
+  background: var(--text);
+  color: #0a0a0b;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition:
+    background var(--transition),
+    color var(--transition),
+    transform var(--transition),
+    opacity var(--transition);
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--green);
+  color: var(--green-ink);
+  transform: translateY(-1px);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.btn--ghost {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--line);
+  font-weight: 500;
+}
+
+.btn--ghost:hover:not(:disabled) {
+  background: var(--surface-hover);
+  border-color: var(--line-strong);
+  color: var(--text);
+  transform: none;
+}
+
+.btn--accent {
+  background: var(--green);
+  color: var(--green-ink);
+}
+
+.btn--accent:hover:not(:disabled) {
+  background: var(--green-bright);
+  color: var(--green-ink);
+}
+
+.btn__key {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.55;
+}
+
+/* ---------- shared bits ---------- */
+
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin: 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  color: var(--text-dim);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+  }
+}

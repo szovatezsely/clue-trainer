@@ -1,0 +1,40 @@
+name: clue-trainer
+
+services:
+  # Kotlin/Ktor service: owns the clue dataset, the scraper, the game rules and
+  # the image proxy.
+  backend:
+    build:
+      context: ./backend
+    environment:
+      PORT: "8080"
+      DATA_DIR: "/data"
+      # The image ships with a full scrape of every country guide, so the game
+      # is playable immediately. Set this to "true" to refresh it on boot
+      # instead (a few minutes of polite, rate-limited requests).
+      SCRAPE_ON_START: "false"
+      # Allows POST /api/dataset/refresh to re-scrape on demand.
+      ALLOW_REFRESH: "true"
+      DATASET_MAX_AGE_DAYS: "30"
+      SESSION_TTL_HOURS: "12"
+    volumes:
+      # Keeps the refreshed dataset and the cached clue images between restarts.
+      - clue-data:/data
+    ports:
+      # Exposed for direct API access; the UI talks to it through nginx.
+      - "8081:8080"
+    restart: unless-stopped
+
+  # Vue single-page app, served by nginx, which also proxies /api to the backend.
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+volumes:
+  clue-data:
