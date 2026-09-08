@@ -1,3 +1,6 @@
 build/
 .gradle/
-data/
+
+# runtime data written by ./gradlew run - anchored, so it cannot swallow the
+# net.geoclue.trainer.data package
+/data/
