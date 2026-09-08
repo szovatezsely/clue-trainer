@@ -7,6 +7,9 @@ frontend/dist/
 # local runtime data (clue cache + proxied images)
 data/
 
+# deployment settings (see .env.example)
+.env
+
 # editors / os
 .idea/
 .vscode/

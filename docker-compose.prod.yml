@@ -1,0 +1,77 @@
+name: clue-trainer
+
+# Production topology, for a small always-on VM (an Oracle Cloud Always Free
+# instance is what this was written for).
+#
+# It is the same two containers as the local stack, with two differences:
+# neither of them publishes a host port any more, and Caddy sits in front to
+# own :80/:443 and to obtain a TLS certificate.
+#
+#     docker compose -f docker-compose.prod.yml up -d --build
+#
+# Set SITE_ADDRESS in .env (see .env.example) to switch on HTTPS.
+
+services:
+  # Kotlin/Ktor service: the clue dataset, the scraper, the game rules and the
+  # image proxy. Reachable only from the other containers.
+  backend:
+    build:
+      context: ./backend
+    environment:
+      PORT: "8080"
+      DATA_DIR: "/data"
+      SCRAPE_ON_START: "false"
+      # A public URL should not offer anyone a button that re-scrapes
+      # plonkit.net. Flip it to "true" for the one request, then back.
+      ALLOW_REFRESH: "false"
+      DATASET_MAX_AGE_DAYS: "30"
+      SESSION_TTL_HOURS: "12"
+      # The JVM sizes its heap from the container limit. That is fine on the
+      # 12 GB ARM shape; on the 1 GB micro shape, cap it:
+      #   JAVA_OPTS: "-Xmx256m"
+      JAVA_OPTS: "${JAVA_OPTS:--XX:MaxRAMPercentage=75}"
+    volumes:
+      # Holds the refreshed dataset and every clue image fetched so far, so a
+      # restart does not send the whole cache back to the origin.
+      - clue-data:/data
+    expose:
+      - "8080"
+    restart: unless-stopped
+
+  # Vue single-page app on nginx, which also proxies /api to the backend.
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      backend:
+        condition: service_healthy
+    expose:
+      - "80"
+    restart: unless-stopped
+
+  # Terminates TLS and forwards everything to the SPA container. With a
+  # hostname in SITE_ADDRESS it fetches and renews a Let's Encrypt
+  # certificate on its own; without one it just serves plain HTTP on :80.
+  caddy:
+    image: caddy:2-alpine
+    depends_on:
+      - frontend
+    environment:
+      SITE_ADDRESS: "${SITE_ADDRESS:-:80}"
+    ports:
+      - "80:80"
+      - "443:443"
+      # HTTP/3
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      # Certificates live here; losing this volume means asking Let's Encrypt
+      # for a new certificate on the next start.
+      - caddy-data:/data
+      - caddy-config:/config
+    restart: unless-stopped
+
+volumes:
+  clue-data:
+  caddy-data:
+  caddy-config:

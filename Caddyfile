@@ -1,0 +1,33 @@
+# Front door for the production stack (docker-compose.prod.yml).
+#
+# SITE_ADDRESS decides what this is:
+#
+#   :80                     plain HTTP, which is all an IP address can do -
+#                           a public certificate authority will not issue a
+#                           certificate for a bare IP
+#   clue.example.org        Caddy obtains a Let's Encrypt certificate, renews
+#                           it, serves HTTP/2 and HTTP/3, and redirects
+#                           http:// to https:// by itself
+#
+# docker-compose.prod.yml defaults it to :80, so HTTPS is opt-in by setting a
+# hostname in .env.
+{
+	# nginx in the frontend container already logs every request; this keeps
+	# Caddy to problems worth reading.
+	log {
+		level WARN
+	}
+}
+
+{$SITE_ADDRESS} {
+	reverse_proxy frontend:80
+
+	header {
+		# The page is self-contained: no framing, no MIME sniffing, and
+		# referrers stay inside the site.
+		X-Frame-Options DENY
+		X-Content-Type-Options nosniff
+		Referrer-Policy same-origin
+		-Server
+	}
+}

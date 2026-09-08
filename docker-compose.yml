@@ -21,8 +21,10 @@ services:
       # Keeps the refreshed dataset and the cached clue images between restarts.
       - clue-data:/data
     ports:
-      # Exposed for direct API access; the UI talks to it through nginx.
-      - "8081:8080"
+      # Direct API access for debugging, on loopback only: the UI itself talks
+      # to the backend through nginx. See docker-compose.prod.yml for serving
+      # this publicly behind TLS.
+      - "127.0.0.1:8081:8080"
     restart: unless-stopped
 
   # Vue single-page app, served by nginx, which also proxies /api to the backend.
