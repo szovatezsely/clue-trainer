@@ -15,11 +15,12 @@ import org.slf4j.LoggerFactory
  * Fills the image cache in the background, so that playing never depends on the
  * guide site.
  *
- * The origin rate-limits image requests hard and punishes repeat offenders
- * progressively: a crawl from a datacenter address managed 47 images an hour
- * before the penalties grew to half-hour blocks, while the same code from a
- * residential connection managed over a thousand an hour untouched. So this job
- * is deliberately unhurried and self-correcting:
+ * The origin rate-limits image requests hard: measured from a residential
+ * connection it allows roughly 55 images and then blocks for half an hour,
+ * whatever the pace, and from a datacenter address the penalties escalate on
+ * top of that. A bulk crawl therefore is not a matter of finding the right
+ * interval - it is a long, patient job, so this one is unhurried and
+ * self-correcting:
  *
  *  - it waits [AppConfig.warmIntervalMillis] between images (30s by default),
  *  - every rate-limit doubles that wait, and a run of successes eases it back,
@@ -45,7 +46,13 @@ class ImageWarmer(
         delay(config.warmStartDelayMillis)
 
         val snapshot = repository.snapshot
-        val clues = if (config.warmCacheAll) snapshot.clues else snapshot.coreClues
+        // Country-level clues first, always: they are what the default game mode
+        // plays from, so a run that is interrupted still leaves the useful half.
+        val clues = if (config.warmCacheAll) {
+            snapshot.coreClues + snapshot.clues.filterNot { it.isCore }
+        } else {
+            snapshot.coreClues
+        }
         val paths = clues.map { it.imageUrl }.distinct()
         log.info(
             "Warming the image cache: {} images ({}), {} already on disk, one every {}ms",

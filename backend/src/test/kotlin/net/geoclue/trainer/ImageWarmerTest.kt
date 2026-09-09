@@ -62,6 +62,23 @@ class ImageWarmerTest {
     }
 
     @Test
+    fun `country-level images are fetched before the rest`() = runBlocking {
+        val requested = mutableListOf<String>()
+        val config = config(Files.createTempDirectory("clue-trainer-warm-order"), warmAll = true)
+        val engine = MockEngine { request ->
+            requested += request.url.encodedPath
+            respondImage()
+        }
+        val cache = ImageCache(config, HttpClient(engine) { expectSuccess = false })
+        val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+
+        ImageWarmer(config, repository(config), cache).start(scope).join()
+
+        // a-1 and a-2 are "Identifying Aaa"; a-3 is a Spotlight clue.
+        assertEquals(listOf("/images/a/1.png", "/images/a/2.png", "/images/a/3.png"), requested)
+    }
+
+    @Test
     fun `a missing image does not stop the run`() = runBlocking {
         val requests = AtomicInteger()
         val config = config(Files.createTempDirectory("clue-trainer-warm-404"))

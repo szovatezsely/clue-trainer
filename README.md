@@ -203,11 +203,18 @@ connection once and copy the result to the server, which then never contacts plo
 WARM_CACHE=true WARM_CACHE_ALL=true WARM_INTERVAL_MS=5000 docker compose up -d --build
 ```
 
-Watch it with `docker compose logs -f backend | grep -i warm`. Measured on a home connection
-this runs at about **10 images a minute**, so roughly **8 hours** for all 5,107 (~2.1 GB) or
-**2.5 hours** for the 1,711 country-level ones — leave it overnight. It is resumable: stop and
-start it whenever you like, and already-cached images are skipped without a request. Drop
-`WARM_CACHE_ALL` to fetch only the country-level set.
+Watch it with `docker compose logs -f backend | grep -i warm`, and expect it to be slow. Measured
+from a home connection, the origin allows roughly **55 image requests and then blocks for 30
+minutes**, so the sustained rate is about **1.5 images a minute** however you pace it:
+
+| Scope | Images | Wall clock |
+| --- | --- | --- |
+| Country-level clues (what the default game mode uses) | 1,711 | ~18 hours |
+| Every clue (`WARM_CACHE_ALL=true`) | 5,107 | ~2 days |
+
+Country-level images are always fetched first, so an interrupted run still leaves the half that
+matters. It is fully resumable: stop and start whenever you like, already-cached images are
+skipped without a request, and a sleeping laptop simply pauses it.
 
 **2. Export the volume** into a tarball (PowerShell; use `$PWD` in bash):
 
