@@ -41,9 +41,8 @@ For a public, always-on deployment see [Deploy it for free, always on](#deploy-i
 > plonkit.net also rate-limits image requests per client, harshly and progressively. The game
 > works around it by preferring clues whose image it has already cached, pacing the fetches it
 > does make, and pausing entirely when the origin asks it to. A clue that still cannot load
-> offers a **Skip this clue** button saying how long is left. See
-> [The image cache](#the-image-cache) for how to fill the cache once and stop depending on the
-> origin altogether.
+> offers a **Skip this clue** button saying how long is left. The cache fills up as people play;
+> see [The image cache](#the-image-cache) for why the app does not try to fetch it in bulk.
 
 ## How to play
 
@@ -162,16 +161,24 @@ Watch it with `docker compose logs -f backend`, and check `GET /api/dataset/stat
 
 ### The image cache
 
-plonkit.net rate-limits image requests, punishes repeat offenders progressively, and treats
-datacenter addresses far more harshly than residential ones. Measured with the same code at the
-same 3-second pace:
+plonkit.net does not want to be crawled. Its `robots.txt` allowlists three search engines,
+disallows every other user agent, and blocks the named AI crawlers:
 
-| Fetching from | Effective rate | Rate limiting |
-| --- | --- | --- |
-| An Oracle Cloud VM | ~47 images/hour | constant, escalating to 30-minute blocks |
-| A home connection | ~1,080 images/hour | none observed |
+```
+User-agent: *          Content-Signal: search=yes,ai-train=no,use=reference
+User-agent: Googlebot  Allow: /
+User-agent: Bingbot    Allow: /
+User-agent: DuckDuckBot Allow: /
+User-agent: *          Disallow: /
+```
 
-Three mechanisms keep that from reaching the player.
+It enforces that with rate limits that escalate the longer you fetch: measured, a bulk pass
+starts around 3 images a minute, degrades to roughly 30 an hour, and earns blocks of up to half
+an hour. So this app does not try to hold a complete copy. It fetches an image when a player
+looks at a clue — one request for one person reading one guide entry — caches it so that never
+repeats, and plays from what it has.
+
+Three mechanisms make that work.
 
 **The game plays from what it has.** Clues whose image is already on disk load instantly and
 cannot fail, so those are what it offers. Roughly one pick in ten deliberately reaches for an
@@ -183,40 +190,23 @@ fresh deployment still works — it simply fills up as you play.
 player reads for far longer than that between clues, so it costs nothing while making a burst
 impossible.
 
-**Warming** (`WARM_CACHE=true`) walks the clue list in the background, fetching what is missing
-one image every `WARM_INTERVAL_MS`. Each rate limit doubles that interval and a clean run eases
-it back, so it converges on a pace the origin tolerates. It pauses while anyone is playing, and
-skips images already on disk — so it is safe to leave enabled, and a no-op on a full cache.
+**Warming** (`WARM_CACHE=true`, **off by default**) walks the clue list in the background,
+fetching what is missing one image every `WARM_INTERVAL_MS`, doubling that interval on every
+rate limit and easing back after a clean run. It exists for the case where you have permission
+for a bulk copy; given the robots policy above, leave it off otherwise. Nothing needs it — a
+cache grows on its own as people play.
 
 ```bash
 docker compose -f docker-compose.prod.yml logs -f backend | grep -i warm
 ```
 
-### Filling the cache from your own machine
+### Moving a cache between machines
 
-Because of the table above, the fast way to a complete cache is to fetch it from a home
-connection once and copy the result to the server, which then never contacts plonkit again.
+A cache built by playing locally can be copied to the server, so the two do not each have to
+fetch the same images. This is also how you would install a bulk copy if the guide's authors gave
+you one.
 
-**1. Fetch locally.** In a clone on your own machine, with the local stack:
-
-```bash
-WARM_CACHE=true WARM_CACHE_ALL=true WARM_INTERVAL_MS=5000 docker compose up -d --build
-```
-
-Watch it with `docker compose logs -f backend | grep -i warm`, and expect it to be slow. Measured
-from a home connection, the origin allows roughly **55 image requests and then blocks for 30
-minutes**, so the sustained rate is about **1.5 images a minute** however you pace it:
-
-| Scope | Images | Wall clock |
-| --- | --- | --- |
-| Country-level clues (what the default game mode uses) | 1,711 | ~18 hours |
-| Every clue (`WARM_CACHE_ALL=true`) | 5,107 | ~2 days |
-
-Country-level images are always fetched first, so an interrupted run still leaves the half that
-matters. It is fully resumable: stop and start whenever you like, already-cached images are
-skipped without a request, and a sleeping laptop simply pauses it.
-
-**2. Export the volume** into a tarball (PowerShell; use `$PWD` in bash):
+**Export the volume** into a tarball (PowerShell; use `$PWD` in bash):
 
 ```powershell
 docker run --rm -v clue-trainer_clue-data:/data -v "${PWD}:/backup" alpine tar czf /backup/clue-images.tgz -C /data images
@@ -240,10 +230,10 @@ docker compose -f docker-compose.prod.yml restart backend
 
 The restart is what matters: the backend indexes the cache on boot, and the log line
 `Image cache holds N of 5243 clue images` confirms what arrived (5,107 clue images plus the 136
-country hero images). From then on every clue is served from local disk.
+country hero images).
 
-These are someone else's images — keep the archive between your machine and your server rather
-than publishing it.
+Importing is additive, so you can do it repeatedly as a cache grows. These are someone else's
+images: keep the archive between your own machines rather than publishing it.
 
 ## Deploy it for free, always on
 

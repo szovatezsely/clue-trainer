@@ -15,12 +15,13 @@ import org.slf4j.LoggerFactory
  * Fills the image cache in the background, so that playing never depends on the
  * guide site.
  *
- * The origin rate-limits image requests hard: measured from a residential
- * connection it allows roughly 55 images and then blocks for half an hour,
- * whatever the pace, and from a datacenter address the penalties escalate on
- * top of that. A bulk crawl therefore is not a matter of finding the right
- * interval - it is a long, patient job, so this one is unhurried and
- * self-correcting:
+ * It is off by default and should usually stay off: the guide site's robots.txt
+ * allowlists three search engines and disallows every other crawler, and it
+ * enforces that with rate limits that escalate the longer you fetch - measured,
+ * a bulk pass decays from about 3 images a minute to 30 an hour, with blocks of
+ * up to half an hour. The game does not need a complete cache; it plays from
+ * what it has. This exists for the case where a bulk copy is permitted, and it
+ * is deliberately unhurried and self-correcting:
  *
  *  - it waits [AppConfig.warmIntervalMillis] between images (30s by default),
  *  - every rate-limit doubles that wait, and a run of successes eases it back,
@@ -28,9 +29,8 @@ import org.slf4j.LoggerFactory
  *    request budget,
  *  - images already on disk are skipped without a request.
  *
- * That last property makes it safe to leave enabled: on a full cache the job
- * finishes in seconds. To fill a cache quickly, run it somewhere residential
- * with `WARM_INTERVAL_MS` lowered, then copy the volume across - see the README.
+ * That last property makes it cheap to run against a full cache: the job skips
+ * everything and finishes in seconds.
  */
 class ImageWarmer(
     private val config: AppConfig,
