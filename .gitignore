@@ -17,3 +17,4 @@ frontend/dist/
 .vscode/
 .DS_Store
 *.log
+*.tgz
