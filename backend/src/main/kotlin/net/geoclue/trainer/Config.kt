@@ -34,6 +34,15 @@ data class AppConfig(
     val warmCacheAll: Boolean = env("WARM_CACHE_ALL").toBoolean(),
     /** Grace period before warming starts, so booting is not competing with it. */
     val warmStartDelayMillis: Long = env("WARM_START_DELAY_MS")?.toLongOrNull() ?: 20_000,
+    /**
+     * Gap between two images while warming. Deliberately far slower than the
+     * interactive floor: a sustained crawl is what the origin punishes, and it
+     * punishes repeat offenders progressively. The warmer widens this on its
+     * own whenever it is rate-limited.
+     */
+    val warmIntervalMillis: Long = env("WARM_INTERVAL_MS")?.toLongOrNull() ?: 30_000,
+    /** Warming stands aside for this long after any request from a player. */
+    val warmQuietMillis: Long = env("WARM_QUIET_MS")?.toLongOrNull() ?: 60_000,
 ) {
     val clueCacheFile: Path get() = dataDir.resolve("clues.json")
     val imageCacheDir: Path get() = dataDir.resolve("images")

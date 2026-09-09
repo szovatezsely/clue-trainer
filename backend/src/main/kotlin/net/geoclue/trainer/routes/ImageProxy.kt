@@ -23,12 +23,14 @@ import net.geoclue.trainer.AppConfig
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.PlonkItScraper
 import net.geoclue.trainer.game.ApiException
+import net.geoclue.trainer.game.ImageAvailability
 import net.geoclue.trainer.model.ImageStatusDto
 import org.slf4j.LoggerFactory
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.StandardCopyOption
 import java.security.MessageDigest
+import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.atomic.AtomicLong
 
@@ -48,7 +50,10 @@ import java.util.concurrent.atomic.AtomicLong
  * Only paths that appear in the scraped dataset are proxied - the endpoint
  * cannot be used as an open relay.
  */
-class ImageCache(private val config: AppConfig, private val client: HttpClient) {
+class ImageCache(
+    private val config: AppConfig,
+    private val client: HttpClient,
+) : ImageAvailability {
     private val log = LoggerFactory.getLogger(ImageCache::class.java)
 
     /**
@@ -65,7 +70,38 @@ class ImageCache(private val config: AppConfig, private val client: HttpClient) 
     /** Epoch millis until which the origin has asked us to stop asking. */
     private val throttledUntil = AtomicLong(0)
 
+    /**
+     * Image paths known to be on disk. The files are named by hash, so this is
+     * the only way back from a clue to "can I serve it right now?" - which is
+     * what lets the game offer clues that are guaranteed to display.
+     */
+    private val cachedPaths: MutableSet<String> = ConcurrentHashMap.newKeySet()
+
+    /** When a player last asked for an image, so warming can stand aside. */
+    private val lastPlayerAt = AtomicLong(0)
+
     data class Entry(val bytes: ByteArray, val contentType: ContentType, val etag: String)
+
+    override fun isCached(imagePath: String): Boolean = cachedPaths.contains(imagePath)
+
+    override fun isThrottled(): Boolean = throttledUntil.get() > System.currentTimeMillis()
+
+    /**
+     * Works out which of the dataset's images are already on disk. Called once
+     * on boot: 5,000 file checks cost milliseconds and save the game from
+     * offering clues it cannot show.
+     */
+    fun primeCachedIndex(imagePaths: Collection<String>): Int {
+        cachedPaths.clear()
+        imagePaths.forEach { path -> if (isOnDisk(sha256(path))) cachedPaths.add(path) }
+        return cachedPaths.size
+    }
+
+    fun cachedCount(): Int = cachedPaths.size
+
+    /** True if a player asked for an image within the given window. */
+    fun playerActiveWithinMillis(window: Long): Boolean =
+        System.currentTimeMillis() - lastPlayerAt.get() < window
 
     /** Seconds left of the origin's rate-limit window, 0 when images are flowing. */
     fun throttledForSeconds(): Int {
@@ -74,6 +110,7 @@ class ImageCache(private val config: AppConfig, private val client: HttpClient) 
     }
 
     suspend fun get(imagePath: String): Entry {
+        lastPlayerAt.set(System.currentTimeMillis())
         val key = sha256(imagePath)
         readFromDisk(key)?.let { return it }
         failIfThrottled()
@@ -152,6 +189,7 @@ class ImageCache(private val config: AppConfig, private val client: HttpClient) 
                     ?.let { runCatching { ContentType.parse(it) }.getOrNull() }
                     ?: ContentType.Image.PNG
                 writeToDisk(key, bytes, contentType)
+                cachedPaths.add(imagePath)
                 return@withContext Entry(bytes, contentType, quotedEtag(key))
             }
 

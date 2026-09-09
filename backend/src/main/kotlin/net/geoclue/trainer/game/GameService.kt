@@ -11,6 +11,7 @@ import net.geoclue.trainer.model.CountryOption
 import net.geoclue.trainer.model.ExplanationDto
 import net.geoclue.trainer.model.QuestionDto
 import net.geoclue.trainer.model.StatsDto
+import kotlin.random.Random
 
 /** Any error we want to surface to the client as a structured JSON body. */
 class ApiException(
@@ -27,7 +28,11 @@ class ApiException(
  * which is what makes the exercise useful - "Canada vs USA vs Mexico" teaches
  * something, "Canada vs Japan vs Peru" does not.
  */
-class GameService(private val repository: ClueRepository) {
+class GameService(
+    private val repository: ClueRepository,
+    private val images: ImageAvailability = ImageAvailability.ALWAYS,
+    private val minCachedPool: Int = MIN_CACHED_POOL,
+) {
 
     fun nextQuestion(session: GameSession, filter: QuestionFilter): QuestionDto {
         val snapshot = repository.snapshot
@@ -54,7 +59,7 @@ class GameService(private val repository: ClueRepository) {
                 candidates = pool
             }
 
-            val clue = candidates.random()
+            val clue = pickPlayable(candidates)
             val question = PendingQuestion(
                 clue = clue,
                 options = buildOptions(snapshot, clue),
@@ -94,6 +99,27 @@ class GameService(private val repository: ClueRepository) {
                 explanation = explain(pending.clue),
                 stats = session.stats(),
             )
+        }
+    }
+
+    /**
+     * Prefers clues whose image is already on disk: those load instantly and
+     * cannot fail, however hard the guide site is rate-limiting us.
+     *
+     * A small share of picks still reaches for an uncached clue, so the cache
+     * keeps growing while people play - but never while the origin is actively
+     * throttling, when an uncached clue could only disappoint.
+     */
+    private fun pickPlayable(candidates: List<Clue>): Clue {
+        val cached = candidates.filter { images.isCached(it.imageUrl) }
+        return when {
+            // Nothing cached yet: anything is as good as anything else.
+            cached.isEmpty() -> candidates.random()
+            images.isThrottled() -> cached.random()
+            // Too small a pool to play from without repeating; keep filling it.
+            cached.size < minCachedPool -> candidates.random()
+            Random.nextInt(100) < EXPLORE_PERCENT -> candidates.random()
+            else -> cached.random()
         }
     }
 
@@ -157,6 +183,12 @@ class GameService(private val repository: ClueRepository) {
 
     companion object {
         const val OPTION_COUNT = 3
+
+        /** Below this many cached images, play from everything and keep fetching. */
+        const val MIN_CACHED_POOL = 40
+
+        /** Share of picks that deliberately reach for an image we do not have. */
+        const val EXPLORE_PERCENT = 10
     }
 }
 

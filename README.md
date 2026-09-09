@@ -38,11 +38,12 @@ For a public, always-on deployment see [Deploy it for free, always on](#deploy-i
 > cross-origin, so the backend fetches them and caches each one on disk. Everything else
 > (clue texts, countries, game logic) works fully offline from the bundled dataset.
 >
-> plonkit.net also rate-limits image requests per client. Normal play stays well inside the
-> limit, but hammering it (a script, a fast click-through) earns a 429 with a `Retry-After` of
-> up to ~20 minutes. The backend then pauses all image fetches for exactly that long instead of
-> making it worse, clues already cached keep working, and the affected clue offers a
-> **Skip this clue** button that says how long is left. Nothing is broken permanently.
+> plonkit.net also rate-limits image requests per client, harshly and progressively. The game
+> works around it by preferring clues whose image it has already cached, pacing the fetches it
+> does make, and pausing entirely when the origin asks it to. A clue that still cannot load
+> offers a **Skip this clue** button saying how long is left. See
+> [The image cache](#the-image-cache) for how to fill the cache once and stop depending on the
+> origin altogether.
 
 ## How to play
 
@@ -109,11 +110,12 @@ run really is endless.
 headers, caches it under `${DATA_DIR}/images`, and serves it with a one-year cache header. Only
 paths that appear in the dataset are proxied, so the endpoint cannot be used as an open relay.
 
-At most three fetches are in flight at a time. A 429 from the origin trips a shared pause for as
-long as its `Retry-After` asks (asking again inside that window only extends it), and
-`/api/image/status` reports how much of the pause is left so the UI can explain itself. A clue
-whose image cannot be fetched can be skipped, which drops it without scoring it — otherwise the
-unanswered question would simply be served again.
+Fetches are paced: one at a time, at most one every `IMAGE_MIN_INTERVAL_MS`. A 429 from the
+origin trips a shared pause for as long as its `Retry-After` asks (asking again inside that
+window only extends it), and `/api/image/status` reports how much of the pause is left so the UI
+can explain itself. The game avoids the situation in the first place by preferring clues it has
+already cached — see [The image cache](#the-image-cache). A clue whose image cannot be fetched can
+still be skipped, which drops it without scoring it.
 
 **5. Explanations.** The guide texts are markdown, and 679 of the 7,657 paragraphs have their bold
 markers padded on the wrong side (`has their own** unique plate **design`), which markdown cannot
@@ -138,6 +140,8 @@ Environment variables on the `backend` service (all optional):
 | `WARM_CACHE` | `false` | Fill the image cache in the background after boot |
 | `WARM_CACHE_ALL` | `false` | Warm every clue image, not only the country-level ones |
 | `WARM_START_DELAY_MS` | `20000` | Grace period before warming starts |
+| `WARM_INTERVAL_MS` | `30000` | Gap between two images while warming; doubles on each rate limit |
+| `WARM_QUIET_MS` | `60000` | Warming stands aside this long after a player's request |
 
 `docker-compose.prod.yml` sets `ALLOW_REFRESH=false` and reads `SITE_ADDRESS` and `JAVA_OPTS`
 from `.env` (see [`.env.example`](.env.example)).
@@ -156,35 +160,83 @@ Watch it with `docker compose logs -f backend`, and check `GET /api/dataset/stat
 `SCRAPE_ON_START=true` does the same on every boot where the cache is older than
 `DATASET_MAX_AGE_DAYS`.
 
-### Warming the image cache
+### The image cache
 
-A fresh deployment has an empty image cache, so every clue is a cold fetch from plonkit.net — and
-a handful of those in a row is exactly what its rate limiter punishes. Two things prevent that.
+plonkit.net rate-limits image requests, punishes repeat offenders progressively, and treats
+datacenter addresses far more harshly than residential ones. Measured with the same code at the
+same 3-second pace:
 
-**Pacing** is always on: fetches from the origin happen one at a time, at most one every
-`IMAGE_MIN_INTERVAL_MS`. A player spends 10–20 seconds reading each explanation, so this costs
-nothing during normal play while making a burst impossible. A request a player is waiting on
-always goes ahead of the warmer.
+| Fetching from | Effective rate | Rate limiting |
+| --- | --- | --- |
+| An Oracle Cloud VM | ~47 images/hour | constant, escalating to 30-minute blocks |
+| A home connection | ~1,080 images/hour | none observed |
 
-**Warming** is opt-in. With `WARM_CACHE=true` the backend walks the clue list once after boot and
-downloads what is missing at that same pace:
+Three mechanisms keep that from reaching the player.
 
-| Scope | Images | Disk | Time at 3 s each |
-| --- | --- | --- | --- |
-| `WARM_CACHE=true` (country-level clues, the default game mode) | 1,711 | ~710 MB | ~85 min |
-| `WARM_CACHE_ALL=true` (everything) | 5,107 | ~2.1 GB | ~4.3 h |
+**The game plays from what it has.** Clues whose image is already on disk load instantly and
+cannot fail, so those are what it offers. Roughly one pick in ten deliberately reaches for an
+uncached clue, which grows the cache while people play; while the origin is actively throttling,
+only cached clues are offered. Until 40 images are cached the game draws from everything, so a
+fresh deployment still works — it simply fills up as you play.
 
-Afterwards every clue is served from local disk: instant, and the origin is never touched while
-anyone plays, so the rate limit cannot apply. The images live in the `clue-data` volume, not in
-the repository or the Docker image, and they survive restarts. Running it again is a no-op —
-cached images are skipped without a request — so it is safe to leave enabled.
+**Pacing.** Fetches happen one at a time, at most one every `IMAGE_MIN_INTERVAL_MS` (3 s). A
+player reads for far longer than that between clues, so it costs nothing while making a burst
+impossible.
+
+**Warming** (`WARM_CACHE=true`) walks the clue list in the background, fetching what is missing
+one image every `WARM_INTERVAL_MS`. Each rate limit doubles that interval and a clean run eases
+it back, so it converges on a pace the origin tolerates. It pauses while anyone is playing, and
+skips images already on disk — so it is safe to leave enabled, and a no-op on a full cache.
 
 ```bash
 docker compose -f docker-compose.prod.yml logs -f backend | grep -i warm
 ```
 
-If the origin does rate-limit the crawl, warming pauses for exactly as long as it asks and then
-resumes at the same image.
+### Filling the cache from your own machine
+
+Because of the table above, the fast way to a complete cache is to fetch it from a home
+connection once and copy the result to the server, which then never contacts plonkit again.
+
+**1. Fetch locally.** In a clone on your own machine, with the local stack:
+
+```bash
+WARM_CACHE=true WARM_CACHE_ALL=true WARM_INTERVAL_MS=5000 docker compose up -d --build
+```
+
+Watch it with `docker compose logs -f backend | grep -i warm`. Measured on a home connection
+this runs at about **10 images a minute**, so roughly **8 hours** for all 5,107 (~2.1 GB) or
+**2.5 hours** for the 1,711 country-level ones — leave it overnight. It is resumable: stop and
+start it whenever you like, and already-cached images are skipped without a request. Drop
+`WARM_CACHE_ALL` to fetch only the country-level set.
+
+**2. Export the volume** into a tarball (PowerShell; use `$PWD` in bash):
+
+```powershell
+docker run --rm -v clue-trainer_clue-data:/data -v "${PWD}:/backup" alpine tar czf /backup/clue-images.tgz -C /data images
+```
+
+**3. Copy it to the server:**
+
+```bash
+scp clue-images.tgz ubuntu@your-host:~
+```
+
+**4. Import it there:**
+
+```bash
+docker run --rm -v clue-trainer_clue-data:/data -v ~:/backup alpine tar xzf /backup/clue-images.tgz -C /data
+```
+
+```bash
+docker compose -f docker-compose.prod.yml restart backend
+```
+
+The restart is what matters: the backend indexes the cache on boot, and the log line
+`Image cache holds N of 5243 clue images` confirms what arrived (5,107 clue images plus the 136
+country hero images). From then on every clue is served from local disk.
+
+These are someone else's images — keep the archive between your machine and your server rather
+than publishing it.
 
 ## Deploy it for free, always on
 
@@ -395,7 +447,7 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 | Kotlin build fails with `Unresolved reference 'data'` | The clone is missing files: a `.gitignore` pattern without a leading slash matches at every level | `git ls-files --others --ignored --exclude-standard -- backend/src` |
 | "Out of host capacity" | ARM demand in your region | Another availability domain, retry later, or the micro shape |
 | Certificate never issued | Hostname does not resolve to the VM, or :80 is closed | `dig +short <host>`, and check the ingress rule for 80 (Let's Encrypt validates over HTTP) |
-| Clue images broken | plonkit.net is rate-limiting | Expected; the panel says how long is left, cached clues keep working |
+| Clue images broken | plonkit.net is rate-limiting, and the cache is nearly empty | Fill the cache from your own machine (see above); the game plays from cached clues once it has 40 |
 | Backend killed on the micro shape | JVM heap sized for the container, not the box | `JAVA_OPTS=-Xmx256m` in `.env` |
 
 ## API
@@ -451,8 +503,10 @@ backend/
     model/                      dataset models and API DTOs
     data/PlonkItScraper.kt      guide extraction
     data/ClueRepository.kt      dataset loading, caching, refresh
+    data/ImageWarmer.kt         background, self-slowing image prefetch
     game/GameService.kt         question building and grading
     game/GameSession.kt         per-run state and the session store
+    game/ImageAvailability.kt   what the game asks the cache before picking a clue
     routes/                     API routes and the image proxy
   src/main/resources/seed/clues.json   bundled scrape (5,107 clues)
   src/test/kotlin/                     game and scraper tests

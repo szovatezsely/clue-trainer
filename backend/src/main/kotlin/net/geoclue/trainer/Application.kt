@@ -49,7 +49,6 @@ fun Application.module(config: AppConfig) {
     repository.load()
 
     val sessions = SessionStore(ttlHours = config.sessionTtlHours)
-    val game = GameService(repository)
     val httpClient = HttpClient(CIO) {
         expectSuccess = false
         engine {
@@ -57,6 +56,13 @@ fun Application.module(config: AppConfig) {
         }
     }
     val imageCache = ImageCache(config, httpClient)
+
+    // Which clue images are already on disk decides which clues the game can
+    // hand out without depending on the guide site.
+    val cached = imageCache.primeCachedIndex(repository.snapshot.allowedImagePaths)
+    log.info("Image cache holds {} of {} clue images", cached, repository.snapshot.allowedImagePaths.size)
+
+    val game = GameService(repository, imageCache)
 
     monitor.subscribe(io.ktor.server.application.ApplicationStopping) {
         httpClient.close()

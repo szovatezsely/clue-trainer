@@ -4,6 +4,7 @@ import kotlinx.serialization.json.Json
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.game.ApiException
 import net.geoclue.trainer.game.GameService
+import net.geoclue.trainer.game.ImageAvailability
 import net.geoclue.trainer.game.QuestionFilter
 import net.geoclue.trainer.game.SessionStore
 import net.geoclue.trainer.model.AnswerRequest
@@ -128,6 +129,58 @@ class GameServiceTest {
 
         assertEquals(6, served.size)
         assertEquals(setOf("a-1", "b-1"), served.toSet())
+    }
+
+    @Test
+    fun `only clues with a cached image are offered while the origin throttles`() {
+        val repository = repository()
+        // Half the images are on disk, and the guide site is refusing the rest.
+        val onDisk = repository.snapshot.clues.map { it.imageUrl }.take(30).toSet()
+        val game = GameService(repository, availability(onDisk, throttled = true), minCachedPool = 5)
+        val session = SessionStore(ttlHours = 1).create()
+
+        repeat(30) {
+            val question = game.nextQuestion(session, QuestionFilter())
+            assertTrue(
+                question.imageUrl in onDisk,
+                "offered " + question.imageUrl + ", which cannot load while throttled",
+            )
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+        }
+    }
+
+    @Test
+    fun `cached clues are preferred, with a few picks left to grow the cache`() {
+        val repository = repository()
+        val onDisk = repository.snapshot.clues.map { it.imageUrl }.take(40).toSet()
+        val game = GameService(repository, availability(onDisk, throttled = false), minCachedPool = 5)
+        val session = SessionStore(ttlHours = 1).create()
+
+        var fromCache = 0
+        repeat(40) {
+            val question = game.nextQuestion(session, QuestionFilter())
+            if (question.imageUrl in onDisk) fromCache++
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+        }
+
+        // Roughly 10% of picks explore; allow plenty of slack for randomness.
+        assertTrue(fromCache >= 28, "only $fromCache of 40 picks came from the cache")
+        assertTrue(fromCache < 40, "the cache can never grow if every pick is cached")
+    }
+
+    @Test
+    fun `an empty cache still yields clues`() {
+        val game = GameService(repository(), availability(emptySet(), throttled = true))
+        val session = SessionStore(ttlHours = 1).create()
+
+        val question = game.nextQuestion(session, QuestionFilter())
+
+        assertEquals(3, question.options.size)
+    }
+
+    private fun availability(cached: Set<String>, throttled: Boolean) = object : ImageAvailability {
+        override fun isCached(imagePath: String) = imagePath in cached
+        override fun isThrottled() = throttled
     }
 
     @Test

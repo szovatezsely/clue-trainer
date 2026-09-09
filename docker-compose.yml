@@ -17,6 +17,14 @@ services:
       ALLOW_REFRESH: "true"
       DATASET_MAX_AGE_DAYS: "30"
       SESSION_TTL_HOURS: "12"
+      # The same image settings as the server, so this stack can be used to
+      # fill a cache from a home connection - see the README section
+      # "Filling the cache from your own machine".
+      IMAGE_MIN_INTERVAL_MS: "${IMAGE_MIN_INTERVAL_MS:-3000}"
+      WARM_CACHE: "${WARM_CACHE:-false}"
+      WARM_CACHE_ALL: "${WARM_CACHE_ALL:-false}"
+      WARM_INTERVAL_MS: "${WARM_INTERVAL_MS:-30000}"
+      WARM_START_DELAY_MS: "${WARM_START_DELAY_MS:-20000}"
     volumes:
       # Keeps the refreshed dataset and the cached clue images between restarts.
       - clue-data:/data
