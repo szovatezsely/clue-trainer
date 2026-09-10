@@ -1,5 +1,8 @@
 # ---------- build ----------
-FROM eclipse-temurin:21-jdk AS build
+# Pinned to the Ubuntu 22.04 base. The rolling `21-jdk`/`21-jre` tags moved to
+# a 24.04 base whose JRE build segfaults on start under the WSL2 kernel Docker
+# Desktop ships; the jammy builds of the same 21.0.12 release are fine.
+FROM eclipse-temurin:21-jdk-jammy AS build
 
 WORKDIR /app
 
@@ -13,7 +16,7 @@ COPY src src
 RUN ./gradlew --no-daemon installDist -q
 
 # ---------- runtime ----------
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre-jammy
 
 # curl is only here so the container can report its own health to compose.
 RUN apt-get update \
