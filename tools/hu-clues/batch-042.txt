@@ -1,0 +1,246 @@
+# Spain / Regional and province-specific clues
+@ spain-Npdc
+A Kanári-szigetekhez tartozó **Lanzarote** sziget egyes részein nagyon sötét, szabadon álló vulkáni talaj látható. Ez a táj néhol felületesen a Hold felszínére emlékeztet.
+MEGJEGYZÉS: A többi Kanári-szigeten is lehetnek olykor hasonló tájak, de messze Lanzarotén a leggyakoribb.
+
+# Spain / Spotlight
+@ spain-NrMX
+A barcelonai taxik feketék sárga ajtókkal, beleértve a csomagtartó ajtaját is.
+
+# Spain / Regional and province-specific clues
+@ spain-NyOz
+Az utcákat Galiciában gyakran **Rúának** nevezik, míg Portugáliában Ruának (ékezet nélkül). Galiciában azonban néha találsz ékezet nélküli táblákat is.
+
+# Spain / Regional and province-specific clues
+@ spain-OutB
+Szőlőültetvények Spanyolország több pontján megtalálhatók. Ha azonban szőlőültetvényeket látsz **hegyvonulatok között** északon és délen, akkor nagy valószínűséggel La Riojában vagy.
+
+# Spain / Regional and province-specific clues
+@ spain-PXQL
+Az asztúriai szemetestárolókon gyakran szerepel a COGERSA logója; a logó alakja jellegzetes, és messziről is felismerhető.
+MEGJEGYZÉS: A szelektív gyűjtőkön is szerepelhet ez a logó.
+
+# Spain / Regional and province-specific clues
+@ spain-Pgs1
+Spanyolország nagyon **hegyvidékes** ország.
+A legmagasabb hegyvonulatok az északkeleti Pireneusok és a délkeleti Bétikai-hegyvidék (amelyhez a Sierra Nevada is tartozik).
+A Meseta Central magasan fekvő, jobbára lapos terület az ország közepén. Több kisebb hegyvonulat veszi körül: északon a Kantábriai-hegység, keleten az Ibériai-hegyvidék, délen pedig a Sierra Morena.
+A Meseta Centralon belül további két hegyvonulat található: a Sistema Central (a portugál határtól Madridtól északkeletig) és a Montes de Toledo.
+Spanyolországban négy nagy folyómedence van. A Tajo és a Guadiana átszeli Extremadurát, és Portugáliába folyik, a Guadalquivir Andalúzia délnyugati részének nagy részét lefedi, az Ebro medencéje pedig Navarrában kezdődik, és Katalónia déli részén ömlik a Földközi-tengerbe.
+
+# Spain / Regional and province-specific clues
+@ spain-Pohw
+Spanyolország keleti partján sok **narancsültetvényt** találsz. Ezek általában kis völgyekben vannak, és ha lapos terepen fekszenek, nyugatra, északra vagy délre általában látni fogsz hegyeket.
+
+# Spain / Regional and province-specific clues
+@ spain-Pptg
+A nagy, négyzetes, **egyetlen nyilas** terelőtáblák gyakran megtalálhatók Katalóniában.
+
+# Spain / Regional and province-specific clues
+@ spain-QsFO
+Ez az **egyedi terelőoszlop-kialakítás** rendkívül gyakori Las Palmas tartományban (amelyhez Gran Canaria, Fuerteventura és Lanzarote szigete tartozik).
+Elöl négyzetesebb és narancssárga prizma van rajta, szemben a szokásos spanyol terelőoszlop-kialakítással. Hátul fehér prizma van, a szokásos terelőoszlopok két pontja helyett.
+Ez a terelőoszlop a spanyol szárazföldön is megtalálható, Lleida és Tarragona tartományban.
+MEGJEGYZÉS: Santa Cruz de Tenerife tartomány (amelyhez Tenerife, La Gomera, El Hierro és La Palma szigete tartozik) csak az autópályákon használ terelőoszlopot, a [szokásos spanyol kialakítással](https://goo.gl/maps/KXVo954u8dnxg5dy5).
+
+# Spain / Regional and province-specific clues
+@ spain-RAmj
+Néha találhatsz egy különleges 3. generációs antennát jellegzetes **fehér véggel**, hasonlóan a Gibraltáron találhatóhoz.
+Ez az antenna Andalúzia keleti felében, valamint az ország északkeleti részén, Huesca és Lleida tartományban található.
+
+# Spain / Spotlight
+@ spain-RGJT
+A [**Camino de Santiago**](https://en.wikipedia.org/wiki/Camino_de_Santiago) (magyarul a **Szent Jakab-út**) zarándokutak hálózata Európa-szerte, amely Szent Jakab apostol (spanyolul Santiago) kegyhelyéhez vezet Santiago de Compostelában.
+Ezeket az utakat gyakran jelölik sárga [fésűskagylóval](https://en.wikipedia.org/wiki/Scallop#Shell_of_Saint_James) kék háttéren. A jelzések közlekedési táblákon és útjelző köveken egyaránt megtalálhatók.
+Gyakran látni [zarándokokat](https://goo.gl/maps/q2VozCDJbQbpZVVdA), akik gyalog vagy kerékpárral haladnak ezeken az útvonalakon, különösen nyáron.
+MEGJEGYZÉS: A jelzései Európa-szerte megtalálhatók, egészen [Litvániáig](https://maps.app.goo.gl/iEqTRA9J3qYRgtGV6), de annál gyakoribbak, minél közelebb vagy Santiagóhoz.
+
+# Spain / Regional and province-specific clues
+@ spain-RiC9
+A spanyolországi **körzetszámok** nagyon hasznosak, mert mindössze két számjegyre van szükséged egy nagyon pontos tipphez. Minden vezetékes szám „9”-cel kezdődik, amelyet a regionális számok követnek.
+A mobilszámok „6”-tal kezdődnek, és a régiótippelés szempontjából lényegtelenek.
+
+# Spain / Regional and province-specific clues
+@ spain-SBbI
+Az **erdeifenyő** ([Pinus sylvestris](https://en.wikipedia.org/wiki/Pinus_sylvestris)) magas és vékony, sötét kérge a tetején lehámlik, felfedve az alatta lévő narancsvörös fát. Általában nincsenek ágai a törzs alsó felén, különösen teljesen kifejlett állapotban.
+Az erdeifenyő főként három hegyvonulatban található meg: a Pireneusokban, a Sierra de Guadarramában és az Ibériai-hegyvidéken.
+
+# Spain / Regional and province-specific clues
+@ spain-Sxg8
+A galiciai települések gyakran használnak olyan táblákat, amelyeken felül **zöld vagy kék sáv** van a község nevével.
+MEGJEGYZÉS: A „Concello” a község galiciai megfelelője, és kizárólag erre a vidékre jellemző.
+
+# Spain / Regional and province-specific clues
+@ spain-TrLp
+Navarrából kiindulva és Aragónia közepét átszelve az Ebro folyó medencéjének mindkét oldalán félsivatagos tájsáv húzódik. A világos homokos talaj és a **kis dombokon** növő **kis cserjék** gyakoriak ezen a vidéken.
+
+# Spain / Regional and province-specific clues
+@ spain-TrmZ
+Ceutában észak-afrikai építészet található, amely főként lapostetős, meleg – a halványsárgától a vörösig terjedő – színű házakból áll.
+A ceutai 4. generációs felvételek szinte mindegyikén **ragyogóan kék égbolt** van napos időben, időnként felhőkkel.
+
+# Spain / Regional and province-specific clues
+@ spain-Ug5F
+Az andalúz helyi önkormányzat tábláit nagyon jól fel lehet ismerni a bal oldalukon lévő **zöld sávról**.
+Szintén nagyon gyakori, hogy e táblák kisebb változatait látni a természetvédelmi területeken **zöld táblatartó oszloppal**.
+
+# Spain / Spotlight
+@ spain-VJKm
+A Sevillától délnyugatra fekvő Doñana Nemzeti Parkban találod ezt a ritka és egyedi autómetát.
+
+# Spain / Regional and province-specific clues
+@ spain-WihJ
+A Baleár-szigeteken belül a **legelők** szinte kizárólag Menorca szigetére jellemzők.
+
+# Spain / Regional and province-specific clues
+@ spain-XXLv
+A **Baleár-szigetek** felismerhető, tengerparti mediterrán képet mutatnak. A dombok nagy részét kissé szárazna­k tűnő aleppói fenyvesek borítják, a települések közötti laposabb területeket pedig kisebb mezőgazdasági foltok, főként gyümölcs- és olajfákkal.
+
+# Spain / Regional and province-specific clues
+@ spain-Y8q6
+A **katalán** újlatin nyelv, amely közeli rokonságban áll a spanyollal és a franciával is.
+Katalóniában, a Valenciai Közösségben és a Baleár-szigeteken beszélik. Katalóniában és a Baleár-szigeteken (sokkal) gyakoribb a táblákon, mint a spanyol. A Valenciai Közösség kétnyelvűbb.
+Ha nem ismered az újlatin nyelveket, nehéz lehet megkülönböztetni a katalánt a spanyoltól.
+- Az „és” katalán megfelelője az **i**, szemben a spanyol y-nal.
+- A tompa ékezet (**à, è, ò**) Spanyolországon belül csak a katalánban fordul elő, és nagyon gyakran látható a szavakban, különösen az à betűn.
+- A cedillás c (**ç**) szintén csak a katalánban fordul elő Spanyolországon belül.
+
+# Spain / Regional and province-specific clues
+@ spain-b7or
+Lanzarote szigetén találod ezeket az **egyedi szőlőültetvényeket** vulkáni talajjal és félkör alakban elhelyezett kövekkel.
+
+# Spain / Spotlight
+@ spain-bzWl
+Almería és Motril között sok **üvegházat** találsz fehér tetővel, a tengerhez közeli alföldi területen. Különösen gyakoriak El Ejidóban.
+
+# Spain / Regional and province-specific clues
+@ spain-ckbR
+A **kék-sárga hórudak** kizárólag Andalúziára jellemzők.
+
+# Spain / Regional and province-specific clues
+@ spain-d6lH
+Aragóniában gyakran látni ezt a terelőoszlop-kialakítást a regionális utakon.
+Egyszerű kialakítású: rövid, lapos, téglalap keresztmetszetű fehér rúd, mindkét oldalán szürke prizmával.
+MEGJEGYZÉS: Más vidékeken is vannak [hasonló terelőoszlopok](https://goo.gl/maps/S7WhiqK8rgF2caVt7), de jóval ritkábban fordulnak elő, mint Aragóniában.
+
+# Spain / Regional and province-specific clues
+@ spain-df4l
+A **Pireneusok** nagy hegyvonulat Spanyolország és Franciaország határán. Hegyei Spanyolország legmagasabbjai közé tartoznak. A világosszürke sziklájáról és a rengeteg fenyőfájáról lehet felismerni. A helyi építészetben sok a [kőfal](https://goo.gl/maps/F67y544xPUyR5ypo7).
+MEGJEGYZÉS: Andorra és a Pireneusok francia része tájkép és építészet tekintetében nagyon hasonló. Vedd figyelembe azt is, hogy a [Llívia](/images/spain/spain_pyreneesllivia.png) exklávé Spanyolország része.
+
+# Spain / Regional and province-specific clues
+@ spain-eqyH
+A katalán függetlenségi zászló nem hivatalos, de gyakran megtalálható a katalán nyelvű vidékeken. A **piros-sárga** csíkos [Senyera](https://en.wikipedia.org/wiki/Senyera) mintát használja, amely négy autonóm közösség zászlaján is szerepel.
+
+# Spain / Regional and province-specific clues
+@ spain-iLYe
+A kis, négyzetes, fehér hátterű, **piros nyilas** terelőtáblák kizárólag Murciára jellemzők.
+
+# Spain / Regional and province-specific clues
+@ spain-k10w
+A két észak-afrikai spanyol enklávé, **Ceuta** és **Melilla**, amelyeket részben Marokkó vesz körül, egyaránt rendelkezik felvételekkel. Gyakran váratlanul érik a kezdő játékosokat, ezért jó tudni róluk és az elhelyezkedésükről.
+
+# Spain / Regional and province-specific clues
+@ spain-k4DO
+Ceutában **hegyvidékes, mediterrán** tájat találsz, amelyben eukaliptuszfák és fenyők keverednek.
+
+# Spain / Regional and province-specific clues
+@ spain-kVqr
+Madridtól délre az olajfaültetvények általában kis vagy közepes méretű táblákon vannak, jobbára lapos terepen, és gyakran vörös talaj kíséri őket.
+
+# Spain / Regional and province-specific clues
+@ spain-kZ8q
+Asztúriában **fekete** autót találsz **antenna nélkül** és látható féklámpával.
+MEGJEGYZÉS: Ez az autó nagyon ritkán átnyúlhat a szomszédos vidékekre, például [Galiciába](https://goo.gl/maps/NrhqCAJyCAzVSnb69).
+
+# Spain / Regional and province-specific clues
+@ spain-kpT2
+Lanzarote északi partja mellett találod a kis **La Graciosa** szigetet. A sziget tájképe teljesen kopár, és az összes felvételen **borult idő** van. A sziget déli partján két település található, fehér, lapostetős házakkal, akárcsak a keleti Kanári-szigeteken.
+
+# Spain / Regional and province-specific clues
+@ spain-lFNR
+A Baszkföldön és Navarrában az útjelző táblákon gyakran vannak ezek a jellegzetes **kétnyelvű kiegészítő táblák** **vastag fekete kerettel**.
+Általában a Baszkföldön a baszk van felül, míg Navarrában gyakoribb, hogy a spanyol van felül.
+
+# Spain / Regional and province-specific clues
+@ spain-lQAo
+A katalán nyelvű vidékeken a megállni tilos táblákon a „**Gual permanent**” felirat áll. Katalóniában és a Baleár-szigeteken a legtöbb község a „gual” szót használja, míg Valenciában gyakoribb, hogy spanyol és katalán táblák vegyesen fordulnak elő.
+
+# Spain / Regional and province-specific clues
+@ spain-lRNZ
+Azok az oszlopok, amelyeken az **acélrács** szerkezete a szokásos háromszögek helyett **téglalap alakokat** formáz, Spanyolország déli felében találhatók, és különösen gyakoriak Murciában és Alicante déli részén.
+
+# Spain / Regional and province-specific clues
+@ spain-ln7z
+A „[masía](https://en.wikipedia.org/wiki/Masia)” nevű hagyományos tanyaházak gyakoriak Katalóniában, Kelet-Aragóniában és a Valenciai Közösség egyes részein.
+Általában kőből épülnek, és magányosan vagy egy kis együttes részeként állnak.
+
+# Spain / Regional and province-specific clues
+@ spain-m1NG
+Melillában szintén hasonló észak-afrikai építészet található. A melillai felvételek **párásak**, az égbolt jelentősen kevésbé telített, mint Ceutában. A felvételek nagy része felhős vagy borult.
+Melillában kevés a vidéki felvétel, főként a [marokkói-spanyol határ](https://goo.gl/maps/MEvyBFFYmeHYiDhw6) mentén.
+
+# Spain / Regional and province-specific clues
+@ spain-mvou
+A keleti parton az olajfaültetvények gyakran kerítéssel vagy kőfallal vannak körülvéve, és szinte mindig látni fogsz hegyeket valamelyik irányban.
+
+# Spain / Regional and province-specific clues
+@ spain-oi9R
+Az **olajfa** Spanyolország egyik fő haszonnövénye, és az ország több mint felén gyakran látható.
+
+# Spain / Regional and province-specific clues
+@ spain-pPsk
+Spanyolország északi partja mentén mindenütt találsz ilyen kinézetű **eukaliptuszültetvényeket**. Galiciában több ültetvény van, mint az északi térség többi részén együttvéve.
+MEGJEGYZÉS: Az eukaliptuszültetvények Portugáliában is rendkívül gyakoriak.
+
+# Spain / Regional and province-specific clues
+@ spain-pS3a
+Ha **eukaliptuszfákkal találkozol száraz környezetben**, nagy valószínűséggel Huelva tartományban leszel. Ritkábban megtalálhatod őket északon Extremadurában, keleten pedig egészen Córdobáig.
+
+# Spain / Regional and province-specific clues
+@ spain-pq0v
+A Kanári-szigetek **rendkívül sokszínű tájakkal** rendelkeznek, köztük [meredek hegyekkel](https://goo.gl/maps/rfH1kBDye8h9rWaS6), [fenyvesekkel](https://goo.gl/maps/Bn6ErCKJ3sfiUaUa8), [vulkáni talajjal](https://goo.gl/maps/6JqQk3AxRiRF3WoDA) és [rendkívüli szárazsággal](https://goo.gl/maps/4fdpWvUUTJYxJMEd7). Találkozhatsz [szokványosabb tájakkal](https://goo.gl/maps/zVYFchUyxrDQ7uyx5) is, amelyek inkább a spanyol szárazföldre hasonlíthatnak.
+MEGJEGYZÉS: A sokszínűsége miatt nehéz meghatározni az átlagos kanári-szigeteki tájat. Hasznosabb stratégia arra összpontosítani, hogy egyedinek tűnik-e, és nem hasonlít-e semmire, amit a szárazföldi Európában találnál: ha a meta illik Spanyolországra, de valami „nem stimmel” a hangulatban, gondolj a Kanári-szigetekre.
+
+# Spain / Regional and province-specific clues
+@ spain-pz9i
+A nagyon **száraz** kinézetű és jobbára **lapos** területek gyakoriak Aragónia középső és déli részén.
+A talaj az északi részen nagyon fehér és köves. A vörös talaj gyakoribb Teruelben.
+
+# Spain / Regional and province-specific clues
+@ spain-rcrC
+A baszk nyelvű vidékeken az utcákat néha „**kalea**” néven nevezik. A spanyol „calle” azonban továbbra is gyakori.
+
+# Spain / Regional and province-specific clues
+@ spain-rjCb
+A **magas fenyők** sűrű erdői a Pireneusokban mindenütt megtalálhatók. Ha kisebb hegyekben találkozol velük, legelők vagy mezőgazdasági területek között, akkor nagy valószínűséggel a Baszkföldön vagy Navarrában leszel.
+
+# Spain / Regional and province-specific clues
+@ spain-rzeV
+A **kukoricát** Spanyolországban leggyakrabban a nagy folyómedencékben termesztik. Az északi parton is termesztik, különösen Galiciában, valamint Castilla y León északnyugati részének egyik területén.
+
+# Spain / Regional and province-specific clues
+@ spain-uZlj
+A spanyol szárazföldön belül ez a terelőoszlop szinte kizárólag a katalóniai Lleida és Tarragona tartományra jellemző.
+Elöl **négyzetesebb és narancssárga prizma** van rajta, szemben a szokásos spanyol terelőoszlop-kialakítással. Hátul **fehér prizma** van, a szokásos terelőoszlopok két pontja helyett.
+Néhány fizetős autópálya – például az [AP-6](https://goo.gl/maps/Ce7fFoD835ZTPKzf7) – szintén ezt a kialakítást használja.
+MEGJEGYZÉS: Ez a terelőoszlop a [Kanári-szigetek keleti felén](https://goo.gl/maps/uSyWhSZcGbTVX4dU8) is megtalálható.
+
+# Spain / Regional and province-specific clues
+@ spain-vbq8
+Castilla-La Manchában lehetnek **teljesen lapos tájak**, ami Castilla y Leónban nem annyira gyakori. A spanyol bor fele ezen a vidéken készül, ezért a szőlőültetvény meglehetősen gyakori.
+A nyugati Ciudad Real és Toledo tartományban nagyon gyakran látni olajfaültetvényeket, általában laposabb terepen, mint az Andalúziában találhatók.
+
+# Spain / Regional and province-specific clues
+@ spain-vcUq
+Katalóniában sok táblán **kerek, bordázott táblatartó oszlop** van. Ez különösen gyakori az irányjelző tábláknál. Hasonló kialakítás gyakori a [Baszkföldön](https://goo.gl/maps/7yJp32FEUtWj2mGp6) és a [Baleár-szigeteken](https://goo.gl/maps/N8qyyoWVysXz7cKR6) is.
+Vedd figyelembe, hogy a községek az ország bármely pontján használhatnak ilyen táblatartó oszlopot, és hogy a hagyományos közlekedési táblák megtartják a szokásos lapos spanyol kialakítást.
+MEGJEGYZÉS: A [francia táblák](https://goo.gl/maps/pQmg6fifZ3FEuJbi8) nagyon hasonló kialakításúak.
+
+# Spain / Regional and province-specific clues
+@ spain-wOmb
+Mallorca északnyugati részén **magas hegyvonulat** található, amely a sziget számos pontjáról látható. Ez az egyetlen sziget a Baleárokon ekkora hegyekkel.
+
+# Spain / Regional and province-specific clues
+@ spain-woK5
+A **nagy fehér házak** fakerettel gyakoriak a Baszkföldön, Navarra baszk részén és Kantábriában.

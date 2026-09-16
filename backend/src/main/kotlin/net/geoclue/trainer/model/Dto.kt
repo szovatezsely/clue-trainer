@@ -2,6 +2,11 @@ package net.geoclue.trainer.model
 
 import kotlinx.serialization.Serializable
 
+/**
+ * A country as the board shows it. [code] and [continent] are stable keys the
+ * client sends back or groups by, so they stay English whatever the language;
+ * [name] is the label and is translated.
+ */
 @Serializable
 data class CountryOption(val code: String, val name: String, val flag: String, val continent: String)
 
@@ -57,6 +62,12 @@ data class ExplanationDto(
     val tags: List<String>,
     val sourceUrl: String,
     val streetViewUrl: String? = null,
+    /**
+     * False when [paragraphs] fell back to the guide's own English because this
+     * clue has no translation yet, so the reveal can say so rather than let the
+     * language appear to have failed.
+     */
+    val translated: Boolean = true,
 )
 
 @Serializable
@@ -65,15 +76,23 @@ data class AnswerResponse(
     val mode: String,
     val correctAnswer: AnswerOption,
     val chosenAnswer: AnswerOption,
+    /**
+     * The whole board, in the order it was shown. Re-asking for a verdict in
+     * another language is the only way the buttons behind the reveal can be
+     * relabelled, since grading has already cleared the pending question.
+     */
+    val options: List<AnswerOption>,
     /** Always filled in: the reveal links to this country's guide either way. */
     val country: CountryOption,
     val explanation: ExplanationDto,
     val stats: StatsDto,
 )
 
+/** [name] is the filter key the client sends back; [label] is what it shows. */
 @Serializable
 data class ContinentDto(
     val name: String,
+    val label: String,
     val countryCount: Int,
     val clueCount: Int,
     val coreClueCount: Int,
@@ -94,6 +113,10 @@ data class MetaDto(
     val tags: List<String>,
     val refreshAllowed: Boolean,
     val refreshState: String,
+    /** The language this payload was rendered in; see [net.geoclue.trainer.model.Lang]. */
+    val lang: String = Lang.DEFAULT.wire,
+    /** How many of the clues have their explanation in [lang]; equals clueCount for English. */
+    val translatedClueCount: Int = 0,
 )
 
 @Serializable

@@ -26,6 +26,7 @@ import kotlinx.coroutines.cancel
 import kotlinx.serialization.json.Json
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.ImageWarmer
+import net.geoclue.trainer.data.Translations
 import net.geoclue.trainer.game.ApiException
 import net.geoclue.trainer.game.GameService
 import net.geoclue.trainer.game.SessionStore
@@ -62,7 +63,8 @@ fun Application.module(config: AppConfig) {
     val cached = imageCache.primeCachedIndex(repository.snapshot.allowedImagePaths)
     log.info("Image cache holds {} of {} clue images", cached, repository.snapshot.allowedImagePaths.size)
 
-    val game = GameService(repository, imageCache)
+    val translations = Translations.load()
+    val game = GameService(repository, imageCache, translations = translations)
 
     monitor.subscribe(io.ktor.server.application.ApplicationStopping) {
         httpClient.close()
@@ -105,7 +107,7 @@ fun Application.module(config: AppConfig) {
     }
 
     routing {
-        apiRoutes(config, repository, sessions, game, appScope)
+        apiRoutes(config, repository, sessions, game, appScope, translations)
         imageRoutes(repository, imageCache)
     }
 

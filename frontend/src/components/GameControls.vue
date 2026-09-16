@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import SelectMenu from './SelectMenu.vue'
 import type { SelectOption } from './SelectMenu.vue'
+import { formatNumber, t } from '../i18n'
 import type { GameMode, Meta } from '../types'
 
 const props = defineProps<{
@@ -28,7 +29,7 @@ function servedBy(counts: { clueCount: number; coreClueCount: number; regionClue
 const continentOptions = computed<SelectOption[]>(() => [
   {
     value: 'all',
-    label: 'Everywhere',
+    label: t.value.controls.everywhere,
     hint: props.meta
       ? String(
           servedBy({
@@ -39,9 +40,11 @@ const continentOptions = computed<SelectOption[]>(() => [
         )
       : undefined,
   },
+  // The value stays the English name the API filters on; only the label
+  // follows the language.
   ...(props.meta?.continents ?? []).map((item) => ({
     value: item.name,
-    label: item.name,
+    label: item.label,
     hint: String(servedBy(item)),
   })),
 ])
@@ -52,33 +55,33 @@ const emit = defineEmits<{
   reset: []
 }>()
 
-const modes: { value: GameMode; label: string }[] = [
-  { value: 'country', label: 'Countries' },
-  { value: 'region', label: 'Regions' },
-]
+const modes = computed<{ value: GameMode; label: string }[]>(() => [
+  { value: 'country', label: t.value.controls.modeCountry },
+  { value: 'region', label: t.value.controls.modeRegion },
+])
 </script>
 
 <template>
   <section class="controls">
     <div class="controls__actions">
       <button v-if="!running" class="btn" type="button" @click="emit('start')">
-        Start
+        {{ t.controls.start }}
         <span class="btn__key">S</span>
       </button>
       <button v-else class="btn btn--ghost" type="button" @click="emit('stop')">
-        Stop
+        {{ t.controls.stop }}
         <span class="btn__key">S</span>
       </button>
       <button class="btn btn--ghost" type="button" :disabled="busy" @click="emit('reset')">
-        Reset score
+        {{ t.controls.resetScore }}
       </button>
     </div>
 
     <div class="controls__filters">
       <!-- Which question the clue is asked as: name the country, or, for a clue
            that only holds in one part of one country, name that part. -->
-      <div class="modes" role="group" aria-label="What to guess">
-        <span class="modes__label">Guess</span>
+      <div class="modes" role="group" :aria-label="t.controls.guessLabel">
+        <span class="modes__label">{{ t.controls.guess }}</span>
         <div class="modes__switch">
           <button
             v-for="item in modes"
@@ -94,7 +97,7 @@ const modes: { value: GameMode; label: string }[] = [
         </div>
       </div>
 
-      <SelectMenu v-model="continent" label="Continent" :options="continentOptions" />
+      <SelectMenu v-model="continent" :label="t.controls.continent" :options="continentOptions" />
 
       <!-- Scope, not a second region switch: how much of each guide the
            country game draws its questions from. -->
@@ -102,17 +105,14 @@ const modes: { value: GameMode; label: string }[] = [
         <input v-model="wholeGuide" type="checkbox" />
         <span class="toggle__track"><span class="toggle__thumb" /></span>
         <span class="toggle__text">
-          Play the whole guide
+          {{ t.controls.wholeGuide }}
           <small v-if="meta">
-            +{{ beyondCoreCount.toLocaleString() }} clues from the regional and spotlight chapters.
-            Harder, and some carry a locator map.
+            {{ t.controls.wholeGuideHint(formatNumber(beyondCoreCount)) }}
           </small>
         </span>
       </label>
       <p v-else-if="meta" class="hint">
-        {{ meta.regionClueCount.toLocaleString() }} clues across
-        {{ meta.regionCountryCount }} countries.
-        Name which region they belong to.
+        {{ t.controls.regionHint(formatNumber(meta.regionClueCount), meta.regionCountryCount) }}
       </p>
     </div>
   </section>
@@ -124,7 +124,7 @@ const modes: { value: GameMode; label: string }[] = [
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 18px 32px;
+  gap: 18px 24px;
   padding: 4px 0 22px;
 }
 
@@ -138,7 +138,7 @@ const modes: { value: GameMode; label: string }[] = [
 .controls__filters {
   display: flex;
   align-items: flex-end;
-  gap: 28px;
+  gap: 22px;
   flex-wrap: wrap;
 }
 

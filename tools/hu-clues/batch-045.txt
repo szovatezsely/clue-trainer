@@ -1,0 +1,254 @@
+# France / Regional and department-specific clues
+@ france-rDFi
+Korzika szigetén [**korzikai**](https://en.wikipedia.org/wiki/Corsican_language) nyelvű kétnyelvű táblákat találhatsz; ez egy újlatin nyelv, amely sok olyan vonást mutat, mint az olasz, például a szavak szinte mindig magánhangzóra végződnek. Különösen gyakoriak a korzikaiban az **u/iu/ju** végződések, amelyek az o/io helyébe léptek. Ráadásul a helynevek általában olasz eredetűek.
+
+# France / Regional and department-specific clues
+@ france-rGE0
+A **sötétzöld** útjelző táblatartó oszlopok és táblahátoldalak leggyakrabban Bretagne-ban és Párizs környékén találhatók, de az ország több déli vidékén is előfordulnak.
+MEGJEGYZÉS: Vedd figyelembe, hogy ez és a következő színes infrastruktúra ritkán az ország más részein is megtalálható.
+
+# France / Spotlight
+@ france-umtN
+A **Montpellier**-i utcanévtáblákon általában fehér alapon kék **„M”** betű található a bal felső sarokban.
+
+# France / Regional and department-specific clues
+@ france-wDHB
+Saint-Pierre és Miquelon Franciaország önkormányzattal rendelkező tengerentúli területi közössége, a kanadai Új-Fundlandtól délre. Az országsorozatok szempontjából Franciaországnak számít.
+A Plonk It részletesebb kalauza Saint-Pierre és Miquelonról [itt](https://www.plonkit.net/saint-pierre-and-miquelon) található.
+
+# France / Regional and department-specific clues
+@ france-xk28
+Ez Franciaország domborzati térképe. Jól látható, hogy a legmagasabb hegyek délkeleten és a spanyol határon találhatók. Az északi rész és a nyugati part általában meglehetősen lapos vagy enyhén dombos, míg a déli fél gyakran hegyesebb.
+
+# France / Regional and department-specific clues
+@ france-xp6R
+Az Eure-et-Loir-i táblahátoldalakon **zöld matrica**, a megye logója szerepelhet. Ezeket általában sötétzöld hátoldalra helyezik, hozzá illő oszlop nélkül.
+
+# France / Regional and department-specific clues
+@ france-xsxc
+A szélturbinák lényegesen gyakoribbak az ország északi részén.
+
+# France / Regional and department-specific clues
+@ france-zDEN
+A **sötétebb zöld** oszlop által tartott **szürkészöld** táblahátoldal három területen található meg: Bretagne-ban (Côtes-d'Armor és Ille-et-Vilaine keleti fele), Pyrénées-Atlantiques-ban és ritkán az Alpok közelében.
+
+# United Kingdom / Spotlight
+@ united-kingdom-1NDu
+A londoni 4. generációs felvételek egy részét egy **fehér elektromos járművel** készítették, amelynek ez a jellegzetes hátulja látszik.
+MEGJEGYZÉS: Hasonló autót használtak [Dublinban](https://goo.gl/maps/1qo5Ymw2jADggdGX7) és [Németországban](https://goo.gl/maps/za6Ex8aWnE5wsz3C7) is, ezért mindenképp nézd meg a többi nyomot is.
+
+# United Kingdom / Spotlight
+@ united-kingdom-36tt
+Az utcanév alatt **zöld szöveget** tartalmazó táblák, amelyek a townlandot (kerületet) jelzik, Észak-Írország nyugati részén találhatók.
+Különösen a kiemelt terület északi részén a két sor között lehet egy fém [elválasztó](https://maps.app.goo.gl/AzvWFf8dyeHwbrp98).
+
+# United Kingdom / Regional clues
+@ united-kingdom-5Q6L
+**Bermuda** brit tengerentúli terület az Atlanti-óceán északi részén.
+A Plonk It részletesebb kalauza Bermudáról [itt](https://www.plonkit.net/bermuda) található.
+
+# United Kingdom / Spotlight
+@ united-kingdom-5w6L
+Az aberdeeni és aberdeenshire-i utcanévtáblákon jellemzően egyszerű **kék alapon** fehér betűk szerepelnek.
+MEGJEGYZÉS: Aberdeen belvárosa eltérő, [fekete-sárga](https://maps.app.goo.gl/dpw9AUQ1e6ieL5U19) kialakítást használ.
+
+# United Kingdom / Regional clues
+@ united-kingdom-7Dwu
+A cornwalli pálmák (_Cordyline australis_) az Egyesült Királyságban leggyakrabban a messzi **délnyugaton**, a part mentén és Jersey-n találhatók. Bár ritkán az egész nyugati part mentén, egészen Skóciáig előfordulhatnak.
+
+# United Kingdom / Regional clues
+@ united-kingdom-7RAB
+**A Brit Indiai-óceáni Terület** brit tengerentúli terület, nem meglepő módon az Indiai-óceánon.
+A Plonk It részletesebb kalauza a Brit Indiai-óceáni Területről [itt](https://www.plonkit.net/british-indian-ocean-territory) található.
+
+# United Kingdom / Spotlight
+@ united-kingdom-93V0
+A zöld keretes, „**Twenty's Plenty**” feliratú sebességkorlátozó táblák többnyire Glasgow-ban és környékén találhatók.
+
+# United Kingdom / Regional clues
+@ united-kingdom-C4hI
+Ezek a **sárga szövegű fekete matricák** időnként megjelennek az észak-írországi lámpaoszlopokon.
+
+# United Kingdom / Spotlight
+@ united-kingdom-JAl0
+A **Tavikerület** (Lake District) nagyon dombos, sok kibukkanó sziklával és kőfallal. Hasonlíthat a Skót-felföldre, de Skócia általában kevésbé sziklás.
+
+# United Kingdom / Regional clues
+@ united-kingdom-Jiou
+Ezek a **rombusz alakú**, **„Passing Place”** (kitérőhely) táblák leggyakrabban Skóciában találhatók.
+
+# United Kingdom / Regional clues
+@ united-kingdom-MrGx
+**A Pitcairn-szigetek** brit tengerentúli terület a Csendes-óceán déli részén.
+A Plonk It részletesebb kalauza a Pitcairn-szigetekről [itt](https://www.plonkit.net/pitcairn-islands) található.
+
+# United Kingdom / Regional clues
+@ united-kingdom-QHOv
+Az **A- és B-utakat** az **első számjegyük szerint csoportosítják**, például az A380 és a B3217 az ország délnyugati részén található. Az autópályák is általában ezt a mintát követik.
+Vedd figyelembe, hogy az 1-től 8-ig bármelyik számjeggyel kezdődő utak Észak-Írországban is megtalálhatók.
+
+# United Kingdom / Regional clues
+@ united-kingdom-RDtH
+Időnként megtalálhatod a **4 országzászló** valamelyikét, ami elárulja, hogy az Egyesült Királyság melyik részén vagy.
+
+# United Kingdom / Regional clues
+@ united-kingdom-RtMf
+Skóciában gyakran megtalálhatod ezeket a **piros-fehér terelőoszlopokat**. Kerekek, zömökek, és van rajtuk egy piros-szürke fényvisszaverő, amely körbeéri az egészet.
+Néha az Egyesült Királyság más részein is előfordulnak.
+MEGJEGYZÉS: A terelőoszlop hasonlít a franciára. Van azonban néhány apró különbség. Például a skót oszlop teteje kerek, míg a francia hegyesebb.
+
+# United Kingdom / Regional clues
+@ united-kingdom-V5YP
+Jersey egy sziget a La Manche csatornán, Franciaország és Anglia között. A szigeten csak **2. generációs** felvétel van. Az országsorozatok szempontjából az Egyesült Királyság részének számít.
+A Plonk It részletesebb kalauza Jersey-ről [itt](https://www.plonkit.net/jersey) található.
+
+# United Kingdom / Spotlight
+@ united-kingdom-X0Ns
+A wakefieldi önkormányzat területén a legtöbb utcanévtábla fekete, fehér kerettel és betűkkel. Monotype Rockwell Nova betűtípust használnak.
+
+# United Kingdom / Spotlight
+@ united-kingdom-XahW
+Birminghamben az oszlopok és táblatartók többségén **sárga szalag** vagy sárga festés van körbetekerve. A lámpaoszlopokon általában szintén megtalálható ez a sárga matrica.
+
+# United Kingdom / Regional clues
+@ united-kingdom-YFrb
+A **skót gael** kelta nyelv, amely közeli rokonságban áll az írrel. Nagyon hasonlóan néznek ki, és gyakran használnak ékezeteket. Gyakori és felismerhető betűkapcsolatok a bh, dh, fh, mh, ai, ea, eo és ui.
+A közúti táblákon szereplő skót gael leggyakrabban a Skót-felföldön található, és szinte mindig Glasgow-tól északra.
+MEGJEGYZÉS: A közúti táblákon a skót gael gyakran zöld vagy sárga betűkkel szerepel. Ez a walesivel vagy az írrel nem fordul elő.
+
+# United Kingdom / Regional clues
+@ united-kingdom-ZTWS
+Walesben az útburkolati jelek angolul és walesiül is ki vannak írva. Erre az egyik legjobb példa az „**Araf**”, ami annyit tesz: „Lassíts”. Ez a felfestés kizárólag Walesben található meg.
+MEGJEGYZÉS: Az Araf nem az egyetlen walesi nyelvű felfestés, csak a leggyakoribb. Amikor egy angol mellett [nyilvánvalóan nem angol](https://goo.gl/maps/zqv7eS2fjFDEjS2f8) felfestést látsz, fontold meg a Walesre tippelést.
+
+# United Kingdom / Regional clues
+@ united-kingdom-giuq
+**A Falkland-szigetek** brit tengerentúli terület az Atlanti-óceán déli részén.
+A Plonk It részletesebb kalauza a Falkland-szigetekről [itt](https://www.plonkit.net/falkland-islands) található.
+
+# United Kingdom / Spotlight
+@ united-kingdom-iLwq
+**A londoni utcanévtáblák** jellegzetes megjelenésűek. Általában feketével szerepel az utcanév, alatta pedig pirossal az irányítószám és a kerület.
+
+# United Kingdom / Regional clues
+@ united-kingdom-j4to
+Gibraltár brit tengerentúli terület az Ibériai-félsziget déli csücskén, Spanyolországgal határos. Az országsorozatok szempontjából a terület az Egyesült Királyság részének számít.
+A Plonk It részletesebb kalauza Gibraltárról [itt](https://www.plonkit.net/gibraltar) található.
+
+# United Kingdom / Regional clues
+@ united-kingdom-lJbW
+A Man-sziget egy sziget az Ír-tengeren, az Egyesült Királyság és Írország között. A szigeten csak **2. generációs** felvétel van. Az országsorozatok szempontjából az Egyesült Királyság részének számít.
+A Plonk It részletesebb kalauza a Man-szigetről [itt](https://www.plonkit.net/isle-of-man) található.
+
+# United Kingdom / Regional clues
+@ united-kingdom-lkL1
+A villanyoszlop köré teljesen **körbetekert** figyelmeztető matricák kizárólag Észak-Írországra jellemzők.
+
+# United Kingdom / Regional clues
+@ united-kingdom-qc5P
+A **walesi** kelta nyelv, amelyet egész Walesben beszélnek. A walesi közúti táblák általában kétnyelvűek: angol és walesi. A településeknek gyakran walesi nevük is van.
+A walesi sokkal gyakrabban használja a **D**, **W** és **Y** betűket, mint az angol. A kettős **LL** szintén nagyon jellegzetes.
+MEGJEGYZÉS: A skót gael és az ír szintén kelta nyelv. Némileg hasonlíthatnak a walesire.
+
+# United Kingdom / Regional clues
+@ united-kingdom-rm9B
+A Skót-felföldet a félig kopár, nagyon **hegyvidéki** tájról lehet felismerni.
+MEGJEGYZÉS: A felföldi 4. generációs felvételek nagy része (kora) tavasszal készült, vagyis a növényzet gyakran barnának és sárgának látszik.
+Ezenkívül [Wales](https://goo.gl/maps/DZCbKEo8L9PGxqDG9) és [Észak-Anglia](https://goo.gl/maps/RdTAYzq7X8exyYGx7) leghegyesebb részei hasonlóak lehetnek.
+
+# United Kingdom / Regional clues
+@ united-kingdom-wqNg
+**Déli-Georgia és Déli-Sandwich-szigetek** brit tengerentúli terület az Atlanti-óceán déli részén.
+A Plonk It részletesebb kalauza a területről [itt](https://www.plonkit.net/south-georgia-sandwich-islands) található.
+
+# United Kingdom / Regional clues
+@ united-kingdom-xFi3
+A városi területeken a szemetesekre gyakran rá van írva a **város neve**.
+
+# United Kingdom / Regional clues
+@ united-kingdom-yII8
+Az Egyesült Királyságban a **vezetékes telefonszámok** mindig kilenc vagy tíz számjegyből állnak a 0 előhívó után. A 0 utáni első kettő–négy számjegy a körzetszám. A GeoGuessr-játékosok szerencsétlenségére a földrajzi elrendezésükben nem sok logika van.
+Néhány nagyváros körzetszámát azonban érdemes megjegyezni. A legfontosabbakat ez az infografika foglalja össze. Külön figyelemre méltó, hogy egész Észak-Írország a 028-as, egész London pedig a 020-as körzetszámot használja.
+Az összes többi körzetszám teljes áttekintése [ebben az infografikában](https://upload.wikimedia.org/wikipedia/commons/3/3d/Map_of_the_Telephone_Dialling_Codes_in_the_United_Kingdom.png) érhető el.
+
+# United Kingdom / Regional clues
+@ united-kingdom-zdZe
+Skóciában gyakoriak a **nagy homokkő- vagy gránittömbökből** épült házak. A [gránit](https://goo.gl/maps/wYZvi7P1M195vc5N9) épületek Aberdeenben gyakoriak, a [vörös homokkő](https://goo.gl/maps/k4HthFRKwCX4hQt8A) Glasgow-ban és Dumfriesben, a [sárga homokkő](https://goo.gl/maps/7TNfGv5GGmDqErA77) pedig Edinburgh-ban.
+
+# Ghana / Spotlight
+@ ghana-4Awi
+Az N1-es út Elubo határváros közelébe eső szakasza **nagyon új**: sötét és makulátlan az aszfaltja, nagyon éles a középvonala, és nincs szélső vonal. A növényzet sűrű, és időnként pálmafák is feltűnnek.
+MEGJEGYZÉS: Ez az új útburkolat Azuleti településig tart. A középvonal lehet szaggatott vagy folytonos. Azuleti közelében az útnak nincs középvonala.
+
+# Ghana / Spotlight
+@ ghana-74In
+A **száraz szavannás** tájon futó **burkolatlan utak** többsége Wától északra, illetve magának a városnak a közelében található.
+MEGJEGYZÉS: Észak-Ghána többi burkolatlan útja a keleten fekvő Yendi–Nkwanta út, valamint a Salaga–Tamale út egy része, amelynek nagyon jellegzetes a talaja. Lásd az alábbi tippeket.
+
+# Ghana / Regional clues
+@ ghana-7ooz
+Ghánában a **sűrű erdők** jellemzően délnyugaton és keleten találhatók. Általában sok természetes módon növő pálmafát látsz, ami felismerhetővé teszi ezt a két vidéket.
+
+# Ghana / Regional clues
+@ ghana-Grzs
+A 4. generációs felvételek többsége Accra vagy Kumasi közelében készült, és csak néhány főútról van felvétel.
+
+# Ghana / Regional clues
+@ ghana-H3ol
+Ghánában háromféle jellegzetes szalag található a Google-autón:
+Délnyugaton a „[le nem vált szalag](https://www.google.com/maps/@5.0031389,-2.025501,3a,17.5y,227.34h,35.62t/data=!3m6!1e1!3m4!1s62SoTE21Q6VCvYwLPIrzhA!2e0!7i13312!8i6656)” látható, amely lényegében jórészt **ép szalag**, nem válik le.
+Keleten és északon a „[levált szalag](https://goo.gl/maps/aCFqaQwVS6q6zmqh7)” található, amely a „le nem vált szalaggal” ellentétben kissé **levált**.
+Kumasitól északra és Tamalétól nyugatra ez a „[foltos szalag](https://goo.gl/maps/zZadCxUZeGzku5QS8)” látható, amelynek a bal oldalán két jellegzetes **fehér folt** van.
+
+# Ghana / Regional clues
+@ ghana-H4D5
+A **magas pálmafák** gyakran előfordulnak a part mentén. Többségük nyugaton található.
+
+# Ghana / Regional clues
+@ ghana-JppT
+Észak-Ghánát **szavannás** táj jellemzi, amelyet a száraz talajról és a ritkább növényzetről lehet felismerni.
+
+# Ghana / Spotlight
+@ ghana-KrKW
+A Salaga–Tamale út Kpalbusiig tartó szakasza földút, nagyon **borongós, felhős** felvétellel. A talaj általában **nagyon sötét**, lilás vagy barnás árnyalattal. Az útnak emellett egyedi trópusi szavannás hangulata van. A talaj Salaga település közelében a legsötétebb.
+MEGJEGYZÉS: Borús felvételű, szavannás tájon futó burkolatlan utak máshol is előfordulnak. Ennek az útnak az egyedi vonása a sötét lilásbarna talaj és a különösen sötét felhőtakaró.
+
+# Ghana / Regional clues
+@ ghana-VFa6
+A **magas hegyvonulatok** Ghánában jellemzően a Volta-tó közelében, a kiemelt területen láthatók.
+MEGJEGYZÉS: A keleti hegyvonulatok a Togóhoz közeli területen gyakoribbak.
+
+# Ghana / Spotlight
+@ ghana-Y6Tn
+Több természetvédelmi területen és rezervátumban ez az egyedi autó közlekedik. A szokásos autó helyett **fehér** autó és oldalsó **tükrök** látszanak, a „ghánai szalag” azonban továbbra is jelen van.
+
+# Ghana / Spotlight
+@ ghana-Yl0l
+A Ghána délkeleti részén fekvő **Keta-lagúna** a mellette futó útról látható, a tó az északi szakaszon látszik a legjobban. Néha szürke sziklákat is láthatsz az út szélén. A talaj az ország többi részéhez képest meglehetősen homokos, és a hangulatnak tengerpartinak kell lennie.
+
+# Ghana / Spotlight
+@ ghana-c7W9
+A Nkwanta és Domanko közötti út **burkolatlan**, az úthoz közel **villanyvezetékkel** tőled keletre vagy északkeletre. Maga az út nagyjából DK–ÉNy irányban halad, egy buja szavannás tájon, amely Közép-Ghánára jellemző.
+MEGJEGYZÉS: Városi területeken az út mindkét oldalán lehet villanyvezeték. Ezenkívül a Salaga–Tamale út egy szakaszán is van keletre villanyvezeték, de a sötétebb talaj és a borongós felhőzet megkülönböztethetővé teszi.
+
+# Ghana / Regional clues
+@ ghana-hLru
+Ghánában a felvétel **korlátozott** és könnyen megjegyezhető, mivel nagy része a főutakon és a nagyobb városokban készült. A legsűrűbb felvétel délen, Accra és Kumasi városa környékén található.
+
+# Ghana / Spotlight
+@ ghana-hyou
+Az Ankasa Vadrezervátumnak egyedi Google-autója van. A Google-autó teljes eleje **látható**, csak magát a kamerát homályosítják ki. Az autó tetején street view-matrica van, és a „ghánai szalag” is jelen van.
+
+# Ghana / Spotlight
+@ ghana-lK0K
+A Sawla települést az N10-essel összekötő útnak nagyon éles, **új útburkolati jelei** vannak. Az út nagy része nagyjából kelet–nyugat irányban halad, buja szavannás tájon keresztül. A középvonal lehet folytonos vagy szaggatott.
+MEGJEGYZÉS: Van néhány más út is ilyen éles felfestéssel, ezeknek azonban általában más az iránya vagy a tája.
+
+# Ghana / Spotlight
+@ ghana-nHMr
+A Boabeng Fiema Majomrezervátumnak egyedi Google-autója van. A „ghánai szalag” és a tetőcsomagtartó **nem** látható, a **fekete jobb oldali tükör** viszont kissé kilátszik az elmosás mellől.
+MEGJEGYZÉS: A vörös talaj és a környező növényzet a Ghánára jellemző szokásos autós meta hiánya ellenére is jó nyom marad az országhoz.
+
+# Ghana / Spotlight
+@ ghana-yRvT
+Az **Accrától keletre** fekvő parti terület, különösen az N1-es mentén, jellegzetes tájú: nagyon lapos és tágas, Dél-Ghána többi részéhez képest lényegesen kevesebb növényzettel. Egyes részei kissé szárazak lehetnek.

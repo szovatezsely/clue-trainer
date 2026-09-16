@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { clueImageUrl } from '../api'
+import { t } from '../i18n'
 import type { AnswerOption, AnswerResult, Question } from '../types'
 
 const props = defineProps<{
@@ -32,16 +33,26 @@ const prompt = computed(() => {
   const question = props.question
   if (!question) return ''
   return question.mode === 'region' && question.country
-    ? 'Which part of ' + question.country.name + ' is this clue from?'
-    : 'Which country is this clue from?'
+    ? t.value.clue.askRegion(question.country.name)
+    : t.value.clue.askCountry
+})
+
+/** What a screen reader is told the picture shows, without giving the answer away. */
+const imageAlt = computed(() => {
+  const question = props.question
+  if (!question) return ''
+  return question.country
+    ? t.value.clue.altRegion(question.questionNumber, question.country.name)
+    : t.value.clue.altCountry(question.questionNumber)
 })
 
 /** How long the guide site wants us to wait, in words. */
 const retryWait = computed(() => {
   const seconds = props.imageRetryIn
   if (seconds <= 0) return ''
-  if (seconds < 90) return seconds + ' seconds'
-  return 'about ' + Math.round(seconds / 60) + ' minutes'
+  return seconds < 90
+    ? t.value.clue.waitSeconds(seconds)
+    : t.value.clue.waitMinutes(Math.round(seconds / 60))
 })
 
 /** Colour state for one option once the answer is in. */
@@ -61,18 +72,15 @@ function stateOf(option: AnswerOption): string {
       <div v-if="imageFailed" class="clue__frame clue__frame--failed">
         <div class="failed">
           <p class="eyebrow">
-            {{ imageRetryIn > 0 ? 'Images are rate-limited' : 'Clue image unavailable' }}
+            {{ imageRetryIn > 0 ? t.clue.throttledEyebrow : t.clue.unavailableEyebrow }}
           </p>
           <p v-if="imageRetryIn > 0" class="failed__text">
-            The guide site is limiting how many images it hands out and asked us to wait
-            <strong>{{ retryWait }}</strong>. Clues whose image is already cached keep working;
-            after that window new ones load again.
+            {{ t.clue.throttledLead }} <strong>{{ retryWait }}</strong
+            >{{ t.clue.throttledTail }}
           </p>
-          <p v-else class="failed__text">
-            The guide site would not hand this image over. The other clues are unaffected.
-          </p>
+          <p v-else class="failed__text">{{ t.clue.unavailable }}</p>
           <button class="btn btn--ghost" type="button" :disabled="busy" @click="emit('skip')">
-            Skip this clue
+            {{ t.clue.skip }}
           </button>
         </div>
       </div>
@@ -80,13 +88,7 @@ function stateOf(option: AnswerOption): string {
         <img
           :key="question.clueId"
           :src="clueImageUrl(question.imageUrl)"
-          :alt="
-            'Clue ' +
-            question.questionNumber +
-            (question.country
-              ? ' — a photo from one part of ' + question.country.name
-              : ' — a photo that identifies one country')
-          "
+          :alt="imageAlt"
           decoding="async"
           @load="emit('imageLoaded')"
           @error="emit('imageFailed')"
@@ -102,7 +104,7 @@ function stateOf(option: AnswerOption): string {
           }}</span>
           {{ prompt }}
         </h2>
-        <span class="clue__number">Clue #{{ question.questionNumber }}</span>
+        <span class="clue__number">{{ t.clue.number(question.questionNumber) }}</span>
         <span v-for="tag in question.tags" :key="tag" class="tag">{{ tag }}</span>
       </div>
 
@@ -123,7 +125,7 @@ function stateOf(option: AnswerOption): string {
             <small v-if="option.note" class="option__code">{{ option.note }}</small>
           </span>
           <span v-if="answered && stateOf(option) === 'option--correct'" class="option__mark">
-            correct
+            {{ t.clue.correctMark }}
           </span>
         </button>
       </div>

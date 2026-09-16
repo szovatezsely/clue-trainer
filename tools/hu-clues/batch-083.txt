@@ -1,0 +1,266 @@
+# Vietnam / Regional clues
+@ vietnam-aaUK
+A **táblákon szereplő címek** _rendkívül_ gyakoriak Vietnamban, különösen az üzletek homlokzatán. Ezek a címek hierarchikus sorrendet követnek, amely általában a konkréttól (ház/épület) az általános felé (város/tartomány) halad. Óriási segítséget jelenthetnek a pontos helyed megtalálásában.
+Egy cím általában balról jobbra a következő elemek mindegyikét vagy néhányát tartalmazza:
+- Ház- és utcaszám
+- Kerület/község:
+- - Kerület (városias területek): **phường**
+- - Község (vidéki területek): **xã**
+- Körzet:
+- - Városi körzet: **quận**
+- - Vidéki körzet: **huyện**
+- - Körzeti szintű település: **thị xã**
+- - Városi/tartományi város: **thành phố**
+- Tartomány/város
+- - Tartomány: **tỉnh**
+- - Központi város: **thành phố** (a központi város Vietnamban olyan város, amely a tartományokkal azonos közigazgatási szinten áll, például Hanoi vagy Hai Phong)
+Ezeket a szavakat gyakran rövidítik. Például a huyện rövidíthető egyszerűen H.-ként, a thành phố TP.-ként stb. Ezenkívül néha magát a tartományt is rövidíthetik, például [itt](https://maps.app.goo.gl/jrN2XEvhZ31gQmJy5) a Thái Bình rövidítése TB.
+
+# Vietnam / Spotlight
+@ vietnam-am6o
+A Đồng Văn karsztgeopark Hà Giang tartomány északi részén, Vietnam legészakibb csücskén, nagyon jellegzetes tájjal rendelkezik: **lekerekített, hegyes hegyekkel** viszonylag ritkás növényzettel, amely felfedi az alattuk lévő **nagyon sötét sziklákat**.
+MEGJEGYZÉS: Észak-Vietnam tágabb vidékét szintén hegyes hegyek jellemzik. A geopark a kibukkanó sziklák miatt egyedi.
+
+# Vietnam / Regional clues
+@ vietnam-bxty
+A Mekong-deltában a házak szintén szögletes, betonos megjelenésűek, de általában sokkal alacsonyabbak: szinte mindig csak egyetlen, földszinti szintből állnak.
+
+# Vietnam / Regional clues
+@ vietnam-dtNM
+A szélturbinák néhány csoportban találhatók, főként az ország déli felében.
+Íme a csoportok a leggyakoribbtól a legritkábbig:
+- [Dalattól délkeletre, a part közelében](https://maps.app.goo.gl/C34Em7GXyZiXqygA6)
+- [Buon Ma Thuottól északra, Dak Lakban](https://maps.app.goo.gl/k7LRFPhiJeH7xBbg8)
+- [Pleikutól délre, Gia Laiban](https://maps.app.goo.gl/2AhLumL2EKeHUUHv5)
+- [Dong Hoitól délkeletre, Quang Binhben](https://maps.app.goo.gl/YruY1bs8FcDnyTqW8)
+- [Quy Nhontól keletre, Binh Dinhben](https://maps.app.goo.gl/PRERajWrQJeN9j6J7)
+- [Ho Si Minh-várostól délre, tengeri szélerőparkok a part közelében.](https://maps.app.goo.gl/pyei1AkN9WrmEcj8A)
+- [Quang Tri tartomány nyugati része.](https://maps.app.goo.gl/1Ri5pFNTLLjdhLqy5)
+
+# Vietnam / Regional clues
+@ vietnam-eQWy
+A **sárkánygyümölcs**-ültetvények többnyire két kis területen találhatók délen:
+- Phan Thiết városa körül, Bình Thuận tartományban
+- egy kis területen a Long An és Tiền Giang közötti határon, Mỹ Thótól északkeletre.
+A sárkánygyümölcs egy felfordított nedves felmosó végére emlékeztet.
+
+# Vietnam / Spotlight
+@ vietnam-fQVL
+A közvetlenül Đà Lạt városa körüli vidéket sűrűn borítják az **üvegházak**.
+
+# Vietnam / Regional clues
+@ vietnam-fbiz
+Az **egyenetlen kereszttartókkal** rendelkező villanyoszlopok, vagyis ahol a kereszttartó lényegesen inkább az oszlop egyik oldalára esik, mint a másikra, az ország déli részén találhatók. Néha nem teljesen egyenetlenek, hanem inkább az [indonéz oldalra tolt oszlopok](https://maps.app.goo.gl/TiDuQt7tSV8UmA3K7) stílusában vannak.
+MEGJEGYZÉS: Összekeverheted a részben [oldalra tolt trapéz](https://maps.app.goo.gl/ieZHLc3qyVbNUXRz5) alakú oszlopfejeket a szokásos oldalra tolt oszlopfejekkel, azonban minden trapéz alakú csatlakozóval rendelkező oszlop más kategóriába tartozik. A kivételben a csatlakozó nem egyenes rúd, hanem egy befejezetlen trapéz.
+
+# Vietnam / Regional clues
+@ vietnam-j6ch
+A tágas, nyílt és **teljesen sík mezőgazdasági táblák** leggyakrabban a Vörös-folyó deltájában láthatók, és némileg ritkábban a Mekong folyó deltájában.
+
+# Vietnam / Regional clues
+@ vietnam-k87j
+A **háromszög** alakú oszlopfejek, ahol a tartórudak a kereszttartó alatt vannak, Dél-Vietnamban találhatók.
+MEGJEGYZÉS: A középső szigetelőnek magára az oszlopra kell szerelve lennie, nem pedig a kereszttartó [fémtoldatára](https://maps.app.goo.gl/7tDNw4eb1L7yeHw29).
+
+# Vietnam / Spotlight
+@ vietnam-kryK
+Egy **magányos nagy hegy** egy egyébként teljesen sík táj közepén található közvetlenül Tây Ninh városától északkeletre.
+
+# Vietnam / Regional clues
+@ vietnam-noS2
+A vékony **tornyocskák a házak tetején** szinte kizárólag az ország északi felében találhatók.
+
+# Vietnam / Regional clues
+@ vietnam-nrTS
+A Mekong-delta rendkívül sík, vízben gazdag terület. Számos nagyon **egyenes csatorna** szeli át, amelyeket gyakran lineáris falvak szegélyeznek. Vietnam egyik legsűrűbben lakott része, ahol lényegében mindenütt művelt táblák vannak. A terület még trópusibb, mint Vietnam többi része, sok [pálmafával](https://maps.app.goo.gl/EGM3APVzRnWeDun1A) és buja vizes élőhelyi növényzettel.
+
+# Vietnam / Regional clues
+@ vietnam-opQx
+A mezőgazdasági táblák közepén lévő **magányos sírok** a Vörös-folyó deltájában találhatók.
+
+# Vietnam / Regional clues
+@ vietnam-quea
+A trapéz alakú oszlopfejek néha oldalra tolva jelenhetnek meg. Ha egy villanyoszlopon **három oldalra tolt, befejezetlen trapéz** van, akkor az ország északi részén leszel.
+
+# Vietnam / Regional clues
+@ vietnam-rCnR
+A shitcam kizárólag néhány helyen található meg a Vörös-folyó deltájában.
+
+# Vietnam / Regional clues
+@ vietnam-s59g
+A **Központi-felföld** vidékének tája általában némileg jellegzetes hangulatú: gyakran dombos, távoli hegyekkel, vörös talajjal, és gyakran meglehetősen száraz, hullámos mezőgazdasági táblákkal. Ezenkívül a növényzet kissé szárazabb, mint Vietnam többi részén (az évszaktól függően).
+
+# Vietnam / Spotlight
+@ vietnam-sbhF
+A közvetlenül Phan Thiết városától keletre fekvő tengerparti üdülőhelyek közelében a legtöbb táblán **cirill szöveg** is szerepel a vietnami mellett, az orosz turistákra szabva.
+
+# Vietnam / Regional clues
+@ vietnam-vhPv
+Az oszlop nagy részén végigfutó **nagy lyukakkal** rendelkező villanyoszlopok gyakoriak Észak-Vietnamban.
+MEGJEGYZÉS: Ne keverd össze ezt a [szokásos lyukas oszloppal](https://maps.app.goo.gl/xbMJe5paBUuoLzm2A), ahol a lyukak csak az oszlop feléig nyúlnak fel. Ez a ½ lyukas oszlop Vietnam egészén megtalálható.
+
+# Vietnam / Regional clues
+@ vietnam-x4O8
+A **teaültetvények** elsősorban északon találhatók, néhány egymástól különálló területre korlátozódva.
+Jelentős kivétel a déli Lâm Đồng tartomány, ahol nagy teaterület található Bảo Lộc városa körül.
+A teacserjék a tömör és rendezetten nyírt alakjukról, valamint az apró, sötétzöld leveleikről ismerhetők fel. Gyakran, de nem mindig, kanyargó sorokban ültetik őket a domboldalakon.
+
+# Vietnam / Regional clues
+@ vietnam-zI3S
+A **fejjel lefelé fordított trapéz** alakú oszlopfejek gyakoriak Közép- és Észak-Vietnamban.
+MEGJEGYZÉS: A trapéz alakú oszlopfejek lehetnek [oldalra toltak](https://maps.app.goo.gl/hrHUQbXHHTniFB1t9), ami nem ugyanaz, mint a szokásos oldalra tolt oszlopok.
+
+# Vanuatu / Regional clues
+@ vanuatu-8ppR
+Ez az egyedi **vulkáni** trekker a sziget közepén található.
+
+# Vanuatu / Regional clues
+@ vanuatu-DTRR
+Endu Pahakol, az egyetlen falu az Ambrym-szigeten felvétellel, az apró **nádtetős kunyhókról** és a sötét talajról ismerhető fel.
+
+# Vanuatu / Regional clues
+@ vanuatu-HJp5
+Bár Vanuatu 13 fő szigetből áll, kizárólag az **Ambrym-szigeten** van felvétel. Keresd a „Port Vato” feliratot a térképen, Port Vilától északra, hogy megtaláld a szigetet.
+
+# Vanuatu / Regional clues
+@ vanuatu-ees3
+Trópusi növények és sok **páfrány** látható ebben a dzsungelben, keletebbre. Egy **piros sapkás** férfi is látható a trekkerrel.
+
+# Vanuatu / Regional clues
+@ vanuatu-g0KZ
+Egy **fekete homokos** part látható a sziget keleti oldalán.
+
+# Vanuatu / Regional clues
+@ vanuatu-pVls
+Egy jellegzetes fennsík **sötétbarna talajjal** és **foltos fűvel** látható a vulkántól keletre.
+
+# Vanuatu / Regional clues
+@ vanuatu-wjW2
+Ez a földút **keréknyomokkal** és enyhén lilás talajjal a parttól keletre látható.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-0BuS
+Megtalálhatod ezt a **szemcsés**, szinte texasi jellegű burkolatot egy csipetnyi **rózsaszínnel** Limpopóban.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-58eY
+A **cukornádültetvények** leggyakrabban KwaZulu-Natalban láthatók, többnyire a part mentén. Láthatók azonban Mpumalangában is, a mozambiki határon. Áttekintésért lásd [ezt](/images/south-africa/southafrica_sugarcane.jpg) a térképet.
+
+# South Africa / Spotlight
+@ south-africa-7cr3
+Az oszlopokat és bármilyen közterületi infrastruktúrát gyakran teleragasztanak **kétes hirdetésekkel** abortuszszolgáltatásokról vagy péniszméretnövelő tablettákról Gautengben és környékén, különösen Johannesburgban és Emalahleniben.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-D9sE
+Az **1 vagy 2 fémkarral** rendelkező oszlopok, amelyek a szigetelőket tartják, leggyakrabban Mpumalangában láthatók.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-EHXL
+A Kruger Nemzeti Park körüli táj általában sík, **szavannás** éghajlattal és száraz növényzettel. Nem látsz mezőgazdaságot, és a növényzet többnyire fűfélékből áll, apró fákkal pettyezve a tájat. Vörös talaj is látható a fű alatt.
+Ezenkívül ez a jellegzetes [irányjelző útjelző kő](https://goo.gl/maps/C4VRQ6v1PyAStJUz7) gyakran megtalálható sok kereszteződésnél.
+MEGJEGYZÉS: A parkon belüli felvételen többnyire burkolatlan murvás utakat vagy kis, burkolt utakat találsz útburkolati jelek nélkül.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-EW6K
+Az egyedien magas **oszlopos araukáriák** többnyire East London és Durban városa között találhatók a délkeleti part mentén.
+MEGJEGYZÉS: Ezeket ültetik, és nem őshonosak, ezért a part mentén bárhol megtalálhatók.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-Fho0
+A 2 **átlós rúddal** „<” alakot formáló oszlopok többnyire az északkeleti tartományokban találhatók, leggyakrabban Limpopóban és Északnyugatban.
+
+# South Africa / Spotlight
+@ south-africa-G6kZ
+A Witfontein természetvédelmi területen lévő hegyek, valószínűleg a **George's Peak**, **északon** láthatók George városából.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-GgUS
+Az ország északkeleti része nagyon száraznak és némileg kopárnak látszhat, sok narancssárga vagy vörös talajjal. Gyakran látsz bokrokkal borított dombokat vagy hegyeket.
+MEGJEGYZÉS: Az évszaktól függően a felvétel drasztikusan változhat a [szárazétól](https://maps.app.goo.gl/XsQme5RXp7jB2U1p6) a [nagyon zöldig](https://maps.app.goo.gl/hLARbuFeBKWx6hot7).
+
+# South Africa / Spotlight
+@ south-africa-IPzM
+A **nagyvárosi utak** a városok körüli főutak. Ezeket M betűvel jelölik.
+Ezek a jellegzetes és egyedi M útjelző táblák gyakran megtalálhatók [Port Elizabethben](https://goo.gl/maps/ZfbwsNaUjonKnoAY9) (Gqeberha), illetve [Durbanben](https://goo.gl/maps/C94hkSvFEopmUoJx9).
+
+# South Africa / Spotlight
+@ south-africa-ISiU
+A johannesburgi közlekedési lámpákat és gyalogosátkelő-oszlopokat három sáv **fényvisszaverő szalag** veszi körül.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-KDMw
+A **3 váltakozó szigetelővel** rendelkező oszlopok, ahol a szigetelők vízszintesen állnak ki felül, többnyire a négy északi tartományban láthatók: Limpopóban, Gautengben, Északnyugatban és Mpumalangában. Néha az Északi-fokföldön is megtalálhatók. Az ország többi részén ezek az oszlopfejek rendkívül ritkák.
+
+# South Africa / Spotlight
+@ south-africa-OMTa
+Az **R360-as Bokspitstől északra** fekvő szakaszán, a botswanai határ mellett, felismerhető vöröses árnyalatú aszfalt van. A táj száraz, és száraz szürkés fák, bokrok meg hosszú aranyszínű fű jellemzi. Az út nagyjából észak–déli irányban halad.
+MEGJEGYZÉS: Vöröses árnyalatú aszfalt más utakon és az R360-as déli részén is megtalálható. A Bokspitstől északra fekvő táj azonban túlnyomórészt így néz ki.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-Oy3D
+A nagy **madárfészkek** az oszlopok tetején gyakran láthatók az Északi-fokföld tartomány északi részén.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-Prjw
+Hasonló oszlopfej található a Keleti-fokföldön, ott azonban az A alak észrevehetően szélesebb, és az alsó szigetelők közvetlenül az „A”-hoz csatlakoznak, nem pedig egy vízszintes rúdhoz.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-Q1UD
+A száraz táj vörös talajjal jellemzően az Északi-fokföldön található.
+MEGJEGYZÉS: Ez a [térkép](https://upload.wikimedia.org/wikipedia/commons/c/c8/Koppen-Geiger_Map_ZAF_present.svg) hasznos útmutató a Dél-Afrika éghajlata alapján történő tippeléshez.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-RWlO
+A **háromágú oszlopfejek** szinte kizárólag KwaZulu-Natalra jellemzők.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-UBPX
+Egyedi **sziklás**, fátlan hegyek láthatók a Nyugati-fokföldön, ahol a hegyek többségének magas, meredek oldala és éles csúcsa van.
+MEGJEGYZÉS: Hasonló hegyek láthatók Lesothóban és környékén.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-UxL1
+A 3 rúddal az **„A”** betűt formáló oszlopok, ahol az alsó szigetelők egy vízszintes rúd szélein csatlakoznak, szinte kizárólag a Nyugati-fokföldön találhatók, és ritkán a szomszédos tartományokban.
+
+# South Africa / Spotlight
+@ south-africa-VsjT
+Bár ez a lámpa és kar nem gyakran fordul elő az országban, Durbanben egyedien van rajta ez a **kidudorodás** a tetején. Ugyanakkor továbbra is láthatod a szokásos lámpát és kart.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-Z6GT
+Egy **terepszínű** autó fekete oldalsó tükrökkel és tetőcsomagtartókkal látható a Kruger Nemzeti Parkban, a mozambiki határon.
+MEGJEGYZÉS: A parkban mostanra 4. generációs felvétel is van.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-eJUt
+A **fehér matricák** a nyílhegyek hátulján gyakran láthatók a fokföldi tartományokban.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-iJbI
+Az **erőművek** gyakran láthatók Secunda és eMalahleni települése között Mpumalangában.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-mWX6
+A **faültetvények**, amelyek többnyire fenyőből állnak, gyakoriak Eswatinitól nyugatra, és néhány délen, KwaZulu-Natalban.
+MEGJEGYZÉS: A fenyőültetvények jellemzően magán Eswatini országán belül láthatók.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-nSzl
+A szőlőültetvények szinte kizárólag a **Nyugati-fokföldön** találhatók, többnyire a part közeli völgyekben. Gyakran megtalálhatod őket Upington közelében is, az Északi-fokföldön.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-p5p1
+A mozambiki határ közelében lévő táj a kiemelt területen észrevehetően **sík**, zöld szubtrópusi növényzettel.
+
+# South Africa / Spotlight
+@ south-africa-t7mv
+A jellegzetes **Asztal-hegy**, amely Fokvárostól nyugatra található, a feltűnő, három kilométeres fennsíkjáról ismerhető fel. Mellette áll az Ördög-csúcs, amely inkább piramis alakú.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-u08Z
+A **négyzetes, piros matricák** a szokásos táblák hátulján gyakran megtalálhatók a Keleti-fokföldön, valamint a Keleti-fokföldhöz közel az Északi-fokföldön és Free State-ben. Az Északnyugat tartományban is láthatod őket, de kisebb mértékben.
+MEGJEGYZÉS: A piros matricák a nyílhegyek hátulján szinte minden tartományban láthatók.
+
+# South Africa / Regional and province-specific clues
+@ south-africa-wMNA
+A **füves, hullámos dombok** általában a Nyugati-fokföld part menti területén találhatók Fokváros és George között, valamint közvetlenül Fokvárostól északra. Magas gerincek általában északon vagy keleten láthatók.

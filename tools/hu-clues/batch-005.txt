@@ -1,0 +1,281 @@
+# Switzerland / Identifying Switzerland
+@ switzerland-PEET
+A svájci útjelző táblák körül gyakran van kerek, szürke **fémkeret**.
+MEGJEGYZÉS: [Liechtenstein](https://maps.app.goo.gl/wbSfjB8xPexuUkqZA) szinte azonos irányjelző táblákat használ. Némileg hasonló fémkeret [Dánia](https://goo.gl/maps/gQWu5BCRsga8WkiS7) egyes irányjelző tábláin is előfordul.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-WZTx
+A **hosszan szaggatott sárga** útburkolati jel jó nyom Svájcra.
+MEGJEGYZÉS: Ezek a felfestések Liechtensteinben is gyakoriak.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-aYNF
+A svájci és általában az alpesi építészet jobbára világos, meleg színűre festett **kőépületekből** áll, gyakran faelemekkel és -részletekkel kombinálva. A tető jellemzően cserepes és nyeregtetős. Rendkívül gyakori, hogy az ablakokon fa spaletta van, amely két részben, vízszintesen nyílik.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-e1U8
+A svájci gyalogosátkelő-táblákon **hét csík** van, ami Európában szinte egyedülálló. Ezenkívül a szokásos európai négyzetes forma helyett magas, kék téglalap alakúak.
+MEGJEGYZÉS: Liechtenstein azonos táblákat használ.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-kRj5
+Ezek a buszmegálló-táblák, amelyeket vastag **fém tartókeret** vesz körbe, csak Svájcra jellemzők.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-lPuj
+A svájci terelőoszlopok **fekete-fehérek**, fehér vagy szürke prizmával. Lehetnek ék alakúak vagy hengeresek, lekerekített tetővel.
+MEGJEGYZÉS: Liechtenstein szinte azonos [kerek terelőoszlopokat](https://maps.app.goo.gl/JJSg67HrDHerzv8c7) használ.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-srYV
+Svájc felismerésének messze legfontosabb módja, hogy minden autós felvétel **low-cam**. Ez azt jelenti, hogy a Google-autón lévő kamerát szándékosan alacsonyabbra szerelték, mint a legtöbb más országban. Ezt kétféleképpen lehet felismerni:
+- Az autókitakarás észrevehetően nagyobb.
+- Az utak szélesebbnek tűnnek, és a környező tárgyakat alacsonyabb szögből látod.
+Általában a nagyobb autókitakarás a legmegbízhatóbb jele a low-camnek.
+MEGJEGYZÉS: Az egyetlen további országok, ahol mindig low-cam van: [Japán](https://www.google.com/maps/@35.8415638,139.9145236,3a,75y,305.11h,83.84t/data=!3m7!1e1!3m5!1sLyYnyrI7fgLeL5Ev09XeJg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DLyYnyrI7fgLeL5Ev09XeJg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D33.088177%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192) és [Liechtenstein](https://maps.app.goo.gl/jn7cXhtXQRG6Hd9a6).
+
+# Switzerland / Identifying Switzerland
+@ switzerland-wLZ9
+A svájci **rendszámtáblák** jelentősen eltérnek a többi európaitól. Teljesen fehérek, és hiányzik róluk a legtöbb európai országban megszokott kék sáv.
+Az **első rendszámtábla** rendkívül rövid a legtöbb európaihoz képest.
+A **hátsó rendszámtábla** lehet hosszú vagy magas. Mindkét esetben bal oldalon a piros országcímer, jobb oldalon a kantoncímer látható.
+
+# Switzerland / Identifying Switzerland
+@ switzerland-waGu
+A svájci helységnévtáblák általában **fehérek vagy kékek**, körülöttük **fémkerettel**.
+MEGJEGYZÉS: Ezeknek a tábláknak a hátulján gyakran megtalálod a közeli nagyobb városok távolságát. Ezenkívül a tábla alján sokszor látható a kanton rövidítése, különösen ha a település kantonhatár közelében fekszik.
+
+# Chile / Identifying Chile
+@ chile-DbSe
+Bár Chilében a hagyományos terelőoszlop viszonylag ritka, időnként találkozhatsz ezzel a **narancssárga**, ideiglenes terelőoszloppal, amelynek a tetején **két fehér csík** van.
+
+# Chile / Identifying Chile
+@ chile-SjoP
+A személygépkocsiknak **fehér** a rendszámtáblájuk, a haszongépjárműveknek és a taxiknak **narancssárga**.
+MEGJEGYZÉS: Narancssárga tábla Ecuadorban is látható. A brazil haszongépjármű-táblák pirosak, de bizonyos fényviszonyok mellett hasonlónak tűnhetnek.
+
+# Chile / Identifying Chile
+@ chile-cQZV
+Chilében a **3. generációs** felvételeket egyszínű **fehér**, antenna nélküli Google-autó készítette. Két változata van:
+- [Egy sima fehér autó](https://maps.app.goo.gl/1nNGSJYhdk9Th3c9A) (balra).
+- [Egy fehér autó jól látható fekete résszel](https://goo.gl/maps/sk6weUxKpaC7pAvz7) (jobbra). Ez az autó csak Chilében fordul elő.
+A 4. generációs felvételeken kék Google-autó látható.
+MEGJEGYZÉS: A 3. generációban sima fehér, antenna nélküli Google-autó Peruban és Bolíviában is előfordul.
+
+# Chile / Identifying Chile
+@ chile-dkLn
+A táblatartó oszlopok tetején gyakran láthatók **rések**.
+
+# Chile / Identifying Chile
+@ chile-fmHE
+Chile **sárga alapú**, **fekete nyilas** terelőtáblákat használ.
+MEGJEGYZÉS: Argentína fehéret használ piros nyilakkal.
+
+# Chile / Identifying Chile
+@ chile-oPtv
+A chilei útburkolati jelek vagy **csupa fehérek**, vagy **csupa sárgák**:
+- A csupa fehér felfestés a leggyakoribb. Amerikán belül jó nyom Chilére, bár nem teljesen egyedi.
+- A csupa sárga felfestés a nemzeti parkokban és a nagy havazású vidékeken fordul elő. Amerikán belül a csupa sárga felfestés lényegében egyedülálló Chilében.
+A két szín keverékét néhány ritka kivételtől eltekintve **szinte soha** nem fogod látni.
+MEGJEGYZÉS: Fontos megjegyezni, hogy Argentínában jócskán akadnak csupa fehér felfestésű utak.
+
+# Chile / Identifying Chile
+@ chile-tCeP
+A chilei terelőoszlopok hasonlítanak a **spanyol típusúakra**: elöl fehér prizma, hátul sárgásnarancs. Nem túl gyakoriak.
+
+# Chile / Identifying Chile
+@ chile-uW2V
+A chilei hidakon a korlátoszlopok gyakran **pirosra vannak festve**.
+
+# Chile / Identifying Chile
+@ chile-y9xj
+Chile négyzetes betonoszlopokat használ, mindkét oldalon egy **beugrással**. Kissé hasonlítanak a brazil oszlopokra, de kevesebb vízszintes merevítő van a beugrásban. A felső részükön jellemzően apró lyukak vannak.
+A faoszlop szintén elég gyakori.
+
+# China / Identifying China
+@ china-0D6J
+A kínai szárazföldön minden hivatalos felvétel **állványról** készült. A képen látható tárgyak általában elmosódottak a mozgástól, és a színek kissé telítettek.
+MEGJEGYZÉS: Hongkongról és Makaóról is teljes Google-autós felvétel készült.
+_A Plonk It külön hongkongi kalauza [itt](https://www.plonkit.net/hong-kong) található. A makaói kalauz [itt](https://www.plonkit.net/macau) érhető el._
+
+# China / Identifying China
+@ china-7ABL
+A kínai írás gyakran bonyolult, több vonásból álló jelekből áll. A kínai szárazföldön jellemzően [egyszerűsített kínai](https://en.wikipedia.org/wiki/Simplified_Chinese_characters) írással találkozol, amelyben sok jel vonásainak száma jelentősen csökkent a [hagyományos kínaihoz](https://en.wikipedia.org/wiki/Traditional_Chinese_characters) képest.
+MEGJEGYZÉS: A hagyományos kínai írás elterjedt Tajvanon, Hongkongban és Makaóban.
+
+# China / Identifying China
+@ china-CygQ
+A kínai rendszámtáblák **kékek**, fehér felirattal.
+
+# Colombia / Identifying Colombia
+@ colombia-2901
+Kolumbiában különösen gyakori, hogy a járdákat **vöröses burkolólapok** díszítik.
+
+# Colombia / Identifying Colombia
+@ colombia-45F4
+Kolumbia kétféle kilométerkövet használ: egy magas zöld változatot, a tetején a „**Pr**” betűkkel, és a hagyományos kőoszlopot fekete felirattal. Mindkét kialakítás egyedülálló az országban.
+MEGJEGYZÉS: Az alsó rész első két számjegye az útszámot jelöli. Ebben az esetben az útszám 90. Az utolsó két számjegy az útszakaszt jelöli, amely a páros számú főutakon nyugatról keletre, a páratlanokon délről északra növekszik. Az egyes szakaszok azonosításához [ez a forrás](https://es.wikipedia.org/wiki/Anexo:Carreteras_nacionales_de_Colombia) nyújt segítséget.
+
+# Colombia / Identifying Colombia
+@ colombia-JMPO
+A kolumbiai táblatartó oszlopok fehér fémből készülnek, és a táblák **hátulján jellegzetes keresztté** állnak össze.
+MEGJEGYZÉS: Fehér fém táblatartó oszlop Brazíliában is előfordul, de azok általában szélesebbek.
+
+# Colombia / Identifying Colombia
+@ colombia-OUrh
+A kolumbiai oszlopok általában **betonból** vannak, sokféle oszlopfejjel.
+Ezenkívül a sötét színű oszlop gyakoribb Kolumbiában, mint a szomszédos országokban.
+MEGJEGYZÉS: Mexikó és Ecuador mellett ez az egyetlen ország Amerikában, ahol nyolcszögletű oszlopok találhatók.
+
+# Colombia / Identifying Colombia
+@ colombia-ay1W
+A kolumbiai rendszámtáblák jellemzően **sárgák**.
+MEGJEGYZÉS: Dél-Amerikán belül sárga rendszámtábla szinte kizárólag Kolumbiában fordul elő.
+
+# Colombia / Identifying Colombia
+@ colombia-cSUD
+A kolumbiai oszlopokon gyakran van jellegzetes **fekete-sárga** vagy fekete-narancs csíkozás.
+
+# Colombia / Identifying Colombia
+@ colombia-rkhV
+A 3. generációs felvételeken néha **rövid, vastag antenna** látszik fekete, fehér vagy szürke autón. A 4. generációs felvételeken jellemzően fehér vagy ezüst autó szerepel.
+MEGJEGYZÉS: Amerikán belül az antenna Mexikóban, Ecuadorban és Brazíliában is előfordul. Kolumbia azonban az egyetlen ország, ahol ez az antenna fekete Google-autón van.
+
+# Colombia / Identifying Colombia
+@ colombia-uYGd
+A **fakerítés** különösen gyakori Kolumbiában.
+MEGJEGYZÉS: A festetlen változatokon túl egyes kerítésoszlopok teteje [festett és hegyes](https://maps.app.goo.gl/z7gpBcspK4rCWeep8). Ezek szinte kizárólag Kolumbiára jellemzők.
+
+# Colombia / Identifying Colombia
+@ colombia-wre8
+A kolumbiai taxik mindig ilyen **pasztellsárga** színűek. A magángépjárművekkel ellentétben fehér rendszámtáblájuk van, amelyet gyakran az oldalukra és a tetejükre is felfestenek. Ha nincs kitakarva, sokszor a város neve is látszik.
+MEGJEGYZÉS: Az ecuadori taxik hasonlónak tűnhetnek. Ott azonban kissé telítettebb sárgát használnak, és a rendszámtábla jellemzően narancssárga.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-1FnG
+A Costa Rica-i építészet kevésbé gyarmati jellegű, mint a panamai. Kevés háznak van rendes cseréptetője; gyakoribb a sötétvörös fémlemez vagy a sötétvörös műanyag cserép. Az épületeknek jellemzően **pasztellszínű betonfaluk** van, és általában vagy alacsony **családi házak**, vagy **szögletes, kétszintes** építmények. Gyakran erősen védettek **kerítéssel** és **rácsos ablakkal**, olyannyira, hogy sok utcában még az épületet is nehéz kivenni.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-4iGB
+Az egyik leggyakoribb oszlopfej egy egyenes keresztrúd egyenetlenül elosztott szigetelőkkel, vagyis az egyik oldalon egy, a másikon kettő van. Ezenkívül a keresztrúd a szokásosnál lejjebb helyezkedik el az oszlopon.
+MEGJEGYZÉS: A 2:1 arányú szigetelőelosztású, alacsony keresztrudas oszlop Panamában is megtalálható. A Costa Rica-i oszlopokon azonban jellemzően vannak merevítők, míg a [panamai oszlopokon](https://maps.app.goo.gl/nUBSxGGYTvWqCygu8) ez sokkal ritkább.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-9TUK
+A Costa Rica-i oszlopokon gyakran található egyetlen szigetelő, amely az oszlop tetején oldalt csatlakozik.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-I3Ot
+A Costa Rica-i villanyoszlopok tetején kék pontos lámpa található, hasonlóan más latin-amerikai országokhoz, például Panamához, Kolumbiához és Brazíliához.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-K2iz
+Sok útjelző tábla hátulján jellegzetes **kereszt** van. Ez leginkább a rombusz alakú veszélyt jelző táblákra jellemző, a többit többnyire a szokásos módon rögzítik.
+MEGJEGYZÉS: Kolumbiában a táblák hátulján szinte mindig van kereszt, de ott fehér táblatartó oszlopot használnak.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-KYKK
+A terelőoszlop Costa Rica-i megfelelője ez a függőleges **narancssárga tábla**, rajta **3 fekete körrel**.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-NRyJ
+Szintén gyakori ez a vékony fém keresztrúd, amelyet 90 fokban meghajlítva L alakúra képeztek ki.
+MEGJEGYZÉS: Panamában, Kolumbiában és Ecuadorban is gyakori. A keresztrudas oszlop azonban Panamában általában nem olyan elterjedt, mint Costa Ricában.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-dq4a
+A Costa Rica-i villanyórák kör alakúak, és gyakran nagy fémdoboz áll mellettük.
+MEGJEGYZÉS: Kör alakú villanyóra más észak-amerikai országokban is előfordulhat, leginkább Mexikóban.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-dyRW
+Costa Rica jobbára **buja trópusi ország**, hullámzó dombokkal, mezőgazdasági alföldekkel, az ország közepén végigfutó hegyes vulkánokkal, valamint elszórtan sűrű esőerdőkkel.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-gNL6
+Costa Ricában a piros taxi a megszokott.
+MEGJEGYZÉS: Panamában sárga taxik járnak.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-gY2v
+Az Imperial sör reklámjai a **fekete sas kabalafigurával** gyakori látványt jelentenek Costa Ricában.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-h4cR
+Mexikóhoz, Panamához és Guatemalához hasonlóan a Costa Rica-i stoptáblákon az **„ALTO”** szó szerepel.
+MEGJEGYZÉS: A [panamai](https://goo.gl/maps/LaAjCE36HSZziiCg8) stoptáblák vastagabb betűtípust használnak. Ezenkívül a spanyol nyelvű Latin-Amerika többi részén „PARE” áll rajtuk.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-iRIo
+Costa Rica **hosszú ezüst szigetelőket** használ.
+MEGJEGYZÉS: Panama sokféle szigetelőt használ, köztük szintén [hosszú ezüstöt](https://maps.app.goo.gl/fVdRraxxpbLSgzWdA), de használ [rövid ezüstöt](https://maps.app.goo.gl/15arUFZ8Zi7XbEii7), [hosszú feketét](https://maps.app.goo.gl/Ch37q5EZoLi7Xe9z9), [ufó](https://maps.app.goo.gl/GbzUD5YTpd9RXAb27) és [fehér gomba](https://maps.app.goo.gl/2fAxTEEveNTe6Pdd9) alakút is. Ezenkívül Brazíliában is lehet hosszú ezüst szigetelő. Végül Ecuador ufó és gomba alakú szigetelőket használ.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-iWum
+Latin-Amerika nagy részéhez hasonlóan Costa Rica hivatalos nyelve a **spanyol**.
+MEGJEGYZÉS: Brazíliában portugálul beszélnek.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-m8UD
+A Costa Rica-i rendszámtáblák jellemzően rövidek és fehérek, **kék felirattal**, amitől a kitakaráson át világoskékes árnyalatot kapnak.
+
+# Costa Rica / Identifying Costa Rica
+@ costa-rica-sTF8
+Costa Rica 4. generációs felvételeit egy nagy **fehér pickup** készítette. Sok helyszínen teljesen vagy részben látszik, de időnként teljesen ki is takarhatják. Az autó elejére antenna van szerelve.
+MEGJEGYZÉS: A panamai teherautó szinte mindig [teljesen ki van takarva](https://maps.app.goo.gl/SXjYfDTrfFwZTWLs8). Az [Ecuadorban](https://maps.app.goo.gl/dSweUPGTkgTasq9B7) használt teherautónak nincs antennája.
+
+# Curaçao / Identifying Curaçao
+@ curacao-9ndl
+Curaçao félszáraz éghajlata miatt gyakran látni **kaktuszokat**.
+
+# Curaçao / Identifying Curaçao
+@ curacao-C1Qn
+A **sárga táblatartó oszlopok** tetejére szerelt kék utcanévtáblák gyakoriak Curaçaón.
+
+# Curaçao / Identifying Curaçao
+@ curacao-IcNc
+Curaçao négyzetes rendszámtáblákat használ, amelyek a kitakaráson át teljesen fehérnek látszanak.
+MEGJEGYZÉS: Bár az első rendszámtábla kötelező, egy [kisebbség](https://goo.gl/maps/rXKj6bBALkcMM5Cg9) így is elhagyja.
+
+# Curaçao / Identifying Curaçao
+@ curacao-Nchv
+Ez a **tetőcsomagtartós fekete autó** csak Curaçaón fordul elő.
+
+# Curaçao / Identifying Curaçao
+@ curacao-YPX7
+A városi környezetben **fehér-fekete** csíkos jelzőlámpaoszlopok láthatók.
+
+# Curaçao / Identifying Curaçao
+@ curacao-nT9Q
+Curaçao építészete jórészt **egyszerű, földszintes, pasztellszínű bungalókból** áll. A kisebb kalyibákon gyakori a fémtető, a drágább házakon cseréptető látható. Ezenkívül időnként többszintes villák is felbukkannak.
+
+# Curaçao / Identifying Curaçao
+@ curacao-wuzk
+Gyakoriak a **három vízszintes**, **váltakozó** szigetelővel ellátott faoszlopok.
+MEGJEGYZÉS: Ezek az oszlopfejek Brazíliában, Dél-Afrikában és Eswatiniben is megtalálhatók.
+
+# Curaçao / Identifying Curaçao
+@ curacao-zAfQ
+Az útjelző táblák színes kerete jellemzően a táblák hátoldalán is folytatódik. Ez általában piros vagy kék.
+
+# Christmas Island / Identifying Christmas Island
+@ christmas-island-SxJI
+A Karácsony-szigeten **sárga** rendszámtáblák vannak.
+
+# Christmas Island / Identifying Christmas Island
+@ christmas-island-XuYJ
+A Karácsony-sziget a szokásos **ausztrál terelőoszlopot** használja. Ez egy egyszerű fehér terelőoszlop, elöl piros, hátul szürke prizmával.
+MEGJEGYZÉS: Az úthálózati meták általában hasonlítanak az ausztrál szárazföldön találhatókra, például a [sebességkorlátozó táblák](https://goo.gl/maps/bMWYvWn1yBfSiWs29), a [zöld táblahátterek](https://goo.gl/maps/EDq64mntxxcKBnrk7) és így tovább.
+
+# Christmas Island / Identifying Christmas Island
+@ christmas-island-fsLu
+A Karácsony-szigeten kétféle felvétel van: autós felvétel és néhány trekker.
+Az autós felvételeket egyedi Google-jármű készítette: egy **ezüst pickup**, amelynek a platója látszik. Ez általában önmagában elég a Karácsony-sziget azonosításához.
+
+# Christmas Island / Identifying Christmas Island
+@ christmas-island-p6bw
+A Karácsony-sziget nagy részét sűrű **trópusi erdő** borítja. Néhány burkolatlan úton világos, fehér homokos talaj látható. A felvételek egy kis része beépített területen készült. Néhol [pálmafák](https://goo.gl/maps/wzh7z1FVTpBp32RM6) is láthatók.
+
+# Christmas Island / Identifying Christmas Island
+@ christmas-island-t2i9
+Bár a felvételek nagy része rendes utakon készült, a Google-autó néhány nagyon **vidéki földúton** is végighajtott.

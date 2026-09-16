@@ -1,4 +1,17 @@
+import { locale } from './i18n'
 import type { AnswerResult, GameMode, ImageStatus, Meta, Question, SessionInfo } from './types'
+
+/**
+ * Adds the language to a request.
+ *
+ * Country names, chapter headings and the clue explanations are all served in
+ * it, so every call that returns any of them carries it - the alternative
+ * would be shipping the guide's megabyte of prose to the browser.
+ */
+function withLang(params = new URLSearchParams()): string {
+  params.set('lang', locale.value)
+  return '?' + params.toString()
+}
 
 /** An error carrying the machine-readable code the backend sent along. */
 export class ApiError extends Error {
@@ -34,7 +47,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
-  meta: () => request<Meta>('/api/meta'),
+  meta: () => request<Meta>('/api/meta' + withLang()),
 
   /** Why an image did not arrive - an `<img>` tag cannot read the error body. */
   imageStatus: () => request<ImageStatus>('/api/image/status'),
@@ -53,15 +66,24 @@ export const api = {
     // backend ignores this there.
     params.set('scope', wholeGuide ? 'all' : 'core')
     return request<Question>(
-      '/api/game/sessions/' + encodeURIComponent(sessionId) + '/next?' + params.toString(),
+      '/api/game/sessions/' + encodeURIComponent(sessionId) + '/next' + withLang(params),
     )
   },
 
   answer: (sessionId: string, clueId: string, answer: string) =>
-    request<AnswerResult>('/api/game/sessions/' + encodeURIComponent(sessionId) + '/answer', {
-      method: 'POST',
-      body: JSON.stringify({ clueId, answer }),
-    }),
+    request<AnswerResult>(
+      '/api/game/sessions/' + encodeURIComponent(sessionId) + '/answer' + withLang(),
+      { method: 'POST', body: JSON.stringify({ clueId, answer }) },
+    ),
+
+  /**
+   * The verdict already on screen, re-worded in the current language. Grading
+   * clears the question server side, so the reveal cannot simply be re-asked.
+   */
+  lastAnswer: (sessionId: string) =>
+    request<AnswerResult>(
+      '/api/game/sessions/' + encodeURIComponent(sessionId) + '/answer' + withLang(),
+    ),
 
   /** Gives up on the current clue without scoring it. */
   skip: (sessionId: string) =>

@@ -1,0 +1,246 @@
+# United States of America / Regional and state-specific clues
+@ united-states-ir1O
+A leggyakoribb út menti terelőoszlop-típuson Dél-Dakotában és Montanában **fehér rombusz** alakú fényvisszaverő van felül.
+Montanában általában [1 csavar](https://maps.app.goo.gl/rpu2S7wW7cq7UCXV9) van a fényvisszaverőn, míg Dél-Dakotában általában 2.
+MEGJEGYZÉS: Ez gyakori kialakítás, és sok államban megtalálható. Ezenkívül a négyzetes terelőoszlopok az oldalukra fordítva rombusznak látszhatnak. Óvatosan használd.
+
+# United States of America / Regional and state-specific clues
+@ united-states-jDaH
+A leggyakoribb terelőoszlop-típuson Oregonban nagyon **hosszú, téglalap alakú fényvisszaverő** van felül.
+MEGJEGYZÉS: Hasonló [terelőoszlopok](https://maps.app.goo.gl/DTmzW8bgvgTMnHhf7) léteznek Kaliforniában.
+
+# United States of America / Regional and state-specific clues
+@ united-states-jFoS
+Az **Ouachita-hegység** Kelet-Oklahomától Nyugat-Közép-Arkansasig húzódik. A közeli Ozark-hegységgel ellentétben ezek a hegyek jellemzően meredekebbek, és messziről könnyebben láthatók.
+
+# United States of America / Regional and state-specific clues
+@ united-states-jNem
+Washington állam olyan terelőoszlopokat használ, amelyek [fehér](https://maps.app.goo.gl/JWXyCzVvNiAQ4NVV8) vagy [barna](https://maps.app.goo.gl/rCAieVzcSH1mrbST9) oszlopból állnak, a terelőoszlop elején fehér téglalappal, a hátulján pedig **két kisebb fehér vagy ezüst négyzettel**.
+
+# United States of America / Regional and state-specific clues
+@ united-states-jQ4N
+A **Nebraska Sandhills** felismerhető vidék hullámos dombokkal, amelyeket préri fű borít, az állam középső-északi részén.
+
+# United States of America / Regional and state-specific clues
+@ united-states-jWDu
+**Amerikai Szamoa** dél-csendes-óceáni szigetcsoport és be nem kebelezett amerikai terület.
+A Plonk It külön kalauza Amerikai Szamoáról [itt](https://www.plonkit.net/american-samoa) található.
+
+# United States of America / Spotlight
+@ united-states-kaMy
+A 19-es Interstate Arizonában Tucsontól a mexikói határig **kilométereket** használ a kijárati és távolságtáblákon. Ez az ország egyetlen része, amely mérföld helyett kilométert használ az autópályatáblákon.
+MEGJEGYZÉS: A sebességkorlátozó táblák ezen a területen továbbra is mérföld/órát használnak km/h helyett.
+
+# United States of America / Regional and state-specific clues
+@ united-states-kbLP
+A régebbi **háromszintes faházak**, amelyeket „[stacked triplex](https://en.wikipedia.org/wiki/Three-decker_(house))” néven is emlegetnek, nagyon gyakoriak az Északkelet városias területein. Leginkább New Yorkban, Connecticutban, Rhode Islanden és Massachusettsben elterjedtek.
+MEGJEGYZÉS: Ezek a háztípusok némileg gyakoriak [Atlanti-Kanada](https://maps.app.goo.gl/XKdZcqHCu2YhDXZp7) városaiban is.
+
+# United States of America / Spotlight
+@ united-states-lB5Q
+Dél-Florida mély déli része, Ft. Myers és Miami nagyvárosi térsége között, **sűrű, dzsungelszerű erdőket** tartalmaz, ahol kevés a lakos. Az ezeken a területeken áthaladó utak gyakran nagyon egyenesek és hosszúak.
+
+# United States of America / Regional and state-specific clues
+@ united-states-lESA
+A téglalap alakú **fehér** táblák néha láthatók a táblatartó oszlopokra erősítve a kereszteződésekben Pennsylvaniában. Felül a becsatlakozó állami út száma van kiírva.
+
+# United States of America / Regional and state-specific clues
+@ united-states-lgT6
+A Rio Grande-völgy Dél-Texasban **rendkívül sík**, és **cserjés fákat** meg mezőgazdasági táblákat tartalmaz. Ez a terület a mexikói Tamaulipas állammal határos.
+
+# United States of America / Regional and state-specific clues
+@ united-states-ljDv
+A **betonburkolat** a **szokásos utakon** sokkal gyakoribb Iowában, mint más államokban.
+Ne bízz benne, ha [híd](https://maps.app.goo.gl/7cicwiNr6GfHErhF9), [autópálya](https://maps.app.goo.gl/4h3ogNvAfu3HchU47), vagy [városban](https://goo.gl/maps/5EneE9SWMHBwooov8) van.
+
+# United States of America / Regional and state-specific clues
+@ united-states-mJxO
+A pueblo revival stílusú házak gyakran láthatók Új-Mexikóban. Jellemzően vályogból vagy téglából és betonból épülnek. **Lekerekített éleik** és **lapos tetejük** van, és általában homokbarna színűek.
+MEGJEGYZÉS: A pueblo stílusú házak kisebb mértékben Arizonában és Coloradóban is láthatók.
+
+# United States of America / Regional and state-specific clues
+@ united-states-mVMG
+A barnakő épületek jellemzően sorházak vagy kormányzati épületek, amelyek különféle **tégla-** és **homokkő**típusokból készültek. Leggyakrabban az Egyesült Államok északkeleti részének sűrű városias területein, valamint Chicagóban találhatók.
+
+# United States of America / Spotlight
+@ united-states-ntS3
+A „**Publix**” regionális szupermarketlánc, amelynek helyszínei elsősorban Floridában és a Mély-Dél szomszédos területein vannak.
+
+# United States of America / Regional and state-specific clues
+@ united-states-oxdW
+Néhány kis úton Kaliforniában és Kentuckyban **nincs sárga középvonal**; helyette csak folytonos fehér vonalak vannak az út mindkét oldalán.
+MEGJEGYZÉS: Ez ritkán más [államokban](https://maps.app.goo.gl/dJTjThBAHowKFxd59) is látható.
+
+# United States of America / Spotlight
+@ united-states-qWZp
+A „**Shoprite**” regionális szupermarketlánc, amelynek helyszínei az Egyesült Államok északkeleti és közép-atlanti vidékén, 6 államban vannak: Connecticutban, New Yorkban, New Jerseyben, Pennsylvaniában, Delaware-ben és Marylandben.
+
+# United States of America / Spotlight
+@ united-states-rLEY
+Wyoming messzi északkeleti részén fekszik a Devil's Tower, amely egy **nagyon magas, magányos tanúhegy**, amely kiemelkedik a környező földből. Néha sok mérföldről is látható, mivel a közelben nincsenek hegyek.
+
+# United States of America / Regional and state-specific clues
+@ united-states-rPvm
+A **rizs**termesztés csak az Egyesült Államok néhány területén folyik, ezért nagyon hasznos a régiótippeléshez. Jellemzően nagy, sík táblákon termesztik, amelyek alacsony prérire emlékeztetnek. Csak Kalifornia északi-középső részén és az Alsó-Mississippi folyóvölgyében termesztik Arkansasban, Louisianában, Texasban és Mississippiben. Részletesebb térképért kattints [ide](https://ipad.fas.usda.gov/rssiws/al/crop_production_maps/US/USA_Rice.png).
+MEGJEGYZÉS: Amikor a rizs még nem teljesen fejlett, a rizsföldek gyakran [ehhez](https://maps.app.goo.gl/e5TVrT3jBQg4Mgrb7) hasonlóan néznek ki.
+
+# United States of America / Regional and state-specific clues
+@ united-states-rRBK
+A simafenyőnek (_Pinus strobus_) **vízszintesen rétegzett ágai** vannak, amelyek a végükön fokozatosan felfelé ívelnek, ami meglehetősen kecses megjelenést kölcsönöz a fának. Gyakoriak Új-Angliában, az északi Középnyugaton a Nagy-tavak közelében, valamint az Appalache-hegységben.
+MEGJEGYZÉS: Kelet-Kanadában is megtalálhatók.
+
+# United States of America / Regional and state-specific clues
+@ united-states-rZEx
+A szaguárókaktuszok leggyakrabban **magas, egyenes csövek** alakúak, a főcsőből kinyúló **több ággal**. Leggyakrabban Arizona déli részén, a sonorai határon találhatók.
+
+# United States of America / Spotlight
+@ united-states-ri5Z
+A „**Waffle House**” éttermlánc regionális lánc, amely elsősorban az Egyesült Államok déli és délkeleti részén található. Néhány középnyugati és közép-atlanti államban is vannak helyszínei. Messze Georgia az az állam, ahol a legtöbb Waffle House helyszín van.
+
+# United States of America / Regional and state-specific clues
+@ united-states-rwXR
+Ezek a **téglalap alakú, kiemelt útburkolati jelzések** az Egyesült Államok déli és nyugati részén, valamint Massachusettsben találhatók.
+
+# United States of America / Regional and state-specific clues
+@ united-states-rxbf
+A **vörös fémtetős** épületek leggyakrabban a Közép-Dél és Dél-Appalácsia államaiban találhatók: Virginiában, Nyugat-Virginiában, Ohióban, Kentuckyban, Tennessee-ben, Arkansasban és Észak-Karolinában.
+MEGJEGYZÉS: Ezek a tetőtípusok más területeken is megtalálhatók, ezért használj más nyomokat is a tippelés előtt.
+
+# United States of America / Regional and state-specific clues
+@ united-states-tH7v
+Az a terelőoszlop, amely **fekete téglalap alakú fényvisszaverő** tetején lévő **fehér négyzetes fényvisszaverőből** áll, kizárólag Utahra jellemző.
+
+# United States of America / Spotlight
+@ united-states-tLW4
+A Dry Tortugas Nemzeti Park fő szigete, Key Westtől nyugatra, a **hatszögletű téglaépítményről** és a körülötte lévő várárokról azonosítható.
+A Loggerhead világítótorony, amely a Loggerhead Keyen áll, felül barna, alul fehér. Az ösvény, amelyen a trekker halad, szintén világos betonból készült, és sok pálmafa látható a világítótorony körül.
+
+# United States of America / Regional and state-specific clues
+@ united-states-tVFe
+Kalifornia nagy részén a villanyoszlopok alján olyan jelzések vannak, amelyek **3 sárga csíkból** állnak. A fő kivételek az állam északkeleti részén fekvő Modoc megye és Lassen megye.
+Ez a kialakítás megtalálható az oregoni [Grants Pass](https://maps.app.goo.gl/NQuKzUpPAgSQFZos6) városában is.
+
+# United States of America / Regional and state-specific clues
+@ united-states-tzrp
+Az Alsó-Mississippi folyóvölgye **nagyon sík** és nyílt táj **vörös talajjal** Tennessee, Arkansas, Mississippi és Északkelet-Louisiana területein. A kukorica és más termények gyakoriak ezen a területen.
+
+# United States of America / Regional and state-specific clues
+@ united-states-uWKN
+Az appalache-i területen, amely New York déli részétől Virginia déli részéig húzódik, sok erdővel borított hullámos domb van, amelyeket **sík völgyek** választanak el. A gerincek többsége délnyugat–északkeleti irányú.
+
+# United States of America / Regional and state-specific clues
+@ united-states-v4sG
+A **mezőgazdasági aranyszínű táblák** gyakran láthatók Washington keleti részén.
+MEGJEGYZÉS: Oregon északi és keleti részének sík területei hasonló megjelenésűek lehetnek.
+
+# United States of America / Regional and state-specific clues
+@ united-states-vhEL
+A fent említett cölöpházakhoz hasonló stílusban a sokkal alacsonyabb cölöpökkel rendelkező házak gyakoriak a nyugati és középső Öböl-parton. Ezeken a házakon jellemzően betonból vagy fából készült alacsony cölöpök vannak (**0,3–1 méterrel a talaj fölött**), és elsősorban a part és a közeli folyók közelében fekvő területeken találhatók.
+
+# United States of America / Regional and state-specific clues
+@ united-states-wGfP
+A táblatartó oszlopokra erősített **fehér táblák** gyakran láthatók Észak-Karolinában.
+
+# United States of America / Regional and state-specific clues
+@ united-states-wJ5Q
+A legtöbb államnak egyedi, jellegzetes és megtanulható [Adopt-a-Highway](https://en.wikipedia.org/wiki/Adopt-a-Highway) táblái vannak, amelyek az utak szélén láthatók. Ezek térképe itt látható. Ne feledd, néhány államban kisebb eltérések vannak a kialakításban.
+_A képre kattintva kinagyíthatod._
+
+# United States of America / Regional and state-specific clues
+@ united-states-xDsS
+A tömjénfenyő (Pinus taeda) és a mocsári fenyő (Pinus palustris), amelyeket a közösségben gyakran **déli fenyők** néven emlegetnek, az Egyesült Államok délkeleti részén mindenütt megtalálhatók. Kiváló módot adnak e vidék felismerésére, mivel bőségesek, felismerhetők, és többnyire az ország ezen részére korlátozódnak. Általában magasak, bolyhosnak látszó fenyőtűcsomókkal.
+
+# United States of America / Regional and state-specific clues
+@ united-states-y54R
+Ez a terelőoszlop **Nevadában** található. Egy vékony karón lévő fényvisszaverőből áll. A fényvisszaverő függőleges téglalap, amely fehér mezőből áll, fekete kerettel körülvéve.
+
+# United States of America / Regional and state-specific clues
+@ united-states-yWN6
+Ez az összefüggő Egyesült Államok **erdősűrűségi térképe**. Az ország keleti és északi vidékein jellemzően sokkal sűrűbb a fatakaró, mint a nyugati és délnyugati vidékeken.
+_A képre kattintva kinagyíthatod._
+
+# Alaska / Region-specific clues
+@ alaska-1Olq
+A **4. generációs** felvétel Alaszkában **Anchorage** városa körül összpontosul.
+
+# Alaska / Spotlight
+@ alaska-9qqo
+Prudhoe Bay, Amerika legészakibb települése, amelyről Street View-felvétel van, a **hideg, élettelen** tájról, a borús felhőkről és a magas épületek hiányáról ismerhető fel. Néha egy második Google-autó is látható.
+
+# Alaska / Spotlight
+@ alaska-Cyms
+Az 5-ös főút a yukoni határtól Tetlin Junctionig a **ködös, esős** időjárásról és a 2. generációs kameráról ismerhető fel.
+MEGJEGYZÉS: A Top of the World Highway a kanadai oldalon szintén hasonló időjárású, de többnyire burkolt, és nincsenek szélső vonalai, ellentétben az amerikai oldallal, amely csak Chickentől nyugatra burkolt, és vannak szélső vonalai.
+
+# Alaska / Spotlight
+@ alaska-DnwM
+[Nome](https://goo.gl/maps/efqLHvNVtEK2fGPNA), [Unalakleet](https://goo.gl/maps/1DYUKxvbEs7sR17v5) és [Galena](https://goo.gl/maps/aX2axEUDjqNexfiR6) három elszigetelt alaszkai település, amelyekről csak trekkeres felvétel van. A trekker **lime-zöld kalapja** vagy [fekete-fehér kötött sapkája](https://goo.gl/maps/V28pqftM9fbJ8Qwo6) látható.
+MEGJEGYZÉS: A trekker fekete-fehér kendője kizárólag Nome-ban látható.
+
+# Alaska / Spotlight
+@ alaska-IDWK
+Az anchorage-i tűzcsapok jellemzően **halványrózsaszín** vagy **halványsárga** színűek.
+
+# Alaska / Spotlight
+@ alaska-MBny
+A Steese Highway egy másik murvás főút, amely Fairbankstől a „Central” nevű településig vezet. A Denali Highwayhez hasonlóan ez az út is nagyjából kelet–nyugati irányban halad, és 2. generációs felvétel van róla. A különbség azonban az, hogy az út menti **hegyek** észrevehetően **alacsonyabbak**, mint a Denali Highway mellettiek.
+
+# Alaska / Spotlight
+@ alaska-MD84
+A Denali Highway, amely Cantwelltől Paxsonig húzódik Közép-Alaszkában, jórészt **murvás főút** az „Alaszka” hegyvonulatban. Ez az út nagyjából kelet–nyugati irányban halad, 2. generációs kamerával készült róla felvétel, méghozzá késő nyáron, ezért a vadvirágok és a zöld cserjés növények gyakoriak.
+
+# Alaska / Spotlight
+@ alaska-MbP1
+**Juneau**, Alaszka fővárosa, a legnagyobb település az alaszkai nyúlványban. Ezért sokkal „beépítettebb”, mint az ezen a területen lévő más települések. A várost sűrűn erdős hegyek és dombok veszik körül.
+
+# Alaska / Region-specific clues
+@ alaska-S3bK
+Alaszka belső és északi részének nagy része szubarktikus vagy **tundra** éghajlati övben fekszik. Ezeken a területeken viszonylag kevés az [erdei aljnövényzet](https://maps.app.goo.gl/mFe2xNzxYnqgY5Af6), és [alacsonyabbak a fák](https://maps.app.goo.gl/oaa8n8a7AbYVj7YSA).
+
+# Alaska / Region-specific clues
+@ alaska-SXUe
+Alaszka egyetlen két jelentős **városias területe** Anchorage és [Fairbanks](https://maps.app.goo.gl/kGD8vrgWHiQVVy73A).
+
+# Alaska / Region-specific clues
+@ alaska-TQHg
+Az alaszkai települések az Alexander-szigetvilágban, a Brit Columbiával közös határon egyedi megjelenésűek. A háttérben magas hegyek láthatók **buja zöld erdőkkel**, és az épületek többsége fából készült. Ezenkívül a [2. generációs](https://goo.gl/maps/YU3fykwkkhwSeihP8) felvétel gyakran borús és párás.
+MEGJEGYZÉS: [Oregon](https://goo.gl/maps/JUuhjUojP42eQrsF7) és [Washington](https://goo.gl/maps/LikUSJBshaMjidcK6) part menti területei táj és növényzet tekintetében hasonló megjelenésűek lehetnek.
+
+# Alaska / Spotlight
+@ alaska-VTst
+A Dalton Highway északi vége **sík** és **havas tájat**, valamint borús eget tartalmaz. Egy [kis dombgerinc](https://goo.gl/maps/fNWJxvvpz1Jzwjs89) látható a főúttól nyugatra bizonyos pontokon.
+
+# Alaska / Region-specific clues
+@ alaska-iRys
+Alaszka **külvárosi területeinek** nagy része Anchorage-ban és környékén van. Ezeken a területeken széles utak, kereskedelmi negyedek és néha nagy forgalom található. A távolban gyakran láthatók hegyek.
+MEGJEGYZÉS: Fairbanksben vannak [hasonló területek](https://maps.app.goo.gl/y5zA5uE8KjngyPVV8), de a hegyek kevésbé elterjedtek.
+
+# Alaska / Region-specific clues
+@ alaska-j6hw
+Az **alaszkai kőolajvezeték**, amely általában látható a főutakról, ezeken a pontokon látható. Ez egyszerű módja Alaszka azonosításának, mivel az Egyesült Államok többi részén nincsenek hasonló vezetékek.
+
+# Alaska / Region-specific clues
+@ alaska-mAUK
+A **rezgőnyárfák** ([Populus tremuloides](https://en.wikipedia.org/wiki/Populus_tremuloides)) Alaszka belső és déli-középső vidékeinek alacsonyabban fekvő területein találhatók. Ezeknek a fáknak fehér kérgük és lekerekített leveleik vannak.
+
+# Alaska / Region-specific clues
+@ alaska-tYxw
+Alaszka nagyon hideg éghajlata miatt a **mezőgazdasági táblák** főként az állam déli részén találhatók, többnyire a Matanuska-völgyben és a Kenai-félszigeten.
+
+# Alaska / Spotlight
+@ alaska-v4UX
+A **shitcam** kizárólag Anchorage és Fairbanks környékén, valamint az őket összekötő út egyes részein található.
+MEGJEGYZÉS: Ez a térkép minden olyan helyet mutat, ahol ez a kamera megtalálható. Ne feledd, hogy a felvételt egyes helyeken frissíthették, ezért előfordulhat, hogy szokásos felvétellel találkozol az itt kiemelt helyeken.
+
+# Alaska / Spotlight
+@ alaska-wvid
+A fairbanksi tűzcsapok gyakran vagy **élénksárgák**, vagy **több szín kombinációját** használják (leggyakrabban [sárga és kék](https://maps.app.goo.gl/akUtjiVdnQMo9emy6)).
+
+# Hawaii / Regional clues
+@ hawaii-28eK
+Kauaʻi szigete a legnyugatibb sziget Hawaiion, amelyről hivatalos Google-felvétel van. Ezen a szigeten mélyvörös talaj és nagy, **zord dombok** vannak buja, dzsungelszerű növényzettel.
+MEGJEGYZÉS: Más szigeteken, például Mauin és Molokaʻin hasonló a talaj színe, de az ottani domboldalakon jellemzően [kevésbé sűrű a növényzet](https://maps.app.goo.gl/D3FK2TyPBcA4LpPZ7).
+
+# Hawaii / Spotlight
+@ hawaii-5JxK
+Kahoʻolawe kis sziget, amely közvetlenül Mauitól délnyugatra fekszik. Csak **trekkeres** felvétel van róla apró murvás utakon és földösvényeken, és száraz, cserjés növényzet, hullámos dombok és **sötétvörös talaj** jellemzi. Ennek a felvételnek a nyugati végén [több épület](https://maps.app.goo.gl/YWKLmJiGrmEtBHTk9) látható.

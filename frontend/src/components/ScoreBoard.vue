@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { t } from '../i18n'
 import type { Stats } from '../types'
 
 defineProps<{ stats: Stats }>()
@@ -6,26 +7,26 @@ defineProps<{ stats: Stats }>()
 
 <template>
   <!-- Deliberately a thin strip: the vertical space belongs to the clue. -->
-  <section class="scores" aria-label="Score">
+  <section class="scores" :aria-label="t.scores.label">
     <div class="score score--right">
       <span class="score__value">{{ stats.correct }}</span>
-      <span class="score__label">Right</span>
+      <span class="score__label">{{ t.scores.right }}</span>
     </div>
     <div class="score score--wrong">
       <span class="score__value">{{ stats.wrong }}</span>
-      <span class="score__label">Wrong</span>
+      <span class="score__label">{{ t.scores.wrong }}</span>
     </div>
     <div class="score">
       <span class="score__value">{{ stats.accuracy }}<small>%</small></span>
-      <span class="score__label">Accuracy</span>
+      <span class="score__label">{{ t.scores.accuracy }}</span>
     </div>
     <div class="score">
       <span class="score__value">{{ stats.streak }}</span>
-      <span class="score__label">Streak</span>
+      <span class="score__label">{{ t.scores.streak }}</span>
     </div>
     <div class="score score--muted">
       <span class="score__value">{{ stats.bestStreak }}</span>
-      <span class="score__label">Best streak</span>
+      <span class="score__label">{{ t.scores.bestStreak }}</span>
     </div>
   </section>
 </template>

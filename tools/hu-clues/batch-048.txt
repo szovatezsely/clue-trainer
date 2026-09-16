@@ -1,0 +1,303 @@
+# Indonesia / Regional and province-specific clues
+@ indonesia-69xY
+A műholdvevő tányérok segíthetnek eldönteni, hogy az **Egyenlítőtől** északra vagy délre vagy-e. Ha például a tányér északra néz, akkor nagy valószínűséggel attól délre vagy, és fordítva. Ezenkívül általában Nyugat-Kalimantan középső része felé néznek. Így a szögük alapján megállapíthatod, Indonézia melyik oldalán vagy. Végül a tányér szöge azt is elárulhatja, milyen messze vagy az Egyenlítőtől.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-8gpa
+A **3. generációs antennás** felvétel leggyakrabban Jáván található, de nagyon ritkán Balin, Denpasarban és környékén is látható. Leggyakrabban Kelet-Jáván fordul elő, mivel a nyugati antennás felvételek nagy részét felülírta a 4. generáció.
+
+# Indonesia / Spotlight
+@ indonesia-8rxH
+Egy **fehér** terepjáró fekete rudakkal és a tetején egy fadeszkával ritkán látható Kelet-Balin.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-C0wR
+Ezek a festett kerítések jellemzően Sulawesin találhatók. Többnyire fehérre vannak festve kékkel vagy pirossal.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-E9E9
+Indonéziában kétféle oszlopfej használatos: [**egyenletes**](https://goo.gl/maps/DBHoERAvYjR6zQbk8) és [**egyenetlen**](https://goo.gl/maps/i1CUqRxZzPzgqZ9p7). Ez arra a rúdra vonatkozik, amely a szigetelőket tartja, és arra, hogy szimmetrikus-e magára az oszlopra nézve. Hasznos tudni, hol fordulnak elő leggyakrabban az egyenletes és az egyenetlen oszlopok, ha régióra tippelsz.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-EKlp
+Az észak- és közép-sulawesi, valamint gorontalói oszlopfejeken gyakran van egy **extra kiegészítő** közvetlenül a vízszintes rúd alatt.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-H5BA
+A vízszintes rúd alatt **háromszög alakú kiegészítővel** ellátott oszlopokat a következő vidékeken találod.
+MEGJEGYZÉS: Ez nem vonatkozik az [egymásra épített oszlopokra](https://goo.gl/maps/qmeRHfBzabUpZ8uu5).
+
+# Indonesia / Spotlight
+@ indonesia-H5zf
+A pálmalevélből készült, **meredek hajlásszögű** tetők néha láthatók Nias szigetén, Észak-Szumátrától délnyugatra.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-Hl5V
+Közép-Sulawesi keleti félszigetének közelében gyakran láthatsz vékony, fekete oszlopokat a szokásos oszlopok mellett. Az oszlopok teteje közelében két darab szalag látható, általában **világoskék és zöld**. Ezek ritkán Délkelet-Sulawesi északi részén is előfordulnak.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-HsTd
+Az **A betű alakú megtámasztással** ellátott oszlopok gyakoriak Kalimantanon és a Nusa-szigeteken.
+MEGJEGYZÉS: A-vázas oszlopok bárhol előfordulhatnak, ahol az elektromos vezetékek kanyarodnak, és extra megtámasztásra van szükség. Óvatosan használd ezt a tippet.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-K7j1
+A rizstermelés nagy része **Jáván** összpontosul, de néha más tartományokban, nevezetesen Dél-Sulawesin és Dél-Szumátrán is megtalálható. Ritkán más tartományokban is előfordulhat. A teljes áttekintéshez lásd [ezt az oldalt](https://www.fas.usda.gov/data/production/id).
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-Lrxl
+Észak-Szumátrán hasonlóan jellegzetes **hajó alakú** tetők találhatók, ezek azonban **kevésbé emelkednek** felfelé, és nincs rajtuk tornyocska.
+MEGJEGYZÉS: Ezek a tetők leggyakrabban a Toba-tó közelében találhatók, a tó szent múltja miatt.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-PPGB
+A **háromágú szigony** stílusú oszlopfejek leggyakrabban **Közép-Jáván** és Yogyakartában találhatók, ritkán pedig Dél- és Nyugat-Kalimantanon, valamint Észak-Szumátrán és Riauban.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-QclR
+Sok címen megtalálhatod a kiírt **égtájakat**. Ezek a következők:
+- észak = Utara
+- kelet = Timur
+- dél = Selatan
+- nyugat = Barat
+- közép = Tengah
+- délkelet = Tenggara
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-UJod
+Dél-Sulawesi egy kis vidékén, Rante Pao városa körül ezek a nagyon egyedi, [Tongkonan](https://en.wikipedia.org/wiki/Tongkonan) nevű házak találhatók, amelyeknek **nyeregszerű tetejük** van. Maguk a házak emellett **fel vannak emelve a talajról**.
+
+# Indonesia / Spotlight
+@ indonesia-VrBB
+Dél-Kalimantan keleti részén ezek a **karsztképződmények** találhatók, különösen a Kelet-Kalimantanba vezető főút mentén.
+MEGJEGYZÉS: Hasonló karsztképződmények leggyakrabban Dél-Sulawesin és Nyugat-Szumátrán találhatók.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-W7JT
+Közép-Sulawesin ezek az egyedi terelőoszlopok találhatók, amelyek alul **feketére**, középen **fehérre**, felül pedig **sárgára** vannak festve.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-WGZd
+A másodszintű közigazgatási egységek nevei, amelyeket **„Kabupaten”**-nek vagy röviden **„Kab”**-nak hívnak (magyarul kb. járás), Indonézia-szerte megtalálhatók különféle táblákon és hirdetőtáblákon. Minden tartomány több Kabupatenre oszlik, összesen 417-re, amelyekről van Street View-felvétel, így a GeoGuessrben is számításba jönnek. Elég idővel és türelemmel ezek megtanulhatók.
+_További információért lásd a források részt._
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-YrUA
+Ezek az oszlopok szinte kizárólag Észak-Szumátrára jellemzők. A szigetelőket tartó rúd **egyenletes**, de **egyenetlenül** vannak rajta a szigetelők: egy az egyik oldalon, kettő a másikon.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-a0Zq
+Ezek a **vízszintes rések** a tetők **háromszögeiben** szinte kizárólag Dél-Sulawesire jellemzők.
+MEGJEGYZÉS: Ritkán Kelet-Kalimantanon és Nyugat-Nusában is előfordulhatnak.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-b5h6
+A Nusa-szigetek **szárazabbak**, mint Indonézia más vidékei. A növényzet általában kevésbé trópusinak látszik, inkább alacsonyabb és bokrosabb.
+MEGJEGYZÉS: Bár ritkábban, más vidékek, például Jáva is hasonlóan száraznak tűnhetnek. Mindenképp keress más nyomokat is, mielőtt tippelsz.
+
+# Indonesia / Spotlight
+@ indonesia-bXHT
+Ez a kamerahiba, amely a **moarémintára** emlékeztet, Közép-Kalimantan-szerte előfordul.
+_A képre kattintva tisztábban láthatod._
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-bas1
+Kalimantanon megtalálhatod ezeket az egyedi, **fazsindelyből** készült tetőket.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-dZoK
+Nyugat-Szumátrán ezek a jellegzetes **hajó alakú** tetők találhatók.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-dZp8
+A mindkét oldalán **behúzással** rendelkező oszlopok Nyugat-Jáván, Jakartában és Bantenben találhatók.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-dxow
+Indonézián belül az olajpálma-ültetvények többnyire **Szumátrán** és **Kalimantanon** összpontosulnak. Pálmaültetvények ritkán Sulawesin is láthatók.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-hYSj
+A Kis-Szunda-szigeteken („Nusák”) olyan oszlopokat találsz, amelyeknek az oszlopfején **különösen hosszú megtámasztás** van. Néha [két megtámasztás](https://goo.gl/maps/TqHWQVDtBYiexALq9) is lehet.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-hewR
+A rúd alatt **2 megtámasztással** rendelkező **aszimmetrikus oszlopok** főként Szumátrán és Sulawesi déli részén fordulnak elő. Kalimantanon vagy Jáván nem gyakoriak.
+
+# Indonesia / Spotlight
+@ indonesia-hhbb
+Az észak-szumátrai **Toba-tó** környéke a tavat körülvevő hegyekről és a közepén fekvő Samosir-szigetről ismerhető fel. A borús felvétel szintén gyakori ezen a vidéken.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-iDjC
+Az **oromszarvakkal** ellátott tetők leggyakrabban [Dél-Sulawesin](https://maps.app.goo.gl/THNEUGSHTyvnPqjn8), [Riauban](https://maps.app.goo.gl/5JbZ5ryhrAygBQDB9), valamint [Közép- és Dél-](https://goo.gl/maps/6JtUHKh3dccA8cvw6)Kalimantanon találhatók.
+MEGJEGYZÉS: A szarvas tetők Dél-Sulawesin gyakran bugis tetőkkel együtt fordulnak elő. Használd ezt a tippet más nyomokkal együtt annak eldöntéséhez, melyik vidéken vagy.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-l5TB
+A **nagyon lekerekített zöld dombok**, amelyeket jellemzően pálmacsoportok, cukornád vagy kukorica borít, rendkívül gyakoriak Gorontalo tartományban.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-p091
+A vörös talaj **tetején fehér talajréteggel** leggyakrabban a Bangka-Belitung-szigeteken található. Ezeken a szigeteken a fehér talaj gyakran ráfolyik az útra.
+
+# Indonesia / Spotlight
+@ indonesia-qYf4
+A Palu-öböl egy jellegzetes, enyhén északnyugat felé néző öböl közvetlenül Palu városától északra, amelynek az öböltől **nyugatra** hegyek, **keletre** pedig sík, városiasabb táj található.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-r8SA
+A **bali építészet** azért egyedi, mert a régi balinéz kultúra és a hinduizmus hatott rá. A legfontosabb, amit keresned kell, ezek a [koronaszerű tetődíszek](https://goo.gl/maps/9v5HBGbiGDczWKYn7), amelyek Bali-szerte mindenütt megtalálhatók. Az [őrzőszobrok](https://goo.gl/maps/CB1pcgrABdjsc3Y88) és a [hasított dobos tornyok](https://goo.gl/maps/xPNMsB3rqDjjWZi39) szintén gyakoriak. Az andezit, egy sötét vulkáni kőzet, gyakori építőanyag Balin. Gyakran láthatsz ebből az anyagból épült [kapukat](https://goo.gl/maps/StCdo1UxpSMXfA388), [falakat](https://goo.gl/maps/KF7GweCfsicZyQpN7) és más [aprólékosan faragott díszeket](https://goo.gl/maps/9DHCZvKStsqSXG8RA).
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-rHW9
+Megtalálhatod ezt a **téglalap alakú** kiegészítőt az oszlopfejeken, amely többnyire kizárólag Balira jellemző. A Kis-Szunda-szigeteki [tartógerendával](https://goo.gl/maps/2tNeMhvSXphqn48V7) együtt is előfordul.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-xYgP
+Megtalálhatod ezeket a jellegzetes, egyedien **meredek csúcsú** tetőket Sumbán.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-xaSG
+A cseréptetők leggyakrabban **Jáva** szigetén találhatók, néha pedig a közeli vidékeken, például Dél-Szumátrán, a Kis-Szunda-szigeteken és Dél-Kalimantanon.
+MEGJEGYZÉS: A dél-kalimantani és jambi tetőkön a cserép [kissé másképp](https://goo.gl/maps/BpZ43LPt2nDBJrHD9) néz ki. A cserepek általában kevésbé lekerekítettek, inkább laposak.
+
+# Indonesia / Regional and province-specific clues
+@ indonesia-yzpd
+Azok az oszlopok, amelyeknél a **kereszttartó lapos része elfelé néz** az oszloptól, gyakoriak Sulawesin.
+MEGJEGYZÉS: Indonéziában az oszlopoknál általában a kereszttartó lapos része [az oszlophoz van rögzítve](https://maps.app.goo.gl/NRULcr17wky2Wskq9).
+
+# Ireland / Regional and county-specific clues
+@ ireland-0oal
+Keleten az egyik említésre méltó terület a **Wicklow-hegység**, közvetlenül Dublintól délre. Megtévesztően hasonlíthat a nyugati parti hegyekre. Nagyon nehéz, ha nem egyenesen lehetetlen megkülönböztetni ezt a két területet.
+Két dologra érdemes figyelni:
+- A Wicklow-hegységből soha nem látod a tengerpartot.
+- Donegalhoz hasonlóan a kis útjait többnyire 4. generációs felvétel fedi, nem pedig a 2. generáció, amely a nyugati kis utakra jellemzőbb.
+
+# Ireland / Regional and county-specific clues
+@ ireland-2Zr0
+Írország nyugati partját **zord, dombos táj** határozza meg. Meredek dombok és alacsony hegyek uralják. A keleti rész rendezett szántói vad fű- és lápvidéknek adják át a helyüket. A fű gyakran barnásabb és sárgásabb árnyalatú. Néha kibukkanó sziklákat is láthatsz.
+
+# Ireland / Regional and county-specific clues
+@ ireland-5rT8
+Az ír telefonszámok kétjegyű **körzetszámmal** kezdődnek. A körzetszámok az első számjegy szerint földrajzilag csoportosulnak, ezért nagyon jól megtanulhatók.
+
+# Ireland / Regional and county-specific clues
+@ ireland-N93o
+Az ír **regionális utak** háromjegyű útszámmal rendelkeznek. Ezen útszámok első számjegye megadja az országon belüli nagyjábóli vidéket (lásd az infografikát).
+Jó emlékeztető az egyes vidékek durva elhelyezkedéséhez: a számok az óramutató járásával ellentétesen haladnak körbe a szigeten, Dublinból indulva.
+Két fontos megjegyzés:
+- Az egyes vidékek határainál van némi átfedés a számok között, és van néhány ritka kivétel is.
+- A 8-cal vagy 9-cel kezdődő utak újabb utak, amelyek többnyire nem korlátozódnak egy adott vidékre (bár a 8-asok mintegy fele a dublini agglomerációban van).
+
+# Ireland / Spotlight
+@ ireland-R9jd
+Cork viszonylag egyedi abban, hogy lényegesen **dombosabb**, mint a többi nagy ír város.
+
+# Ireland / Regional and county-specific clues
+@ ireland-SSZH
+Kelet-Írország nagy részének és Északnyugat egyes részeinek felvételét egy 4. generációs kamerával felszerelt elektromos jármű készítette. **Az elektromos autó hátulja látható** ezeken a felvételeken: szürke, fekete félkörrel.
+Vedd figyelembe, hogy Dublinban és környékén nem minden 4. generációs felvétel készült ezzel az autóval. Jelentős részén továbbra is a szokásos kék 4. generációs autó látható.
+
+# Ireland / Spotlight
+@ ireland-Y78L
+A Burren Nemzeti Park és környéke egyedi [karsztos tájról](https://en.wikipedia.org/wiki/Karst) ismerhető fel, amelyet **kibukkanó szürke mészkősziklák** alkotnak.
+
+# Ireland / Spotlight
+@ ireland-k4AI
+Sligo és Leitrim megye északi részén jellegzetes **asztalhegyeket** találsz.
+Vedd figyelembe, hogy a képen látható hegyek csak példák, ezen a vidéken sok hegynek hasonló az alakja.
+
+# Ireland / Regional and county-specific clues
+@ ireland-wmsQ
+Ha egy nagyon kis vidéki úton **4. generációs** felvétel van, és szokatlanul **dombos** tájban fekszik, valószínűleg Donegalban vagy.
+Vedd figyelembe, hogy ez a meta csak a legkisebb utakra vonatkozik: keskeny, útburkolati jelek nélküli, néha középen fűvel benőtt utakra. Ez a felvételtípus emellett nem kizárólag Donegalra jellemző, csak valószínű, hogy ott vagy.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-0SY5
+Azok a kék házszámok, amelyeken a szám bal felül [arab számokkal](https://en.wikipedia.org/wiki/Arabic_numerals), jobb alul pedig [keleti arab számokkal](https://en.wikipedia.org/wiki/Eastern_Arabic_numerals) szerepel, közöttük vékony **átlós vonallal**, Betlehemben találhatók. Az [utcanévtáblák](https://goo.gl/maps/eouNa6SnvDgD8WQr9) általában ugyanezt a formátumot követik.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-4Y89
+A **4. generációs** felvétel csak Izraelben található, a térképen jelölt területeken.
+A felvétel **fekete** Street View-autóval készült.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-5VTI
+Ezek a **sárga** kerítések és táblatartó oszlopok kizárólag Kirjat Mockinra jellemzők.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-5uEB
+Dél-Izrael és Ciszjordánia keleti része **rendkívül száraz** és homokos.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-6r1q
+A Holt-tengeren és a Földközi-tengeren kívül az egyetlen jelentős víztömeg a Galileai-tenger. Észrevehetően **növényzetben gazdagabb**, mint a Holt-tenger, ezért könnyen felismerhető.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-87Ha
+Ezek a fémlámpák, amelyekre **egy magas** és **egy alacsony** egymás mellé helyezett lámpa és nagyon szögletes megjelenés jellemző, kizárólag Netivotra jellemzők.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-8SBk
+A Holt-tenger könnyen felismerhető a körülötte lévő **szárazságról**.
+MEGJEGYZÉS: Jordániából és Ciszjordániából is látható.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-8gNf
+Megtalálhatod ezeket a kis **öntözőcsatornákat** az út szélén, Bét Seán városa környékén.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-8ktx
+A **cementtel** összeállított **kőfalak** Izrael északi részén találhatók.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-B8PX
+Nesz Cijónában **izraeli zászló** van a házszámokon.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-BogJ
+Ezek a lámpák, amelyek alakja a [Barad-dûrra](https://lotr.fandom.com/wiki/Barad-d%C3%BBr) emlékeztet, kizárólag Akkóra jellemzők. Több különböző színben is megtalálhatók.
+MEGJEGYZÉS: Hasonló megjelenésű lámpák Közép-Izrael-szerte találhatók, a lámpa tetején lévő két szarv közötti rés azonban megerősíti Akkót.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-D6Hi
+A Tábor-hegy az Északi kerületben található, és lágy, **kerek alakjáról** ismerhető fel.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-DjZZ
+Közép-Izrael általában **sík**, és **több város** is található benne. Az autópályák általában jobb állapotban vannak, mint a déli és északi utak.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-HUcN
+A 4. generációs felvételek többségén **piszkos az első kamera**.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-LWEc
+A Gilboa-hegy nagyon **száraz megjelenésű hegy**, amely messziről és sok szögből látható.
+A hegy tetején is [van némi felvétel](https://goo.gl/maps/YJhYwAjXK71YwQtj9), amely nagyon zöld, és gyakran nagyon jó kilátás nyílik a környező völgyekre.
+
+# Israel & the West Bank / Regional clues
+@ israel-west-bank-McC9
+Itt látható Izrael és Ciszjordánia **körzetszámainak** térképe. Vedd figyelembe, hogy csak a térképen szereplő telefonkódok kötődnek régióhoz.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-NQSw
+Jerikó általában a datolyapálmákról ismerhető fel, egy kissé ritkásan beépített és szegényes megjelenésű városi környezetben.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-OyOI
+Bné Brak **ultraortodox zsidó fellegvár**, ami kizárólag a környező emberekre nézve látszik. Általában zsidó vallási öltözéket viselő emberek vannak jelen.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-SBtu
+A 2-es út általában arról ismerhető fel, hogy a Földközi-tenger látható az út nyugati oldalán.
+MEGJEGYZÉS: Ha [keleten hegyeket](https://www.google.com/maps/@32.7489022,34.9519266,3a,75y,93.89h,86.25t/data=!3m6!1e1!3m4!1sJSwoI-La_6_N63MjNVZ4Dg!2e0!7i13312!8i6656?entry=ttu) látsz, akkor valahol Haifa és Zikhron Jaakov között vagy.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-TTYJ
+Az alul **kék-fehérre** festett oszlopok kizárólag Eilatra jellemzők.
+
+# Israel & the West Bank / Spotlight
+@ israel-west-bank-WRHe
+Ezek a **magas ipari kémények**, a parton Netanjától északra, messziről láthatók.

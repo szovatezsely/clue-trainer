@@ -1,0 +1,321 @@
+# Slovakia / Regional and province-specific clues
+@ slovakia-0qNY
+A főbb autópályákat leszámítva, amelyek számai nem követnek egyértelmű mintát, Szlovákiában **kétféle** számozott út van: háromjegyű és négyjegyű utak. Bár sok háromjegyű út nem követ semmilyen mintát, az 500 és 560 közöttiek általában nyugatról kelet felé rendeződnek. Hasonlóképpen a négyjegyű útszámok is kelet felé növekszenek.
+_A képre kattintva kinagyíthatod._
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-4BtX
+Dél-Szlovákia több területén **magyar többség** él, kétnyelvű utca- és tájékoztató táblákkal.
+
+# Slovakia / Spotlight
+@ slovakia-5dso
+Az Eperjesi kerület északkeleti részein kétnyelvű településnévtáblákat találhatsz [ruszin](https://en.wikipedia.org/wiki/Rusyn_language) nyelven, amely cirill alapú nyelv, és közeli rokonságban áll az ukránnal.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-8If0
+A **sárga** lámpaoszlopok **kék talppal** főként keleten találhatók, egy említésre méltó kivétellel: Zólyom városával.
+MEGJEGYZÉS: Ez a szabály csak a pontosan ilyen színösszeállítású lámpákra vonatkozik. Hasonló színsémájú más infrastruktúra az egész országban megtalálható.
+
+# Slovakia / Spotlight
+@ slovakia-IJXC
+[Pozsony](https://goo.gl/maps/L2judPPCa4DcUs277) és [Kassa](https://goo.gl/maps/EwXXxccDoBTp9RMJ6) az egyetlen két város **villamossal**, amelyek piros, illetve sárga-kék-fehér színsémát használnak.
+MEGJEGYZÉS: A buszok [Kassán](https://goo.gl/maps/4gm63SyEndzgZP9g6) és [Pozsonyban](https://goo.gl/maps/FKUJQmpTzbZ1B9jq5) ugyanezeket a színsémákat használják, piros buszok azonban [Eperjesen](https://goo.gl/maps/GgBiC61WEyRRkSxXA) is előfordulnak.
+
+# Slovakia / Spotlight
+@ slovakia-L3Lc
+Pozsony nemcsak messze a legnagyobb város az országban, hanem az egyetlen nagyváros is, amelyen **nagy folyó** folyik keresztül.
+
+# Slovakia / Spotlight
+@ slovakia-NtUD
+Szakolcán, az ország északnyugati sarkában **piros utcanévtáblák** vannak, hasonlóak azokhoz, amelyek Csehországban gyakran megtalálhatók. A némileg stilizált betűtípus azonban megkülönbözteti a cseh tábláktól.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-PPvf
+A szlovák telefonszámok jellemzően 10 számjegyből állnak, amelyekből az első 2-3 számjegy a **körzetszám**.
+MEGJEGYZÉS: A cseh telefonszámok általában nem kezdődnek 0-val.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-bpnt
+Két széles völgy, amelyeket magas, gyakran éles hegyek vesznek körül, az ország északi részén található. A völgyek iránya miatt jellemzően elég megállapítani a legközelebbi hegy irányát a kettő megkülönböztetéséhez.
+MEGJEGYZÉS: A világospiros területen északnyugaton magas, éles hegyek, délkeleten pedig jóval alacsonyabb dombok és hegyek vannak.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-dRNN
+Szlovákia legmagasabb hegyei az ország **középső** és **északi** részén találhatók, míg a legsíkabb területek főként a délnyugati és a délkeleti részen.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-gKhC
+A keleti alföldet jellemzően a széles, sík tábláiról lehet felismerni, amelyeket a messzi távolban dombok vagy hegyek vesznek körül.
+
+# Slovakia / Spotlight
+@ slovakia-mwCI
+A **fenyvesek** gyakoriak az ország legnyugatibb részén.
+
+# Slovakia / Spotlight
+@ slovakia-rhBj
+Csicsmány, a Zsolnai kerület legnyugatibb részén könnyen felismerhető a sötétbarna faházakról, amelyek falait **fehér vonalakból** álló művészet borítja.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-sfKN
+A szlovákiai nyugati alföldet **teljesen sík** mezőgazdasági táblák jellemzik, amilyeneket ritkán találsz az ország bármely más részén.
+MEGJEGYZÉS: Bár Csehországban is vannak általában sík területek, ritka az olyan teljes laposság, amely a horizonton túlra nyúlik.
+
+# Slovakia / Regional and province-specific clues
+@ slovakia-uRTI
+A Nyitrai és a Nagyszombati kerületben a betonoszlopokra gyakran **sárga köröket** festenek, amelyekben általában szám van. Időnként a szomszédos kerületekben is előfordulnak.
+MEGJEGYZÉS: Ez csak a körökre igaz, más alakzatok az ország [más részein](https://goo.gl/maps/QyZSJSBRyQfXziUD6) találhatók.
+
+# Slovakia / Spotlight
+@ slovakia-uyAe
+A zsolnai trolibuszok **zöld-sárga-fehér** színsémát használnak. A trolit tartó villanyoszlopokat, amelyek gyakran [lámpaként](https://maps.app.goo.gl/nfWAtqUmKhWctMb56) is szolgálnak, ugyanilyen sárga és zöld színűre festik.
+
+# San Marino / Regional clues
+@ san-marino-7HE9
+A Superstrada di San Marino a határ menti Dogana falutól San Marino városáig fut. Ez az **egyetlen osztott pályás út** az országban, és a sávokat **fém szalagkorlát** választja el.
+
+# San Marino / Spotlight
+@ san-marino-nInM
+A **történelmi belvárosról** 3. generációs trekkerkamerával készült felvétel.
+
+# Senegal / Regional clues
+@ senegal-0GE3
+Diourbel vidéke az egyetlen vidék Szenegálban kiterjedt **vidéki felvétellel**. Az itteni felvétel így néz ki: a Google-autó homokos úton halad, ritkás fákkal. A felvétel egy része nyugat felé a Thiès vidékre is átnyúlik, egészen Babouig.
+MEGJEGYZÉS: A Touba környéki felvételen a homok általában [füvesebb](https://goo.gl/maps/BWCDdy4HBumDShTx9).
+
+# Senegal / Spotlight
+@ senegal-0Upt
+A **párás** felvétel **alacsonyan járó nappal**, néha mezőgazdasági tájon át, az N2-esen látható Saint-Louis és Richard Toll között.
+
+# Senegal / Spotlight
+@ senegal-2NXs
+A jellegzetes, magas **élénksárga fűfoltok** az N3-as mentén láthatók, többnyire keleten, a Matam vidéken.
+
+# Senegal / Regional clues
+@ senegal-6ZX7
+A Gambiától délre fekvő vidék növényzete bujább és zöldebb, mint Szenegál többi részén, és a parthoz közelebb pálmafák láthatók.
+MEGJEGYZÉS: A nyugat felé eső felvétel is [különösen trópusi](https://goo.gl/maps/52g1NQ7hwGZtNejD8) lesz. Emellett ügyelj rá, hogy ne keverd össze a déli részt néhány Dakar közeli felvétellel, amely megtévesztően zöldnek látszhat. Ott azonban a növényzet sokkal [alacsonyabbnak és tengerpartiasabbnak](https://goo.gl/maps/oouBBYadRN3oiSRi8) látszik.
+
+# Senegal / Regional clues
+@ senegal-ERgE
+A Gambiától északra fekvő táj és általában Szenegál tája **sík, száraz, szavannás-sivatagos** táj ritkás fákkal. Maguk a fák némileg alacsonyak, és fakó színű leveleik vannak.
+
+# Senegal / Regional clues
+@ senegal-FeHb
+**Zöldebb** táj **nagyobb dombokkal** látható Kédougou és Mako környékén.
+
+# Senegal / Spotlight
+@ senegal-Ilre
+A Kolda–Vélingara út Saré Amirou és Badion között földút, amely a **késő délutáni**–**esti** felvételről ismerhető fel. A felvétel nyugat felé egyre későbbi.
+
+# Senegal / Spotlight
+@ senegal-L65q
+Az N2-es Richard Toll és Matam között széles út, amely sík sivatagi tájon halad át nagyon ritkás fákkal. A **ragyogó kék égről** ismerhető fel, **felhők nélkül**. Maga az út kelet–nyugati és északkelet–délnyugati irányban halad.
+MEGJEGYZÉS: Minél magasabban van a nap, annál keletebbre vagy.
+
+# Senegal / Regional clues
+@ senegal-OEuy
+Az ezüst 4. generációs autó **hosszú antennával** az elülső bal oldalon sok úton látható, de egyiken sem a Diourbel vidék keleti határán túl.
+MEGJEGYZÉS: Az antenna akkor is látható, ha az autó [el van homályosítva](https://goo.gl/maps/kPSPK8pH463oWffJ7).
+
+# Senegal / Spotlight
+@ senegal-QgQm
+Sík, **enyhén mocsaras** táj alacsony növényzettel néhány útszakaszon látható a Saloum folyó deltájában.
+
+# Senegal / Spotlight
+@ senegal-UFZN
+Dakar Szenegál **legnagyobb városa** és **fővárosa**. A város sűrűségéről és a magasabb, modernebb épületekről ismerhető fel.
+
+# Senegal / Regional clues
+@ senegal-WDIx
+**Száraz** táj **enyhe dombokkal** többnyire Bakel környékén látható, de délre Nayéig is.
+
+# Senegal / Regional clues
+@ senegal-aMed
+Az **öntözött rizsföldek** néha láthatók a Saint-Louis és Richard Toll közötti vidéken.
+
+# Senegal / Spotlight
+@ senegal-cfOC
+Az N1-es Tambacounda és Nayé között általában **északkelet-keleti** irányban halad. **Vasút** fut az úttal párhuzamosan. A vasút az úttól délre van Tambacounda és közvetlenül Youpe Amadi előtti szakasz között, és északra Youpe Amaditól Belléig.
+
+# Senegal / Regional clues
+@ senegal-dxl9
+A szokásos 4. generációs **fehér autó** leggyakrabban Gambiától délre található, de megtalálható az északkeleti parton és egy kis vidéken Kaolack és Saly között is.
+
+# Senegal / Spotlight
+@ senegal-irXP
+A Kédougoutól északkeletre a mali határig vezető út a **párás bozóttüzes** felvételről ismerhető fel. Füstcsíkok néha láthatók a távolban. Az út Sarayától délre burkolt.
+
+# Senegal / Spotlight
+@ senegal-kDY5
+A Thiès erdejében lévő fehér út a **száraz, enyhén dombos** tájról ismerhető fel barna növényzettel. Maga az út élénknarancs földből készült. A felvételen emellett észrevehető pára is van.
+
+# Senegal / Spotlight
+@ senegal-niwG
+Az **osztott pályás főutak** Dakar és Touba között találhatók. A két osztott pályás főút Dakar és Touba, valamint Dakar és Saly között van.
+MEGJEGYZÉS: A Google Térképen az út sárga útként jelenik meg, de útszám nélkül. A 3. generációban szintén nincsenek osztott pályás főutak.
+
+# Senegal / Regional clues
+@ senegal-nmqJ
+**Nagyon enyhén hullámos** táj, amely növényzettel benőtt homokdűnékből áll, az északnyugati part mentén látható.
+
+# Senegal / Spotlight
+@ senegal-z3L1
+A [**hírhedt**](https://youtu.be/r6PWu8A72oI?t=697) **toubai nagymecset** az öt magas minaretről ismerhető fel, amelyek [messziről](https://goo.gl/maps/MnTgaEw4r6mCQm9U9) is láthatók.
+
+# São Tomé and Príncipe / Spotlight
+@ sao-tome-and-principe-1vUE
+**Olajpálma-ültetvényeket** találsz São Tomé déli részén.
+
+# São Tomé and Príncipe / Spotlight
+@ sao-tome-and-principe-5C59
+Trinidade településén az oszlopokon **piros-fehér** oszlopfestés van.
+
+# São Tomé and Príncipe / Region-specific clues
+@ sao-tome-and-principe-5DnQ
+A São Tomén használt autó **fekete**, fekete tetősínekkel. A legtöbb helyszínen ki van homályosítva.
+
+# São Tomé and Príncipe / Region-specific clues
+@ sao-tome-and-principe-YviS
+A Príncipén használt autó a **kék** tetőről és az ezüst tetősínekről ismerhető fel.
+MEGJEGYZÉS: Ne feledd, hogy néha ki lehet homályosítva.
+
+# São Tomé and Príncipe / Region-specific clues
+@ sao-tome-and-principe-oaFS
+A shitcamnek ez a fakóbb és még sötétebb változata leggyakrabban Príncipén fordul elő.
+
+# Eswatini / Spotlight
+@ eswatini-Ak5Y
+Az MR3-as Manzinitól a dél-afrikai határig fém és kő szalagkorlátokkal **osztott pályás**, ami felismerhetővé teszi.
+MEGJEGYZÉS: Ez az egyetlen osztott pályás főút Eswatiniban.
+
+# Eswatini / Regional clues
+@ eswatini-NeZB
+A **fenyőültetvények** az ország nyugati részének néhány területén találhatók.
+MEGJEGYZÉS: Hasonló ültetvények Dél-Afrikában is megtalálhatók.
+
+# Eswatini / Regional clues
+@ eswatini-PD9f
+A **cukornádat** több területen termesztik a keleti határ mentén.
+
+# Eswatini / Regional clues
+@ eswatini-Yn7m
+Felismerheted ezt a vidéket az ország keleti részén a **szokatlan laposságnak** és a távolban gyakran látható hegyeknek köszönhetően.
+
+# Eswatini / Spotlight
+@ eswatini-e0dy
+Ha **portugál** szöveget látsz Eswatiniban, nagy valószínűséggel Lomahasha kis településén vagy.
+MEGJEGYZÉS: Ennek oka a Mozambikhoz való közelsége, ahol portugálul beszélnek.
+
+# Eswatini / Spotlight
+@ eswatini-f8Wu
+Az MR3-as Ngomanétól délre a laposságnak, a hosszú száraz fűnek és a **kamerán lévő kosznak** köszönhetően ismerhető fel.
+
+# Eswatini / Spotlight
+@ eswatini-oFsa
+Az MR8-as Délkelet-Eswatiniban, amely a dél-afrikai határ mellett fut, erről a **keleten lévő jellegzetes gerincről** ismerhető fel.
+
+# Eswatini / Regional clues
+@ eswatini-pB4I
+A hegyvidéki gyepek **hosszú aranyszínű fűvel** és hegyvidéki tájjal Nyugat-Eswatinira jellemzők.
+MEGJEGYZÉS: Hosszú fű Eswatini szinte minden területén megtalálható. Ez a nyom kifejezetten arra a makulátlan aranyszínre vonatkozik, amely leggyakrabban a nyugati felföldön látható.
+
+# Eswatini / Regional clues
+@ eswatini-pnyI
+Ez a jellegzetes vidék az ország középső déli részén, többnyire az MR9-es mentén, a sötét, elsöprő **zöldségről** és a **magas erdős hegyekről** ismerhető fel.
+MEGJEGYZÉS: Ha nehezen látod, miért egyedi ez, próbáld meg összehasonlítani az ország más területeivel, amelyek „aranyosabbak” és világosabb színűek.
+
+# Eswatini / Spotlight
+@ eswatini-wTEf
+Felismerheted az **Mlawula természetvédelmi területet** a keskeny földutaknak, a magas fűnek és az általános szavannás tájnak köszönhetően.
+
+# Thailand / Regional/province-specific clues
+@ thailand-03iF
+A tartományi utakon az útjelző kövek és a közúti táblák gyakran megadják a tartomány **kétbetűs rövidítését** thai írással. Az országutak útjelző kövein vagy közúti tábláin nem jelennek meg.
+[Ezen](https://super-duper.fr/country/thailand_provinces_en.php) az oldalon megnézheted és gyakorolhatod az összes tartományrövidítést.
+
+# Thailand / Regional/province-specific clues
+@ thailand-0BPM
+A **kaucsukfa-ültetvények** jellemzően Thaiföldön láthatók. Többségük a déli részen található. A fa törzsének alján lévő apró, fekete csapolásokról ismerheted fel őket.
+
+# Thailand / Regional/province-specific clues
+@ thailand-2MMc
+A **bételpálmák** főként a félszigeten találhatók, de különösen gyakoriak Ranong környékén.
+
+# Thailand / Regional/province-specific clues
+@ thailand-2tIc
+Ez a **fekete terelőoszlop** **három nagy fehér fényvisszaverővel** leggyakrabban Csiangmajban és Mehongszonban látható.
+
+# Thailand / Regional/province-specific clues
+@ thailand-3SeI
+A sűrű **alacsony** vagy **közepes méretű kókuszpálma**-ültetvények leggyakrabban Bangkoktól **nyugatra** találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-3YqS
+A kereszttartón **csak egy szigetelővel** rendelkező oszlopok a félsziget déli részétől Ranongig és Csumphonig találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-3oUo
+A chilei stílusú **behúzással** rendelkező szokásos oszlopok Bangkok környékén találhatók.
+MEGJEGYZÉS: A nagyobb és vastagabb, behúzásos oszlopok az ország egészének [autópályáin](https://maps.app.goo.gl/8tzw2wz1WYcVC83R8) megtalálhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-4yTx
+A nagy számú **borasszuszpálma** jellemzően a félsziget keleti partjának közelében található, konkrétan közvetlenül Bangkoktól délre, valamint a messzi déli részen.
+MEGJEGYZÉS: Magányos vagy kis csoportokban álló borasszuszpálmák az ország egészében megtalálhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-5jsO
+Az **esős évszakban** a **rizs**termesztés nagy része a keleti síkságokon zajlik.
+
+# Thailand / Spotlight
+@ thailand-6EeW
+A **Doi Luang Chiang Dao** Thaiföld 3. legmagasabb hegye. Más jellegzetes alakú hegyekkel együtt tisztán látható Csiangmaj Chiang Dao körzetéből.
+
+# Thailand / Spotlight
+@ thailand-6ONJ
+Szaraburi északi fele **nagy, kibukkanó sziklás hegyekből** áll kelet–nyugati irányban.
+
+# Thailand / Spotlight
+@ thailand-7EBY
+Rajong tartomány nyugati részén **északkelet–délnyugati rács** található, tele modern és ipari épületekkel kaucsukfák, manióka és ananász táblái között.
+
+# Thailand / Regional/province-specific clues
+@ thailand-7hzC
+A **duriánültetvények** leggyakoribbak Cshanthaburi környékén, de megtalálhatók a félszigeten és más területeken is. Fiatalon a kúp alakú megjelenésükről azonosíthatók. [Teljesen kifejlődve](https://maps.app.goo.gl/3TtjWxAX8eC8m72f7) a duriánfák a sötét kérgükről, a szinte a földig érő ágaikról és a hegyes végű, hosszúkás leveleikről azonosíthatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-85br
+A **szélturbinák** leggyakrabban Csajaphum és Nakhonratcsaszima nyugati oldalán, valamint Szongkhla és Nakhonszithammarat keleti partján találhatók.
+
+# Thailand / Spotlight
+@ thailand-9LG9
+Egy nagy, szinte tökéletesen **észak–déli rács** található Pathumthani középső és keleti részén.
+
+# Thailand / Spotlight
+@ thailand-CKg2
+Nakhonphanom északi részén, a Mekong folyó mentén néha **szaggatott mészkőkarszt-hegyeket** látsz északkeleten. Ezek a képződmények a laoszi oldalon állnak, és gyakran nagy távolságból is láthatók.
+
+# Thailand / Spotlight
+@ thailand-Cl8a
+Ez a ritka Google-autó kizárólag Ko Szicsang szigetén található. Az **elmosásból kiálló rúdról (rudakról)** ismerhető fel.
+
+# Thailand / Spotlight
+@ thailand-F0Y9
+Ko Szamuj és Ko Phangan turisztikai szigetek **keskeny, zsúfolt utakkal** és trópusi hangulattal.
+
+# Thailand / Spotlight
+@ thailand-GQ8g
+A **barna burkolatú utak** cukornád-, manióka- és kukoricatáblák között Nakhonratcsaszima délkeleti részén találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-GpFr
+A **kukorica** leggyakrabban Thaiföld északi és középső vidékein található.
+
+# Thailand / Regional/province-specific clues
+@ thailand-HYNG
+A [**manióka**](https://en.wikipedia.org/wiki/Cassava) bokorszerű növény [ujjas levelekkel](https://en.wikipedia.org/wiki/Glossary_of_leaf_morphology#/media/File:Leaf_morphology.svg). Thaiföld nagy részén megtalálható, de lényegesen gyakoribb a középső és északkeleti síkságokon.
+
+# Thailand / Spotlight
+@ thailand-IFUq
+A kamera **elülső bal** oldalán lévő **maszat** látható a Khao Yai Nemzeti Parkon áthaladó, sűrűn erdős úton. Ez a maszat megtalálható Nakhonnajok és Pracsinburi közeli területein is.
+MEGJEGYZÉS: Más maszatok ritkán az ország [más pontjain](https://maps.app.goo.gl/GYwj41y21n9awFLT6) is előfordulhatnak.

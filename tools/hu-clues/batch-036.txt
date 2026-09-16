@@ -1,0 +1,274 @@
+# Canada / Regional/province-specific clues
+@ canada-KwMJ
+Kelet-Kanadán belül a **kettős sárga vonal** Új-Skóciában a leggyakoribb, utána Québecben és a Prince Edward-szigeten. Ontario erre a célra inkább egyetlen sárga vonalat használ, de időnként ezeket is alkalmazza.
+_Némi empirikus kutatásért lásd ezt a [dokumentumot](https://docs.google.com/document/d/15DuGdsvKMqv5O-XiFwhNuczw89jVqg8XycY7brvhjP4/edit?tab=t.0#heading=h.vhodl2gtolwe)._
+
+# Canada / Regional/province-specific clues
+@ canada-L5qh
+A **balzsamfenyő** nagyon gyakori fafaj Új-Fundlandon. Karácsonyfára emlékeztető megjelenésű.
+MEGJEGYZÉS: Bár leggyakrabban Új-Fundlandon fordul elő, a balzsamfenyő Kelet-Kanada és az USA más részein is megnő. Áttekintésért lásd [ezt a](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Abies_balsamea_range_map_3.png/1280px-Abies_balsamea_range_map_3.png) térképet.
+
+# Canada / Regional/province-specific clues
+@ canada-L8XW
+Saskatchewanban az oszlopfejeken a szigetelők **váltakoznak**. Míg az egyik oszlopon bal oldalon egy, jobb oldalon két szigetelő van, a következőn bal oldalon kettő, jobb oldalon egy.
+MEGJEGYZÉS: Ez ritkán [Manitobában](https://maps.app.goo.gl/JMD7VTJPjWEMyet77) is látható.
+
+# Canada / Regional/province-specific clues
+@ canada-Npc7
+A Prince Edward-sziget talajának jellegzetes **vörös** árnyalata van. A burgonyatermesztés szintén nagyon gyakori a szigeten.
+MEGJEGYZÉS: Ez a talajtípus időnként Új-Brunswick és Új-Skócia egyes vidékein is látható.
+
+# Canada / Regional/province-specific clues
+@ canada-NqxH
+A **tartományi zászlók** elég gyakran felbukkannak. Különösen gyakori Québec [Fleurdelisé](https://en.wikipedia.org/wiki/Flag_of_Quebec) zászlaja.
+_A képre kattintva kinagyíthatod._
+
+# Canada / Regional/province-specific clues
+@ canada-OoKB
+Ez a szalagkorlát, amelyen **kis oszlopokat** **három** vagy **négy fémsodrony** köt össze, ritkán megtalálható Alberta nagyobb főútjain.
+
+# Canada / Regional/province-specific clues
+@ canada-Qpy3
+Új-Brunswick és Új-Skócia gyakran használ téglalap alakú lámpafejeket.
+
+# Canada / Regional/province-specific clues
+@ canada-Qvdu
+A stoptáblákhoz hasonlóan az új-brunswicki utcanévtáblák is kétnyelvűek.
+A stoptáblákkal ellentétben azonban kétnyelvű utcanévtáblák Kanada más francia kisebbségi vidékein is megtalálhatók.
+
+# Canada / Regional/province-specific clues
+@ canada-Rqw0
+Dél-Brit Columbia belső területeinek tájképe, amely jobbára **Kamloops és Kelowna** települések köré összpontosul, jellegzetes. Általában dombos és kissé szárazabb, mint Brit Columbia többi része. A növényzet elterülő barna füves pusztákból és a domboldalakon fenyveserdőkből áll.
+
+# Canada / Spotlight
+@ canada-UJ8K
+Ez az egyedi Google-autó és a **sötét** színű talaj az Északnyugati területeken fekvő Tulitában található. Az autó leggyakrabban így néz ki, de lehet teljesen kitakarva is, csak az **antennával** látszóan, vagy a motorháztetővel láthatóan.
+
+# Canada / Regional/province-specific clues
+@ canada-UjZq
+A **két függő szigetelővel** ellátott oszlopok gyakoriak Manitobában.
+
+# Canada / Regional/province-specific clues
+@ canada-W3WH
+A **Québec–Windsor-folyosó** Kanada legsűrűbben lakott része. Jobbára lapos és zöld, mezőgazdasági területek foltvarrásával és helyenként erdőborítással.
+MEGJEGYZÉS: Ez a terület hasonlíthat az USA Nagy-tavak vidékére.
+
+# Canada / Regional/province-specific clues
+@ canada-W97X
+A Prince Edward-szigeten és Új-Skóciában a transzformátorokat az úthoz képest 45°-os szögben szerelik fel. A Prince Edward-szigeten általában piros számokat írnak az oldalukra.
+
+# Canada / Regional/province-specific clues
+@ canada-X21k
+Québecnek egyedi terelőoszlopai vannak, amelyeket mindig szalagkorlátra szerelnek. Hosszú, vékony fehér oszlopok **piros** vagy **zöld prizmával** a tetejükön.
+
+# Canada / Regional/province-specific clues
+@ canada-Xmvk
+Minden tartománynak saját **egyedi rendszámtáblája** van, némelyikük messziről is felismerhető, még kitakarva is. Több tartományban **nem** kötelező az első rendszámtábla, ami hasznos lehet a tartományok közötti döntésnél.
+MEGJEGYZÉS: 2019 óta Új-Brunswickban már nem kötelező az első rendszámtábla. A régebbi felvételeken azonban továbbra is számíthatsz rájuk. Ezenkívül Új-Fundlandon és Labradorban minden haszongépjárműnek kötelező első rendszámtáblát használnia, így kisteherautókon és pickupokon láthatod őket.
+_A képre kattintva kinagyíthatod._
+
+# Canada / Regional/province-specific clues
+@ canada-ZXpA
+Az északnyugat-québeci Rouyn-Noranda környéki vidéket főként az **észak-déli rács**, valamint az **enyhén dombos** táj jellemzi, amelyben sok mezőgazdasági terület bújik meg az erdők között, ahol sok az alacsonyabb fa és a vékony nyír.
+
+# Canada / Regional/province-specific clues
+@ canada-by9f
+A **közvetlenül az út felé vagy azzal ellentétes irányba néző** szigetelők főként Québecben, Új-Skóciában és a Prince Edward-szigeten találhatók. A többi tartományban a szigetelők jellemzően az úttal azonos irányba néznek.
+MEGJEGYZÉS: Ez akkor a legmegbízhatóbb, ha az oszlop nem kereszteződésnél vagy kocsibejárónál áll.
+
+# Canada / Regional/province-specific clues
+@ canada-c5Ap
+A repcét a **középső déli** prérin termesztik, és Kanadában szinte sehol máshol nem található meg. Vizuálisan élénk**sárga virágokból** álló mezőre hasonlít.
+MEGJEGYZÉS: A repce az amerikai Észak-Dakota tagállamban is nagyon gyakori.
+
+# Canada / Regional/province-specific clues
+@ canada-dCuR
+Québecben gyakran találod ezeket a **sárga tűzcsapjelzőket** a táblatartó oszlopok tetején.
+[Québec városában](https://maps.app.goo.gl/tXPTbFvb8CWHFhFa7) ezeken a jelzőkön általában kék téglalap van, a [Trois-Rivières-i](https://maps.app.goo.gl/UZwuZs8zfPbjdAFX7) jelzők pedig feltűnően kicsik.
+MEGJEGYZÉS: Néha a jelzők [más színűek](https://maps.app.goo.gl/dMcGqrRcNb4nB15dA). Vedd figyelembe, hogy az új-brunswicki [Edmundston](https://maps.app.goo.gl/pD4sKaaLpPGWnWnw9) szintén használja ezeket.
+
+# Canada / Regional/province-specific clues
+@ canada-eMcz
+Az **Acadia** francia nyelvű kulturális vidék a kanadai tengermelléki tartományokban, egyértelműen meghatározott határok nélkül. Általában úgy értik, hogy legalább Új-Brunswick északi és keleti részét magában foglalja, néhány elszigetelt közösséggel Új-Skóciában és a Prince Edward-szigeten.
+Saját zászlaja van, amely francia típusú trikolór, a kék sávban sárga csillaggal. Ezen a vidéken kitűzve vagy [oszlopokra](https://maps.app.goo.gl/4VfcnD6JmdyFURQD8) festve is látható.
+
+# Canada / Regional/province-specific clues
+@ canada-f2ba
+Alberta vidéki útjai sorban vannak számozva. Ez megkönnyíti, hogy pusztán egy útjelző tábla alapján kiderítsd a pontos helyszínt.
+- A **township utak** (Twp Rd) kelet–nyugati irányban futnak. A számuk annál nagyobb, minél északabbra mész.
+- A **range utak** (Rge Rd) észak–déli irányban futnak. A számuk annál nagyobb, minél nyugatabbra mész. Ezek a számok néhányszor nullázódnak.
+[Ez az infografika](/images/canada/canada_albertatownshipgrid.png) mutatja, melyik szám hol található. A rácson lévő számokat 10-zel kell szorozni, hogy megkapd az útszámokat. A képen látható kereszteződés például közvetlenül Red Deertől északra található.
+MEGJEGYZÉS: Hasonló nevű utak néha Saskatchewanban is láthatók, de Albertában gyakoribbak.
+
+# Canada / Regional/province-specific clues
+@ canada-gj69
+Új-Fundlandon és Labradorban a szalagkorlátok faoszlopainak többsége ilyen **piramis** alakú tetővel rendelkezik. Időnként [önálló oszlopokon](https://goo.gl/maps/hBq3pYWKuD2MkgFQ7) és [táblatartó oszlopokon](https://goo.gl/maps/grcv9vSj4wF5MUzZ7) is észreveheted őket.
+
+# Canada / Regional/province-specific clues
+@ canada-hHgh
+A francia a többségi nyelv **Québecben** és **Új-Brunswick** egyes részein.
+MEGJEGYZÉS: Szövetségi szinten a francia az angol mellett hivatalos státusszal bír, így Kanada más részein is találkozhatsz kétnyelvű táblákkal. Ezenkívül franciául beszélnek több közösségben Új-Skóciában, Ontarióban és Manitobában is.
+
+# Canada / Spotlight
+@ canada-hVpY
+A **Dempster Highway** (5-ös és 8-as útszám) a yukoni Klondike Highwayt (2-es útszám) köti össze az Északnyugati területeken fekvő távoli Inuvik településsel.
+Nagyon felismerhető: burkolatlan út 2. generációs felvétellel, **sötétbarna** talajjal és tundratájjal, **alacsony fákkal**. Jobbára dombos és hegyvidékes, de a Fort McPherson és Inuvik közötti szakasz lapos. Inuvikhoz közeledve az idő felhőssé válik.
+
+# Canada / Spotlight
+@ canada-ivWy
+Iqaluit Nunavut fővárosa, vagyis **városiasabb** és beépítettebb, mint Nunavut többi települése. A városban kétnyelvű **türkiz utcanévtáblák** vannak. A sebességkorlátozó táblák szintén egyedi módon kétnyelvűek. A város szélén pedig ezek az egyedi útkilométer-jelzők láthatók.
+
+# Canada / Spotlight
+@ canada-kj4w
+A QC-167 és a QC-113 3. generációs felvételekkel van lefedve, és a **borult őszi** felvételeikről ismerhetők fel, gyakran **hóval** a földön. Ezenkívül ezen az úton [elkenődés](https://maps.app.goo.gl/8TUyRYbPxNvXMX2m9) látható.
+
+# Canada / Regional/province-specific clues
+@ canada-kxon
+Az **út közepén** (általában a felfestésen) futó zajkeltő bordák leggyakrabban Albertában és Brit Columbiában fordulnak elő.
+
+# Canada / Regional/province-specific clues
+@ canada-l2KH
+A Prince Edward-szigeti oszlopokon általában van egy **kis fehér matrica**.
+
+# Canada / Regional/province-specific clues
+@ canada-lWyG
+A **nyárfák** gyakoriak Manitoba, Saskatchewan és Alberta erdős részein. A fehér, nyírfaszerű törzsükről lehet felismerni őket. A legtöbb évszakban szokványos zöld levelük van, de az őszi felvételeken jellegzetes élénksárga színt öltenek.
+
+# Canada / Regional/province-specific clues
+@ canada-mVCj
+Manitobában a vidéki utak rácsba vannak rendezve, és csak a számukkal és az égtájukkal hivatkoznak rájuk.
+- Az **N** végződésű utak kelet–nyugati irányban futnak. A számuk eggyel nő az amerikai határtól számított minden mérföldre északra.
+- Az **E** vagy **W** jelű utak észak–déli irányban futnak. A Winnipegtől közvetlenül nyugatra fekvő főmeridiánhoz viszonyított helyzetüket adják meg.
+Ez a kép például 105 mérföldre északra az amerikai határtól és 147 mérföldre nyugatra a főmeridiántól készült.
+
+# Canada / Regional/province-specific clues
+@ canada-nQn9
+Nyugat-Kanada nagyon **hegyvidékes**. A legmagasabb hegyek Brit Columbiában, Nyugat-Albertában és Yukon egyes részein vannak. Ezeken a tartományokon kívül a nagy hegy ritka vagy nem létező Kanadában.
+
+# Canada / Spotlight
+@ canada-oiV6
+A **430-as út** Új-Fundlandon nagyjából dél-délnyugat–észak-északkeleti irányban fut, kissé kifakult felfestéssel. A sziget távoli és gyéren lakott részén található. Az út számos szakaszán a part látható tőled nyugatra. Keletre általában alacsony **balzsamfenyveseket** látsz, és időnként a messzi távolban egy impozáns [hegyfalat](https://www.google.com/maps/@49.81276,-57.8695694,3a,90y,101.84h,97.1t/data=!3m6!1e1!3m4!1sR6Wwvxu7AYQ_tISVDbXjzg!2e0!7i13312!8i6656).
+
+# Canada / Regional/province-specific clues
+@ canada-pK0p
+Brit Columbiában és Új-Brunswickban az oszlopokon lévő transzformátorok **az út felé néznek**, míg a [többi tartományban](https://www.google.com/maps/@45.597191,-71.9607213,3a,37.3y,356.7h,112.55t/data=!3m6!1e1!3m4!1skt1xgBKW1zae9FlYAHS5lg!2e0!7i16384!8i8192) **párhuzamosak** a vezetékekkel.
+
+# Canada / Regional/province-specific clues
+@ canada-s9c4
+Ezeket a **rombusz alakú jelzőket** Ontarióban találod az utak szélén. A színük változó lehet.
+
+# Canada / Spotlight
+@ canada-sOVD
+**A világ legészakibb Google Street View-felvétele** egy trekker az Ellesmere-szigeten, Nunavut északi részén. Egy gleccsert mutat sziklás, kietlen tájban, amelyről teljesen hiányzik a növényzet.
+MEGJEGYZÉS: Ezeket a felvételeket néha felhasználják a térképeken a pontozási tartomány javítására és egységesítésére. Ennek eredményeként versenytérképeken – például az ACW-n – is találkozhatsz ezzel a trekkerrel, annak ellenére, hogy nem behatárolható.
+
+# Canada / Regional/province-specific clues
+@ canada-stpJ
+Ontario jellegzetes [**narancssárga-fekete**](https://goo.gl/maps/962rfJYMzZ8SikSd6) csíkos útelzáró bójákat használ.
+Québecnek viszont egyedi [**narancssárga-fehér**](https://goo.gl/maps/V1dsFKvJxoSxAVQz5) csíkos útelzáró bójái vannak.
+
+# Canada / Regional/province-specific clues
+@ canada-tfjm
+**Québec** az egyetlen kanadai tartomány, amely **piros-fehér** terelőtáblákat használ.
+MEGJEGYZÉS: Kanada többi része a klasszikus [sárga-fekete](https://goo.gl/maps/FQY3a1oqcfZTyGPs7) terelőtáblákat használja.
+
+# Canada / Regional/province-specific clues
+@ canada-vONr
+A québeci oszlopokon néha függőleges **fekete-sárga** címke van. A fekete részben egy kis **„Q”** betű található.
+
+# Canada / Regional/province-specific clues
+@ canada-wJ1d
+A kanadai telefonszámok **háromjegyű körzetszámmal** kezdődnek. A vezetékes és a mobiltelefonok ugyanazokat a körzetszámokat használják.
+MEGJEGYZÉS: A kanadai telefonszámok formátuma XXX XXX XXXX, ahol a körzetszám az első három számjegy. Elég gyakori, hogy 7 számjegyű számot látsz körzetszám nélkül.
+_A képre kattintva kinagyíthatod._
+
+# Canada / Regional/province-specific clues
+@ canada-wU0C
+Néhány québeci oszlopnak felismerhető oszlopfeje van, ahol a szigetelőrudak **enyhén felfelé állnak**.
+
+# Canada / Spotlight
+@ canada-xlem
+Az AB-93 út a Banff és a Jasper Nemzeti Parkon át jellegzetes, fokozatosan emelkedő és meredek hegyekkel bír, az út mindkét oldalán **éles** csúccsal. Magas, kissé vékony fák is láthatók.
+
+# Cocos Islands / Spotlight
+@ cocos-islands-5cEy
+Ez a **fekete rudakkal** ellátott kis hajó a hátsó részén északon látható.
+
+# Cocos Islands / Spotlight
+@ cocos-islands-Jtsy
+A Kókusz-szigeteken sok trekker jár a **part** mentén. Legtöbbjük fehér homokon sétál, az egyik oldalon az óceánnal, a másikon **pálmákkal**.
+
+# Cocos Islands / Regional clues
+@ cocos-islands-Kz7l
+A Kókusz-szigetek kifutópályáját arról lehet felismerni, hogy a sziget legszélesebb burkolt útja, a kifutópálya mindkét oldalán nyírt fűvel, valamint erről a [kísérőautóról](https://goo.gl/maps/evWNsAeXZ9ScSxqW9).
+
+# Cocos Islands / Spotlight
+@ cocos-islands-QDur
+Ez a **nagy férőhelyű** közepes hajó a West Islandtől Bantamig látható.
+
+# Cocos Islands / Spotlight
+@ cocos-islands-Sjcs
+Ez a kis sötétszürke hajó, hátul egy **nővel** ülve, délen látható.
+
+# Cocos Islands / Regional clues
+@ cocos-islands-YRBD
+Bantam falut a **keresztmintás** téglaburkolatról lehet felismerni.
+
+# Cocos Islands / Regional clues
+@ cocos-islands-k3NB
+Ez a fehér autó, amelynek **a hátsó élei látszanak**, Bantamban található.
+MEGJEGYZÉS: Az autó teljesen ki lehet takarva. Mindenképp keress más nyomokat is, mielőtt tippelsz.
+
+# Cocos Islands / Spotlight
+@ cocos-islands-rCZB
+A Pulau Luaron (Horsburgh-sziget) belső területein járó trekkert a **száraz**, sárga fűről és a **gyérebb** növényzetről lehet felismerni.
+
+# Cocos Islands / Spotlight
+@ cocos-islands-vuzg
+A Direction-szigetet arról lehet felismerni, hogy a partjain jelentősen több a **szemét**, mint a többi szigeten. A part egyes szakaszain [téglák](https://goo.gl/maps/tSjoPrWjNQyRNRig7), [hungarocell](https://goo.gl/maps/Yvcoa9whDkWhEQDT7) és [elhalt korall](https://goo.gl/maps/3jQPVmeJT2PCunwY9) látható.
+Ezenkívül a trekker sok pálma között sétálva látható a [sziget belsejében](https://goo.gl/maps/63zUyWmqRJoKygM38).
+
+# Cocos Islands / Regional clues
+@ cocos-islands-xFmx
+Ez az egyedi autó, elöl jobb oldalt **hótorlasz-csővel** és látható platóélekkel, a West Islanden található.
+
+# Switzerland / Spotlight
+@ switzerland-1rvx
+Martigny völgyén kívül a legvalószínűbb terület, ahol **gyümölcsfákat** találsz, a Bodeni-tó környéke, utána a Genfi-tótól északnyugatra fekvő vidék.
+
+# Switzerland / Spotlight
+@ switzerland-5c2b
+Ezek a kék utcanévtáblák az oldalukon **lekerekített élekkel** kizárólag Sankt Gallen városára jellemzők.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-6CVU
+A nagy házak vastag tetővel, amelyek **alulról nézve ívesek**, gyakoriak Bern környékén.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-9xai
+A **szabadon álló mészkősziklák**, amelyek erdős dombokból állnak ki, gyakran megtalálhatók a Jura-hegységben.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-ARS4
+A **sebességkorlátozó táblákon** a felirat a vidék hivatalos nyelveitől függően változik.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-DapV
+Valais kantonban gyakran látsz vastag fa terelőoszlopokat, amelyek lehetnek **négyzetesek** vagy **hengeresek**.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-EEdr
+A svájci irányítószámok első számjegyei jó módot adnak az ország régiótippelésére. Az általános mintázat az, hogy a számok nyugatról kelet felé növekszenek.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-H9pK
+Az **olívazöld infrastruktúra** – különösen a táblatartó oszlopok, a táblakeretek és a táblahátoldalak – Basel-Landschaftban található.
+
+# Switzerland / Spotlight
+@ switzerland-JZSb
+A **2. generációs** felvétel nagyon korlátozott Svájcban. Jobbára Bern és Valais kanton határának közelében, valamint néhány nagyon rövid schaffhauseni szakaszon található.
+MEGJEGYZÉS: Ebbe nem tartoznak bele a sok, 2. generációs hófelvétellel bíró síterep, amelyek az ország déli felében mindenütt megtalálhatók.
+
+# Switzerland / Regional and canton-specific clues
+@ switzerland-JkUC
+Ezek a **nagy** helységnévtáblák néha megtalálhatók Vaud kantonban.

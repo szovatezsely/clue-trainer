@@ -1,0 +1,273 @@
+# Brazil / Regional and state-specific clues
+@ brazil-qiaH
+A cölöpökre épült faházak nagyon gyakoriak Acre tagállamban.
+MEGJEGYZÉS: Ritkábban az alacsonyan fekvő Amazonasban és Parában, valamint számos más országban is láthatók.
+
+# Brazil / Regional and state-specific clues
+@ brazil-r5UP
+Azok az oszlopok, amelyeken felül egy szigetelő van, és **váltakozó** vízszintes szigetelők, Mato Grossóban és Acre déli részén találhatók. Rio Grande do Sulban szintén nagyon ritkán előfordulnak.
+
+# Brazil / Regional and state-specific clues
+@ brazil-rQrQ
+A roraimai vidéki helyszínek jobbára nyílt **füves síkságok, a háttérben nagy, távoli hegyekkel**. Időnként a hegyek között futó utakon vagy. Ezenkívül a roraimai fű feltűnően vékony, és csomókban nő.
+
+# Brazil / Regional and state-specific clues
+@ brazil-s2pM
+Észak-Paraná városaiban a lámpáknak néha **nincs lámpakarjuk**. A stílusok ellentétesek: vagy színesek, műanyagok és ipari jellegűek, vagy díszesnek és cirkalmasnak tűnnek. Mindkét változat leggyakrabban Paraná északnyugati részén található.
+
+# Brazil / Regional and state-specific clues
+@ brazil-sjAl
+Az **irányítószámok (CEP)** gyakran láthatók az [utcanévtáblákon](https://goo.gl/maps/7RAf4dB5LnHm3PT36) Brazíliában (bár néha nehezen olvashatók). Az első két szám egy területet, egy tagállamot vagy több tagállamot jelöl. A számok az óramutató járásával ellentétesen haladnak São Pauloból kiindulva, és Rio Grande do Sulban érnek véget.
+
+# Brazil / Regional and state-specific clues
+@ brazil-u4vX
+Ez az **aszimmetrikus keresztrúd** **merevítők nélkül** kizárólag Cearára és Rondôniára jellemző.
+MEGJEGYZÉS: Míg Cearában a keresztrúd általában betonból készül, a [rondôniai változaton](https://maps.app.goo.gl/nXUtLu6sWXvN4zfF8) fém keresztrúd van, és jóval ritkább.
+
+# Brazil / Regional and state-specific clues
+@ brazil-vAH9
+A **barna gombára** emlékeztető szigetelők kizárólag Pernambucóban találhatók.
+
+# Brazil / Spotlight
+@ brazil-vMha
+A 364-es út Acrén át nagyon felismerhető a **hullámvasútszerű tájról és útról**: az út egyedi módon átmegy a dombokon, nem pedig körbekanyarog körülöttük. Általában nincs forgalom, és jobbára a kék, 4. generációs autó vette fel.
+
+# Brazil / Regional and state-specific clues
+@ brazil-vUCq
+Rio Grande do Sul tájképe lehet dombos vagy lapos, buja, zöld mezőkkel. A déli vidékek némileg hasonlíthatnak Uruguayra.
+
+# Brazil / Spotlight
+@ brazil-wqhj
+A Santa Catarina-szigeten (Florianópolis) az oszlopokat **fehérre** festik **kék és piros csíkokkal**.
+
+# Brazil / Regional and state-specific clues
+@ brazil-xH0Y
+A babassupálmának hosszú, erőteljes levelei vannak, amelyek sok levélkéből állnak. A törzs hossza az alacsonytól a magasig változhat. Az Amazonas-vidéken mindenütt megtalálhatók, ritkábban pedig a keleti part mentén lefelé.
+
+# Brazil / Regional and state-specific clues
+@ brazil-xjGP
+A **szója** kis, leveles, a talajból növő növényként jelenik meg. Leggyakrabban Mato Grossóban, Paranában és Goiásban termesztik.
+
+# Brazil / Regional and state-specific clues
+@ brazil-yPwJ
+Ez a növényfaj, amelynek **hosszú szára** van és sok felfelé növő levele, nagyon gyakori Cearában, Rio Grande do Nortéban és Paraíbában. A száraz évszakban levelek nélkül is ki lehet venni a jellegzetes hosszú szárakat.
+
+# Brazil / Regional and state-specific clues
+@ brazil-ySa0
+A létraoszlopok mellett a **kerek oszlopok** is gyakran megtalálhatók Brazília déli részén, különösen São Pauloban. Ezek az oszlopok hengeresek és betonból készülnek.
+MEGJEGYZÉS: Ezt a térképet és a következő faoszlop-térképet félvárosi és vidéki helyszínek statisztikai elemzésével készítették. 434 helyszínt használtak fel, helyszínenként 3 oszloppal, 16 olyan tagállamban, ahol vegyes oszlopokat feltételeztek. A tagállamtól függetlenül a nagyvárosok központjában gyakran kerek oszlopok vannak.
+
+# Brazil / Regional and state-specific clues
+@ brazil-z5v9
+A **vízszintes szigetelőkkel** ellátott oszlopok nagyon gyakoriak Parában, és kevésbé Mato Grossóban. Ritkán megtalálhatók Acrében, Amapában, Tocantinsban, Santa Catarinában és Rio Grande do Sulban.
+
+# Brazil / Regional and state-specific clues
+@ brazil-zJtI
+A **telefonszámok** néha láthatók a kilométerkövek alatt São Pauloban.
+
+# Brazil / Regional and state-specific clues
+@ brazil-zZ1A
+A paranái oszlopazonosítók általában **fekete festésből** és sárga vagy fehér festett feliratból állnak.
+
+# Brazil / Regional and state-specific clues
+@ brazil-zcD0
+A Minas Gerais-i és goiási lámpák gyakran **két részből** állnak. Megtalálhatók Rio Grande do Nortéban, Cearában, Rio Grande do Sulban, valamint a Szövetségi Kerületben is.
+
+# Bhutan / Regional and province-specific clues
+@ bhutan-6TGY
+Ilyen lapos táj Bhutánban kizárólag **délen** található.
+MEGJEGYZÉS: A déli lefedettség a térképen látható négy vidékre **korlátozódik**.
+
+# Bhutan / Regional and province-specific clues
+@ bhutan-FHkm
+A Phobjikha-völgy, Nubdingtól délre, széles és viszonylag lapos mezőgazdasági völgy. Messze ez a legnagyobb nyílt völgy, ahol a Street View-n nem látszik jelentős folyó.
+
+# Bhutan / Regional and province-specific clues
+@ bhutan-NdvV
+A bhutáni Street View-felvételek nagy része a főutakon és a városokban készült.
+
+# Bhutan / Spotlight
+@ bhutan-QdQ2
+A gelephui repülőtér az egyetlen repülőtér Bhután **lapos déli** részén, ami felismerhetővé teszi.
+
+# Bhutan / Spotlight
+@ bhutan-RG1f
+Késői **naplementés felvétel** két helyen található az országban: egy kis vidéki mellékúton Mongar körzet keleti részén, valamint egy jóval [városiasabb területen](https://maps.app.goo.gl/wvheeJxLJYZwuHhi7) Paro település környékén, nyugaton.
+
+# Bhutan / Spotlight
+@ bhutan-TQCb
+Míg a parói nemzetközi repülőtér egy **száraz** északnyugati völgyben fekszik, a bumthangi belföldi repülőtér egy **nedves** északi völgyben található.
+
+# Bhutan / Spotlight
+@ bhutan-W6QG
+A parói nemzetközi repülőtér egy **száraz** északnyugati völgyben fekszik, és a két északi repülőtér egyike.
+
+# Bhutan / Spotlight
+@ bhutan-s895
+Haa körzetben – főként Ha településen – **horog** látható az autó hátulján.
+MEGJEGYZÉS: A horog néha csak [éppen hogy látszik](https://maps.app.goo.gl/sjuWHQTbSpkjC6wAA) az autókitakarás miatt.
+
+# Bhutan / Regional and province-specific clues
+@ bhutan-yGLe
+A **két folytonos fehér szélső vonal** csak Nyugat-Bhutánban látható, a fővárostól, **Thimphutól** délre és annak közelében.
+
+# Botswana / Spotlight
+@ botswana-5g1x
+Az A2 nyugati részén **borult felvételek** vannak, ami felismerhetővé teszi.
+
+# Botswana / Spotlight
+@ botswana-84qU
+Közvetlenül Gaborone mellett sok felvétel készült nagyon eldugott, **kis földutakon**. Ezeket a föld narancsvörös árnyalatáról és az utat körülvevő rengeteg zöld fáról és bokorról lehet felismerni.
+
+# Botswana / Regional and district-specific clues
+@ botswana-CVOu
+A Gaborone melletti délkeleti vidéken sok a **rövid cserjékkel borított félszáraz domb**. Ha sokat látsz belőlük, valószínűleg a Gaborone és Lobatse közötti területen vagy.
+MEGJEGYZÉS: Hasonló dombok az ország más részein és a határon túl, Dél-Afrikában is megtalálhatók. Ha nagy mennyiséget látsz belőlük, és más nyomokkal kizárod Dél-Afrikát, elég biztos lehetsz benne, hogy Botswana délkeleti részén vagy.
+
+# Botswana / Regional and district-specific clues
+@ botswana-Fm8z
+A botswanai lefedettség meglehetősen korlátozott az ország gyér úthálózata miatt. A hagyományos burkolt utakon túl vidéki, burkolatlan úti felvételre is számíthatsz. A legsűrűbb lefedettség keleten és Gaborone közelében van. A nagyobb településeken kiterjedt mellékúti felvétel is van.
+
+# Botswana / Regional and district-specific clues
+@ botswana-GwEW
+Az ország középső-nyugati részén egy nagy vidéket nagyon **fehér** homokos talaj jellemez. Ezenkívül a növényzet jellemzően **nagyon szárazna**k tűnik.
+MEGJEGYZÉS: Homokos talaj Botswana számos pontján megtalálható. Ez a tipp kifejezetten a homok ragyogóan fehér színére utal.
+
+# Botswana / Regional and district-specific clues
+@ botswana-OYIt
+Gaborone a főváros és a legnagyobb város. Jellemzően **gazdagabbnak és fejlettebbnek** tűnik, mint Botswana többi része, bár néhány negyed így is szegényesnek látszhat. A város déli részének egyes pontjain dombok láthatók, de a település nagy része lapos.
+MEGJEGYZÉS: Az egyetlen másik hely az országban, amely gyakran hasonlónak tűnik, Francistown.
+
+# Botswana / Spotlight
+@ botswana-Rom4
+Tshabongtól délkeletre az A20-at nemrég újrafestették, így nagyon **élénksárga vonalak** és viszonylag **sötét aszfalt** van rajta. Északkeletre egy távvezeték fut mellette, a talaj narancsos-világosbarna homok, és gyakran találsz sárga virágfoltokat.
+
+# Botswana / Regional and district-specific clues
+@ botswana-VNqS
+Botswana nagy része lapos, mint a palacsinta. Időnként azonban találsz némi szintkülönbséget. Ha dombokat látsz, nagy valószínűséggel a kistérképen jelölt két terület valamelyikén vagy.
+MEGJEGYZÉS: Még a jelölt területeken belül is sok a nagyon lapos rész, mert Botswana dombjai közül sok földrajzilag elszigetelt. Néhány magányos domb a jelölt területektől messze is felbukkanhat.
+
+# Botswana / Spotlight
+@ botswana-WC9E
+Az A33 azon szakasza, amely a Sibuya Erdőrezervátumon és a CT/3 (Tamafupa) vadgazdálkodási területen halad át, **építés alatt** áll. Ez leginkább az út mellett futó szervizútról vagy töltésről látszik.
+MEGJEGYZÉS: Annak ellenére, hogy az építési zónában vannak, néhány helyszín akkor is szokványosnak tűnhet.
+
+# Botswana / Regional and district-specific clues
+@ botswana-XUN2
+A Botswana déli határa mentén, Middlepits településen áthaladó út aszfaltjának jellegzetes **vörös árnyalata** van. A táj száraz. Néhány szakaszon enyhe dombok láthatók.
+MEGJEGYZÉS: Magának Middlepits településnek a közelében a talaj nagyon vörös, és apró fehér kavicsok tarkítják.
+
+# Botswana / Spotlight
+@ botswana-b9XY
+Az A30-nak ezen a szakaszán jellegzetes **őszi** hangulat uralkodik, amely csak rá jellemző. Feltűnő, hogy az utat egyenes sorokban narancsszínű levelű fák szegélyezik. Ezenkívül gyakran magas fű van, szemben a többi őszies megjelenésű helyszínnel.
+
+# Botswana / Regional and district-specific clues
+@ botswana-eNTS
+Maun az egyetlen viszonylag nagy város Botswanában, ahol ez a ragyogóan **fehér homokos talaj** található, amely az ország középső-nyugati vidékére jellemző.
+
+# Botswana / Regional and district-specific clues
+@ botswana-fgRE
+Az A33-at a szokásosnál **bujább** táj jellemzi. A fáknak sok zöld levelük van, és a fű nagyon magas. Minél északabbra mész, annál bujább lesz a növényzet.
+
+# Botswana / Regional and district-specific clues
+@ botswana-gr6s
+Az A35 nagyon felismerhető út: mindig **távvezeték van tőled nyugatra**. Felismerhető a szemcsés aszfaltjáról is kifakult felfestéssel. Az úttal párhuzamosan sok kis földút található, amelyek eltűnnek a bokrok között.
+
+# Botswana / Regional and district-specific clues
+@ botswana-igGd
+A Francistowntól északra fekvő keleti zseb tájképét **vörös talaj** és kissé száraz megjelenés jellemzi. A talaj ezen a két területen gyakran szilárdnak és kövesnek tűnik, nem pedig homokosnak vagy porosnak. Gyakoriak a sárgult levelű fák és bokrok, valamint egyéb „**őszi**” színek. Sok fa kopár és elszáradt. Néhol lehullott leveleket is láthatsz a földön.
+
+# Botswana / Spotlight
+@ botswana-jqFy
+A messzi északon fekvő Chobe árterületi nemzeti parkban sok a **kis, kanyargós földúti** felvétel, amelyek nagy része közvetlenül a Chobe folyótól délre van. Mindkét oldalán elszórtan buja bokrok vannak, és gyakran találsz vadállatokat, például elefántokat és varacskos disznókat.
+
+# Botswana / Spotlight
+@ botswana-nG4U
+Az A20-on jobbára **tiszta, friss aszfalt** van. Az út néhány szakasza a szokásosnál jóval **keskenyebb**. A tájat vörös talaj, száraz szürkés fák és nagyon kevés fű jellemzi.
+
+# Botswana / Spotlight
+@ botswana-oPNf
+A Tsodilo-hegyek világörökségi helyszín emlékezetes a **nagy, kiugró dombjairól** szabadon álló sziklafalakkal. A dombok körüli felvételek teljes egészében földutakon készültek.
+
+# Botswana / Spotlight
+@ botswana-wRda
+Ezek a jellegzetes **silók** az északkelet-botswanai Pandamatengában találhatók, és a település egész területéről láthatók.
+
+# Botswana / Spotlight
+@ botswana-yo96
+A Maunból Khwai felé vezető, jobbára burkolatlan utat a **rendkívül fehér homokos talajról és az utat körülvevő magas zöld fákról** lehet felismerni. Az út első szakasza, Maun és Shorobe között, burkolt. Az a szakasz azonban így is felismerhető a fákról, a halvány felfestésről és az úttól nyugatra futó távvezetékről.
+
+# Canada / Spotlight
+@ canada-0Ohz
+A **Gaspé-félsziget** belső útjait sűrűn erdős, hegyvidéki terep jellemzi. Ezen a vidéken különösen gyakori a **borult** felvétel.
+
+# Canada / Spotlight
+@ canada-0rfu
+A **Cape Breton-felföld** Új-Skócia északkeleti részén kelet-kanadai mércével szokatlanul nagy szintkülönbségekkel bír. Nagyon erdős, lombhullató és fenyőfák keverékével.
+
+# Canada / Spotlight
+@ canada-3vxs
+Ezek a lapos, **sárga terelőoszlopok** a Trans-Canada Highwayen találhatók Új-Brunswickban.
+
+# Canada / Regional/province-specific clues
+@ canada-6BuB
+Dél-Saskatchewanban sok a folyóvölgy, ami azt jelenti, hogy a tartománynak kopár, **dombos tájképe** lehet; sokkal inkább, mint a kanadai Nagy-síkság többi részének, amely jellemzően igazán lapos.
+MEGJEGYZÉS: Ez a dombosság némileg átnyúlik Alberta és Manitoba déli részére is.
+
+# Canada / Regional/province-specific clues
+@ canada-7Oi3
+Ezeket a **téglalap alakú jelzőket** Québecben találod az utak szélén. A színük változó lehet.
+MEGJEGYZÉS: Ritkán megtalálhatók az új-brunswicki városi osztott pályás utakon is.
+
+# Canada / Spotlight
+@ canada-7Q8P
+Az albertai Drumheller melletti területen jellegzetes, kanyonszerű, **fátlan** sziklaalakzatok alkotják a tájat.
+
+# Canada / Regional/province-specific clues
+@ canada-8xOs
+Yukon nagyon északi, **tajgás tájképű**, jobbára **dombos**, olykor [nagy hegyekkel](https://goo.gl/maps/j7jVz8vNP3EczZRF8) a távolban. Az utakat tűlevelű fák szegélyezik, és minél északabbra mész, annál vékonyabbak és alacsonyabbak lesznek a fák. A régebbi [2. generációs felvétel](https://goo.gl/maps/EuhTiy8inFfLy7BF8) gyakori ezen a vidéken.
+
+# Canada / Spotlight
+@ canada-9HIG
+Az észak-manitobai Churchill távoli településén olyan trekker van, amelyen jellegzetes vékony **antenna** látszik az autó jobb elülső oldalán. A településnek egyedi utcanévtáblái is vannak.
+MEGJEGYZÉS: Ezek a felvételek a környező területen is láthatók.
+
+# Canada / Regional/province-specific clues
+@ canada-ATJW
+Az új-fundlandi kocsibejárókon **fadeszkákból** készült szemetestartók láthatók. Ezek leggyakrabban **nyolcszögletűek**, de más alakúak is lehetnek.
+MEGJEGYZÉS: Bár Új-Fundlandon a leggyakoribbak, néha más tartományokban is láthatók, például [Új-Brunswickban](https://goo.gl/maps/PCnuxKNs65VkeDqNA).
+
+# Canada / Regional/province-specific clues
+@ canada-B83g
+A **Nagy-síkság** jobbára lapos, némi hullámzó dombbal. Sok a mezőgazdasági terület, nagyon kevés a fa, és nagyon gyéren lakott. A táj annál szárazabb, minél inkább dél-délnyugat felé haladsz; a legszárazabb részek az amerikai Montana tagállammal közös határ közelében vannak.
+
+# Canada / Regional/province-specific clues
+@ canada-BSBp
+Az Északnyugati területeknek fekete-fehér terelőoszlopa van hengeres alakkal és két **vastag**, **fekete** sávval.
+MEGJEGYZÉS: Nagyon hasonlít az albertai terelőoszlopra. Az albertai terelőoszlopon azonban vékonyabbak a fekete sávok.
+
+# Canada / Regional/province-specific clues
+@ canada-D1Vh
+Új-Fundlandon a tűzcsapok mellett gyakran van egy **rombusz alakú jelző**.
+
+# Canada / Regional/province-specific clues
+@ canada-DPnH
+Brit Columbiában a táblákat néha ezekről az egyedi táblatartó oszlopokról lógatják le.
+
+# Canada / Regional/province-specific clues
+@ canada-GAxI
+Albertának egyedi **fekete-fehér** terelőoszlopa van, amely gyakran megtalálható a kereszteződésekben. **Hengeres** alakú, és két fekete sáv fut körbe rajta. Ez az egyik leghasznosabb kanadai terelőoszlop, amit érdemes megtanulni, mert olyan gyakran fordul elő.
+MEGJEGYZÉS: Néhány albertai terelőoszlopon a két fekete sáv között fehér helyett [sárga sáv](https://goo.gl/maps/VocoBEyMAyYWS6TNA) van. Ritkán [kék sávok](https://www.google.com/maps/@51.0086521,-114.1574649,3a,15y,332.03h,76.57t/data=!3m6!1e1!3m4!1swqH7OVkeCkEWjGass03ahQ!2e0!7i16384!8i8192) is láthatók, különösen Calgaryban és környékén, míg [zöld sávok](https://www.google.com/maps/@53.6289425,-113.3790425,3a,15y,31.12h,80.5t,0.35r/data=!3m6!1e1!3m4!1sOAFFhMEkY051OMV8geKMog!2e0!7i16384!8i8192) ritkán Edmontonban és környékén fordulnak elő.
+
+# Canada / Regional/province-specific clues
+@ canada-Izqw
+Ezeket a táblákat tartó **fadobozokat** Új-Fundlandon és Labradorban veheted észre.
+
+# Canada / Regional/province-specific clues
+@ canada-JHUC
+Új-Skóciában a villanyoszlopokon lévő lámpakarok általában íveltek és jóval **rövidebbek**, mint [Kanada többi részén](https://maps.app.goo.gl/f8W98cYyaK7do5oa7).
+MEGJEGYZÉS: Rövid lámpakarok időnként Kanada más részein is előfordulhatnak.
+
+# Canada / Regional/province-specific clues
+@ canada-JWTI
+A saskatchewani táblatartó oszlopokon ezek a **fehér háromszögek** lehetnek. A szám változó.

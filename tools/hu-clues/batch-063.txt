@@ -1,0 +1,224 @@
+# Namibia / Region-specific clues
+@ namibia-X6Ct
+Ha tudod, hol homályosítják ki a Google-autót, az jelentősen szűkítheti a lehetőségeidet. Az alábbiakban néhány hasznos eset:
+- Északon az elmosott autó kizárólag [Ondangvától](https://maps.app.goo.gl/3ket3j3jLiuT1ySR7) északnyugatra fordul elő.
+- Az elmosott autó burkolatlan úton valószínűleg a B1-es vagy más főutak számos [mellékútjának](https://maps.app.goo.gl/YjAFjGq1fFnfehcR7) egyikére, vagy egy településre helyez téged.
+- A Nordoewer és Aussenkehr közötti burkolt [úton](https://maps.app.goo.gl/XAwT2QndeUVDCXQZ7) az autó nincs kihomályosítva.
+- További említésre méltó burkolt utak, amelyek nem Windhoektől északra fekszenek: a [C20-as](https://maps.app.goo.gl/YbHyk9drxFNRG9Z66), a [C22-es](https://maps.app.goo.gl/nwf92i6mjCV5vtJr8) (Gobabistól délre) és a [C23-as](https://maps.app.goo.gl/Kz9nib6UPgXAL5oz7).
+MEGJEGYZÉS: Az elmosott autó erősen összefügg a 2024-es szerzői jogi évszámmal. Óvatosan használd.
+
+# Namibia / Spotlight
+@ namibia-ZNXA
+A B2-est Swakopmundtól ÉK-re a homokos talajról és a keleten látható hegygerincről ismerheted fel. ÉNy-on néhány [magányos hegy](https://maps.app.goo.gl/msmSb43uQCuq9SC17) vagy domb is látható. Vedd figyelembe, hogy Swakopmund közelében az ég [párás](https://maps.app.goo.gl/HojVjgFmZKtjad7JA), és nem fogod látni a gerincet. Ezen a szakaszon a tengerparti hatású homokos talaj és az ÉK-i útirány általában akkor is elegendő az út megerősítéséhez.
+
+# Namibia / Region-specific clues
+@ namibia-ZRAe
+Ez a térkép a burkolat típusát, valamint a haladási irányt mutatja az összes főúton.
+
+# Namibia / Spotlight
+@ namibia-ZxG0
+Oranjemund jómódú, rácsos város szinte pontosan kelet–nyugati utcákkal, a város egészén rengeteg **ültetett növényzettel**. Szinte mindenhol látható több [norfolkfenyő](https://maps.app.goo.gl/P3Su4Jd2vpxZqgDCA). Az utcák jól szervezettek: K–Ny-i sugárutakkal és É–D-i utcákkal, amelyek neve a kapuk melletti [kis kék jelzéseken](https://maps.app.goo.gl/3pZrSDpLRb4ZCa5E6) vagy változó kialakítású [utcanévtáblákon](https://maps.app.goo.gl/zQgR2ugtF3LkBsoZ7) látható.
+
+# Namibia / Spotlight
+@ namibia-axbq
+Egy nagyon zord hegyképződmény látható nyugaton a C35-ös és mellékútjainak néhány szakaszáról.
+
+# Namibia / Spotlight
+@ namibia-cKwP
+A **világos színű sziklás domboldalak** mindenütt jelen vannak a dombos, tengerparti Luderitz településén.
+
+# Namibia / Spotlight
+@ namibia-cT5i
+A B8-as e hosszú szakaszát a **világos színű, szemcsés burkolatról**, valamint a nagyjából K–ÉK-i irányról és a növényzetben gazdag északi tájról ismerheted fel.
+
+# Namibia / Region-specific clues
+@ namibia-dVuf
+A namíbiai körzetszámok egyszerű módot adnak a helyes vidék vagy város eltalálására városi körökben.
+
+# Namibia / Region-specific clues
+@ namibia-da0h
+Északnyugatabbra egy némileg zöldebb vidéket találsz, ahol a hegyeket és dombokat bokrok meg fák borítják.
+
+# Namibia / Spotlight
+@ namibia-et4Z
+A világos talaj és a derült ég, keleten egy asztalhegy-gerinc fölött felhőtakaróval, jellegzetessé teszi ezt a burkolt, É–ÉNy-i irányú utat.
+
+# Namibia / Spotlight
+@ namibia-fza8
+A C41-essel való kereszteződéstől délre az út elveszíti a vörös burkolatát, és a minősége romlik. A táj kevésbé füves és homokosabb, nyugaton [dombokkal](https://maps.app.goo.gl/HByXtaekqiaUQGk77), amelyeket azonban gyakran elrejt a növényzet. Az út általában D–DK-i irányban halad. Délebbre dombosabbá válik, és egyes részei inkább DK-i irányúak lesznek. Az eget következetesen szétszórt [fátyolfelhők](https://maps.app.goo.gl/K6hbEGCHVQJKwN58A) és [gomolyfelhők](https://maps.app.goo.gl/d26SpmrumkcZVnv36) borítják.
+
+# Namibia / Spotlight
+@ namibia-gR4V
+Kissé keletebbre, Karibib és Usakos között napkeltés felvételt találsz, amely meglehetősen vékony felhőkkel borított éggel párosul. Északon hegyek vannak, valamint kisebb dombok közvetlenül az úttól délre, míg K–ÉK-en többnyire sík a terep.
+
+# Namibia / Spotlight
+@ namibia-hXYJ
+A B1-es út Grunautól délre elhagyatott burkolt út, amely nagyjából É–ÉK-i irányban halad egy sivatagi tájon át, ahol csak nagyon alacsony és száraz a növényzet.
+
+# Namibia / Region-specific clues
+@ namibia-i6Sl
+A száraz hegyek és dombok uralják az ország nyugati és déli részének nagy részét.
+
+# Namibia / Spotlight
+@ namibia-jDkd
+A C35-össel való kereszteződéstől keletre az útnak állandó DNy–ÉNy-i iránya és szemcsés burkolata van. A fű tapintásra lágynak látszik, a némileg homokos talaj pedig jellemző erre a vidékre. Gomolyfelhők pettyezik az eget.
+[A C35-ös kereszteződésétől nyugatra](https://maps.app.goo.gl/9jXSgyXW1W6ZBLUL7) ugyanaz a szemcsés burkolat és felhőzet marad, de a táj sokkal dombosabb, és az útirány megváltozik.
+
+# Namibia / Region-specific clues
+@ namibia-ke6W
+Ez a Tsumebtől délre fekvő sáv adja Namíbia legbujább felvételét, ahol a fű és a hegyek teljesen zöld színűek.
+
+# Namibia / Spotlight
+@ namibia-ksca
+Rosh Pinah könnyen felismerhető a várostól közvetlenül északkeletre fekvő száraz hegyekről, valamint a kissé távolabb [délnyugaton](https://maps.app.goo.gl/3LbfPf8DFpVwr35d8) lévőkről.
+
+# Namibia / Spotlight
+@ namibia-kvIP
+Egy rövid szakaszon Kamanjabtól ÉNy-ra, ugyanazzal a némileg zöld és dombos tájjal, lenyűgöző felhőalakzatok láthatók az égen, a nap pedig nyugatról próbál kikandikálni. A horizonton [narancssárga árnyalatok](https://maps.app.goo.gl/u7ykwqpSUqGCP8up6) láthatók.
+
+# Namibia / Spotlight
+@ namibia-kwl9
+A C40-esnek nagyjából ÉNy-i iránya van, sík terepen halad át, a szokásos északi tájjal: rövid fűvel az út mellett, távolabb fákkal, és a távolban néhány dombbal. A C39-eshez hasonlóan sok gomolyfelhő pettyezi az eget, és minél közelebb érsz Kamanjabhoz, annál lejjebb száll a [nap](https://maps.app.goo.gl/P3hJec6yLcs49L6SA) nyugaton.
+
+# Namibia / Spotlight
+@ namibia-kzLO
+Seeheim és Keetmanshoop között az úthoz közeli táj sík, a hegyek pedig mindig a közelben vannak. Közvetlenül Seeheimtől keletre ÉK-en egy [rövid gerincet](https://maps.app.goo.gl/gzgznEv2KFa2Gsr29) látsz, tőle közvetlenül nyugatra egy magányos heggyel, valamint egy [hosszú gerincet](https://maps.app.goo.gl/Vy4TJZ6S5giURVcYA) messze nyugaton. Kissé keletebbre, az ÉK-i irányú szakaszon minden irányban hegyek vannak, de nyugaton egy [hosszú, egyenetlen asztalhegy-gerincet](https://maps.app.goo.gl/4rz1mXGEGvJXA45k8) látsz. Ezen a szakaszon délen vasút is látható.
+
+# Namibia / Spotlight
+@ namibia-ldeC
+A B4-esnek Luderitztől keletre szinte vakítóan **világos homokos talaja** van. Az úthoz közeli táj általában sík, a távolban dombokkal és hegyekkel. Luderitz közelében a táj [sokkal dombosabbá](https://maps.app.goo.gl/UACZ8efgUyMThsrF9) válik. E szakasz nagy részén vasút követi szorosan az utat a déli oldalon.
+
+# Namibia / Spotlight
+@ namibia-nOBK
+A tengerparti Swakopmund és Walvis Bay városa **sík**, és gyakran **homokos utcák** jellemzik, körben ültetett **pálmákkal** és norfolkfenyőkkel. Az utcanév- és közúti táblákon gyakran vannak [négyzetes táblatartó oszlopok](https://maps.app.goo.gl/wrtSH3P4gsmkEgXy6).
+Az útirányok segíthetnek a város egyes részeinek behatárolásában, de az északkeleti irány mindkettőben gyakori.
+Ezek a [fehér és kék műanyag tartályok](https://maps.app.goo.gl/tqK6dNW6hqXnVhBR9) gyakoriak Swakopmundban, akárcsak a [sárga lámpaoszlopok](https://maps.app.goo.gl/8DgByYnCTwNfJgTG7) a belvárosi részeken.
+
+# Namibia / Region-specific clues
+@ namibia-nfvM
+Namíbia délkeleti részén számtalan apró gerinc van ÉNy–DK-i irányban. Az ezeken a vörös homokos gerinceken [„lovagló”](https://maps.app.goo.gl/jsk2o2cmYARgmVAY7) utak dimbes-dombosnak tűnnek, szinte mint egy hullámvasút. A [gerincek](https://maps.app.goo.gl/SN2Vcep8NbA69Cxd8)[ ](https://maps.app.goo.gl/SN2Vcep8NbA69Cxd8)[között kanyargó](https://maps.app.goo.gl/SN2Vcep8NbA69Cxd8) utak miniatűr völgyeknek mutatják őket.
+
+# Namibia / Region-specific clues
+@ namibia-o3qt
+Azok az utak, amelyeket mindkét oldalon **magas és buja fák** vesznek körül, általában az ország északi részére helyeznek téged. Minél több a fa és minél zöldebbek, annál északabbra-északkeletebbre kattints.
+
+# Namibia / Spotlight
+@ namibia-of42
+A [Brandberg-hegy](https://maps.app.goo.gl/eegoCaedE3ehW8Mp7) koronaszerű körvonala Uis nagy részéről alig látható északnyugaton, míg sok más száraz domb veszi körül a települést. A [külszíni bányák](https://maps.app.goo.gl/W2KRgzq2Wsv83HRU8), amelyeknek jellegzetes fehér színük van, Uis nyugati feléről láthatók.
+
+# Namibia / Spotlight
+@ namibia-py4w
+Okahandjától északra a B1-es nagyjából északi irányt követ, a nap pedig É–ÉNy-on ragyogóan süt. Az ég egyébként felhőtlen. Ami a tájat illeti, laposabb, mint Windhoek környékén, csak elvétve akad egy-egy domb vagy hegy; egyébként a rövid aranyszínű fű, a némileg zöld akáciafák és az úttól távolabbi bokrok jellemzők Közép- és Észak-Namíbiára.
+Sukses­től délre látod ezt a két hegyes [hegyet](https://maps.app.goo.gl/TDSJUQXQbwBwL9CNA), amelyek közül az egyiknek élesebb a csúcsa, mint a másiknak, az úttól nyugatra.
+
+# Namibia / Spotlight
+@ namibia-q0wQ
+Bár nem olyan gyakori, ugyanez a nádfedeles építészet Noordoewerben is jelen van, és Aussenkehrrel ellentétben ez a település sík földre épült, délnyugaton egy [impozáns sziklafallal](https://maps.app.goo.gl/JqoV8nVjpTkh3oq89), amely a határon túl, Dél-Afrikában látható. Hasonló hegyek északon is láthatók.
+
+# Namibia / Spotlight
+@ namibia-qoqD
+A szélső sárga útvonalak a B1-es következő szakaszairól hiányoznak:
+- Grunau és Keetmanshoop között a táj dombosabbá válik, és az út minősége általában romlik.
+- Ez a [rövid szakasz](https://maps.app.goo.gl/enThcbiWS4e37Xx19) Keetmanshooptól északra felhős.
+- A [harmadik szakasz](https://maps.app.goo.gl/YS14ugmHJm9DeBqx5) Gibeon és Mariental között van, amely sík, és É–ÉK-i irányban halad.
+
+# Namibia / Spotlight
+@ namibia-sBG0
+Gibeon és Tses között az útnak szélesebb padkája van, és a burkolat minősége összességében kiváló.
+
+# Namibia / Region-specific clues
+@ namibia-t3Ad
+Windhoek környékén egy kis vidéket találsz némileg **száraz, hullámos dombos tájjal**, ahol a dombokat száraz sárga fű és élettelennek látszó bokrok meg apró fák borítják.
+
+# Namibia / Spotlight
+@ namibia-uGWG
+Bár nem teljesen egyedi, Rundu legtöbb utcája **mély** és **világos színű homokból** áll, dimbes-dombos felszínnel és belevésődött **keréknyomokkal**.
+
+# Namibia / Spotlight
+@ namibia-vIAf
+A szőlőültetvények kizárólag Aussenkehr környékén találhatók, a dél-afrikai határon, délen.
+
+# Namibia / Spotlight
+@ namibia-veEz
+A narancssárga színű **nádkerítések**, **falak** és **kunyhók** mindenütt jelen vannak Aussenkehr sivatagi településén, amely egy domb [lejtőjére](https://maps.app.goo.gl/h6kpwafSqasy6Q7k6) épült.
+
+# Namibia / Region-specific clues
+@ namibia-xMHW
+A part menti homokos táj időnkénti homokdűnékkel Swakopmund környékén és attól északra található, valamint két kis sávban Luderitz és Oranjemund körül, délebbre.
+
+# Namibia / Spotlight
+@ namibia-yt7p
+A B6-os út nagyjából kelet felé halad Windhoektől, a táj pedig a Windhoekhoz közeli [dombostól](https://maps.app.goo.gl/HKH2ANTv77TFfAKp8) a Gobabishoz közelebbi [jórészt síkig](https://maps.app.goo.gl/LPHBgkFuNUibVNjm8) terjed. A talaj némileg narancssárga színű, rajta rövid zöld fűvel és egyébként zöld növényzettel. A felhőtakaró is változó, de ennek az útnak egyetlen szakaszán sincs derült ég.
+MEGJEGYZÉS: Az egyetlen másik hasonló burkolt útnak, a [C39-esnek](https://maps.app.goo.gl/gtHvwZTt24sAB3wa8), világosabb a talaja.
+
+# Nigeria / Spotlight
+@ nigeria-2I7W
+A **sötétvörös talaj** leggyakrabban Benin City és Enugu városában és környékén található.
+MEGJEGYZÉS: Vörös árnyalatú talaj sok helyen megtalálható. Ez a tipp kifejezetten a sötétvörös talajra vonatkozik.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-3nIu
+Ez a térkép azokat az államokat mutatja, ahol **egyedi** jármű- és riksa**színek** vannak. Ha egy jármű látható, akkor abban az államban sárga riksák lesznek.
+MEGJEGYZÉS: A képen látottaktól lehetnek ritka eltérések. A játékban látható fényezések szintén kissé eltérhetnek a képen szereplőktől.
+_A képre kattintva kinagyíthatod._
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-3ygO
+Ha **száraz**, de zöld mezőgazdasági tájban találod magad, ahol rengeteg **kukorica** van körös-körül, valószínűleg Kano államban vagy. Csak shitcam fedi le, 3. vagy 4. generációs felvétel nélkül.
+
+# Nigeria / Spotlight
+@ nigeria-JPLG
+Az Obudu-fennsík útja arról ismerhető fel, hogy itt vannak Nigéria **legmagasabb hegyei** Street View-felvétellel. Az út **buja, zöld** hegyekre kanyarog fel, és a felvétel kissé ködös és nyirkos.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-Mh2Y
+Ezek a **szénakazlak** rendkívül gyakoriak, és szinte kizárólag Kaduna államban találhatók.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-N7jK
+Nigéria általában **meglehetősen sík** ország, végig finom szintkülönbségekkel. A déli rész viszonylag sík, néhány feltűnő dombot leszámítva délkeleten, Enugu államban, valamint délnyugaton, Ife és Lokoja között. Északon Abudzsától Jimetáig kiemelkedőbb dombok és hegyek találhatók. A legnagyobb hegyek keleten vannak, amelyek a Mandara-hegységet és a Nigéria–Kamerun határt alkotják. A kevés felvétel miatt azonban a hegyek ritkán láthatók.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-P6Jg
+Ezek a monolitikus hegyek **kibukkanó, mállott sziklákkal** gyakoriak Abudzsában és környékén.
+
+# Nigeria / Spotlight
+@ nigeria-PVr3
+Ez a térkép azt mutatja, hol található meg a régi **3. generációs** kísérőautók mindegyike. Ritkák, de azért hasznos lehet ismerni őket.
+MEGJEGYZÉS: Az A121-es nem szerepel a térképen, mivel más nyomokról felismerhető. Ez az [ezüst Lexus](https://maps.app.goo.gl/i36WGpXJW9q2fHhh7), amely szintén nem szerepel a térképen, ritkán látható az Onitsha és Enugu közötti főúton.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-Pu6a
+Benue állam a buja, zöld **fűvel borított talajról** ismerhető fel, **vöröses talajjal**. A növényzet némileg szétszórt, a fű helyét magasabb fák veszik át. Az alacsonyabb fák és cserjék a fű meg a magasabb fák között viszonylag ritkák. A nádfedeles kunyhók szintén gyakoriak a többi déli államhoz képest.
+MEGJEGYZÉS: Ha rengeteg pálma van, inkább a [szomszédos déli államok](https://maps.app.goo.gl/N5KTikgLk6PNkL9X8) felé hajolj, amelyek hasonlónak tűnhetnek.
+
+# Nigeria / Spotlight
+@ nigeria-QcE0
+Az A3-as, amely Potiskumtól keletre a Borno állam határáig vezet, a 4. generációs felvételről, a jórészt **nyílt, száraz tájról** és arról ismerhető fel, hogy a főút **osztott pályás**.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-UAra
+Niger állam Benue állam shitcames megfelelője. Szinte teljes egészében **shitcam** fedi le, és a szétszórt fákról, a **vöröses talajról** és a **száraz fűről** ismerhető fel.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-ZihY
+Nigéria délen főként **keresztény**, északon pedig **iszlám**. Ezért a hidzsábot viselő nők és a muszlim öltözetű férfiak látványa gyakoribb északon.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-c2cO
+A 4. generáció nem található meg északnyugaton és a messzi délen. A shitcam mostanra Nigéria nagy részén megtalálható.
+_A képre kattintva kinagyíthatod._
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-eIgz
+A képen Nigéria **Köppen-féle éghajlati térképe** látható. Az éghajlat a [messzi déli](https://maps.app.goo.gl/pvLGJLnQZK4qnzn99) trópusi esőerdőtől, ahol rengeteg pálmát találsz buja, zöld növényzettel, a középső rész szárazabb, [szavannás tájáig](https://maps.app.goo.gl/SZQcHSZAonH1A9RD6) terjed, ahol a fák szétszórtabbak. A messzi északon [száraz sztyeppévé](https://maps.app.goo.gl/HeiAA6fxzbj3gae47) alakul, ahol a növényzet még ritkásabbá válik.
+MEGJEGYZÉS: A száraz/esős évszakok miatt a felvétel bizonyos szélességi fokokon a vártnál drámaian zöldebbnek/szárazabbnak látszhat.
+
+# Nigeria / Regional and state-specific clues
+@ nigeria-hCzH
+Nagyon hasznos tudni, hol találod meg az egyes generációkat. Külön figyelemre méltó, hogy a 3. generáció nem található meg Abudzsától északra.
+_A képre kattintva kinagyíthatod._
+
+# Nigeria / Spotlight
+@ nigeria-hvhF
+A shitcamnek ez a jellegzetes **kék árnyalatú** változata ezeken a területeken található meg.

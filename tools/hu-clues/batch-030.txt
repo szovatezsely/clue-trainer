@@ -1,0 +1,357 @@
+# Albania / Spotlight
+@ albania-FWHl
+Az E851 az egyetlen osztott pályás út egyszerű kettős szalagkorláttal, amely közvetlenül **hegyeken halad át**.
+MEGJEGYZÉS: Az A3 egy szakasza szintén hegyeken megy át, de azt vagy kettős szalagkorlát választja el fölötte [kerítéssel](https://goo.gl/maps/sEhkf36gQT4r56yMA), vagy [betontömbök](https://goo.gl/maps/59RXBrWohChLHePS9).
+
+# Albania / Spotlight
+@ albania-LNw7
+Az SH2 Durrës és Tirana közötti, valamint az SH4 Lushnja és Rrogozhina közötti szakaszát egyaránt **egyszerű betontömbök** választják el.
+
+# Albania / Spotlight
+@ albania-QFIu
+Egy széles, szinte **kiszáradt folyóvölgy** délkelet–északnyugati irányban az SH71 mentén látható Pishaj és Kokel között.
+
+# Albania / Spotlight
+@ albania-TwNX
+Gjirokastra egy széles völgy **nyugati hegyoldalában** fekvő város.
+
+# Albania / Spotlight
+@ albania-Wxzu
+Lezha városát gyakran a magas domb tetején álló **régi várról** lehet felismerni.
+
+# Albania / Regional and county-specific clues
+@ albania-dFse
+Az albániai 3. generációs felvételeken kétféle autó- és kamerameta van:
+- Olyan felvétel, ahol a Google-autón hosszú antenna van, és rifteket látsz az égen.
+- Olyan felvétel, ahol a Google-autón rövid antenna van, és nem látszanak riftek.
+_A képre kattintva kinagyíthatod. Használhatod [ezt a térképréteget](https://www.google.com/maps/d/u/0/viewer?ll=41.11823444009704%2C20.361213161801423&mid=1y5ixAA3bq5FNQrDNfpzSF5Hv80K-BkM&z=8) is a felvételek részletesebb vizsgálatához (köszönet icraig1205-nek)._
+
+# Albania / Spotlight
+@ albania-kR9B
+A Durrës és Fier közötti SH4 nagy részét **egyszerű kettős szalagkorlát** választja el. Az út nem halad át hegyeken.
+
+# Albania / Spotlight
+@ albania-oT18
+Tiranában, Durrësben, valamint a Tiranától délre futó A3-on és SH3-on olyan gyorsforgalmi utakat találsz, amelyeket betontömbök választanak el, közöttük **fűvel és zöld növényzettel**.
+
+# Albania / Spotlight
+@ albania-sQLY
+A Maja e Papingut **hatalmas hegy** Albánia déli részén, a teteje közelében szinte teljesen függőleges sziklafallal. Több közeli útról is látható.
+
+# Albania / Spotlight
+@ albania-uBm9
+Albániában csak néhány osztott pályás út szerepel a Street View-n. Az alábbi tippekben mindegyikről és a megkülönböztetésükről lesz szó.
+A legkönnyebben felismerhető osztott pályás út az A1 Fushë Milot és Thumana között, amely az egyetlen **hármas szalagkorláttal**.
+
+# Albania / Regional and county-specific clues
+@ albania-yEQq
+Albánia általában nagyon hegyvidékes ország. Ez a térkép a domborzatot és a felszínformákat mutatja.
+- Az alacsonyan fekvő területek jobbára nyugaton összpontosulnak, Shkodra, Tirana és Vlora környékén. Az országnak ezt a részét mezőgazdasági síkságok és alacsony, hullámzó dombok jellemzik. Vedd figyelembe, hogy a délkeleti Korça körüli fennsík szintén nagyon lapos.
+- A legmagasabb hegyek a messzi északon és a messzi délen találhatók. Ezek a hegyek helyenként szinte alpesi képet mutathatnak.
+_A képre kattintva kinagyíthatod._
+
+# Antarctica / Regional clues
+@ antarctica-267M
+A Ross-sziget nyugati csücskén készült felvételeket jellemzően a rendkívül sötét és jobbára kopár **sziklás talajról** lehet felismerni.
+
+# Antarctica / Regional clues
+@ antarctica-5eul
+A **Deception-sziget öblét** az öbölben álló kék-fehér hajóról és a parton hagyott elhagyatott felszerelésről lehet felismerni.
+
+# Antarctica / Regional clues
+@ antarctica-6UVj
+A McMurdo-állomástól délkeletre a trekker jégrétegen sétálva látható **különféle gépek** körül.
+
+# Antarctica / Regional clues
+@ antarctica-DonF
+A Petermann-szigetet a hóréteg és a **szabadon álló sziklafoltok**, valamint a túlexponált kamera alapján lehet felismerni.
+
+# Antarctica / Regional clues
+@ antarctica-H2qs
+A Deception-szigeten **fekete homokos** part látható sok pingvinnel.
+
+# Antarctica / Regional clues
+@ antarctica-H9Ii
+A McMurdo-állomás az Antarktisz legnagyobb kutatóállomása, és a **sötétbarna talajról**, a **sok épületről**, az amerikai infrastruktúráról és a naplementés felvételekről lehet felismerni.
+MEGJEGYZÉS: A McMurdo-állomás körüli felvételek nagy részén a nap délen nyugszik, ami nem vezethet oda, hogy az északi féltekére tippelj.
+
+# Antarctica / Regional clues
+@ antarctica-J7ki
+A Déli-sarki Obszervatóriumot állványos felvétel járja körbe, és a belsejébe is bemegy.
+
+# Antarctica / Regional clues
+@ antarctica-LHa5
+A Deception-szigeten a trekker **libasorban haladva** látható.
+
+# Antarctica / Regional clues
+@ antarctica-M09G
+A Half Moon-szigetet **állvánnyal** vették fel. Felismerhető a számos további, piros kabátos emberről is.
+
+# Antarctica / Regional clues
+@ antarctica-Vkbp
+A McMurdo-állomástól délre **hatalmas, havas táj** látható szétszórt dombokkal.
+
+# Antarctica / Regional clues
+@ antarctica-WeDn
+A McMurdo-állomás keleti oldalán egy kis faházat találsz, amelynek a [belsejébe állvány megy be](https://goo.gl/maps/LfHyR3gHdYmXM7TBA).
+
+# Antarctica / Regional clues
+@ antarctica-Xp1t
+A Danco-szigetet a havas fjord fölötti **gyönyörű naplementés felvételekről** lehet felismerni.
+
+# Antarctica / Regional clues
+@ antarctica-gvxD
+A **déli-sarki** állványt az állvány körül álló számos ország zászlajáról és a „Geographic South Pole” feliratú tábláról lehet felismerni.
+Ez a helyszín gyakran szerepel a közösség által készített világtérképeken a jobb pontozási tartomány érdekében.
+
+# Antarctica / Regional clues
+@ antarctica-ppwM
+A trekker mesés tájon halad át, amelyet sok **kietlen völgy** alkot az antarktiszi szárazföldön, a Ross-szigettől nyugatra.
+
+# Antarctica / Regional clues
+@ antarctica-xy6q
+A Ross-sziget keleti csücskétől délre egy állványos felvételt találsz, amely egy **szürke fémtetős** kis faház külsejét és [belsejét](https://goo.gl/maps/s9oJFd4Q8Vuretn89) mutatja.
+
+# Antarctica / Regional clues
+@ antarctica-z5y4
+A Cuverville-szigetet a borult idő és az **északnyugati** partvonal együttese alapján lehet felismerni. Jócskán látni fogsz pingvineket is, különösen [kelet felé](https://goo.gl/maps/EVEBMqPQCrBaeptV6).
+
+# Antarctica / Regional clues
+@ antarctica-zOhv
+A McMurdo-állomáson [több](https://goo.gl/maps/Pa8CQWgr7CmcTBvt7) [épület](https://goo.gl/maps/JLbjTgt5ibVGp7SF8) belsejében is találsz állványos felvételt.
+
+# Argentina / Regional and province-specific clues
+@ argentina-06ge
+La Pampában a T-kereszteződéseknél néha ezek a **sárga téglalap alakú táblák** láthatók, alul terelőtábla-mintával, fölötte az útszámmal vagy útszámokkal, mindkét oldalon nyíllal.
+
+# Argentina / Regional and province-specific clues
+@ argentina-2AHH
+Az egyes **nyárfasorok**, amelyeket vékony és magas megjelenésük jellemez, nagyon gyakoriak Neuquén környékén. A terület emellett nagyon lapos.
+
+# Argentina / Regional and province-specific clues
+@ argentina-2ZIl
+A [Trichocereus atacamensis](https://en.wikipedia.org/wiki/Leucostele_atacamensis), vagyis a **cardón**, Catamarca, Tucumán, Salta és Jujuy magas hegyvonulataiban őshonos kaktusz. A gyertyatartóra emlékeztető megjelenéséről és pihés, aranybarna tüskéiről lehet felismerni.
+
+# Argentina / Regional and province-specific clues
+@ argentina-46I8
+A **vörös talaj** jellemzően Misiones tartományban található.
+MEGJEGYZÉS: Brazília és Argentína hasonlónak tűnhet ezen a vidéken. Előbb mindenképp keress más nyomokat.
+
+# Argentina / Spotlight
+@ argentina-63ID
+Ez a **lovas trekker** San Juan délnyugati részén található.
+MEGJEGYZÉS: Hasonló trekker a túloldalon, Chilében is megtalálható.
+
+# Argentina / Regional and province-specific clues
+@ argentina-6o3V
+A [Trithrinax campestris](https://en.wikipedia.org/wiki/Trithrinax_campestris), vagyis a caranday pálma – nem tévesztendő össze a caranday viaszpálmával – a Sierras de Córdobában őshonos, igénytelen pálma, amelynek elterjedése kiterjed San Luisra és Argentína északi hegyvidékére is. A tömött, legyezőszerű leveleiről és a **száraz levelek köpenyével** elrejtett törzséről lehet felismerni.
+
+# Argentina / Spotlight
+@ argentina-9ggu
+Az RN65 nyugati szakaszát Tucumán nyugati részén könnyen fel lehet ismerni erről a **kanyargós, burkolatlan hegyi útról**, amelynek nyugati része [a felhők között](https://maps.app.goo.gl/dq1L8WT13w2QBXpu5) halad.
+
+# Argentina / Spotlight
+@ argentina-BMCC
+Ha **szőlőültetvényeket** látsz nyugaton hegyekkel és keleten lapos terepbe, akkor nagy valószínűséggel Mendoza külvárosában vagy.
+MEGJEGYZÉS: Argentínában több borvidék is van, de a mendozai a legfelismerhetőbb mind közül.
+
+# Argentina / Regional and province-specific clues
+@ argentina-BOTl
+Az ilyen **lapos** és **kopár** táj jellemzően Argentína középső-déli részén található.
+
+# Argentina / Regional and province-specific clues
+@ argentina-BjEa
+A [Copernicia alba](https://en.wikipedia.org/wiki/Copernicia_alba), más néven caranday viaszpálma, rövid, **legyezőszerű levelekkel** rendelkezik, és hajlamos ritka, egyfajú erdőkben nőni. Leggyakrabban Formosában fordul elő, de Chacóban, Corrientesben és Santa Fe északi részén is megtalálható.
+
+# Argentina / Regional and province-specific clues
+@ argentina-DZIL
+A **kukoricaföldek** Észak-Argentína nagy részén megtalálhatók, de leggyakrabban Córdobában és Santiago del Esteróban.
+
+# Argentina / Spotlight
+@ argentina-Gsxd
+Ezek a **vulkáni kőzetek** a 4. generációs felvételeken kizárólag az RP43-on találhatók, Antofagasta de la Sierrától délre, Catamarca északnyugati részén.
+
+# Argentina / Regional and province-specific clues
+@ argentina-HSWC
+A **bükkerdők** gyakran megtalálhatók Tűzföld tartományban.
+
+# Argentina / Regional and province-specific clues
+@ argentina-HidJ
+A pampafű ([Cortaderia selloana](https://en.wikipedia.org/wiki/Cortaderia_selloana)) a Pampák régió egyik legjellegzetesebb növénye. A hosszú, csomóban álló nádszáláról és **fehér, pihés virágzatáról** lehet felismerni.
+
+# Argentina / Spotlight
+@ argentina-IIWE
+Ezek az északra fekvő havas hegyek kizárólag **Ushuaiában** találhatók.
+MEGJEGYZÉS: Ushuaia Argentína legdélebbi városa és Tűzföld tartomány székhelye.
+
+# Argentina / Spotlight
+@ argentina-Ipth
+Ezek a hegyek jellemzően Córdobától nyugatra találhatók.
+MEGJEGYZÉS: Nem olyan magasak, mint a nyugati hegyek.
+
+# Argentina / Regional and province-specific clues
+@ argentina-IrVr
+Az argentin **faültetvények** többsége Entre Ríos tartományban található.
+MEGJEGYZÉS: Uruguayban és Dél-Brazíliában szintén vannak. Mindenképp nézz meg más nyomokat is, mielőtt tippelsz.
+
+# Argentina / Spotlight
+@ argentina-KCJo
+A vörös talaj kopár tájjal és hegyvonulatokkal gyakran látható az RN76-on a **Talampaya Nemzeti Parkban**, La Rioja nyugati részén.
+
+# Argentina / Regional and province-specific clues
+@ argentina-KgOC
+Az út közelében lévő **kis tavak** időnként Buenos Aires tartományban láthatók.
+
+# Argentina / Regional and province-specific clues
+@ argentina-KkRF
+Ezen a területen általában **füves puszta** található néhány elkülönülő faültetvénnyel.
+
+# Argentina / Spotlight
+@ argentina-MNox
+A **chilei araukária** Neuquén nyugati részén található meg. A legtöbb példány a 23-as állami úton látható.
+MEGJEGYZÉS: A túloldalon, Chilében is láthatók.
+
+# Argentina / Regional and province-specific clues
+@ argentina-NUPv
+Mendozában olyan oszlopokat találsz, amelyeken **egyetlen szigetelő** csatlakozik az oszlop oldalára.
+
+# Argentina / Spotlight
+@ argentina-UvI1
+A **félig tengerparti füves dombok** Buenos Aires déli részén láthatók, különösen Bahía Blancától északkeletre.
+
+# Argentina / Spotlight
+@ argentina-UzNb
+A **„fűrészporos”** autó Argentína középső-déli részén található, és a látható fekete hátulján egyedi homokos por van.
+
+# Argentina / Regional and province-specific clues
+@ argentina-VfW1
+Argentína messzi nyugati részét jellemzően **hegyvidékes** táj jellemzi.
+MEGJEGYZÉS: Ritka, hogy Kelet-Argentínában hegyeket találj.
+
+# Argentina / Regional and province-specific clues
+@ argentina-WFi2
+Ha ilyen növényzetet látsz **lapos fűvel** és kevés bokorral, szinte biztosan Tűzföld tartományban vagy Santa Cruz délkeleti részén vagy.
+
+# Argentina / Regional and province-specific clues
+@ argentina-XFL6
+Argentínán belül ezek a lett stílusú **fa** kampós oszlopok kizárólag La Riojára és Mendozára jellemzők.
+
+# Argentina / Regional and province-specific clues
+@ argentina-Z4q5
+A [**cirok**](https://en.wikipedia.org/wiki/Sorghum)földek leggyakrabban Santa Fében, Córdobában és Buenos Airesben láthatók. A sötétvörös virágzatáról lehet felismerni.
+
+# Argentina / Regional and province-specific clues
+@ argentina-cc7y
+A [totai pálmának](https://species.wikimedia.org/wiki/Acrocomia_totai) **kis, vékony levelei** vannak jól látható **lándzsa alakú** csúccsal, valamint **sima törzse**. Dísznövényként Argentína egész területén megtalálható, vadon azonban leggyakrabban Formosában, Chacóban és Misionesben fordul elő.
+
+# Argentina / Regional and province-specific clues
+@ argentina-cqF0
+A **vadon élő napraforgó** ([Tithonia tubaeformis](https://es.wikipedia.org/wiki/Tithonia_tubaeformis)) gyakran megtalálható Saltában, Jujuyban és Tucumánban.
+
+# Argentina / Regional and province-specific clues
+@ argentina-fwgj
+A [Prosopis caldenia](https://en.wikipedia.org/wiki/Prosopis_caldenia), ismertebb nevén caldén, meglehetősen **nagy lombhullató fa** **kis levelekkel** és **kanyargós ágakkal**. Főként La Pampában található meg.
+MEGJEGYZÉS: Ezt a fát olykor össze lehet téveszteni más fákkal, például a [fehér algarobóval](https://en.wikipedia.org/wiki/Prosopis_alba).
+
+# Argentina / Regional and province-specific clues
+@ argentina-fy4M
+Chaco és Formosa tartományban gyakran látsz **homokos talajt** **bőséges növényzettel**, főként alacsony fákkal és bokrokkal.
+
+# Argentina / Regional and province-specific clues
+@ argentina-i6k7
+A **fehér, függőleges oszlopmatricák** több **számjeggyel** Tucumánban találhatók.
+
+# Argentina / Regional and province-specific clues
+@ argentina-jKU1
+Ezeket az egyedi jelzőket a córdobai **tartományi utakon** találod.
+
+# Argentina / Spotlight
+@ argentina-knP3
+Ezek a **vörös hegyek** kizárólag az RN68 völgyére jellemzők Salta déli részén.
+
+# Argentina / Spotlight
+@ argentina-kujK
+A **vörös tégla**, hasonlóan a Bolíviában megszokotthoz, az ország északnyugati részén található, különösen Jujuy nyugati felén.
+
+# Argentina / Spotlight
+@ argentina-lP62
+Mar del Platában és a környező városokban (például Miramarban és Necocheában) egyedi építészeti stílus található. Fő jellemzői a **kvarcitkő homlokzat**, a **narancssárga cseréptető**, a beépített garázs és a boltíves tornác.
+
+# Argentina / Regional and province-specific clues
+@ argentina-muxx
+A [Stetsonia coryne](https://en.wikipedia.org/wiki/Stetsonia_coryne), vagyis a **fogpiszkálókaktusz**, nagy, fához hasonló kaktusz sok ággal és fogpiszkálóra emlékeztető tüskékkel. Élőhelyéhez tartozik egy gócpont Catamarca és Córdoba között, valamint a Chaco, Salta és Formosa közötti határvidék.
+
+# Argentina / Spotlight
+@ argentina-mwYE
+Az argentínai **sómezők** jellemzően Jujuyban találhatók.
+MEGJEGYZÉS: Délnyugat-Bolíviában és Északkelet-Chilében is megtalálhatók.
+
+# Argentina / Regional and province-specific clues
+@ argentina-ozI4
+A [Butia yatay pálmának](https://en.wikipedia.org/wiki/Butia_yatay) ívelt, [szárnyalt levelei](https://en.wikipedia.org/wiki/Pinnation) vannak, és gyakran ferdén, változó magasságban nő. Leggyakrabban Corrientesben és az Entre Ríos-i El Palmar Nemzeti Parkban fordul elő.
+
+# Argentina / Regional and province-specific clues
+@ argentina-r2iz
+A **napraforgótáblák** főként Chaco déli részén találhatók, ritkábban pedig Buenos Airesben és Córdoba déli felén.
+
+# Argentina / Spotlight
+@ argentina-tuz2
+Az **olvadó havas felvételek** a keleti RN293-on láthatók a chilei határ közelében, Santa Cruz délnyugati részén.
+
+# Argentina / Regional and province-specific clues
+@ argentina-uYP9
+A **cukornád**-ültetvények leggyakrabban Tucumánban találhatók, gócpontokkal Saltában és Jujuyban.
+
+# Argentina / Spotlight
+@ argentina-vOS7
+A Chubut északkeleti részén fekvő Villa Dique Florentino Ameghinót ezek a **sziklaalakzatok** veszik körbe.
+MEGJEGYZÉS: Néha nyugaton látni fogod ezt a [gátat](https://goo.gl/maps/C6e9Fto8HjVheSZp7) is.
+
+# Argentina / Spotlight
+@ argentina-wj6M
+**Comodoro Rivadavia** a Chenque-domb lejtőin épült, ami felismerhetővé teszi a várost.
+
+# Argentina / Regional and province-specific clues
+@ argentina-xvu6
+A **vöröses burkolatú** utak, amelyeket **hosszú** [**argentin árvalányhaj**](https://en.wikipedia.org/wiki/Nassella_tenuissima) szegélyez, gyakoriak San Luisban.
+
+# American Samoa / Island specific clues
+@ american-samoa-0C0S
+Egy **ezüstszürke** teherautó eleje visszapillantó tükrökkel látható Manu'án és Olosegán, amelyeket híd köt össze.
+_Bővebben lásd alább._
+
+# American Samoa / Spotlight
+@ american-samoa-H73S
+Az ofui repülőtér kicsi, **betonburkolatú** kifutópályával. Az azt felvevő Google-autó tetején két **narancssárga heveder** van. A kifutópálya túloldalán sok pálmafa is látható.
+
+# American Samoa / Island specific clues
+@ american-samoa-UnVR
+Egy hasonló teherautó eleje látható a legkeletibb felvételezett szigeten, Taun. Ott azonban a teherautó **fényes fekete**, és látszanak a visszapillantó tükrei.
+
+# American Samoa / Spotlight
+@ american-samoa-W6tU
+A Manu'a és Olosega szigetét összekötő **egysávos** hidat könnyen fel lehet ismerni a vékony sodronykorlátról és a híd két oldalán fekvő két szigetről.
+
+# American Samoa / Island specific clues
+@ american-samoa-pQyl
+A fő szigeten, Tutuilán enyhén **rozsdás fekete** teherautóplató látható.
+Ez a leggyakrabban látható autó, mert erről készült a legtöbb felvétel.
+
+# Austria / Regional and state-specific clues
+@ austria-0jT0
+Ez az egyedi **alufóliás antenna** Ausztria nyugati részén található, jobbára a svájci határ közelében.
+MEGJEGYZÉS: Ez az antenna csak Ausztriára jellemző.
+
+# Austria / Regional and state-specific clues
+@ austria-3bP3
+Minden osztrák tartománynak saját, **egyedi** buszvállalata van, amelynek logója a buszok oldalán látható.
+_A képre kattintva kinagyíthatod._
+
+# Austria / Regional and state-specific clues
+@ austria-6K4Z
+Ezek a **sárga-fehér csíkok** az oszlopok és a táblatartó oszlopok körül Vorarlbergben találhatók.
+
+# Austria / Regional and state-specific clues
+@ austria-9j96
+Itt látható az osztrák **A jelű utak** térképe; általános tendenciaként a számozás keletről nyugat felé növekszik.
+_A képre kattintva kinagyíthatod._

@@ -1,0 +1,231 @@
+# Taiwan / Regional and county-specific clues
+@ taiwan-mvZD
+Tajvanon sok oszlopon megtalálhatók ezek a **kék táblák** betű- és számsorokkal, amelyek pontos koordinátákként működnek.
+Példaként arra, hogyan olvasd a táblákat játék közben: itt csak az „E3264” sor hasznos. A „BE08” tovább szűkítheti a helyzetet, de a játékban nem gyakorlatias.
+Az „E” a térképen látható 50×80 km-es téglalapra utal.
+A „3264” azt jelenti, hogy a téglalapon belül 32%-kal keletre és 64%-kal északra vagyunk.
+[Ez a cikk](https://wiki.osgeo.org/wiki/Taiwan_Power_Company_grid#1.C3.971m) elmagyarázza, hogyan használható a „BE08” sor a villanyoszlop pontos koordinátáinak további szűkítésére.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-mxtA
+A **Yilan-síkság** könnyen azonosítható az északon, nyugaton és délen látható hegyvonulatokról. A rizsföldek szintén rendkívül gyakoriak, akárcsak a közvetlenül e táblák mellé épült házak.
+MEGJEGYZÉS: Bár a táj felszínesen nézve eléggé hasonlíthat Hualien és Taitung völgyeire, azokkal ellentétben a Yilan síkságain szinte soha nem találsz hegyeket **keleten**. Ezenkívül a yilani sík síkságok általában nyitottabbak is.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-p8lC
+Hasonlóképpen a **piros-fehér** átlós csíkos, **trapéz** alakú talppal rendelkező lámpaoszlopok gyakran megtalálhatók Kaohsziung városában.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-s6am
+Tajvan középső nyugati síksága főként **sík** vagy enyhén hullámos síkságokból áll. Ezen a területen gyakran találsz terményeket és más szántóföldet.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-syWO
+Az **oszlopos araukáriák** ([_Araucaria columnaris_](https://en.wikipedia.org/wiki/Araucaria_columnaris)) rendkívül gyakoriak Penghu megyében, különösen sűrűn egymás mellé ültetett sorokban az utak mellett.
+MEGJEGYZÉS: Bár ezek a fák a főszigeten is megtalálhatók, ott általában soha nem fordulnak elő ilyen szoros közelségben.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-t3mm
+Ezek a **meghajlított** tábla- és nyílhegytartók két **fekete-sárga** csíkos matricával kizárólag Pingtungban, Kaohsziungban és Taitungban találhatók.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-tuU2
+A **Hualien–Taitung-völgy** keskeny és hosszú völgy, amely a sziget keleti partján fekszik, az északon lévő Hualien városától a délen lévő Taitung városáig. Nagyon felismerhető, mivel sík, enyhe síkságokból áll, amelyeket keleten és nyugaton sűrűn erdős hegyek vesznek körül.
+MEGJEGYZÉS: A keleti parton készült felvétel nagy része ebben a völgyben fekszik.
+!!Közép-Tajvanon vannak más völgyek is, amelyek hasonlónak látszhatnak.
+
+# Taiwan / Spotlight
+@ taiwan-ufvr
+Egy **zöld vasúti kocsi** található Csiaji keleti részén, az Alishan Nemzeti Erdő környékén.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-wl3v
+A régi és **rendezetlen** lakóegységek, valamint a magas, **koszosnak látszó** lakótömbök gyakran láthatók Észak-Tajvan városias területein.
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-5uTb
+A Kilimandzsáró-hegyi állványok **magasan fekvő tájat** mutatnak, [sötétszürke sziklával](https://goo.gl/maps/Nmh8gJ1qkczsbrhGA), és helyenként [örök hóval](https://goo.gl/maps/DuuFbspLtcPGZmqa6) a távolban. Néhány panorámaképen hegymászókat és [sátrakat](https://goo.gl/maps/SFEq7AFLiejDffT79) látsz.
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-B3Lv
+Feljebb a dombokon az erdő nyitottabbá válik, és **szavannaszerű fákat** látsz magad körül.
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-JhL0
+A Kilimandzsáró-hegyen néhány **állvány** található.
+Ez olyan felvételtípus, amely állványra szerelt, szokásos kamerával készült. Ennek eredményeként ennek a felvételnek a normál Street View-hoz képest jellegzetes, éteri megjelenése van: a képen lévő tárgyakon általában mozgásból eredő elmosódás van, és a színek kissé telítettek.
+MEGJEGYZÉS: Állványok több más országban is megtalálhatók.
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-byuh
+A dombok tetején a fák helyét kopár **gyepvidék** veszi át. Innen lélegzetelállító kilátás nyílik a környező tájra és a Tanganyika-tóra.
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-eCS1
+Van még egy állvány Tanzániában, [Jane Goodall](https://en.wikipedia.org/wiki/Jane_Goodall) házában. Szintén a Gombe Nemzeti Parkban található, a szokásos 3. generációs trekkeres felvétel mellett.
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-zbUq
+A Tanganyika-tavon van egy **hajós trekker**, amely nagyon szorosan követi a partot, a Gombe Nemzeti Park mellett. A part mindig tőled keletre van. Olyan dombokat látsz, amelyeket többnyire trópusi erdő borít, néhány kopár és füves dombtetővel.
+Az elmosáson keresztül látod a hajót: **olívazöldre és fehérre** van festve, és néhány ember ül benne. A hajó és az emberek az elmosás miatt mindig pixelesek.
+MEGJEGYZÉS: Ne keverd össze ezt a hajós trekkert a [madagaszkári hajókkal](https://www.plonkit.net/madagascar#3).
+
+# Tanzania / Trekker and tripod tips
+@ tanzania-zdnx
+Egy gyalogos trekker a Gombe Nemzeti Park nagy részén áthalad. A táj helyenként némileg változik.
+Az alacsonyabban fekvő részeken **sűrű dzsungelt** látsz, és általában nagyon kevés napfényt, ami sötét felvételt eredményez. Néha **csimpánzokat** is láthatsz.
+
+# Ukraine / Spotlight
+@ ukraine-0TmA
+Ezenkívül az ezen a vidéken lévő falvak a **magyar építészetre** hasonlítanak. A települések meglehetősen lineárisak és rendezettek, túlnyomórészt egyszintes házakkal, amelyek közelebb vannak az utcához. Sok tetőn narancssárga cserép vagy rombusz alakú palacserép van, amelyek hasonlítanak a közép-európai országokban, például Magyarországon, Csehországban és Szlovákiában található tetőkre.
+
+# Ukraine / Regional clues
+@ ukraine-7Sho
+A [Kárpátok](https://en.wikipedia.org/wiki/Ukrainian_Carpathians) Nyugat-Ukrajnában olyan terület, amely lényegesen **dombosabb**, mint az ország többi része, helyenként már-már hegyvidékes. Emellett sokkal erdősebb, nagyon kevés mezőgazdasággal és sok fenyőfával. Az átvezető utak jellemzően kanyargósabbak, szemben az ország többi részén található egyenes autópályákkal.
+
+# Ukraine / Spotlight
+@ ukraine-7ytl
+A buszvárók élénk **sárga-zöld** festéssel, napraforgókkal és egy helyi márka nevével (Оліс) a Mikolajivi és a Herszoni területen találhatók.
+
+# Ukraine / Regional clues
+@ ukraine-AkYz
+Az **orosz nyelv** megtalálható Ukrajnában, különösen keleten és délen. Bár több különbség is van az orosz és az ukrán között, ezek a legfigyelemreméltóbbak közé tartoznak:
+- Az Ы ы, Э э betűk kizárólag az oroszban találhatók meg.
+- Az utca orosz megfelelője улица, rövidítve ул.
+- A város orosz megfelelője город, rövidítve г.
+
+# Ukraine / Spotlight
+@ ukraine-IG9J
+Egy **levél** látható a Google-autó hátulján a következő szakaszokon: Ternopiltól Zolocsivig a H02-esen, Ternopiltól Brodiig a P39-esen, és Broditól Dubnóig az E40-esen. Látható Broditól Pocsajivig a P26-oson és Dubnótól Mlinyivig az E85-ösön is.
+
+# Ukraine / Regional clues
+@ ukraine-INTC
+Dél felé az éghajlat **melegebbé és szárazabbá** válik. A táj szárazabb. Az erdők lényegesen ritkábbak, és helyüket bokrok meg nyílt mezők veszik át. A különbség nem szélsőséges, de némi gyakorlás után észrevehetővé válik.
+
+# Ukraine / Spotlight
+@ ukraine-NPC1
+A magyar határ közelében fekvő terület magyar többségű. Ennek eredményeként sok táblát látsz **magyar nyelvvel** – kétnyelvűt vagy akár egynyelvűt.
+
+# Ukraine / Spotlight
+@ ukraine-QxHe
+Ezek az oszlopok, amelyeken **piros sáv** fut körbe, kizárólag Krivij Rihre jellemzők.
+
+# Ukraine / Regional clues
+@ ukraine-TCLY
+Öt nagyvárosról 2011-ben készült felvétel, évekkel azelőtt, hogy az ország többi részéről készült volna: Kijevről, Lvivről, Harkivról, Odesszáról és Doneckről.
+Ez a felvétel ősszel készült, ami azt jelenti, hogy a fákon jellegzetes **őszi színek** vannak, és az emberek hidegebb időre öltöztek.
+Kijevben, Lvivben és Harkivban ennek a felvételnek szinte egészét felülírta az újabb nyári felvétel. Donecken azonban az egész, Odessza nagy részén pedig továbbra is érintetlen. Konkrétan Donecken egyáltalán nincs újabb felvétel.
+
+# Ukraine / Regional clues
+@ ukraine-VZe4
+Az ukrán rendszámok első két betűje meghatározza, melyik területen van bejegyezve a jármű, ami nagyon hasznossá teszi a kihomályosítatlan rendszámokat a régiótippeléshez. Az európai regionális rendszámok többségével ellentétben ezek nem magától értetődők, ezért a kódok előzetes megtanulása elengedhetetlen a használatukhoz.
+MEGJEGYZÉS: A bemutatott térkép csak a legutóbbi és leggyakoribb rendszámokra vonatkozik, amelyeken [kék-sárga csík](https://maps.app.goo.gl/JBdhZAFtT8ad6JXX8) van. A [régebbi rendszámok](https://maps.app.goo.gl/xT84P2MZ6J22UtxB8) regionális [számkódot](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Ukraine#Regional_codes) használnak, hasonlóan Oroszországhoz.
+
+# Ukraine / Spotlight
+@ ukraine-Vcd1
+A régebbi, 2011-es odesszai felvétel ezüst autóval készült **rövid antennával**, nem pedig fekete vagy fehér autóval, hosszú antennával. Az autó néha teljesen el lehet homályosítva.
+
+# Ukraine / Spotlight
+@ ukraine-Wve0
+Ezek a **„lengyel” terelőoszlopok** a Kárpátaljai területen találhatók. Piros fényvisszaverőjük van, amely körbeéri a terelőoszlopot.
+Azonosak a Lengyelországban használt szabványos terelőoszloppal (innen a név).
+
+# Ukraine / Spotlight
+@ ukraine-a4Vs
+A Csernobilba vezető út egyik oldalán **sárga zászló Opel logóval** látható a Google-autó antennáján.
+
+# Ukraine / Regional clues
+@ ukraine-clFO
+A **balti fenyőkből** ([Pinus sylvestris](https://en.wikipedia.org/wiki/Pinus_sylvestris)) álló erdők leggyakrabban északon találhatók, legtöbbször a fehérorosz határ közelében. A balti fenyők általában magasak, és narancsvörös kérgük van.
+Bár ezeknek az erdőknek egy része kizárólag ebből a fajból áll, sokukban a balti fenyők és a lombhullató fák keverednek.
+MEGJEGYZÉS: Vedd figyelembe, hogy a Kárpátokat is sok fenyőerdő borítja. Azok azonban észrevehetően dombosak, ami lehetővé teszi, hogy megkülönböztesd ezt a területet a nagyon sík északi résztől.
+
+# Ukraine / Spotlight
+@ ukraine-fmwm
+A Google különleges autós trekkert küldött a [csernobili zárt zónába](https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone), ahol az 1980-as években a nukleáris katasztrófa történt. Ez az autó Ivankivtől egészen az **elhagyatott** Pripjaty **városáig** megy.
+A Pripjatyba vezető út nagy részén nem igazán fogod tudni megállapítani, hogy a zárt zónában vagy. Pripjatyon belül azonban teljesen elhagyatott és benőtt épületeket látsz, amelyek kísérteties megjelenést kölcsönöznek a helynek.
+
+# Ukraine / Regional clues
+@ ukraine-nLtW
+A területre jellemző **másodszintű internetes domainek** időnként megtalálhatók Ukrajnában. A képen a Ternopili terület domainje látható (.te.ua). Jellemzően megjegyzés nélkül is használhatók, mivel többnyire magától értetődők. Megtanulhatod őket azonban [itt](https://en.wikipedia.org/wiki/.ua#Third-level_&_second-level_domains).
+
+# Ukraine / Spotlight
+@ ukraine-p0kA
+Ukrajnán belül ez a **képhiba** kizárólag Ivano-Frankivszk városára jellemző.
+
+# Ukraine / Regional clues
+@ ukraine-pjlN
+Ez a régebbi, 2011-es felvétel **fekete vagy fehér Google-autóval** készült, a szokásos piros helyett. Mindkét autónak hosszú antennája van.
+A [fekete autót](https://goo.gl/maps/5f74GEbvVoWHJbFn9) Donecken használták. Vedd figyelembe, hogy Donecken egyáltalán nincs újabb felvétel, ezért soha ne tippelj arra a városra, ha piros autót látsz.
+A [fehér autót](https://goo.gl/maps/u46paGk3UKYZLBor7) Lvivben, Kijevben és Harkivban használták. Mivel az ezekben a városokban készült felvételt nagyrészt felülírták, a fehér autó nagyon ritka.
+
+# Ukraine / Spotlight
+@ ukraine-rOmV
+**Vörös talaj** látható néhány rendkívül vidékies földúton a Krivij Rih-i vasércbánya körül, a bányászati tevékenység miatt. [Brazil stílusú oszlopok](https://goo.gl/maps/V7X5h9Sd5TYebmv86) is láthatók, ami nagyon meggyőző csalivá teszi a bánya környéki helyszíneket. A növényzet azonban lényegesen kevésbé trópusi lesz, és hosszú antenna is látható.
+
+# Ukraine / Regional clues
+@ ukraine-t7jl
+A májusi felvétel Ukrajnában elsősorban az ország nyugati felében látható. A növényekre nézve ismerhető fel, amelyeknek az egyébként zöld levelein **sárgás árnyalat** van.
+MEGJEGYZÉS: Júniusi és júliusi felvétel is megtalálható a kiemelt területeken, valamint az ország többi részén.
+
+# Ukraine / Regional clues
+@ ukraine-uPIf
+Az ukrán vezetékes telefonszámok kétjegyű **körzetszámmal** kezdődnek. Minden területnek saját körzetszáma van. Ha a harmadik számjegy 2, akkor a terület székhelyén (jellemzően a legnagyobb városban) lévő telefonszámra utal.
+A mobilszámok 50-nel, 63-mal, 66–68-cal, 73-mal vagy 91–99-cel kezdődnek. Nem kötődnek földrajzi területhez.
+
+# Ukraine / Regional clues
+@ ukraine-wjAJ
+A napraforgót Ukrajna nagy részén termesztik. Azonban csak július végétől kezd virágozni. Az Ukrajnáról készült felvétel időzítése miatt ez azt jelenti, hogy **virágzó napraforgótáblákat** általában csak az ország messzi déli és keleti részén látsz.
+Ezek a táblák leggyakoribbak a Herszoni, a Mikolajivi és az Odesszai területen. Különösen a Nova Kahovkába vezető T0403-as úton van sok belőlük.
+Vedd figyelembe, hogy nem virágzó napraforgótáblák az ország nagy részén megtalálhatók. Ezek a legtöbb ember számára egyszerű szántóföldeknek fognak látszani.
+
+# Uganda / National Parks
+@ uganda-3c01
+Az Erzsébet Királyné Nemzeti Park, az Edward-tótól északra, azon kevés helyek egyike Ugandában, ahol gyakran látsz olyan földet, amely **nem vörös**. Helyette a föld jellemzően **barna** vagy **szürkés** lesz.
+
+# Uganda / National Parks
+@ uganda-7J7B
+A **Katwe falu** az egyetlen jelentős település Kampalán kívül Street View-felvétellel.
+MEGJEGYZÉS: Sokkal kisebb falvak, szafári szálláshelyek és egyes házak máshol is előfordulhatnak felvétellel.
+
+# Uganda / National Parks
+@ uganda-9T7E
+A kidepói északi út déli fele némileg **erdős**, ezért időnként nehéz lehet látni a különféle hegyeket.
+
+# Uganda / National Parks
+@ uganda-9lkl
+Az **egyetlen burkolt út** felvétellel Kampalán kívül itt található. A burkolatról szinte teljesen hiányzik a vöröses árnyalat, amely az ország legtöbb útjára jellemző. Az úton fehér, folytonos szélső vonalak és sárga középvonal van.
+Egy villanyvezeték fut az úttal párhuzamosan, tőled keletre. Északon dombokat fogsz látni.
+
+# Uganda / Kampala
+@ uganda-Aj2o
+Kampala-szerte gyakran látod ezeket a **taxibuszokat**, amelyeknek az oldalán kék, szögletes minta van. Ezek jó nyomot jelentenek a városra, ha nem látod a Google-autót.
+
+# Uganda / National Parks
+@ uganda-Ipy7
+A kibalei felvétel második típusa egy **kis erdei úton** készült, amely még elég nagy ahhoz, hogy autóval felvegyék. Az erdő elég sűrűnek látszik, általában azonban nem túl sötét. A terület többnyire sík.
+
+# Uganda / Kampala
+@ uganda-Pesx
+A kampalai felvétel egészén látható egy egyedi Google-autó. Ez az autó **fehér**, **négyzetes** oldalsó tükrökkel és szögletes megjelenéssel.
+MEGJEGYZÉS: Ez a Google-autó kizárólag Ugandában található meg, és kizárólag Kampala városára és külvárosaira jellemző.
+
+# Uganda / National Parks
+@ uganda-R56r
+A park a Viktória-tótól nyugatra fekszik, és messze a **legszárazabb felvétel** található benne az országban. A fű szinte mindig teljesen kiszáradt, ami általában elég a felismeréséhez. Az út menti bokrok és fák szintén jellemzően nagyon szárazak. A terület elég dombos, de nem hegyvidékes.
+
+# Uganda / National Parks
+@ uganda-TAm5
+A nemzeti park az ország északkeleti részén található, és többnyire nagy szavannából áll, ahol a legtöbb irányban **hegyek** láthatók. A legfelismerhetőbb hegyvonulat keleten látható, és a felvétel nagy részén megjelenik.
+
+# Uganda / National Parks
+@ uganda-UyIE
+A felvétel utolsó típusa számos **apró erdei ösvény**. A felvétel némileg sötét, időnként átsüt a nap.
+
+# Uganda / National Parks
+@ uganda-WEUz
+A nemzeti parkban készült felvétel két kis erdei ösvényből áll, amelyek egymással párhuzamosan futnak. Az erdő nagyon párásnak látszik, és a felvétel nagy részén **vízcseppek** láthatók a kameralencsén.
+
+# Uganda / Kampala
+@ uganda-WIAR
+A nemzeti parki felvétel nagy részéhez hasonlóan a kampalai talaj is jellemzően nagyon **vörös**. Még a burkolt utaknak is általában észrevehető vörös, lila vagy rózsaszín árnyalatuk van.

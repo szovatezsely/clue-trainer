@@ -1,0 +1,272 @@
+# Spain / Regional and province-specific clues
+@ spain-yAfo
+A **baszk** elszigetelt nyelv, amelyet a Baszkföldön és Navarra északi részén beszélnek. Ezeken a vidékeken spanyol és baszk táblák keverékét találod (gyakran kétnyelvűeket).
+A baszk egyetlen más nyelvvel sem rokon, ezért egyedi képet mutat. A Z és a K gyakori betű.
+MEGJEGYZÉS: A baszkot Délnyugat-Franciaország határvidékén is használják.
+
+# Spain / Spotlight
+@ spain-yHR2
+A kora tavasszal, zöld füves mezők közötti földutakon és vörös talajú, lombtalan szőlőültetvényeken készült felvételek nagyon gyakoriak Castilla-La Mancha középső-északi részén.
+Ez a felvételtípus különösen kiterjedt az északi részen, és kizárólag a 3. generációban fordul elő. Dél felé haladva nagyon hasonló kinézetű felvételeket találsz a 4. generációban is.
+
+# Spain / Regional and province-specific clues
+@ spain-yq2C
+Spanyolországban több regionális nyelv is van. A GeoGuessr szempontjából a leghasznosabbak a **katalán**, a **baszk** és a **galiciai**.
+Néhány más vidéknek – például Asztúriának – szintén van saját regionális nyelve. Ott azonban a nem spanyol nyelvű tábla jóval ritkább.
+
+# Spain / Regional and province-specific clues
+@ spain-zUkq
+Az ezen a vidéken – különösen Murciában és Alicante déli részén – található hegyeknek nagyon jellegzetes a képük.
+Meglehetősen **zordak**, és általában hiányzik róluk a növényzet. Ezt a vidéket gyakran **párás** kép jellemzi, amitől a távoli hegyek úgy néznek ki, mintha valamiféle köd mögött lennének.
+
+# Finland / Regional clues
+@ finland-0gr5
+A **3. generációs havas felvétel** kizárólag Lappföld messzi északnyugati részén található.
+MEGJEGYZÉS: Vigyázz: ez a tipp kifejezetten a hagyományos 3. generációs felvételről szól. A 2. és 4. generációs, valamint a trekkeres havas felvétel máshol is megtalálható.
+
+# Finland / Regional clues
+@ finland-6M6z
+Az ålandi buszmegállókon van egy **fehér tábla** 4 számmal. Némelyiken ez a félkör alakú tábla is ott van a tetején.
+MEGJEGYZÉS: Néhány mariehamni buszmegálló nem követi ezt a szabályt.
+
+# Finland / Spotlight
+@ finland-9y8k
+Lahti ezeket az utcanévtáblákat használja **fekete kerettel** és csupa nagybetűvel.
+MEGJEGYZÉS: Ritkán más városokban is találhatsz hasonló táblákat, de Lahti szinte kizárólag ezt a kialakítást használja. Feltűnő, hogy Kuopio ezeket a [táblákat](https://goo.gl/maps/wjdzkPYj7ba2NRGN7) használhatja, amelyek vastagabb, tömörebb betűtípust alkalmaznak.
+
+# Finland / Spotlight
+@ finland-9yCi
+A Tamperében és környékén közlekedő buszok alul kékek, felül fehérek. A buszok oldalán a „NYSSE” felirat szerepel.
+
+# Finland / Spotlight
+@ finland-APDJ
+Ez a **kék utcanévtábla** típus fehér felirattal kizárólag Seinäjoki és a Vaasától délkeletre fekvő [Isokyrö](https://goo.gl/maps/SdmNDAwLzkXPyN6z6) városára jellemző.
+
+# Finland / Regional clues
+@ finland-Aq7N
+A **2 hosszú prizmával** ellátott hórudak a nagyobb utakon találhatók Lappföldön.
+MEGJEGYZÉS: Csak a 2023-tól készült felvételeken találhatók meg.
+
+# Finland / Regional clues
+@ finland-EIZt
+Az ålandi utaknak két egyedi jellemzőjük van, amelyek elkülönítik őket Finnország többi részétől: a burkolatuknak jellemzően **vöröses árnyalata** van, és **szaggatott** szélső vonalaik vannak, amelyek a Svédországban találhatókra emlékeztetnek.
+
+# Finland / Regional clues
+@ finland-JnNg
+Néhány ålandi gyalogosátkelő-táblán **négy csík** van, pontosan ugyanazzal a kialakítással, mint Svédországban. Vedd figyelembe, hogy sok gyalogosátkelő-tábla így is a szokásos finn kialakítású lesz.
+
+# Finland / Spotlight
+@ finland-KbXf
+A Skandináv-hegység közelsége miatt a Kilpisjärvi melletti területet egyedi **dombos** táj jellemzi **alacsony növényzettel**.
+MEGJEGYZÉS: Az ezen az úton készült [2. generációs felvétel](https://goo.gl/maps/32NoQ1mRjDmu5CsUA) tavasszal készült, ezért a növényzet elhaltnak tűnik.
+
+# Finland / Regional clues
+@ finland-QWP9
+A **teljesen antenna nélküli** 3. generációs felvétel Finnország déli-középső részén található.
+
+# Finland / Regional clues
+@ finland-RwDU
+Az ålandi rendszámtáblák fehérek kék felirattal, amitől a Street View-n szinte teljesen fehérnek látszanak. Feltűnően **rövidek**, és **hiányzik** róluk a bal oldali európai kék sáv.
+
+# Finland / Regional clues
+@ finland-T6ca
+A [**számi nyelveket**](https://en.wikipedia.org/wiki/S%C3%A1mi_languages) Finnország messzi északi részén beszélik. Ezen a vidéken néha kétnyelvű táblákat találsz, amelyeken a helynevek finnül és számiul is szerepelnek. A finntől eltérően a számi ábécé használja a **c** betűt.
+
+# Finland / Spotlight
+@ finland-VWG8
+Järvenpää városa olyan utcanévtáblákat használ, amelyek bal felső sarkában ez a **kék-szürke** [címer](https://fi.wikipedia.org/wiki/J%C3%A4rvenp%C3%A4%C3%A4n_vaakuna#/media/Tiedosto:Jarvenpaa.vaakuna.svg) látható. A [városrész](https://media.discordapp.net/attachments/1045971390202925086/1063500707099070514/Jarvenpaan_Alueet.png) neve is szerepel az utcanév fölött.
+MEGJEGYZÉS: Ha olyan utcanévtáblát látsz, amelyen olyan címer van, amely nem szerepel ebben a kalauzban, akkor Kerava vagy Lahti közelében kell lenned.
+
+# Finland / Regional clues
+@ finland-b3ID
+Ez az enyhén **megdöntött, hosszú antenna** Délnyugat-Finnországban található.
+MEGJEGYZÉS: Ne keverd össze az egyenes hosszú antennával.
+
+# Finland / Spotlight
+@ finland-bayT
+Helsinkiben ezek az egyedi **zöld-sárga** villamosok közlekednek.
+MEGJEGYZÉS: Tampere az egyetlen másik finn város, ahol [villamos](https://goo.gl/maps/zc9NtQZQvRpssehz8) van, de az **piros** a zöld-sárga helyett.
+
+# Finland / Spotlight
+@ finland-grQV
+A turkui buszok egyedi módon **sárgák**, fehér hátsó résszel.
+
+# Finland / Regional clues
+@ finland-ju7h
+**Åland** szigetcsoport a délnyugati part mellett. Finnország autonóm, jobbára önkormányzó vidéke saját zászlóval. Bár különleges státusszal bír, az országsorozatok szempontjából továbbra is Finnország részének számít.
+MEGJEGYZÉS: Ålandon nincs 4. generációs felvétel.
+
+# Finland / Regional clues
+@ finland-lvu5
+A finn regionális utaknak 3 vagy 4 jegyű útszámuk van. Ezeknek az útszámoknak az **első számjegye régióspecifikus**. Ezek a vidékek nagyjából dél–észak sorrendben oszlanak el, a déli 1-től az északi 9-ig.
+Ezek az útszámok gyakran megjelennek az irányjelző táblákon. A vidékek megtanulása segíthet csökkenteni az 5k-hoz szükséges keresési időt, vagy durva vidéket adhat, ahová plonkolhatsz a gyors, mozgás nélküli játékokban.
+MEGJEGYZÉS: A 2 jegyű útszámmal rendelkező főutak nem követik ezt a földrajzi mintázatot.
+
+# Finland / Spotlight
+@ finland-m9yR
+Az oului buszok eleje **rózsaszín**.
+
+# Finland / Spotlight
+@ finland-moyz
+A jyväskyläi buszok szinte teljesen **zöldek**.
+
+# Finland / Regional clues
+@ finland-myrR
+Finnországban sok a mezőgazdasági terület, de többségük a nyugati és déli part közelében összpontosul.
+
+# Finland / Spotlight
+@ finland-ndHC
+Kerava városa olyan utcanévtáblákat használ, amelyek bal felső sarkában ez a **kék-sárga** [címer](https://fi.wikipedia.org/wiki/Keravan_vaakuna#/media/Tiedosto:Kerava.vaakuna.svg) látható.
+
+# Finland / Spotlight
+@ finland-oIBv
+Tamperében a házakon, lámpaoszlopokon és táblatartó oszlopokon **piros, téglalap alakú fémtáblákat** találsz 7 arany vagy sötétvörös színű kiszögelléssel, amelyek lekerekített hatszöget formáznak.
+
+# Finland / Regional clues
+@ finland-rc3m
+A **kicsi, csenevész fák** vézna, vékony törzzsel gyakoriak Észak-Finnországban.
+
+# Finland / Regional clues
+@ finland-stY3
+Åland **egynyelvűen svéd**. Ha csak svédet látsz, finn nyelvet nem, de azt gyanítod, hogy Finnországban vagy, gondolj az Åland-szigetekre.
+
+# Finland / Spotlight
+@ finland-tLs3
+A Helsinkiben és környékén közlekedő buszok jellemzően **kék-fehérek**, függőleges osztással. Máshol is lehetnek ugyanilyen színösszeállítású buszok, ezért keresd valamelyik logót a buszon.
+
+# Finland / Spotlight
+@ finland-u8ow
+Helsinki belvárosában sok a 4. generációs **járdatrekkeres** felvétel.
+MEGJEGYZÉS: Ez a tipp kifejezetten a 4. generációs trekkeres felvételről szól. 3. generációs járdatrekkerek sok más finn városban is megtalálhatók.
+
+# Finland / Regional clues
+@ finland-zivD
+A **svéd nyelv** gyakori néhány déli és nyugati parti vidéken. Ezeken a vidékeken gyakori a kétnyelvű svéd vagy finn felirat. Ha finn környezetben svéd nyelvet látsz, ne tippelj a szárazföld belsejére.
+
+# Falkland Islands / Trekker tips
+@ falkland-islands-2ull
+A **kissé sárgás fűvel** borított nyílt síkságok a West Point-szigeten láthatók. Ezen a trekkeren az óceán nem látszik egyértelműen.
+
+# Falkland Islands / Trekker tips
+@ falkland-islands-CKJ1
+A jellegzetes **meredek szirtek** a New Islanden láthatók.
+
+# Falkland Islands / Trekker tips
+@ falkland-islands-CyBk
+Ez a **hajós trekker** a West Point-öbölben látható, a távolban sárga dombokkal, valamint az öbölben horgonyzó MS National Geographic Explorerrel, amely a trekkerrel együtt szerepel.
+
+# Falkland Islands / Trekker tips
+@ falkland-islands-Kg1F
+Ez a **homokos part** más, piros és kék kabátos emberekkel a New Islanden látható.
+
+# Falkland Islands / Trekker tips
+@ falkland-islands-YLmC
+A Carcass-szigeti trekkert a **nyílt síkságokról** lehet felismerni, ahol az óceán jól látszik. A talaj sziklássá is válhat.
+MEGJEGYZÉS: Ne keverd össze a Feröer szigeteki trekkerrel.
+
+# Falkland Islands / Trekker tips
+@ falkland-islands-oIoA
+A New Island belső területeit a **sötétbarna talajról** lehet felismerni. Keréknyomok is láthatók lehetnek.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-1Wd7
+A Skopuntól nyugatra járó trekkert az északon lévő **széles szorosról** lehet felismerni, a háttérben a Feröer szigetek fő szigeteivel.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-9qa5
+A fő sziget déli csücskén fekvő Kirkjubøur falut a **fekete házakról** lehet felismerni, amelyek szinte mindegyikének **gyeptetője** van. A településen egy kis [templomrom](https://goo.gl/maps/iKdyAK21o3jhrJFh7) is található.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-Le4A
+A Koltur szigetén járó trekkert jellemzően a sziget délkeleti csücskén fekvő keskeny és alacsony **félszigetről** lehet felismerni.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-MWOi
+Az Eiðiskollur-i trekkert a félszigetet körülvevő rendkívül **alacsony felhőkről** lehet felismerni.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-RQyZ
+A Gjógv melletti trekkerről **délre a falura** nyílik kilátás, a háttérben hófedte hegyekkel.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-V3eT
+A Klakkuron járó trekkertől délre két jellegzetes **piramis alakú hegy** áll, a tetejükön nagyon vékony hóréteggel.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-XXhd
+Egy **szürke hajó**, amelyen több **fényvisszaverő ruhás** ember és a „RIB62” felirat látható, Koltur szigete felé haladva figyelhető meg.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-awY5
+A Feröer szigeteken három **szélerőműpark** látható. Messze a legnagyobb Tórshavntól északnyugatra van, míg a másik kettő [Tórshavntól északkeletre](https://goo.gl/maps/JzeesXJKHpeXHzXU9), illetve [Vestmannától keletre](https://goo.gl/maps/mMy1JQsEthsYG5z18) található.
+
+# Faroe Islands / Spotlight
+@ faroe-islands-iisY
+Klaksvík jelentős fölénnyel a második legnagyobb település az országban, és gyakran a nagyjából észak–déli irányban futó, meglehetősen meredek dombokkal határolt **keskeny fjordról** lehet felismerni.
+
+# Faroe Islands / Regional clues
+@ faroe-islands-vpGT
+Tórshavn messze a **legnagyobb település** a szigeteken, és az egyetlen hely, ahol három szintnél magasabb épületeket találsz. A táj az ország többi részéhez képest kissé nyílt, különösen kelet felé.
+
+# France / Regional and department-specific clues
+@ france-0HXZ
+Réunion Franciaország tengerentúli megyéje és régiója Madagaszkártól keletre. Emiatt az országsorozatok szempontjából Franciaországnak számít.
+A Plonk It részletesebb kalauza Réunionról [itt](https://www.plonkit.net/reunion) található.
+
+# France / Spotlight
+@ france-1rIs
+Ritkán zászlót találhatsz az antennára erősítve a 3. generációs felvételeken. Bár a kiemelt területek nagy részét felülírták, az egyes antennák eloszlásának megtanulása nagyon magas pontszámot hozhat.
+MEGJEGYZÉS: Az ábrázolt színes antennazászlók mind csak Franciaországra jellemzők.
+
+# France / Regional and department-specific clues
+@ france-2v01
+A [**baszk**](https://en.wikipedia.org/wiki/Basque_language) nyelvű – vagyis elszigetelt nyelvű – kétnyelvű táblák a Pyrénées-Atlantiques megye nyugati felében összpontosulnak, a spanyolországi baszk nyelvű vidékekkel határosan. Gyakori betűi a K, X és Z. Az irányjelző táblákon **vékonyabb betűtípussal** írják, ami Franciaország összes kisebbségi nyelve között egyedülálló.
+Az utca szó karrika, szemben a spanyolországi Baszkföld „kalea” szavával.
+
+# France / Regional and department-specific clues
+@ france-3Q5x
+Minden megyéhez tartozik egy szám, amelyeket jobbára [ábécésorrendben](https://en.wikipedia.org/wiki/Departments_of_France#Current_departments) rendeztek. Ez leginkább az irányítószámoknál hasznos, amelyek 5 számjegyből állnak, és az első kettő azt a megyét jelöli, amelyben vannak.
+MEGJEGYZÉS: Ugyanezeket a regionális kódokat használják a [rendszámtáblák](https://maps.app.goo.gl/hdSg7fcVKbUGPcjP8) jobb oldali kék sávján belül.
+
+# France / Regional and department-specific clues
+@ france-4ocl
+A párizsi agglomerációban az utcanévtáblákon gyakran szerepel a **város neve**, ami a francia utcanévtábláknál általában nem jellemző. A táblák gyakran **modern kialakításúak**, és sok városnév **folyóalapú**, leginkább a Szajnáról és a Marne-ról elnevezve.
+MEGJEGYZÉS: Ez országszerte szórványosan előfordulhat, ezért vegyél figyelembe más nyomokat is.
+
+# France / Regional and department-specific clues
+@ france-6TPW
+Szintén Eure-et-Loirban a leggyakoribbak a **felső indexes számmal** ellátott D jelű utak. A térképen ezeket tizedesként fejezik ki, például D134.10 és D121.9.
+MEGJEGYZÉS: Ritkán más [megyékben](https://maps.app.goo.gl/FLC24eo6tV36Jn1D8) is megtalálhatók.
+
+# France / Spotlight
+@ france-7CKN
+A [mansardtetők](https://en.wikipedia.org/wiki/Mansard_roof), más néven francia ablakok, a párizsi építészet nagyon gyakori jellemzői. Meredek, fekete zsindelytetőkből állnak, amelyekbe tetőablakokat építettek. Bár nem kizárólag Párizsra jellemzők, nagy mennyiségben és széles sugárutakon jó nyomot jelentenek.
+
+# France / Regional and department-specific clues
+@ france-7oyS
+A [**breton**](https://en.wikipedia.org/wiki/Breton_language) kelta nyelv, amely vizuálisan leginkább a walesire hasonlít. Gyakori betűi a **d**, **k**, **w**, valamint az **ñ** betű, amely a franciában nem található meg. Gyakran megtalálható a breton félszigeten, kétnyelvű utcanévtáblákkal egészen keletre [Rennes-ig](https://maps.app.goo.gl/SXA9tpudgXLcbpvJ7), ritkán pedig [Nantes-ig](https://maps.app.goo.gl/v9hAN6FqvpLekm5n6). Az utca breton megfelelője a straed.
+
+# France / Regional and department-specific clues
+@ france-8uNz
+A fehér házak gyakran színes favázzal a baszk építészet alapdarabjai, amelyek a baszk nyelvterületen túl is megtalálhatók. A faváz színe (ebben az esetben piros) megegyezik a többi faelemével, például az ablakspalettákéval és a kapukéval.
+MEGJEGYZÉS: Észak-Spanyolország egyes részein is gyakoriak, ahol a favázak általában festetlenek.
+
+# France / Regional and department-specific clues
+@ france-A0j5
+A piros és sárga csíkokból álló zászló, amely [a Senyerán](https://en.wikipedia.org/wiki/Senyera) alapul, a **Pyrénées-Orientales** hivatalos zászlaja és megyei logója. A mintát gyakran megtalálod az utcanévtáblákon lévő címereken.
+MEGJEGYZÉS: [Provence](https://en.wikipedia.org/wiki/Provence) zászlaja hasonlónak tűnik, de ott [függőleges](https://maps.app.goo.gl/CWTzNJaQNoRJwEDeA) csíkok vannak.
+
+# France / Regional and department-specific clues
+@ france-AUP3
+A **napraforgó** jobbára az ország délnyugati részén található, különösen Toulouse környékén.
+
+# France / Regional and department-specific clues
+@ france-AUpF
+Az alapvető helynévtan ismerete Franciaországban kulcsfontosságú a régiótippeléshez, különösen az utótagoké. Ez a térkép az egyik leggyakoribb és leghasznosabb végződést mutatja, ritka kivételekkel. Más, rendkívül ritka utótagok [itt](/images/france/2_minortoponyms.png?) találhatók.
+_A képre kattintva kinagyíthatod._
+
+# France / Regional and department-specific clues
+@ france-AXar
+Az [**okszitán**](https://en.wikipedia.org/wiki/Occitan_language) újlatin nyelv, amely közeli rokonságban áll a katalánnal, és gyéren összpontosul Dél-Franciaországban; leggyakrabban a nagyvárosok utcanévtábláin, nagyon ritkán pedig a [helységnévtáblákon](https://maps.app.goo.gl/J5Bj9ZSR2MfHAegg9) található meg. Nyelvjárásokra oszlik, és mindegyik kissé eltérő szót használ az utcára, de mindegyik hasonlít a katalán „carrer” szóra. Toulouse-ban például a languedoci carrièra, Avignonban pedig a provanszál nyelvjárás carriero alakja található meg.
+Bővebb infografikáért kattints [ide](https://i.imgur.com/B8gX96p.png).
+MEGJEGYZÉS: Az ábrázolt utcanévtábla-kialakítások szintén csak erre a két városra jellemzők.

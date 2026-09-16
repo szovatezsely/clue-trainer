@@ -43,6 +43,8 @@ export interface Explanation {
   tags: string[]
   sourceUrl: string
   streetViewUrl: string | null
+  /** False when the paragraphs fell back to the guide's own English. */
+  translated: boolean
 }
 
 export interface AnswerResult {
@@ -50,13 +52,18 @@ export interface AnswerResult {
   mode: GameMode
   correctAnswer: AnswerOption
   chosenAnswer: AnswerOption
+  /** The whole board as it was shown, so its labels can follow the language. */
+  options: AnswerOption[]
   country: CountryOption
   explanation: Explanation
   stats: Stats
 }
 
 export interface Continent {
+  /** The filter key sent back to the API; stays English in every language. */
   name: string
+  /** The same continent as the current language writes it. */
+  label: string
   countryCount: number
   clueCount: number
   coreClueCount: number
@@ -76,6 +83,10 @@ export interface Meta {
   tags: string[]
   refreshAllowed: boolean
   refreshState: string
+  /** The language this payload was rendered in. */
+  lang: string
+  /** How many clues have their explanation in [lang]; equals clueCount for English. */
+  translatedClueCount: number
 }
 
 export interface ImageStatus {

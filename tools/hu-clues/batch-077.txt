@@ -1,0 +1,281 @@
+# Turkey / Region-specific clues
+@ turkey-RsRd
+A **lapos piramisokra** emlékeztető lemeztetők főként a messzi keleten találhatók, különösen a Van-tavat körülvevő területen.
+
+# Turkey / Spotlight
+@ turkey-X02u
+Göreme, Kayseritől nyugatra, a magas **homokkő monolitokról** ismerhető fel, amelyekbe ősi lakóhelyeket vájtak.
+
+# Turkey / Region-specific clues
+@ turkey-ZAFL
+Az Ankara tartománybeli utcanévtáblák kékek, kis **kerek tetővel**. Hasonló utcanévtáblák nagyon ritkán [Giresunban](https://goo.gl/maps/aVtMnDJsqJ1ms4jf6) is előfordulnak.
+Vedd figyelembe, hogy néhány [újabb utcanévtábla](https://www.google.com/maps/@39.9941773,32.8704415,3a,15y,27.52h,88.69t/data=!3m7!1e1!3m5!1sHNDiTJyKaZv36GFlgPI6wg!2e0!5s20221101T000000!7i16384!8i8192?entry=ttu) piros.
+
+# Turkey / Region-specific clues
+@ turkey-Zdx7
+A harmadik úttípus a tartományi utak. Bár ezeket a térképen általában nem jelölik, mégis használhatók régiótippeléshez, mivel a kilométerjelzőkön a [**tartománykód**](https://sites.google.com/site/roadnumberingsystems/home/countries/turkey?authuser=0) szerepel a tábla első két számjegyeként. Ezek a kódok általában ábécésorrendben növekszenek 01-től 76-ig, néhány újabb vidék rendezetlen. A képen egy Afyon tartománybeli (03) út látható.
+
+# Turkey / Region-specific clues
+@ turkey-aoIU
+Nevşehir tartományban sok épület nagy, világos és egyenetlen színű **homokkőtéglából** épült.
+
+# Turkey / Spotlight
+@ turkey-bl0n
+A piros utcanévtáblák színes alsó sávval több városban is megtalálhatók. A jobb alsó sarokban fehér nyilat és néhány számot találsz. Ha ez a nyíl **mindkét irányba** mutat, és **egyetlen nyílheggyel** rendelkezik, nem pedig [duplával](https://goo.gl/maps/Fd5tuzksA3NY8YsF7), akkor szinte biztosan Isztambulban vagy.
+Vedd figyelembe, hogy a csak egy irányba mutató egyszerű nyilak [Isztambulban](https://goo.gl/maps/6uFmLFqcEn2bT7vL9) és [más városokban](https://goo.gl/maps/BBU6aeQ2BoBN38YH8) is megtalálhatók. Ha azonban ilyen táblákat látsz [piros házszámokkal](https://goo.gl/maps/kjNkwByQZ7rNaQXdA) együtt, akkor Isztambulban kell lenned.
+
+# Turkey / Region-specific clues
+@ turkey-cKHH
+Törökország európai részén, Isztambul kivételével, a villanyoszlopokon és más elektromos infrastruktúrán 6 számjegyű kód van, amely gyakran egy kis oszloptáblán látható a sárga elektromos figyelmeztető tábla alatt.
+
+# Turkey / Region-specific clues
+@ turkey-cb18
+A Van-tó messze a legnagyobb tó Törökországban, és félszáraz táj veszi körül: száraz füves dombok, valamint időnként fák és [mezőgazdasági táblák](https://goo.gl/maps/LCwckUWMg8zV8yrX7) a part közelében.
+
+# Turkey / Region-specific clues
+@ turkey-cf7P
+A fehér **gömb alakú víztartályok** a délkeleti részen találhatók, főként Batmantól délre.
+
+# Turkey / Spotlight
+@ turkey-eLMh
+A Beyşehir-tó és az [Eğirdir-tó](https://goo.gl/maps/9R4Hc6UMzMLLTn7g6) nyugati partja mentén megtalálod ezt a kis, egysávos utat szaggatott, kibukkanó sziklákkal és [török fenyőkkel](https://en.m.wikipedia.org/wiki/Pinus_brutia) nyugaton. A kettő megkülönböztethető abból, hogy az Eğirdir-tótól nyugatra fekvő útnak van középvonala.
+
+# Turkey / Region-specific clues
+@ turkey-fxRl
+A meredek, **kopár és sziklás falakkal** körülvett folyóvölgyek Erzurum és Artvin városa között, valamint a [délkeleti részen](https://goo.gl/maps/zDhSPCWVAnGq3Ms18), Hakkâri városa közelében találhatók.
+
+# Turkey / Spotlight
+@ turkey-h0ZV
+A D525-ös út Sökétől délre teljesen egyenes út, amely dél-délnyugat–észak-északkeleti irányban halad, téli 3. generációs felvétellel. Az út mentén jellemzően sok nádat találsz.
+
+# Turkey / Region-specific clues
+@ turkey-hFfd
+A **fémtetők** leggyakoribbak keleten.
+
+# Turkey / Region-specific clues
+@ turkey-hyYZ
+Törökország összes **szőlőültetvényének** többsége az Izmirtől keletre fekvő vidéken található.
+
+# Turkey / Region-specific clues
+@ turkey-ioW2
+A **napraforgó** főként Északnyugat-Törökországban található.
+
+# Turkey / Region-specific clues
+@ turkey-jAbk
+A sötét **vulkanikus kövek** gyakran megtalálhatók Şanlıurfa és Diyarbakır városa között.
+
+# Turkey / Spotlight
+@ turkey-l1rB
+A bolui utcanévtáblák szintén **zöldek**, de **teljesen laposak**, és nincs semmilyen keretük.
+
+# Turkey / Region-specific clues
+@ turkey-l81d
+A **török fenyők** ([Pinus brutia](https://en.wikipedia.org/wiki/Pinus_brutia)) főként a mediterrán part közelében találhatók.
+MEGJEGYZÉS: A török fenyők nagyon hasonlíthatnak az [aleppói fenyőkre](https://en.wikipedia.org/wiki/Pinus_halepensis), amelyek Törökországban nem gyakoriak, de gyakran megtalálhatók [más mediterrán országokban](https://www.google.com/maps/@41.0385689,0.4753459,3a,48.5y,144.08h,92.16t/data=!3m6!1e1!3m4!1shQfy4LKJz9mGqNx8fa89MA!2e0!7i13312!8i6656?entry=ttu).
+
+# Turkey / Region-specific clues
+@ turkey-lAmr
+A **lapos tetők** többnyire a délkeleti részen, kisebb mértékben pedig a déli part mentén találhatók.
+
+# Turkey / Region-specific clues
+@ turkey-m6mB
+A **függőleges víztartályok** Törökország nagy részén megtalálhatók, de feltűnően ritkák a déli és a nyugati part mentén.
+
+# Turkey / Spotlight
+@ turkey-mWDO
+A **banánnövények** Alanya városa környékén találhatók.
+
+# Turkey / Region-specific clues
+@ turkey-n73Y
+A **fekete alapon sárga nyílhegyek** főként a nyugaton fekvő Balıkesir tartományban és környékén, valamint a messzi keleti [Kars tartományban](https://www.google.com/maps/@40.7194663,43.1857553,3a,15y,58.93h,86.15t/data=!3m6!1e1!3m4!1scyws6VGByT2Y02WeHnA4dw!2e0!7i16384!8i8192?entry=ttu) találhatók. Vedd figyelembe, hogy nagyon ritkán [máshol](https://goo.gl/maps/bQYsRcd5eqHj3x1h7) is megtalálhatod őket.
+
+# Turkey / Region-specific clues
+@ turkey-niOS
+A **sárga alapon fekete nyílhegyek** főként Izmirtől északra találhatók.
+
+# Turkey / Region-specific clues
+@ turkey-os4B
+Az északkeleti részen **műveletlen gyepeket** találsz völgyekben, amelyeket kerek dombok vesznek körül. A fák nagyon korlátozottak ezen a vidéken. A 3. generációban a terület rendkívül jellegzetes megjelenésű, mélyzöld fűvel a dombokon. Lényegesen nehezebb felismerni a 4. generációban, ahol a fűnek szárazabb a megjelenése.
+
+# Turkey / Region-specific clues
+@ turkey-pFHY
+Törökországban háromféle fő számozott út van. A legnagyobb típus az [**O-utak**](https://goo.gl/maps/WeocadhrmCAqWDWc6), amelyeknél a kilométerjelzőkön egy O szerepel, majd kötőjel és az útszám. A második legnagyobb típus a **D-utak**, amelyeknél a kilométerjelzőkről elhagyják a „D”-t, és helyette csak egy háromjegyű útszám szerepel, fölötte az útszakasz számával, alul pedig a kilométerrel. A szakaszszám általában délkelet felé növekszik.
+
+# Turkey / Region-specific clues
+@ turkey-pPdr
+Észak-Törökország jellemzően lényegesen **bujább** és **erdősebb**, mint az ország többi része.
+
+# Turkey / Region-specific clues
+@ turkey-qZq7
+Az **olajfák** főként a mediterrán parton találhatók.
+
+# Turkey / Region-specific clues
+@ turkey-sLHs
+A **négyzetes víztartályok** ferde sarkokkal a déli részen találhatók, nagyjából İskenderuntól Şanlıurfáig.
+
+# Turkey / Region-specific clues
+@ turkey-vhPr
+A török **körzetszámok** meglehetősen könnyen megtanulható mintát követnek, és nagyon hasznosak lehetnek a nagyjábóli vidék meghatározásához. Leginkább az figyelemre méltó, hogy a körzetszámok első számjegye a nyugaton lévő 2-től a keleten lévő 4-ig rendeződik.
+MEGJEGYZÉS: Az 5-tel kezdődő telefonkódok nem kötődnek régióhoz.
+
+# Turkey / Region-specific clues
+@ turkey-wAF5
+A **cseréptetők** többnyire az ország nyugati kétharmadában találhatók.
+Vedd figyelembe, hogy ahhoz, hogy ez és a következő tetőkkel kapcsolatos tippek megbízhatók legyenek, lehetőleg az összes látható tető többségének ilyen típusúnak kell lennie.
+
+# Turkey / Region-specific clues
+@ turkey-wPss
+Az Izmir tartománybeli utcanévtáblák sötétkékek, észrevehetően **kifelé domborodnak**, és nagyon gyakran szerepel rajtuk Izmir **jelképe** fehérrel a tábla tetején.
+
+# Turkey / Spotlight
+@ turkey-xnIM
+A trabzoni és [yalvaçi](https://goo.gl/maps/vZmpbacvJeyzbMWc9) utcanévtáblák **pirosak** és **ovális alakúak**. A [házszámok](https://goo.gl/maps/96X34Wg24K87jPG4A) szintén ugyanezt a kialakítást használják.
+
+# Turkey / Region-specific clues
+@ turkey-yVok
+A **gyapot** főként Şanlıurfa városát körülvevő vidéken található.
+
+# Taiwan / Spotlight
+@ taiwan-0kzS
+A Taitungtól keletre fekvő szigetek, a Zöld-sziget és az Orchidea-sziget, a trópusibb éghajlatuk, a rengeteg kókuszpálmájuk és a buja szirtjeik miatt jellegzetesek. Ezenkívül gyakran találsz lepusztult, **beton** burkolatot.
+MEGJEGYZÉS: Bár a Zöld-sziget és az Orchidea-sziget tája eléggé hasonló, jó módja a kettő megkülönböztetésének, hogy a Zöld-sziget gyakran **sárga szélső vonalakat** használ. Ezenkívül a Zöld-sziget valamivel beépítettebb.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-3RIG
+Ezek a táblák a községi utakat jelölik, ahol az útszám **előtt** vagy **fölött** írt karakter jelöli a megyét.
+_A képre kattintva kinagyíthatod._
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-3U8M
+Kinmen szigete az utat szegélyező, **pihés levelű** fákról és a **vöröses árnyalatú** talajról ismerhető fel.
+MEGJEGYZÉS: Kinmenen nincs 4. generációs felvétel.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-8WC6
+A **fehér pettyekkel** tarkított burkolat gyakran megtalálható a keleti part mentén.
+
+# Taiwan / Spotlight
+@ taiwan-AVoo
+Egy **kék kisteherautó** látható néhány folyóparti parkban Tajpej városában.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-AitK
+Az [_Areca catechu_](https://en.wikipedia.org/wiki/Areca_catechu), más néven **bételpálma**, széles körben megtalálható Közép- és Dél-Tajvanon.
+A bételpálmák leggyakoribbak Tajvan **hegyvidéki** vidékein; az északi megyékben is láthatsz sűrű bételpálma-foltokat, de azok elvétve fordulnak elő.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-BZpM
+Kinmenen gyakran találhatók lámpaoszlopok **piros-fehér** átlós csíkokkal.
+MEGJEGYZÉS: Piros-fehér csíkos jelzések a főszigeten is megtalálhatók, különösen a városokban és városias területeken.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-C92E
+A fehéres árnyalatú, **krémszínű házak** gyakran láthatók Penghuban.
+
+# Taiwan / Spotlight
+@ taiwan-FdnX
+A 8-as tartományi főút, amely Tajcsungtól Hualienig fut, nagyon felismerhető, konkrétan a hualieni részen, a **sárga szalagkorlátnak** köszönhetően, amely a megyén belül az út nyugati felének egészén megtalálható.
+Az út keleti felén ezek a magas, kibukkanó sziklás szirtek találhatók, amelyek az út fölé magasodnak.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-G2A6
+Ezek a **bételpálma-ültetvények** többnyire Pingtung megyében találhatók.
+MEGJEGYZÉS: A pingtungi ültetvények főként ilyen rendezett, szervezett sorokban találhatók, a sík síkságokon. A legtöbb középső és déli megyében viszont a hegyvidéki területeken lesznek. Ezenkívül az északabbi megyékben szintén ritkán lesznek bételpálmák a nyugati part sík síkságain.
+
+# Taiwan / Spotlight
+@ taiwan-Gypc
+Ez a nyílt táj **alacsony fákból** álló erdőkkel, amelyek egy keskeny **füves utat** vesznek körül, Hualienben található Guangfu és Fenglin sík részein. Ez a terület megkülönböztethető arról, hogy jellemzően 2. generációs felvétel készült róla; azonban találhatsz [hasonló tájakat a 3. és 4. generációban](https://www.google.com/maps/@23.6277781,121.4209628,3a,90y,116.32h,95.59t,0.07r/data=!3m6!1e1!3m4!1sKO9EMyTVK1jlvcEvATqKog!2e0!7i13312!8i6656?entry=ttu) is.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-HihI
+A **sötétzöld tartóval felemelt** elosztótranszformátorok többnyire Újtajpej és Kilung városában találhatók.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-LDPc
+Ezek a **lombtalan** fák leggyakrabban Penghuban láthatók.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-Ldeq
+A villanyoszlopokon található kék táblákhoz hasonlóan Tajvanon **matricák** is vannak a **lámpák** helyének azonosítására. Ezek megtalálhatók mind a lámpaoszlopokon, mind a lámpával felszerelt villanyoszlopokon.
+_A képre kattintva kinagyíthatod._
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-Ls6z
+A **teaültetvények** általában Tajvan-szerte a hegyvidéki területeken láthatók. Gyakran megtalálhatod őket Csiajiban, Nantouban, Hszincsuban és Miaoliban.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-MRFx
+Hasonlóképpen Tajcsungban is megtalálhatók ezek a nyílt síkságok, amelyeket **alacsony hegyek** vesznek körül, gyakran a távolban.
+
+# Taiwan / Spotlight
+@ taiwan-QXJU
+A 20-as tartományi főút, konkrétan az a rész, amely a **Jüsan Nemzeti Parkon** halad át, magas, tűlevelű fákkal borított hegyeket tartalmaz. Az út ezeket a csőszerű, kettős szalagkorlátokat is használja.
+MEGJEGYZÉS: Erről az útról csak 2. és 4. generációs felvétel van. A 4. generációs felvétel nagyon túlexponált, és napos idő van rajta.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-R3Gf
+A **kék szélső vonalak** szinte teljesen kizárólag Penghura jellemzők.
+
+# Taiwan / Spotlight
+@ taiwan-SMPt
+Lienchiang megye, amelyet Macu-szigetek néven is emlegetnek, a dombos tájról és a **betonutak** gyakori használatáról ismerhető fel. A felvétel **borús**, és [ez a burkolat](https://www.google.com/maps/@26.2025968,119.9695409,3a,48.8y,276.8h,91.84t,2.84r/data=!3m6!1e1!3m4!1s3KR53okaioyHthx43kE3bQ!2e0!7i13312!8i6656?entry=ttu) szintén gyakran megtalálható.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-U317
+Ez **Tajvan megyéinek** térképe. Fontos, hogy Tajvanhoz tartozik néhány kisebb sziget és szigetcsoport is felvétellel, amelyek meglehetősen messze vannak a főszigettől. Fontos tudni ezekről, mivel gyakran készületlenül érik a kezdő játékosokat. Ezek:
+- Kinmen, a szárazföldi Kína partjának közelében.
+- Lienchiang (Macu-szigetek), szintén a szárazföldi Kína partjának közelében.
+- Penghu, a Tajvani-szoros közepén.
+- A Zöld-sziget és az Orchidea-sziget, a fősziget délkeleti részén. Ez a két sziget Taitung megyéhez tartozik.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-WWc3
+Tajvan **országos gyorsforgalmi rendszere** úgy van megszervezve, hogy a páratlan számok az észak–déli utakat, a páros számok pedig a kelet–nyugatiakat jelölik. Általában a számok nyugatról kelet felé és északról dél felé haladva is növekszenek. Az 1-es és a 3-as messze a leghosszabb, ezek a nyugati parton futnak végig.
+_A képre kattintva kinagyíthatod._
+
+# Taiwan / Spotlight
+@ taiwan-X2t0
+A Taipingshan Nemzeti Erdőbe vezető út Yilanban azért jellegzetes, mert a felvétel készítésekor gyakran **nagyon ködös** volt. Az út további jellemzői közé tartoznak a tűlevelű fák és a piros lábú szalagkorlát.
+MEGJEGYZÉS: Az utak bizonyos részein [naplemente](https://www.google.com/maps/@?api=1&map_action=pano&pano=Guivd71mf24KYdvORBDNSA&viewpoint=24.515398%2C121.583108&heading=223.98270208148256&pitch=13.883893360213435&fov=133.16346058432444) van a 3. generációban.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-X7Nc
+Yunlinban olyan oszlopokat találsz, amelyeken **vastagabb megtámasztás** van az oszlopfej alatt.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-YhkW
+Yilanban megtalálod ezeket a **gazdag, többszintes villákat**. Sokféle kialakításban fordulnak elő, és gyakran kerítéssel vannak körülvéve.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-Z5mI
+A **kókuszpálmák** ([_Cocos nucifera_](https://en.wikipedia.org/wiki/Coconut)) elsősorban a sziget déli felében találhatók, a part felé.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-ZugP
+Ezek a **zöld négyzetes matricák** jellemzően Csiaji város minden oszlopán láthatók.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-cjeB
+Miaoli és Hszincsu közös tája az **alacsony, hullámos dombok** és a kanyargós utak, valamint a ritkás szántóföld, ahol a növényzet rendetlennek és ápolatlannak látszhat.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-e0bH
+Taojüanban megtalálhatók ezek a **vörös téglás**, néha vörös cserepes lakóépületek.
+MEGJEGYZÉS: Gyakran megpillanthatók a nagyobb tajpeji térségben is, ritkán pedig más városias területeken, de leggyakoribbak Taojüanban.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-ePib
+Megtalálod ezeket a kis, **hagyományos megjelenésű** házakat Kinmenen.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-hIN3
+A középső-keleti vidék, amely Tajvan kétharmadát fedi le, **erdős hegyekből** áll.
+A központi hegyvonulat, amely egészen a sziget déli részéig fut, magas hegyekből és zord völgyekből áll. Nagy magasságokban a növényzet **kevésbé trópusinak** látszhat, és mérsékelt övi vagy akár tűlevelű fákat tartalmazhat.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-hLAJ
+A **haltenyésztő telepek** többnyire közvetlenül a part mellett találhatók a nyugati megyékben. Általában a sziget déli felében láthatók, bárhol Csanghuától Pingtungig, de túlnyomórészt Yunlin, Csiaji, Tajnan és Kaohsziung megyében.
+
+# Taiwan / Regional and county-specific clues
+@ taiwan-ibx1
+Sok forgalomirányító szekrényt Csanghua megyében nagy **sárga matricákkal** jelölnek. Ezeket a szekrényeket a kereszteződéseknél találod.

@@ -1,0 +1,266 @@
+# Peru / Region-specific clues
+@ peru-ENXi
+A **nyitott elülső résszel** rendelkező riksák elsősorban Peru északi felében találhatók, és különösen gyakoriak az északi, Amazóniával szomszédos vidékeken.
+MEGJEGYZÉS: Ez a riksatípus kisebb mértékben máshol is megtalálható, ezért használj más nyomokat is a tippelés előtt.
+
+# Peru / Region-specific clues
+@ peru-Fr59
+A **cukornád**-termelés nagy része Peru északi part menti vidékein található, Chiclayo és Trujillo városa közelében. Ezeken a területeken jellemzően **nagy cukornádtáblákat** látsz. Kisebb cukornádterületek délebbre, a Csendes-óceán partjához közeli más völgyekben is találhatók.
+
+# Peru / Spotlight
+@ peru-Hw0b
+Az 1N/S főút a térképen kiemelt területen **osztott pályás**.
+MEGJEGYZÉS: Ez az **egyetlen** osztott pályás főút a városokon kívül.
+
+# Peru / Spotlight
+@ peru-Ig22
+A déli Cusco városa a [vörös téglás](https://goo.gl/maps/SPo96ELYh9L8WLkX9) és a [spanyol gyarmati stílusú](https://goo.gl/maps/gEzLN3km1TnyiaUk8) épületek elterjedtségéről ismerhető fel. Cuscót **minden oldalról hegyek** veszik körül, és van benne egy [**repülőtér a város közepén**](https://goo.gl/maps/Dxg9TFTNUNZZCxAVA). A közelsége és a hasonló építészet miatt Cusco felületesen hasonlít a bolíviai [La Paz](https://goo.gl/maps/4QxcjEmUPQeAFLjf9) városára.
+
+# Peru / Region-specific clues
+@ peru-IidK
+Ez a három táj jellemzően a tumbesi mellékutakon található. Mindig homokos talajt látsz, vagy **zöld, vagy elszáradt bokrokkal**.
+MEGJEGYZÉS: Ezenkívül Tumbesben nincsenek fekete autók a mellékutakon. Mindenképp vedd számításba, valahányszor ilyen tájakat látsz fehér Street View-autóval.
+
+# Peru / Spotlight
+@ peru-JGX2
+Iquitos **Északkelet-Peruban** fekvő város. Elszigetelt város, amelyről csak **3. generációs** Street View-felvétel van. A [háromkerekű riksák](https://goo.gl/maps/sF5AYaumuA4RzSnP8), a borús ég és a [hullámos amazóniai tájak](https://goo.gl/maps/f1Jx1vsQcHc44o3w7) gyakran láthatók ezen a területen. Ez a felvétel el van szigetelve Észak-Peru más területeitől.
+
+# Peru / Region-specific clues
+@ peru-JcSb
+Általános szabályként minél közelebb vagy a perui Titicaca-tóhoz, annál gyakoribbá válnak a **vörös téglából** épült házak és épületek. Ez az építészeti stílus hasonlít a [Nyugat-Bolívia](https://goo.gl/maps/qNyBR5RytYNpUZHg8) egyes részein látható meghatározó épülettípusra, ami segít megjegyezni, hol a leggyakoribb. Ezenkívül a [kék árnyalatú üveggel](https://maps.app.goo.gl/rS2S5g3xNuSUF9k89#extra%5BloadMode%5D=latLng) rendelkező épületek leggyakrabban ugyanezeken a területeken láthatók.
+MEGJEGYZÉS: Vörös téglás épületek az ország bármely pontján láthatók, ezért használj más nyomokat is a tippelés előtt.
+
+# Peru / Region-specific clues
+@ peru-LuyA
+A part menti **mezőgazdasági völgyek** a középső és a déli részen gyakran **növényzet nélküli száraz hegyek** közé ékelődnek. E völgyek általános iránya délnyugat–északkeleti.
+MEGJEGYZÉS: Peru északi részén a mezőgazdasági völgyek hasonlónak tűnhetnek, de a hegyeken gyakran több a bokor és a fa.
+
+# Peru / Spotlight
+@ peru-Lxep
+Az amazóniai Puerto Maldonado városában a **motoros taxik** vezetői gyakran **sárga láthatósági mellényt** viselnek.
+
+# Peru / Region-specific clues
+@ peru-NIjJ
+Ez a hengeres terelőoszlop, amelynek a **tetején fekete és sárga csík** van, kizárólag Moquegua megyére jellemző, amely Peru déli részén található.
+
+# Peru / Region-specific clues
+@ peru-OFne
+Piura városától északnyugatra egy olyan terület fekszik, amelynek a növényzete hasonlít a korábban említett területéhez. Ez a terület azonban **észrevehetően dombosabb**.
+
+# Peru / Region-specific clues
+@ peru-REls
+A **sötét, vörös árnyalatú talaj** Peru több területén megtalálható. Néhány említésre méltó terület a Cusco és Ayacucho közelében fekvő terület az ország déli részén, valamint az északi Cajamarca és Tarapoto városa közeli területek. Kisebb mértékben a szomszédos vidékeken is megtalálható.
+
+# Peru / Spotlight
+@ peru-RGbm
+Egy trekkerrel felvett **vasúti pálya** található Aguas Calientes és Cusco között.
+
+# Peru / Spotlight
+@ peru-S1FS
+A **vulkánok** gyakran láthatók Arequipa városában és környékén.
+MEGJEGYZÉS: Perun belül vulkánok **kizárólag** délkeleten, a kiemelt területen találhatók.
+
+# Peru / Spotlight
+@ peru-X2Hq
+A **28B-s út** Kimbiri és Echarate települése között burkolt út, nagyon megkopott vagy hiányzó útvonalakkal. Arról is jellegzetes, hogy viszonylag kis út 4. generációs felvétellel, amely a domboldalhoz simul, és egy folyóvölgy mellett fekszik.
+
+# Peru / Spotlight
+@ peru-YfpD
+Perun belül ez a **fehér** Street View-autó Cusco központi részén található. Az Aguas Calientes nevű félreeső településről hajt fel a Machu Picchuhoz.
+
+# Peru / Region-specific clues
+@ peru-Zzyx
+Az északi amazóniai Tarapoto városával szomszédos területeken **mérsékelten magas, lombbal borított hegyek** találhatók, és hasonlíthatnak [Kolumbia](https://maps.app.goo.gl/9CLDvLq2CxSaRJqE8) vagy [Brazília](https://maps.app.goo.gl/wcxWAuqehRqPfCm96) dombos területeire.
+
+# Peru / Spotlight
+@ peru-aCtw
+Az **5N-es út** San Alejandro és Esperanza települése között viszonylag egyenes, sík és jó állapotú út. Ez az út elsősorban észak–déli irányban halad az esőerdőn át.
+
+# Peru / Region-specific clues
+@ peru-e8pi
+A **sík táj** Peru hegyeiben általában Puno középső részén és a Chinchaycocha-tó környékén látható.
+MEGJEGYZÉS: Ez a táj hasonlíthat Bolíviára. Mindenképp keress más nyomokat is a tippelés előtt.
+
+# Peru / Region-specific clues
+@ peru-j7qH
+Az **olajfaültetvények** a messzi déli Tacna vidékén találhatók.
+
+# Peru / Region-specific clues
+@ peru-j9zr
+Az alacsony fű, a néhány domb, a falvakban lévő kőfalak és a barna téglás épületek jellemzők a **Titicaca-tótól** délre fekvő vidékre, Kelet-Peruban.
+
+# Peru / Region-specific clues
+@ peru-mbNm
+Peru messzi északi részén olyan hegyek találhatók, amelyeket gyakran **cserjés fák és bokrok** borítanak. A parthoz és az ecuadori határhoz közelebb ezek a hegyek gyakran [elég száraz](https://maps.app.goo.gl/2sAyUVLu4AdVCyuc7#extra%5Btags%5D=Sandy+Orange&extra%5BloadMode%5D=latLng) megjelenésűek.
+
+# Peru / Region-specific clues
+@ peru-n8zM
+Az Ica, Arequipa és Tacna városa közelében fekvő területeken **kopár és jórészt sík sivatagi tájak** találhatók, amelyek hasonlíthatnak [Észak-Chile](https://goo.gl/maps/LF4MFBiVCeULmxmT7) területeire. Jellemzően hegyeket látsz a távolban, elsősorban kelet felé nézve.
+
+# Peru / Spotlight
+@ peru-nK4d
+A **30C-s út** Kelet-Peruban fehér Street View-autót használ a 3. generációban Planchon és Iñapari városa között. Sűrű erdő jellemzi, kevés faluval, és Brazília belső területeire hasonlít. Ennek a területnek egy részét felülírta a [4. generáció](https://www.google.com/maps/@-11.5434488,-69.2916923,3a,90y,170.18h,87.56t/data=!3m6!1e1!3m4!1sp8bJgFNzPpFzeqeYQxMyJA!2e0!7i16384!8i8192). Ennek a szakasznak a nagy része észak–déli irányban fut.
+
+# Peru / Spotlight
+@ peru-q8YX
+A kelet-középső amazóniai Pucallpa városának, amely a brazil határ közelében fekszik, következetes **utcarácsa** van **NyDNy–KÉK** irányban.
+MEGJEGYZÉS: A város néhány északi és keleti területén eltérő irányú rácsok találhatók.
+
+# Peru / Spotlight
+@ peru-qYbM
+Peruban a sugárút jellegű utcák nagy része Lima városában található. Ezek a sugárutak jellemzően **hosszú, egyenes utcák**, amelyeket **beton** vagy **füves sáv** oszt meg.
+
+# Peru / Region-specific clues
+@ peru-r51J
+A **fatartókkal alátámasztott, kinyúló tetővel** rendelkező épületek többnyire Peru északi vidékein találhatók. Ezek az épületek néha élénk színűek is.
+
+# Peru / Region-specific clues
+@ peru-tRd3
+A **sárga, függőleges számokat** tartalmazó oszlopjelzések gyakran megtalálhatók Peru északi part menti részén és Tacnában.
+Gyakran, de nem mindig, kísérik őket vízszintes oszlopjelzések, amelyek egy városnak megfelelő 2-3 betűs kóddal kezdődnek. Például ez a vízszintes matrica CH-val kezdődik Chimbote esetében.
+MEGJEGYZÉS: A vidéket tovább oszthatod a számjegyek száma és az oszlopjelzésen szereplő tényleges számok alapján. A részletekért lásd [ezt a dokumentumot](https://docs.google.com/document/d/1rMBXs3_grdmPBdzT1fSfkj-MEnagQylqJnlbqOXBwkE/edit).
+
+# Peru / Spotlight
+@ peru-uSmV
+Az 1N-es út a Piura és Lambayeque határa közelében jellegzetes megjelenésű tájon halad. Félsivatagos táj jellemzi, és a 3. generációban borús a felvétel. Az új 4. generáció szárazabb, de még mindig némileg hasonlónak látszik.
+
+# Peru / Region-specific clues
+@ peru-ztvL
+A perui főutak főként nyugaton találhatók, és a számok északról dél felé növekednek. Az 1-es, a 3-as és az 5-ös a leghosszabb, és több megyén is áthaladnak.
+_A képre kattintva kinagyíthatod._
+
+# Philippines / Spotlight
+@ philippines-2IcS
+A Puerto Princesából délre vezető főutat Palawanon az jellemzi, hogy nagyon széles, gyakran hatsávos, ugyanakkor nagyon kicsi rajta a forgalom.
+Az út mentén általában látod ezt a [kettős elektromos vezetéket](https://maps.app.goo.gl/7VB1HRxdQfBNCKWG6), amely megerősítheti a tippedet.
+
+# Philippines / Region-specific clues
+@ philippines-2cMP
+A **banán**ültetvények szinte kizárólag Mindanao középső és déli részén találhatók.
+MEGJEGYZÉS: Vadon növő banánnövények az egész országban megtalálhatók, ezért mindenképp győződj meg róla, hogy tényleg ültetvényt látsz, mielőtt tippelsz.
+
+# Philippines / Region-specific clues
+@ philippines-2ctB
+Az **olajpálma**-ültetvények túlnyomó többsége Mindanaón található.
+
+# Philippines / Region-specific clues
+@ philippines-3TK5
+A Fülöp-szigeteken a motorkerékpároknak régiónként színkódolt rendszámuk van, ahogy ezen a térképen látható. Külön figyelemre méltó, hogy az ország északi felében a színes sáv a rendszám tetején, míg a déli felében az alján van.
+
+# Philippines / Region-specific clues
+@ philippines-40U4
+Az Észak-Luzonban lévő erdős hegyvonulatot némileg **száraz hegyoldalak** és rengeteg **fenyőfa** jellemzi. Ritkán hasonló tájjal találkozhatsz a magasan fekvő utakon [Mindanaón](https://maps.app.goo.gl/dowDy4SWZt1pvxtG9).
+
+# Philippines / Region-specific clues
+@ philippines-9hUv
+Bár a **kukorica** az ország nagy részén megtalálható, leggyakoribb Észak-Luzonban és Mindanaón.
+
+# Philippines / Spotlight
+@ philippines-9xJp
+Ezt a **fekete** Street View-autót látható **tetőcsomagtartóval** General Santos városában és környékén találhatod meg.
+
+# Philippines / Spotlight
+@ philippines-A2hm
+Az ókori **római katonákat** ábrázoló képek és szobrok Marinduque szigetén találhatók.
+
+# Philippines / Spotlight
+@ philippines-AvQg
+Az Arayat vulkán arról ismerhető fel, hogy teljesen sík mezőgazdasági táblák veszik körül.
+
+# Philippines / Region-specific clues
+@ philippines-GaHP
+A Fülöp-szigeteken a **cukornád** nagy része Negros és Panay szigetén található.
+
+# Philippines / Region-specific clues
+@ philippines-H99u
+Bár a Fülöp-szigetek nagy része erősen keresztény, Nyugat-Mindanao egy vidéke **muszlim** többségű.
+
+# Philippines / Spotlight
+@ philippines-Js5k
+Marawi városában és környékén, Mindanaón sok lerombolt házat és romot találsz a 2017-es [marawi ostromból](https://en.wikipedia.org/wiki/Siege_of_Marawi).
+
+# Philippines / Region-specific clues
+@ philippines-KVEg
+A **tartománynevek** nagyon gyakran megtalálhatók a táblákon, ezért nagyon hasznosak lehetnek. A térképen azonban nem jelennek meg, ami azt jelenti, hogy meg kell tanulnod őket, ha használni akarod őket.
+Érdemes megemlíteni, hogy Davao de Oro 2019-ben változtatta meg a nevét Compostela Valleyről.
+
+# Philippines / Spotlight
+@ philippines-LrWc
+Ezek a nagy, díszes fehér útjelző kövek, amelyek a [bataani halálmenetre](https://en.wikipedia.org/wiki/Bataan_Death_March) emlékeztetnek, a délen fekvő [Mariveles](https://maps.app.goo.gl/BJcyas8RAYUKhYgv9) és [Bagac](https://maps.app.goo.gl/3BfLZHBPRJogywTB8) településtől az északon fekvő [San Fernandóig](https://maps.app.goo.gl/RQpRQ69K63Lxzvbf8) vezető utak mentén láthatók.
+MEGJEGYZÉS: A bataani halálmenet San Fernandóból Capasba vonattal folytatódott, ahol egy [nagyobb emlékművet](https://maps.app.goo.gl/78N5YwJE9SDQm4Gr6) építettek.
+
+# Philippines / Region-specific clues
+@ philippines-OkTN
+A mindkét oldalukon **behúzással** rendelkező négyzetes betonoszlopok, hasonlóan a Chilében található oszlopokhoz, főként Manilától északra, valamint Bacolod városában és környékén, Negros szigetén találhatók.
+
+# Philippines / Region-specific clues
+@ philippines-QPqh
+Ezek a fekete vagy fehér dobozok gyakran láthatók a villanyoszlopokon. Legtöbbször annak a településnek a hárombetűs rövidítése szerepel rajtuk, amelyben vagy. A rövidítéseknél vagy mindhárom betű a települést jelöli, vagy az első két betű rövidíti a települést, a harmadik betű pedig a tartományt jelzi.
+Az első képen a „GMI” és a „GMU” Gamu települését jelöli Isabela tartományban, míg a második képen a „BGE” Bangued települését jelöli.
+MEGJEGYZÉS: A legtöbb településnek nincs szabványosított rövidítése, ezért ugyanarra a helyre sokféle rövidítést találhatsz.
+
+# Philippines / Spotlight
+@ philippines-S1IY
+Bohol középső részén ezeket a jellegzetes, kerek, füves dombokat találod. A dombok alatt a fű alatt általában [sötétbarna talaj](https://www.google.com/maps/@9.8929167,124.09105,3a,15y,134.64h,94.67t/data=!3m6!1e1!3m4!1sAx3Neg240pCWv6JHjQpPDQ!2e0!7i16384!8i8192?entry=ttu) van, amiről a [Csokoládédombok](https://en.wikipedia.org/wiki/Chocolate_Hills) nevet kapták.
+
+# Philippines / Region-specific clues
+@ philippines-XOvY
+Az amakan falakkal (északon szavali néven ismert) épült házak, amelyeken **átlós fonásminta** van, többnyire Palawan szigetén találhatók, de az ország északi felében is előfordulnak.
+
+# Philippines / Region-specific clues
+@ philippines-YkcX
+A [molukkai albízia](https://en.wikipedia.org/wiki/Falcataria_falcata) olyan fa, amelynek **világos színű törzse** és a fa teteje közelében [**szárnyalt levelei**](https://en.wikipedia.org/wiki/Pinnation) vannak. Főként Mindanaón található, és különösen gyakori a sziget keleti és középső vidékein.
+
+# Philippines / Region-specific clues
+@ philippines-ZiXa
+Az [amakan](https://en.wikipedia.org/wiki/Amakan) falakkal – hagyományosan font bambuszszőnyeggel – épült házak, amelyeken **rombuszminta** van, szinte kizárólag az ország déli felében találhatók.
+
+# Philippines / Region-specific clues
+@ philippines-dWWI
+Ez a traktortípus, amelyet [kuliglignek](https://noypicollections.blogspot.com/2011/07/improvised-vehicle-in-northern-luzon.html) neveznek, többnyire Cauayan környéki síkságokon található Észak-Luzonban.
+
+# Philippines / Region-specific clues
+@ philippines-f897
+A vezetékes számok 0-val kezdődnek, amelyet a **körzetszám** követ. A mobilszámok 09-cel kezdődnek.
+
+# Philippines / Spotlight
+@ philippines-jvOq
+Ez a jármű több vastag **fekete rúddal** közvetlenül a Mayon vulkántól délre található.
+
+# Philippines / Region-specific clues
+@ philippines-lS7l
+Az **ananász**ültetvények többnyire Mindanaón találhatók.
+
+# Philippines / Spotlight
+@ philippines-lYvE
+A siquijori lámpaoszlopokat jellemzően **sárgára** festik, alul **fekete csíkokkal**.
+
+# Philippines / Spotlight
+@ philippines-o4Or
+Egy **narancssárga** Street View-autó látható oldalsó tükrökkel Corregidor szigetén található.
+
+# Philippines / Spotlight
+@ philippines-oQjn
+A Mayon vulkán a Fülöp-szigetek egyik legmagasabb hegye, és a szinte tökéletes, **sima kúp alakjáról** ismerhető fel. Vedd figyelembe, hogy nagyon gyakran [felhők](https://goo.gl/maps/vVLbxF6FtgkXgyRk6) takarják.
+
+# Philippines / Region-specific clues
+@ philippines-qoLR
+A Cordillera közigazgatási vidéken **sárga-fekete** csíkos betonkorlátokat találsz.
+
+# Philippines / Region-specific clues
+@ philippines-vjQB
+Az az oszlopfej, amely két magas függőleges fémrúdból áll [L alakú keresztmetszettel](https://maps.app.goo.gl/tQrN9cdrQZshGuAQ6), és amelyeket több vékony huzal köt össze, létrára emlékeztetve, kizárólag Manilára és környékére jellemző.
+MEGJEGYZÉS: Néha találkozhatsz [hasonló megjelenésű oszlopfejekkel](https://maps.app.goo.gl/HSfKKMtbuvh2JS9i7), L alakú helyett négyzetes rudakkal, az egész országban. Azokon azonban szinte soha nem lesz kettőnél több összekötő huzal.
+
+# Philippines / Region-specific clues
+@ philippines-xdvo
+A **négyzetes fémhálós oszlopok** Mindanaón találhatók, főként a Zamboanga-félszigeten.
+MEGJEGYZÉS: A Zamboanga-félszigeten kívül található oszlopok többsége a főutak mentén van, és olyan oszlopfejük van, amelyen [három lógó szigetelő](https://maps.app.goo.gl/Tjfv9YpHyA3eSqoNA) található.
+
+# Philippines / Spotlight
+@ philippines-xgaV
+Bohol északnyugati részén megtalálhatod ezt a Street View-autót, amelynek a hátulján **szalag** van.
+
+# Philippines / Region-specific clues
+@ philippines-yYbQ
+A **három ismétlődő fekete csíkkal** ellátott fehér szalagkorlátok kizárólag a dél-luzoni Bicol vidékére jellemzők.

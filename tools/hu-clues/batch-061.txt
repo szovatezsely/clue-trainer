@@ -1,0 +1,388 @@
+# Martinique / Regional clues
+@ martinique-vcqO
+A **part menti déli trekker** néhány egyedi dologról ismerhető fel:
+- [Északon](https://goo.gl/maps/pApNFF5yFbPfWrry5) a trekker egy enyhén dombos ösvényen indul el, más emberekkel együtt.
+- [Több ház](https://goo.gl/maps/XxD6aTzoBNrF5qPF9) látható narancssárga tetővel.
+- Látható [egy laposabb és nyitottabb ösvény](https://goo.gl/maps/DGkgXWthbCLEnskA7), ahol az óceán kissé átlátszik a fák között.
+- [A felvétel délen ér véget](https://goo.gl/maps/9DxD1KWqV83XHPzh7) egy parkolóval és néhány bódéval.
+
+# Malta / Spotlight
+@ malta-CXV5
+Ezek a **kék táblák** kizárólag Vallettára jellemzők.
+
+# Malta / Regional clues
+@ malta-LOnP
+A szokásos fém szalagkorlátok ritkák Gozo szigetén. Helyettük az **alacsony kőkorlátok** gyakoribbak.
+
+# Malta / Spotlight
+@ malta-aUAp
+Ez a **fehérre és kékre** festett hajón lévő trekker a főszigetet és Gozo szigetét látja el.
+
+# Malta / Regional clues
+@ malta-rb2X
+Egyedi módon Gozo szigetén minden buszvonal a **300-as** számokba tartozik. Ezeket elég nehéz észrevenni, ezért leginkább a mozgásos játékokban hasznosak.
+
+# Mexico / Region-specific clues
+@ mexico-1Otq
+A **kékmirtusz-kaktuszoknak** rövid karjaik vannak, amelyek egyenletesen ívelnek és felfelé mutatnak. Bőségesen megtalálható San Luis Potosíban, de gyakori Querétaróban és Hidalgóban is.
+
+# Mexico / Spotlight
+@ mexico-2quT
+Ez a lámpa **cikcakkosan** meghajlított kartartóval Hermosillóban található.
+
+# Mexico / Region-specific clues
+@ mexico-3nP6
+A **szaguárókaktusz** Sonora nyugati felében pillantható meg; rövid, ívelt karjai vannak, amelyek egy főtörzsből nőnek ki.
+
+# Mexico / Region-specific clues
+@ mexico-3pdP
+A **rendkívül sötét földek** gyakoriak Guanajuatóban.
+
+# Mexico / Region-specific clues
+@ mexico-7E67
+Az **Attalea rostrata** hatalmas pálma, amely a felálló leveleiről ismerhető fel, szinte esernyőre hasonlítva. Többnyire kizárólag Veracruzra és Tabascóra jellemző, és ritkán Chiapasban is előfordul.
+
+# Mexico / Spotlight
+@ mexico-7cgL
+Ez a lámpa fekete elülső és hátsó **peremmel** és fehér középső résszel Santiago de Querétaróban található.
+
+# Mexico / Region-specific clues
+@ mexico-83dD
+A jaliscói terelőoszlopokon néha **korona** és a „**Jalisco**” felirat szerepel. Ezek általában alig olvashatók, hacsak nem nagyon közel vagy, viszont egyetlen más mexikói terelőoszlopon sem lesz felirat.
+
+# Mexico / Region-specific clues
+@ mexico-8Ipc
+A **cukornád** az egész országban megtalálható, de messze Veracruzban a leggyakoribb.
+
+# Mexico / Spotlight
+@ mexico-8VA3
+Ez a **fehér kisteherautó**, amelynek látszanak a visszapillantó tükrei, a Cofre de Perote nemzeti parkban látható.
+
+# Mexico / Region-specific clues
+@ mexico-8Vzg
+A Yucatán-félszigeten a szinte **vakítóan fehér** talaj leggyakrabban Quintana Roóban fordul elő.
+MEGJEGYZÉS: Ez csak a 3. generációban következetes.
+
+# Mexico / Region-specific clues
+@ mexico-8Yrh
+A **nádtetők** leggyakrabban a Yucatán-félszigeten és San Luis Potosí keleti részén fordulnak elő. Máshol is megtalálhatók, főként a délkeleti részen.
+
+# Mexico / Region-specific clues
+@ mexico-9nVQ
+Az **Encelia farinosa** apró bokor élénk **ezüstszürke** levelekkel, amely leggyakrabban Sonorában, különösen Hermosillo környékén található.
+
+# Mexico / Region-specific clues
+@ mexico-AkFp
+Az **olajpálma-ültetvények** leggyakrabban Chiapasban fordulnak elő, és időnként az állam peremén Veracruzban, Tabascóban és Campechében.
+
+# Mexico / Region-specific clues
+@ mexico-CdsA
+Chihuahua és Durango nyugati részén sziklás hegyvidéki táj lehet, amelyet **fenyvesek** borítanak. Általában ezek a fenyők alacsonyabbak és **csenevészebb** megjelenésűek, mint a középső vagy a déli rész fenyvesei.
+
+# Mexico / Region-specific clues
+@ mexico-Cits
+A **budzsumfák** az idegenszerű, **tapogatószerű** megjelenésükről ismerhetők fel. Szinte kizárólag Baja California déli felében találhatók.
+
+# Mexico / Spotlight
+@ mexico-EuEs
+A Poza Rica környéki terület Veracruzban sok **citrusültetvénnyel** rendelkezik. Gyakori, hogy ezekből a fákból nagy mennyiséget látni közvetlenül a dombok tetején.
+
+# Mexico / Region-specific clues
+@ mexico-FGDc
+Ezek a **világos színű kőből** épült falak a Yucatán-félszigeten találhatók, de leggyakoribbak Yucatán államban.
+
+# Mexico / Region-specific clues
+@ mexico-GyUQ
+A **vályogtégla** épületek leginkább Durangóban gyakoriak, különösen a teljes egészében vályogtéglából épült házak. Lényegében azonban szinte minden száraz sivatagi államban megtalálhatók.
+
+# Mexico / Region-specific clues
+@ mexico-Hv5a
+A **fehér betonblokkos** épületek nagy sűrűségben találhatók a Mexikóvárost körülvevő államokban, és általában kelet felé gyakoribbak. Ugyanakkor az egész országban előfordulhatnak.
+
+# Mexico / Spotlight
+@ mexico-I66z
+Ez a **sárga motorháztetős** Street View-autó a La Malinche vulkánnál található, Tlaxcalában.
+
+# Mexico / Region-specific clues
+@ mexico-IdEs
+Azok az oszlopok, amelyeknek lesüllyesztett kereszttartója és **egyetlen tartógerendája** van, amely a kereszttartó egyik végétől magáig az oszlopig nyúlik, Durangóban találhatók.
+
+# Mexico / Spotlight
+@ mexico-K8qz
+Ez a rendkívül **hosszú** és **lapos gerinc** a Sierra del Abra Tanchipa bioszféra-rezervátumban található, San Luis Potosí keleti részén.
+
+# Mexico / Spotlight
+@ mexico-KwCu
+Az 54-es osztott pályás főút, amely Zacatecas északkeleti részén fut át, és amelynek mindkét oldalát teleszórták **jukkafákkal**. Ezenkívül a Street View-autó gyakran szabadon látszik, és a napfény miatt szinte [fehérnek](https://goo.gl/maps/BfA6FLRVcL371P9z9) tűnik.
+
+# Mexico / Spotlight
+@ mexico-Lc0Z
+A 40D, amely átszeli a Sinaloa–Durango államhatárt, az út menti lélegzetelállító, buja **szirtekről** és hegyekről ismerhető fel. A főút gyakran halad át tunneleken, és magán az úton **dupla sárga** középső útvonalak vannak.
+
+# Mexico / Region-specific clues
+@ mexico-M4Ya
+Ez a **hatszögletű burkolólapokból** álló útburkolat Pueblában és Tlaxcalában található.
+
+# Mexico / Spotlight
+@ mexico-MIDc
+Ez a lámpa téglalap alakú fejjel és **gyűrű alakú** izzóval Matamorosban található.
+
+# Mexico / Region-specific clues
+@ mexico-MIKv
+A Mexikóvárosban és környékén lévő taxik alsó fele fehér, a **felső fele rózsaszín**.
+
+# Mexico / Spotlight
+@ mexico-MwVY
+Chihuahua városában az oszlopokon időnként van egy sáv **fehér oszlopfestés** az utcanévvel fekete vagy kék betűkkel.
+
+# Mexico / Region-specific clues
+@ mexico-Mziq
+Ez a **macskaköves útburkolat**-stílus, amely rendezetlen és szabálytalan kövekből áll, a középső államok többségében megtalálható, de messze leggyakrabban Nayarit, Jalisco, Colima és Querétaro államban fordul elő.
+
+# Mexico / Region-specific clues
+@ mexico-N0AG
+A **vörös téglás** épületek többnyire a Mexikóvárostól nyugatra fekvő államokban összpontosulnak, konkrétan Jaliscóban, Michoacánban, Guanajuatóban és Aguascalientesben.
+
+# Mexico / Spotlight
+@ mexico-O9Bd
+Ciudad Juárez külvárosában sok földút van jellegzetes árnyalatú **narancssárga talajjal** és **alacsony bokrokkal**.
+
+# Mexico / Region-specific clues
+@ mexico-ORWw
+A tequila előállításához használt **kék agávé** (Agave tequilana) hatalmas földjei többnyire Jaliscóban és Nayaritban találhatók.
+
+# Mexico / Region-specific clues
+@ mexico-Ok3w
+A **szabálpálmák** leggyakrabban Mexikó keleti partján, a Yucatán-félszigeten, valamint Nayarit államban figyelhetők meg. Tüskés, napkorong alakú koronájuk van, amitől a fa **nyalókaszerű** megjelenést kap.
+
+# Mexico / Region-specific clues
+@ mexico-PNuD
+A teteje közelében **piros sávval** ellátott terelőoszlopok kizárólag Nayaritra jellemzők, [egy kivétellel](https://www.google.com/maps/@16.416407,-94.109672,3a,15y,95.28h,64.73t,0.03r/data=!3m7!1e1!3m5!1s_lRtg1MKWPSNX_dJch3kig!2e0!5s20220501T000000!7i16384!8i8192?entry=ttu): a 190-es szövetségi főúttal az Oaxaca–Chiapas határon.
+
+# Mexico / Region-specific clues
+@ mexico-QJWC
+A **fügekaktuszok** a **lapos, ovális alakú szárlapjaikról** jellegzetesek. Észrevehetően gyakoribbak a középső részen, és a déli meg a part menti államokban ritkán láthatók.
+
+# Mexico / Region-specific clues
+@ mexico-RbcF
+Ez a pontos útburkolati kialakítás **három sor** macskakőmintával főként Oaxacában található.
+
+# Mexico / Region-specific clues
+@ mexico-RddA
+A **szemcsés** útburkolat **kékesszürke árnyalattal** gyakori látvány Tamaulipas és Nuevo León államban.
+MEGJEGYZÉS: Tamaulipasban a nagyobb utakon nagyon gyakran vannak [szaggatott szélső vonalak](https://goo.gl/maps/J82S2uF1oZ7qGhEG6).
+
+# Mexico / Region-specific clues
+@ mexico-Rr0V
+A Yucca filifera, más néven **fapálmaliliom**, valamint a Yucca decipiens leggyakrabban San Luis Potosíban és Zacatecasban, valamint néhány szomszédos északi államban figyelhető meg. Az egyetlen törzsből elágazó, hosszúkás, éles zöld levelekből álló rozettáikról ismerhetők fel, hasonlóan egy fához.
+
+# Mexico / Region-specific clues
+@ mexico-RrIm
+A **lesüllyesztett kereszttartóval** ellátott **faoszlopok** többnyire Sinaloában és Sonorában találhatók.
+
+# Mexico / Spotlight
+@ mexico-Rttz
+Cuernavacában az oszlopok alsó felét gyakran **zöldre** festik.
+MEGJEGYZÉS: A 4. generációban a festés általában megkopottnak látszik, néhol annyira, hogy alig észrevehető.
+
+# Mexico / Region-specific clues
+@ mexico-Ryu4
+A lógó oszlop **fából** készült változata a Baja California-félszigeten található.
+
+# Mexico / Region-specific clues
+@ mexico-X6cJ
+Az Agave salmiana, más néven **pulque-agávé**, széles, sima, hajló levelekkel és **koronaszerű** megjelenéssel rendelkezik. Gyakori a mexikói központi völgyben és északabbra, San Luis Potosí városa környékén.
+
+# Mexico / Spotlight
+@ mexico-XsTl
+Ez a magas, lapos gerinc, amelynek nagyon **kiemelkedő gerincvonalai** vannak, a Maderas del Carmen bioszféra-rezervátumhoz tartozik Coahuila északi részén, az amerikai határ közelében.
+MEGJEGYZÉS: Az egyetlen út, ahonnan a hegyvonulat megfigyelhető, az 53-as szövetségi főút, amely Boquillas del Carmenbe vezet.
+
+# Mexico / Region-specific clues
+@ mexico-YJOx
+A **fehér** középső útvonalak leggyakrabban Tabascóban találhatók.
+
+# Mexico / Region-specific clues
+@ mexico-Yn3G
+Ezek a **vörösesbarna árnyalatú** dombok, amelyeket gyakran **nagy sziklatömbök** kísérnek, gyakori látványt nyújtanak Baja California északi felében.
+
+# Mexico / Spotlight
+@ mexico-Z8y6
+Ez az útelválasztó **sárga felső** és **alsó peremmel** a 95D teljes hosszában megtalálható Mexikóvárostól Acapulcóig.
+
+# Mexico / Spotlight
+@ mexico-aRyM
+Az Eurus szélerőpark Oaxaca délkeleti részén található, és Mexikó legnagyobb szélerőparkja. **Szélturbinák** sorai találhatók a 190-es mentén Juchitán de Zaragoza környékén.
+
+# Mexico / Region-specific clues
+@ mexico-ah2z
+Mexikóban minden államnak egy vagy több egyedi rendszámkialakítása van. Ebben az infografikában a leggyakoribbakat és leghasznosabbakat találod.
+
+# Mexico / Region-specific clues
+@ mexico-baRr
+Vastag **kereszt** látható a táblák hátulján Chihuahuában.
+
+# Mexico / Region-specific clues
+@ mexico-cAuJ
+Ezek a **vékony, fehér kérgű** fák a Yucatán-félszigeten találhatók, de leginkább Quintana Roóban elterjedtek.
+
+# Mexico / Region-specific clues
+@ mexico-caRa
+Ezek a **vörös színű kérgű** fákból készült kerítések gyakran megtalálhatók Veracruzban.
+MEGJEGYZÉS: Ezek a fakerítések más part menti államokban is megtalálhatók, és leginkább más nyomokkal együtt érdemes használni őket.
+
+# Mexico / Region-specific clues
+@ mexico-cxcn
+A **vörös mezőgazdasági táblák** gyakran láthatók Zacatecasban és időnként Durango déli részén.
+
+# Mexico / Spotlight
+@ mexico-duJ1
+Guaymas városában sok **szaggatott** szirt és hegy van, amelyek nagyon jellegzetessé teszik a területet. A talaj emellett feltűnően rózsaszínes, és orgonasíp-kaktuszok láthatók szétszórva a dombokon és az út mellett.
+
+# Mexico / Region-specific clues
+@ mexico-eOQI
+Ezek a trópusi fák sűrű erdeivel körülvett **vörös mezőgazdasági táblák** leggyakrabban Campeche északi részén fordulnak elő.
+
+# Mexico / Region-specific clues
+@ mexico-gENZ
+A **fekete kátrány** a sárga középvonal mindkét oldalán Sinaloában, Durangóban és Guerreróban látható.
+MEGJEGYZÉS: Ez akkor a legmegbízhatóbb, ha a kátrány nem fakult meg.
+
+# Mexico / Spotlight
+@ mexico-gFf9
+Ez a **piros** Street View-autó fekete tetővel a Sinaloa állambeli La Seca településén található.
+
+# Mexico / Region-specific clues
+@ mexico-gtmC
+A mexikói **körzetszámok** első számjegye régiókhoz kötődik, és ezen a térképen látható.
+
+# Mexico / Region-specific clues
+@ mexico-gyjK
+Az **orgonasíp-kaktuszoknak** hosszú, vékony száraik vannak, amelyek gyakran egy talajszint körüli szárból nőnek ki. Leggyakrabban Sonorában és időnként Baja California Surban találhatók.
+
+# Mexico / Region-specific clues
+@ mexico-hFJl
+Ezek a betonoszlopok a kereszttartók **alatt felfüggesztett** szigetelőkkel kizárólag a Yucatán-félszigetre jellemzők.
+
+# Mexico / Region-specific clues
+@ mexico-hlxm
+Ezek az **arany fűcsomók** sorban, közvetlenül az út mellett leggyakrabban Coahuilában találhatók.
+
+# Mexico / Region-specific clues
+@ mexico-iMLc
+Az **aszimmetrikus kereszttartóval** és **kettős szigetelőkkel** ellátott oszlopok kizárólag Mexikóvárosra, México államra, Hidalgóra és Morelosra jellemzők.
+
+# Mexico / Region-specific clues
+@ mexico-jCer
+A **kókuszpálmák** a part egészén megtalálhatók, de gyakran nagy csoportokban fordulnak elő Guerreróban és Colimában.
+
+# Mexico / Region-specific clues
+@ mexico-jhvW
+A **fehér szigetelők**, amelyek tölgyfa terméséhez hasonló alakúak, Mexikó part menti államaiban megtalálhatók, de messze leggyakoribbak Michoacánban, Colimában és Veracruzban.
+
+# Mexico / Region-specific clues
+@ mexico-l5bZ
+A Monterrey nagyvárosi térségében magas, lélegzetelállító **hegyvonulatok** vannak, amelyek körülveszik a várost.
+
+# Mexico / Region-specific clues
+@ mexico-lwNA
+A **hálós testű** oszlopok leggyakrabban San Luis Potosíban, Guanajuatóban és Querétaróban találhatók.
+
+# Mexico / Spotlight
+@ mexico-md8U
+Las Coloradas települése a környék **rózsaszín tavairól** híres.
+
+# Mexico / Spotlight
+@ mexico-or0C
+A **Mexicali** körüli területet sík szántóföld jellemzi, nyugaton egy gerinccel. A [washingtonia](https://goo.gl/maps/Z9JhouH2WnYeJW1z8)[-pálmák](https://goo.gl/maps/Z9JhouH2WnYeJW1z8) nagyon gyakoriak, és megtalálhatók ezek a barna fából készült [oszlopok](https://goo.gl/maps/JG3LABTi1T4aSrzc9).
+
+# Mexico / Spotlight
+@ mexico-p6Xz
+A San Cristóbal Suchixtlahuaca körüli és attól délre fekvő terület Oaxacában gyakran hullámos dombokkal rendelkezik, nagyon jellegzetes **narancssárga** és **bézs** árnyalatú talajjal, dombonként az egyik színből a másikba váltva. A bézs árnyalatú talaj néhány helyszínen [feltűnőbben](https://goo.gl/maps/HzfgXbCXgYegsKodA) látszik.
+
+# Mexico / Spotlight
+@ mexico-pAC6
+Ez a lámpa **öt** kör alakú izzóval, amely **dobókockára** hasonlít, Cancúnban található.
+
+# Mexico / Spotlight
+@ mexico-q149
+Az Iztaccíhuatl és a Popocatépetl **ikervulkánja** a México állam és Puebla közötti határon található. Ne feledd, hogy [általában sokkal kevésbé láthatók](https://goo.gl/maps/3zngjfu2ucdDwvcV6), mint ahogy a kép mutatja, amely csak tájékoztató jellegű.
+
+# Mexico / Region-specific clues
+@ mexico-sf65
+Hasonlóképpen a mexikói **irányítószámok** ezen a térképen láthatók. Gyakran megjelennek az [utcanévtáblák alján](https://goo.gl/maps/8bgZx7q8pjzzFSYi6), és az államok neve szerint ábécésorrendbe vannak rendezve.
+
+# Mexico / Region-specific clues
+@ mexico-u1UV
+A **mexikói óriáskardon** rendkívül gyakori kaktusz a Baja California-félszigeten. Az egyetlen törzsből kinövő nagy, szétterülő karjairól és bordázott külsejéről azonosítható.
+
+# Mexico / Spotlight
+@ mexico-vK3L
+Ez a lámpa **fekete**, téglalap alakú fejjel Cuernavacában található.
+
+# Mexico / Spotlight
+@ mexico-vOyN
+A **Cerro del Bernal** jellegzetes kialudt vulkán, amely Tamaulipas déli részén található. Tampicótól közvetlenül északnyugatra vagy Móróntól nyugatra találod meg.
+
+# Mexico / Region-specific clues
+@ mexico-vZJe
+Ezek a szinte csepp alakú fű**csomók** gyakoriak a Tlaxcala körüli vidéken.
+
+# Mexico / Spotlight
+@ mexico-xzN2
+Aguascalientes városában a legtöbb lámpaoszlop és lámpakar **sárga**.
+MEGJEGYZÉS: **Nem** kizárólagosak, csak nagyon gyakoriak.
+
+# Mexico / Region-specific clues
+@ mexico-yUfA
+Észak-Mexikó építészetében gyakran jelennek meg az amerikai stílusú bungalók formaelemei. Sok ház **világos** vagy **pasztell** színű, **kerítéssel** van körülvéve, és általában előkertje van. A spanyol gyarmati építészet inspirálta **narancssárga cserép** szintén jellemző.
+
+# Mexico / Spotlight
+@ mexico-zF4Y
+A Ciudad Obregón körüli terület a **rózsaszínes sárgásbarna talajról** és a város mezőgazdasági területei körül található **csatornákról** jellegzetes.
+
+# Malaysia / Spotlight
+@ malaysia-0dJK
+Ez az egyedi **szürke autó** hosszú elülső antennával a Gunung Mulu Nemzeti Parkban található, Sarawakban.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-3C19
+Az **államzászlók** meglehetősen rendszeresen láthatók, ezért érdemes megtanulni őket.
+
+# Malaysia / Spotlight
+@ malaysia-4Be2
+Labuan városi területeit **kék hengeres tartályok** pettyezik.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-4IDp
+A borneói oldalon a villanyoszlopokon jellemzően **2-1 szigetelőelrendezés** és hosszú **átlós fatámasz** van. Kizárólag a sziget Sarawak vidékére jellemzők.
+MEGJEGYZÉS: Az indonéz oszlopok hasonlónak tűnhetnek, de általában nem fából készülnek, és kisebb átlós támaszokat használnak, vagy egyáltalán nem használnak ilyeneket.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-4IWF
+A malajziai irányítószámokat hasznos tudni, mivel az ország legtöbb utcanévtábláján megtalálhatók.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-7iWU
+A **levelekre emlékeztető logóval** ellátott szemetesek Perlisben és Kedahban találhatók.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-AlbW
+A **két párhuzamos** oszlopfejjel rendelkező vékony fémoszlopok kizárólag Borneó Sabah vidékére jellemzők.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-DVpF
+A fekete matricák, amelyeken alul a „**TEL TNB**” felirat szerepel, kizárólag Johorban találhatók.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-Fn5n
+A **fekete oszlopmatricák** leggyakrabban a szárazföldön találhatók.
+MEGJEGYZÉS: A borneói fekete matricák csak a 4. generációs felvételen léteznek.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-FqOz
+A **fehér oszlopmatricák** kizárólag Borneó szigetén, Sarawakban találhatók a villanyoszlopokon.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-PHYA
+A **háromszögletű fémtámasszal** rendelkező lámpaoszlopok főként a szárazföldi Malajziában találhatók.

@@ -1,0 +1,313 @@
+# Madeira / Spotlight
+@ madeira-Hntd
+A **Penha d'Águia** Madeira északkeleti részén található, elszigetelten egy magaslaton.
+
+# Madeira / Spotlight
+@ madeira-KKWQ
+A **Pico Areeiro** a sziget második legmagasabb hegye, és a legmagasabb, amelyről van felvétel. A sziget nagy részére nyíló kilátásról és a tetején lévő fehér radarállomásról ismerhető fel.
+
+# Madeira / Spotlight
+@ madeira-MaYa
+Az ER211-es a sötét burkolatról ismerhető fel, amely a kibukkanó barnás talajjal párosul.
+
+# Madeira / Regional clues
+@ madeira-Pezj
+A sziget keleti csücske nagyon száraz, alig vagy egyáltalán nem növényzettel.
+
+# Madeira / Regional clues
+@ madeira-nSn4
+A banánültetvények többsége délen található.
+
+# Qatar / Spotlight
+@ qatar-29Ya
+Az al-Bajt stadion a stadionon lévő fekete-fehér **vízszintes csíkokról** és a sátorszerű tetőről ismerhető fel.
+
+# Qatar / Spotlight
+@ qatar-A1pX
+Az Education City stadion a nagy, **szürke** burkolatról ismerhető fel, amelyen **rombuszminta** van.
+
+# Qatar / Regional clues
+@ qatar-DTBf
+Ez a **hosszú** antenna pedig többnyire Katar délnyugati részén található.
+
+# Qatar / Spotlight
+@ qatar-IL8W
+A **Mall of Qatar** Raudat al-Dzsahhanijában a szögletes megjelenéséről ismerhető fel, sok hirdetéssel az épület oldalán. Nagy [parkolók](https://goo.gl/maps/HH42iSf57P7GxfVD9) is láthatók a bevásárlóközpont mellett.
+
+# Qatar / Spotlight
+@ qatar-IrTG
+A **barna** utcanévtáblák, amelyeket gyakran a földhöz rögzítenek, az Education Cityben láthatók.
+
+# Qatar / Spotlight
+@ qatar-KtSR
+Egy **gahfiyára** emlékeztető építmény látható az Ahmed bin Ali stadion körül, Raudat al-Dzsahhanija kerületben.
+
+# Qatar / Regional clues
+@ qatar-QWts
+Ez a **meglehetősen hosszú** antenna Dohában és környékén található.
+
+# Qatar / Spotlight
+@ qatar-Rdpp
+Ez a **fekete doboz** a platón a **bal** oldalon Ar-Rajjántól délkeletre látható, a zöld terület környékén.
+MEGJEGYZÉS: A doboz nem mindig látható. Mindenképp keress más nyomokat is a tippelés előtt.
+
+# Qatar / Regional clues
+@ qatar-WcSv
+A **terelőoszlopok** Katarban csak néhány úton találhatók, és könnyen megkülönböztetheted őket.
+- A [Katar felirattól közvetlenül nyugatra fekvő vízszintes úton](https://maps.app.goo.gl/gTG4kNoWi6Nvgzgd9#extra%5BloadMode%5D=latLng) fekete-sárga középvonalak vannak.
+- A [Madínat al-Kaabántól délre fekvő vízszintes úton](https://maps.app.goo.gl/8zw6N5R1F83nVcoE7#extra%5BloadMode%5D=latLng) sokkal több a zöld növényzet, és a felvétel is nagyon borús.
+- A [Fuvajrittól délre fekvő part menti úton](https://maps.app.goo.gl/TccRhQzayTorZkmP9#extra%5BloadMode%5D=latLng) körös-körül part menti bokrok vannak, és gyakran látod a partot.
+- Ha az út nem illik a fenti leírásokhoz, tippelj a [Katar felirattól nyugatra fekvő hosszú függőleges útra](https://maps.app.goo.gl/Zc4PecYmyuGQXYju7#extra%5BloadMode%5D=latLng).
+
+# Qatar / Spotlight
+@ qatar-azNo
+A **fekete doboz** a platón a **jobb** oldalon al-Khórban látható, valamint a Torch Tower és a Khalifa nemzetközi stadion körüli zöld területen.
+MEGJEGYZÉS: A doboz nem mindig látható. Mindenképp keress más nyomokat is a tippelés előtt.
+
+# Qatar / Regional clues
+@ qatar-eMIV
+Katar községekre oszlik, amelyek tovább oszlanak **számozott zónákra**, és ezek az [utcanévtáblákon](https://goo.gl/maps/M8fdWeriuhXw3Meu5) láthatók. Ez az infografika mutatja, melyik szám melyik zónának felel meg.
+
+# Qatar / Spotlight
+@ qatar-eekc
+A Torch Tower a Baaja kerület szinte minden pontjáról látható, és a **hiperboloid** szerkezetéről ismerhető fel, valamint arról, hogy ez a legmagasabb épület Katarban.
+
+# Qatar / Spotlight
+@ qatar-hMwr
+**Négy torony**, amely **csavarmenetre** emlékeztet, Lusail szinte minden pontjáról látható.
+
+# Qatar / Spotlight
+@ qatar-jmFE
+A Lusail stadion Lusailben az arany **tálszerű** alakjáról ismerhető fel.
+
+# Qatar / Spotlight
+@ qatar-kekJ
+A Khalifa nemzetközi stadion a tátott szájra emlékeztető **kettős ívekről** ismerhető fel.
+
+# Qatar / Spotlight
+@ qatar-tm4B
+A Hamad nemzetközi repülőtér belsejéről **állvánnyal** készült felvétel. Egy egyedi állvány is látható itt, amellyel egy [repülőgép belsejéről](https://goo.gl/maps/Bgbsuqhkc4g98q1E7) készült felvétel.
+
+# Qatar / Regional clues
+@ qatar-wBgz
+Ez a nagyon **rövid** antenna Katar északi részén található.
+
+# Qatar / Spotlight
+@ qatar-wSQQ
+Ez a **kartondoboz** a plató jobb oldalán Lusailben látható. A rozsdás kapcsok is láthatók lesznek.
+MEGJEGYZÉS: A doboz nem mindig látható. Mindenképp keress más nyomokat is a tippelés előtt.
+
+# Qatar / Spotlight
+@ qatar-xFsU
+Az Education Cityben jellegzetes **fekete burkolólapos** utak találhatók.
+
+# Reunion / Regional and arrondissement-specific clues
+@ reunion-5wwx
+A **cukornádültetvények** Réunionon két vidéken találhatók: északkeleten és délnyugaton. A délnyugati rész általában beépítettebb és sűrűbben lakott, ami azt jelenti, hogy több épületet vagy autót látsz a környéken.
+
+# Reunion / Spotlight
+@ reunion-UMXJ
+Réunion keleti vidéke a legritkábban lakott, amit az N2 keleti része is mutat: ez egy egypályás út, amely vagy [mindkét oldalon némileg sűrű növényzeten](https://goo.gl/maps/1vJBXBfvwwi8YyB37) halad át, vagy egy [tágas tájon](https://goo.gl/maps/dCWLTzJzexxtujih9), ahol alig vagy egyáltalán nincsenek fák.
+
+# Reunion / Spotlight
+@ reunion-UhQa
+Réunion két legnagyobb települése a **terelőoszlopaikról** különböztethető meg, amelyek gyakran láthatók a kereszteződéseknél. Saint Paul [fekete](https://goo.gl/maps/BCFWSpgwGXQNRTZG7) terelőoszlopokat használ, míg Saint Denis [zöld](https://goo.gl/maps/zKaQEWScWPr9oF4z5) terelőoszlopokat, gyakran fehér gömbökkel a tetejükön. Saint Denis emellett beépítettebb, hiszen ez a főváros.
+
+# Reunion / Spotlight
+@ reunion-aap9
+A La Route Forestière 58 de la Scierie et du Haut des Makes egy **kanyargós földút**, amely az azt körülvevő **sűrű növényzetről** ismerhető fel, különösen a fenyőkről és eukaliptuszokról. Maga az út is sötét színű, a közepén fűvel.
+
+# Reunion / Spotlight
+@ reunion-e1PC
+A Route du Volcan a **marsi** tájról ismerhető fel. Az egyetlen növényzet a szétszórt cserjék, és a talaj jellegzetes **barnásvörös** színű. Ezek az utat szegélyező [fehér kövek](https://goo.gl/maps/UFYFzYRav6h75Fge8) szintén jó nyomot jelentenek.
+
+# Reunion / Spotlight
+@ reunion-gOIT
+Az N1 északnyugati szakasza osztott pályás, délkeleten egy **jellegzetes gerinccel**, északnyugaton pedig az óceánnal.
+Vedd figyelembe, hogy bár a térképen megjelenik egy híd, a felvétel a híd megépítése előtt készült, ami azt jelenti, hogy nem fogod látni a hidat.
+
+# Reunion / Regional and arrondissement-specific clues
+@ reunion-m512
+Cilaos egy **kalderán** belül fekvő település. A települést körülvevő hegy**falról** és a **borús** felvételről ismerhető fel.
+
+# Reunion / Regional and arrondissement-specific clues
+@ reunion-nllT
+Megpillanthatod ezt a **téglalap alakú elmosódást** az első kamerán a Saint-Louistól északra vezető összes felvételen.
+
+# Reunion / Regional and arrondissement-specific clues
+@ reunion-oFny
+Réunionon hatféle jellegzetes buszmegálló-kialakítás van:
+- [Sárga](https://goo.gl/maps/q9CtkypqeALhBfrC7) – Ez a leggyakoribb típus, és a sziget egészén megtalálható. Általában egy másik buszmegálló kíséri, ami azt jelenti, hogy jó régiótippet kaphatsz, ha önmagában látod.
+- [L alakú](https://goo.gl/maps/Yts9EDaePYnjKk1L8) – Lehet fehér vagy [olívazöld](https://goo.gl/maps/jgR9cBEvaMmKFu8SA) színű. Előfordulhat [buszváró](https://goo.gl/maps/ERRyoQBRSTDCwNPL6) formájában is. Szinte soha nem kíséri sárga buszmegálló.
+- [Rózsaszín](https://goo.gl/maps/psuwbrTTAkRmBatTA) – Ritkán kíséri sárga buszmegálló.
+- [Narancssárga](https://goo.gl/maps/iab3u7VkEDbP1hSb6) – Szinte mindig sárga buszmegálló kíséri.
+- [Zöld](https://goo.gl/maps/kg61UkiurFFoe8hX6) – Szinte mindig sárga buszmegálló kíséri.
+- [Piros](https://goo.gl/maps/tL9qM1Uzg6ThwBay7) – Ritkán kíséri sárga buszmegálló.
+Ez az infografika mutatja, hol találhatók meg az egyes típusok. A fenti lista gyakoriság szerint van rangsorolva.
+_A képre kattintva kinagyíthatod._
+
+# Romania / Spotlight
+@ romania-1AKz
+A **sík tájak** a **2. generációban** többnyire Bukarest közelében találhatók.
+
+# Romania / Spotlight
+@ romania-AREv
+A 7C arról ismerhető fel, hogy Románia néhány **leglátványosabb hegyén** halad át. Az út legmagasabb pontja közvetlenül a Szeben és Argeș közötti határnál van.
+
+# Romania / Regional clues
+@ romania-EaaX
+Ha több házat látsz, és szinte mindegyiknek **narancssárga cseréptetője** van, valószínűleg az ország nyugati felében vagy.
+
+# Romania / Spotlight
+@ romania-G0Rh
+Egy **hajós trekker** zöld hajóval található az ország messzi keleti részén. Többnyire apró, benőtt csatornákon halad át egy sík tájon.
+MEGJEGYZÉS: Ezen a vidéken nincs közúti felvétel.
+
+# Romania / Spotlight
+@ romania-GoCj
+Ez az ablaktípus, amely **hunyorgó szem** alakú, leggyakrabban Nagyszeben városában található.
+
+# Romania / Regional clues
+@ romania-KpUv
+A **teljesen sík** mezőgazdasági tájak délen és nyugaton találhatók.
+MEGJEGYZÉS: Ha távoli dombokat vagy hegyeket látsz északon, valószínűleg délen vagy, ha pedig délen vagy keleten látod őket, valószínűleg nyugaton vagy.
+
+# Romania / Regional clues
+@ romania-MZtj
+A **magyar** nyelvű kétnyelvű táblák többnyire a középső Kovászna, Hargita és Maros megyében találhatók, de ritkábban a magyar határ közelében is.
+
+# Romania / Regional clues
+@ romania-R67M
+Ez Románia **domborzati térképe**. A legmagasabb hegyek az ország középső és északi részén találhatók, míg a déli és a nyugati rész különösen sík.
+
+# Romania / Regional clues
+@ romania-WIRI
+A gazdagon **faragott fakapuk** gyakran megtalálhatók Máramaros vidékén.
+
+# Romania / Regional clues
+@ romania-bBQ3
+Hasonlóképpen, ha több házat látsz, és szinte mindegyiknek **fém** vagy **műanyag műcseréptetője** van, valószínűleg az ország keleti felében leszel.
+
+# Romania / Regional clues
+@ romania-dE1L
+A magyar határ közelében lévő falvakat gyakran **ugyanabban a stílusban** építették, mint a magyarországi falvakat. Ez a stílus úgy foglalható össze, hogy hosszú, egyenes utcák vannak, egyszintes házakkal, amelyek egyenletesen sorakoznak az út mentén, jellemzően a ház rövidebb oldalával az út felé. A tetők túlnyomó többsége narancssárga cserepes lesz.
+
+# Romania / Regional clues
+@ romania-eDOq
+A **napraforgó** elsősorban az ország messzi keleti részén, másodsorban pedig a messzi nyugati részén található.
+
+# Romania / Spotlight
+@ romania-kGpN
+Több román városnak és településnek **egyedi utcanévtáblái** vannak. Ez az infografika mindazokat lefedi, amelyeknek a lakossága 100 000 fölött van.
+
+# Romania / Regional clues
+@ romania-szyO
+Jászvásártól délre, a moldovai határ közelében hullámos mezőgazdasági völgyeket találsz, nagyon jellegzetes **észak-északnyugat–dél-délkeleti** iránnyal.
+MEGJEGYZÉS: Mindenképp keress mezőgazdasági táblákat a dombok tetején e vidék megerősítéséhez.
+
+# Romania / Spotlight
+@ romania-t7FZ
+A 67C hegyi út, ahol **minden útburkolati jel sárga**.
+
+# Romania / Spotlight
+@ romania-zM4T
+Ha **hegyvidéki tájat** látsz a **2. generációban**, valószínűleg Brassó közelében vagy.
+
+# Serbia / Spotlight
+@ serbia-8vGG
+Fehér Google-autó **rövid antennával** látható Újvidéken, Kovilon, Belgrádban és környékén, Nišben, valamint az őket összekötő E75-ösön.
+MEGJEGYZÉS: A fehér autó nem mindig látható.
+
+# Serbia / Regional/district-specific clues
+@ serbia-QMqw
+Hasonlóan hullámos táj látható a déli Morava folyó medencéjében, ott azonban **nagyobb dombok és hegyek** láthatók.
+
+# Serbia / Regional/district-specific clues
+@ serbia-RnNO
+**Buja**, **zöld**, **hegyvidéki** táj látható délen és délkeleten, a bolgár és a koszovói határ mentén.
+
+# Serbia / Regional/district-specific clues
+@ serbia-WCh2
+A 3. generációs **őszi felvétel** ezen a Čačaktól délre fekvő vidéken látható, valamint egy kis területen Valjevo körül.
+
+# Serbia / Spotlight
+@ serbia-ajNO
+A szerb mellett magyar nyelvű **kétnyelvű táblák** Észak-Vajdaságban láthatók, ahol magyar többség él.
+
+# Serbia / Regional/district-specific clues
+@ serbia-enVL
+Szerbia középső-északi része az **enyhén hullámos dombokról** ismerhető fel.
+
+# Serbia / Regional/district-specific clues
+@ serbia-kehq
+Ez az enyhe **gerinc** egy egyébként sík tájban a Tarcal-hegység Nemzeti Parkban látható, Újvidéktől délnyugatra.
+
+# Serbia / Regional/district-specific clues
+@ serbia-un4M
+A Vajdaság, az északi vidék a magyar határ és Belgrád között, a **sík, mezőgazdasági tájról** ismerhető fel. A táj teljesen sík lesz, **mindenféle domb nélkül**.
+
+# Serbia / Regional/district-specific clues
+@ serbia-w6kX
+Szerbia kétjegyű körzetszámokat használ, ahol az első számjegy **1 és 3 között** van. A 2-vel kezdődő körzetszámok északon, az 1-gyel kezdődők Közép- és Kelet-Szerbiában találhatók. A 3-mal kezdődő körzetszámok délnyugaton találhatók.
+
+# Serbia / Spotlight
+@ serbia-yQCt
+A jellegzetes **Versec-hegység** Versectől keletre látható, a román határ közelében. A hegyek kiemelkednek egy sík tájból, és a hegyektől délre gyakran láthatók [szőlőültetvények](https://goo.gl/maps/e2hLdz6HJw4kWN778). A [verseci vár](https://goo.gl/maps/WzaCRBL14QdDEdre7) szintén látható a hegy tetején.
+
+# Russia / Regional clues
+@ russia-0522
+A **4. generációs** felvétel meglehetősen kiterjedt, és az ország legtöbb szövetségi alanyában megtalálható. Külön figyelemre méltó, hogy az olyan területeken, mint az Altaj hegység és a Távol-Kelet nagy része, teljesen hiányzik a 4. generáció. Az, hogy tudod, hol található a 4. generáció, kezdő szinten nem a leghasznosabb; más nyomok, mint az évszak és az autó, fontosabbak. A sötétvörös azokat a területeket jelöli, ahol az összes felvétel 4. generációs.
+
+# Russia / Spotlight
+@ russia-24Ka
+A lekerekített téglalap alakú kerítések, amelyeknek a közepén **vonal** fut, kizárólag a Cseljabinszki területre és az Orenburgi terület keleti részére jellemzők.
+
+# Russia / Regional clues
+@ russia-2mXt
+Az [ezüstfa](https://en.wikipedia.org/wiki/Elaeagnus_angustifolia) jellemzően a kazah határ mentén található.
+
+# Russia / Spotlight
+@ russia-2n7S
+Ezek a **pirosra festett** oszlopok kizárólag Muromban találhatók.
+
+# Russia / Spotlight
+@ russia-344J
+Ez az egyedi terelőoszlop, **szürke téglalappal** és **dupla piros fényvisszaverővel**, kizárólag a Kosztromai terület P100-as útjára jellemző.
+
+# Russia / Spotlight
+@ russia-3ve1
+A díszes kialakítású kerítések, amelyek általában **élénknarancs** színűek, kizárólag Irkutszkra jellemzők.
+
+# Russia / Regional clues
+@ russia-4DR5
+Azok az orosz terelőoszlopok, amelyek nagyon vékonynak látszanak, és egy karóhoz vannak erősítve, általában az ország keleti részén találhatók, nagyjából Omszktól kezdve. Vedd figyelembe, hogy a [szokásos orosz terelőoszlopok](https://goo.gl/maps/RnBNJE9kGwChsj9G7) az ország ezen részén is bőven előfordulnak.
+
+# Russia / Regional clues
+@ russia-4Mgv
+A nagy, piros féklámpa gyakori Kalinyingrádban, de néhány [régebbi felvételen](https://goo.gl/maps/bms7QA2bzAr5VLBX8) Nyugat-Oroszországban is megtalálható.
+
+# Russia / Regional clues
+@ russia-4aKj
+A **buja** és változatos erdők egy **dombos** tájban jellemzik a Vlagyivosztok körüli, észrevehetően melegebb vidéket. A felvétel nagy része borús, és fehér autó van rajta hosszú antennával. Délebbre, a hármashatár közelében nyitottabb [hullámos dombos tájat](https://goo.gl/maps/ErMpfen9KCE4HGHE7) találsz.
+
+# Russia / Regional clues
+@ russia-7siN
+Az [őszi 4. generációs felvétel](https://maps.app.goo.gl/4ePdHYjvkycsZWMP6) meglehetősen ritka, és csak [Kazany](https://maps.app.goo.gl/CuYMZ5RFdFKH4CFX7) környékén, néhány [murmanszki](https://maps.app.goo.gl/FVbne7gzizSc2mdu8) úton, valamint [Ulan-Ude](https://maps.app.goo.gl/cGxwLd6k866DgMRr9) egy részén található.
+
+# Russia / Regional clues
+@ russia-8PIl
+A [japán acsalapu](https://en.wikipedia.org/wiki/Petasites_japonicus) (közkeletű nevén szahalini káposzta) nagyon gyakori a Szahalini területen, különösen a déli félben. Rokon növények nagyon ritkán [Adigeföldön](https://goo.gl/maps/wWv1UwyS1XfNpC4v6) is megtalálhatók.
+
+# Russia / Regional clues
+@ russia-91yN
+Az Omszki területen készült felvétel Oroszország egyik legfelismerhetőbbje. Jellemzően nyári 4. generációs, és jellegzetes tája van, amely zöld mezőgazdasági táblákból áll, és ezeket elszigetelt (főként) nyíresfoltok szakítják meg.
+Vedd figyelembe, hogy a 3. generációban ez a táj Oroszország sokkal nagyobb területén látható.
+MEGJEGYZÉS: A felvétel és a táj e kombinációja kissé átnyúlik a szomszédos Tyumenyi és Novoszibirszki területre is (előbbibe délen, utóbbiba Tatarszk közelében).
+
+# Russia / Spotlight
+@ russia-920v
+Ezek a **piros-fehér csíkos** oszlopok többnyire Szaranszkban találhatók, de néhány más mordvinföldi városban is.
+
+# Russia / Regional clues
+@ russia-ABdR
+Az út menti **sziklák** rendkívül gyakoriak Karélia és a Murmanszki terület nagy részén. Megtalálhatók a Permi határterületen és Burjátföldön is, de ott kevésbé gyakoriak, és kisebb méretűek.

@@ -1,0 +1,330 @@
+# Philippines / Region-specific clues
+@ philippines-yzp6
+A neonzöld **Mountain Dew-palackokból** készült díszek gyakran megtalálhatók északon, különösen Észak-Luzonban.
+
+# Pakistan / Region-specific clues
+@ pakistan-0iLc
+Patriata, Iszlámábádtól északkeletre, a **dombos erdőkről** ismerhető fel, amelyek főként **magas fenyőkből** állnak. Érdekes módon a felvétel egy része [drótkötélpályáról](https://goo.gl/maps/sa5D6rT9i6EcbGYy8) készült.
+
+# Pakistan / Region-specific clues
+@ pakistan-6RPD
+A lahorei Government College University a **gótikus építészetéről** ismerhető fel.
+
+# Pakistan / Region-specific clues
+@ pakistan-9S3l
+A pakisztáni felvétel rendkívül korlátozott, kizárólag Pandzsábban található, jelentősebb templomok és turisztikai látványosságok körül.
+A sok különböző felvételi helyszín miatt ez a fejezet csak azokra a részekre összpontosít, amelyek behatárolhatónak számítanak.
+
+# Pakistan / Region-specific clues
+@ pakistan-9r6V
+A Dzsallóban, Lahore keleti külvárosában készült felvétel a félig városias felvételről ismerhető fel egy meglehetősen szegényes megjelenésű negyedben, nagyon sűrű párával.
+
+# Pakistan / Region-specific clues
+@ pakistan-D9uS
+Pákpattanban is megtalálhatod ezt a **keskeny sikátort**, közvetlenül a piaci utcától északra.
+
+# Pakistan / Region-specific clues
+@ pakistan-JW5b
+A Bahria Grand Hotel, Lahore délnyugati külvárosában, a szálloda előtti minigolfpályáról ismerhető fel. A szállodaterület bejáratánál egy [tehénszobor](https://goo.gl/maps/8LkJjyWg9pe76Yc3A) is található.
+
+# Pakistan / Region-specific clues
+@ pakistan-K3qO
+A Katasban, Szargodától északra készült felvétel a párás égről és a **dombosságról** ismerhető fel.
+
+# Pakistan / Region-specific clues
+@ pakistan-Q2S5
+Közvetlenül a lahorei erődtől délre találsz egy trekkert, amely szűk városi utcákon sétál, amelyek jellemzően nagyon forgalmasak.
+MEGJEGYZÉS: Ez szintén rejtett felvétel.
+
+# Pakistan / Region-specific clues
+@ pakistan-Rtub
+A lahorei erőd nagy erődítmény Lahoréban, ahol az [Alamgiri-kapu](https://en.wikipedia.org/wiki/Lahore_Fort#Alamgiri_Gate) Pakisztán egyik legikonikusabb műemléke.
+
+# Pakistan / Region-specific clues
+@ pakistan-TP63
+A Kinnaird College for Women University főként hagyományos pakisztáni vörös téglás épületekből áll, amelyeket gyakran vörös téglás utak kísérnek.
+
+# Pakistan / Region-specific clues
+@ pakistan-VlpT
+Közvetlenül a pákpattani piaci utcától nyugatra egy nagyon **forgalmas megjelenésű** városi utcát találsz.
+
+# Pakistan / Region-specific clues
+@ pakistan-XzFd
+Megtalálhatod ezt a **szürke autót** **látható jobb oldallal**, amint a lahorei erőd körül hajt Lahore északi részén.
+MEGJEGYZÉS: Ez rejtett felvételnek számít, mivel a Google Térképen nem érhető el a szokásos módon. Elérhető azonban a [Map Making Appban](https://map-making.app/), és néhány közösségi térkép még tartalmazza.
+
+# Pakistan / Region-specific clues
+@ pakistan-aJMI
+A Changa Manga Erdei Parkban készült felvétel az ösvény északkeleti irányáról ismerhető fel, valamint a keskeny csatornáról, amely szorosan követi az ösvényt, vagy az északi, vagy a [déli](https://goo.gl/maps/bAPXGSaAF1SUyPun6) oldalon.
+
+# Pakistan / Region-specific clues
+@ pakistan-ciEV
+Szahiváltól nyugatra, közvetlenül Harappától északnyugatra találsz egy trekkert, amely délen a Harappa Múzeumnál indul. Ez a trekker arról ismerhető fel, hogy a felvétel nagy része egy nagyon **keskeny, betonból** készült **ösvényen** készült.
+
+# Pakistan / Region-specific clues
+@ pakistan-mIzg
+A Hazrat Baba Bulleh Shah szentélye körüli felvétel Kaszúr nyugati részén jellemzően a mecsetről ismerhető fel, amelynek nagy zöld kupolája van, a minaretek tetején pedig két kisebb zöld kupola. Bár maga a mecset nem látszik minden felvételrészről, [a minaretek](https://goo.gl/maps/HJ1Aqz2jAFaWjF6JA) a legtöbb pontról láthatók.
+
+# Pakistan / Region-specific clues
+@ pakistan-qZn2
+A Rohtas erőd, Dzshélumtól nyugatra, jellemzően a szinte **fekete erődfalakról** ismerhető fel. Bár a falak nincsenek mindig a közelben, általában láthatók [a távolban](https://goo.gl/maps/uh16izrHsXQTanN98).
+
+# Pakistan / Region-specific clues
+@ pakistan-rucD
+A lahorei King Edward Medical University Patiala épülettömbje nagy fehér gyarmati épület, nagy fehér kupolákkal, amelyeken fekete vonalak futnak körbe.
+
+# Pakistan / Region-specific clues
+@ pakistan-wAJF
+A lahorei erődön belül megtalálhatod ezt az utat, amelyet mindkét oldalon teljesen magas **vörös téglafalak** vesznek körül.
+
+# Pakistan / Region-specific clues
+@ pakistan-y4Tl
+A Hiran Minar kis templom, amelyet teljesen körbevesz egy kis tó, és egyetlen híd köti össze a szárazfölddel; közvetlenül Sejkhupura városától északnyugatra található.
+
+# Pakistan / Region-specific clues
+@ pakistan-zl6e
+Pákpattanban találsz egy **forgalmas piaci utcát**, amelynek a teteje szőnyegekből készült.
+MEGJEGYZÉS: A lahorei autós felvételhez hasonlóan ez és a pákpattani felvétel többi része is rejtett felvétel.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-1VXO
+A **gyümölcsösök** többnyire Grójec és Sandomierz városa körül összpontosulnak Délkelet-Lengyelországban.
+
+# Poland / Spotlight
+@ poland-EruS
+A poznańi utcanévtáblák főként **feketék**, az alján lévő kék részen jelölve a városrészt.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-ILmx
+A **sárga jelzésekkel** ellátott villanyoszlopok túlnyomórészt Nyugat- és Dél-Lengyelországban találhatók.
+_A lengyel villanyoszlopokról, beleértve az itt tárgyalt jelzéseket és lámpákat, részletesebb információért lásd ezt a [dokumentumot](https://docs.google.com/document/d/1oJxYV55KJpYkST2ZmxXHc9GaNUiOmvyzfXQg_msfvSk/)._
+
+# Poland / Spotlight
+@ poland-JBtU
+A **Hel-félsziget** főútja nagyon felismerhető: part menti erdei út, amellyel párhuzamosan vasúti pálya fut.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-OH23
+A **regionális utak** háromjegyű útszámmal rendelkeznek. Ezek a számok gyakran sárga dobozokban jelennek meg az irányjelző táblákon. Az első számjegy általában vidékre jellemző, mivel ezek az útszámok erős földrajzi csoportosulást mutatnak.
+A vidékek peremeinél van némi átfedés a számok között. Néhány kivétel is létezik.
+MEGJEGYZÉS: Ez a tipp csak a háromjegyű utakra vonatkozik. A nagyobb, kétjegyű útszámú utak többnyire nem követik ezt a földrajzi mintát.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-PuJB
+A **fekete oszlopjelzések** leggyakrabban az ország délkeleti részén, valamint néhány északi területen láthatók.
+
+# Poland / Spotlight
+@ poland-QKpM
+**Gdańsk** nagyváros Északnyugat-Lengyelországban. Történelmi belvárosában egyedi épületek találhatók, amelyeket a holland aranykor építészete ihletett. Ezek az épületek némileg hasonlítanak Amszterdamra.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-QRyL
+Ezzel szemben az oszlop **oldalára** erősített lámpák ritkán fordulnak elő északkeleten.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-QpLU
+A **fehér hátterű** jelzések leggyakrabban a Podlasiei vajdaságban találhatók, és időnként a Łódźi vajdaságban meg máshol is láthatók.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-RD4g
+Bár Lengyelország nagy része sík, a déli határvidék **nagyon dombos**. Egyes részein hegyek is vannak.
+MEGJEGYZÉS: Lengyelország néhány más területe is némileg dombos, de délen van messze a legtöbb jelentős szintkülönbség.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-ZbOn
+Az oszlop **tetejére** szerelt utcai lámpák egyre gyakoribbá válnak az ország északkeleti része felé, néhány sávval a messzi délen.
+
+# Poland / Spotlight
+@ poland-blym
+Szczecin színes **zöld** és **kék** táblákat használ. A városrész az alján van jelölve.
+
+# Poland / Spotlight
+@ poland-dx99
+A **Tátra** Lengyelország legmagasabb hegysége. Zakopane közelében található, a szlovák határon.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-hZvJ
+A lengyel vezetékes telefonszámok 9 számjegyűek. Az első 2 számjegy a **körzetszám**. Ezek a körzetszámok értelmes módon oszlanak el az országban. Már a körzetszámok első számjegyének megtanulása is jelentősen szűkítheti a vidéket. Az infografikára kattintva kinagyíthatod.
+MEGJEGYZÉS: A mobilszámok szintén 9 számjegyűek, de szerencsére nincs átfedés a mobilszámok és a vezetékes számok első két számjegye között.
+
+# Poland / Regional and voivodeship-specific clues
+@ poland-k6sd
+A hagyományos **faházak** gyakran megtalálhatók keleten, főként a Podlasiei vajdaságban.
+
+# Poland / Spotlight
+@ poland-v82S
+Białystok **türkiz** utcanévtáblákat használ, alul a városrésszel jelölve.
+
+# Saint Pierre and Miquelon / Regional clues
+@ saint-pierre-and-miquelon-BqCt
+Saint-Pierre a főváros és a legnagyobb település. Az ebben a településben készült felvétel **járdás trekkerrel** készült. Nagyobb épületek és több autó látható, Miquelon-Langlade-hoz képest lakottabb hangulattal.
+
+# Saint Pierre and Miquelon / Regional clues
+@ saint-pierre-and-miquelon-H9hF
+Enyhén **dombos, füves** táj, egymástól távolabb álló, szögletes házakkal látható az Île-aux-Marins szigetén.
+
+# Saint Pierre and Miquelon / Spotlight
+@ saint-pierre-and-miquelon-WBWG
+Ez a vidéki trekker a messzi északon a **hullámos, füves** tájról ismerhető fel. A trekker emellett egy fából készült ösvényen sétál, amelynek mindkét oldalán fák vannak.
+
+# Saint Pierre and Miquelon / Regional clues
+@ saint-pierre-and-miquelon-ZcfW
+A felvétel meglehetősen korlátozott, kizárólag Saint-Pierre keleti részein, valamint Miquelon-Langlade északi csücskén található.
+
+# Saint Pierre and Miquelon / Spotlight
+@ saint-pierre-and-miquelon-iUMc
+A Saint Pierre szigetén lévő vidéki trekker tája **sziklásabb**. A trekker szintén olyan ösvényen sétál, amelynek mindkét oldalán fák vannak.
+
+# Saint Pierre and Miquelon / Regional clues
+@ saint-pierre-and-miquelon-sUYi
+Miquelon-Langlade kis település Saint Pierre északi részén. Arról ismerhető fel, hogy a házak fa burkolatát **élénk, harsány színekre** festették. [A quad árnyéka](https://goo.gl/maps/QKtCCJyEA33ukUTw9), amellyel a településről felvétel készült, szintén látható.
+
+# Saint Pierre and Miquelon / Spotlight
+@ saint-pierre-and-miquelon-ua2E
+Ez a **hajós trekker** Saint Pierre szigete és az Île-aux-Marins között erről a szürke-fekete pulóvert viselő férfiról ismerhető fel.
+
+# Pitcairn Islands / Regional clues
+@ pitcairn-islands-YjoB
+Adamstown az egyetlen település Pitcairn szigetén, és az északkeleti part közelében található. A településen áthaladó utak egy része föld helyett betonból készült.
+
+# Pitcairn Islands / Spotlight
+@ pitcairn-islands-rcoG
+Egy „The Landing” nevű kikötőhely, ahol rengeteg kis quad található, Adamstown keleti végén van.
+
+# Pitcairn Islands / Regional clues
+@ pitcairn-islands-wWlg
+A Henderson-szigeten a felvétel két **fehér homokos partra** korlátozódik az északi és a keleti parton.
+
+# Puerto Rico / Regional clues
+@ puerto-rico-1NMP
+Puerto Rico déli része gyakran feltűnően **szárazabbnak** látszik, mint a sziget többi része.
+
+# Puerto Rico / Regional clues
+@ puerto-rico-2LXU
+Puerto Rico északi és déli partjára jellemzően sík **part menti síkságok** vagy **hullámos dombok** jellemzők.
+
+# Puerto Rico / Regional clues
+@ puerto-rico-CcDj
+Puerto Rico **hegyvidéki vidékeinek** nagy része az ország középső részén található. Ezeken a területeken a felvétel nagy része az osztott pályás főutakra korlátozódik.
+
+# Puerto Rico / Spotlight
+@ puerto-rico-hatM
+San Juan óvárosa San Juan városának messzi északnyugati csücskén található. Ezt a területet nagyon **keskeny utcák, színes épületek** és a gótikus, reneszánsz meg barokk építészet keveréke jellemzi. Emellett néhány itteni utca téglából készült.
+
+# Puerto Rico / Spotlight
+@ puerto-rico-nsPb
+A déli Ponce városában sok épület a **ponce-i kreol építészet** stílusában készült, amely a viktoriánus és a spanyol revival stílus kombinációja. Az épületek jellemzően fából és falazatból készülnek.
+
+# Portugal / Region-specific clues
+@ portugal-1SD6
+A nyílt mezők, amelyeken ritkásan **magyaltölgyek** ([Quercus ilex](https://en.wikipedia.org/wiki/Quercus_ilex)) és **paratölgyek** ([Quercus suber](https://en.wikipedia.org/wiki/Quercus_suber)) nőnek, nagyon gyakoriak délkeleten. Ezek a tölgyfajok általában kisebb termetűek, és mediterrán megjelenésük van. Míg ezek a mezők nyáron és ősszel eléggé szárazak, tavasszal [sokkal bujábbnak](https://maps.app.goo.gl/N1VwqNrQLgsqpAnm8) látszanak.
+
+# Portugal / Spotlight
+@ portugal-7JpO
+A rendkívül **homokos, fehér talajú** fenyvesek a part közelében találhatók, Setúbal és Sines városa között.
+
+# Portugal / Region-specific clues
+@ portugal-JOnQ
+A sűrű **eukaliptuszerdők** többnyire északnyugaton találhatók.
+
+# Portugal / Spotlight
+@ portugal-Lkpp
+A Serra da Estrela természetvédelmi park a **sziklás, hegyvidéki fennsíki tájról** ismerhető fel, amely gyakran sárga-fekete csíkos hóoszlopokkal párosul.
+
+# Portugal / Region-specific clues
+@ portugal-MPGC
+A **citrusültetvények** többnyire a déli part mentén találhatók.
+
+# Portugal / Region-specific clues
+@ portugal-Pg4g
+A **tengerparti fenyő** ([Pinus pinaster](https://en.wikipedia.org/wiki/Pinus_pinaster)) erdei vagy ültetvényei nagyon gyakoriak Portugália északi felében. A fát a vörös aláfestésű szürke kérgéről és a felfelé mutató, bolyhos ágairól ismerheted fel. Az idősebb fáknak gyakran nincs ága a fa alsó felében.
+MEGJEGYZÉS: Ennek a fenyőnek az ültetvényei Észak-Spanyolországban, különösen Galíciában is gyakoriak.
+
+# Portugal / Region-specific clues
+@ portugal-Sc7E
+A [Douro borvidéken](https://en.wikipedia.org/wiki/Douro_DOC), közvetlenül Portótól keletre gyakran találsz **meredek teraszos szőlőültetvényeket**.
+
+# Portugal / Region-specific clues
+@ portugal-TydI
+Észak-Portugáliában a házak gyakran **négyzetes betonblokkokból** épülnek, amelyeket rendszerint fehér habarccsal raknak össze.
+MEGJEGYZÉS: Nagyon hasonló építészet, de jellemzően fehér habarcs nélkül, gyakran megtalálható a határon túl, [Galíciában](https://maps.app.goo.gl/kp1QuJLF1w3t65b59).
+
+# Portugal / Spotlight
+@ portugal-X5pr
+Az ország messzi délnyugati részén sík, műveletlen tájat találsz nagyon kevés növényzettel, amely jellemzően eléggé száraznak látszik. Szinte nincsenek fák a közelben, csak nagyon alacsony bokrok és fű.
+
+# Portugal / Region-specific clues
+@ portugal-csJJ
+A Faro körzetben, Portugália déli részén nagyon gyakran találkozol díszes kéményekkel, amelyek vagy kerek, vagy négyzet alakúak, kis tornyocskaszerű tetővel. A kerek kémények különösen erős nyomot jelentenek.
+
+# Portugal / Spotlight
+@ portugal-gIlH
+A **lime-zöld utcanévtáblák** Portóban találhatók.
+
+# Portugal / Region-specific clues
+@ portugal-oTO0
+A portugál vezetékes számok első három számjegye alkotja a **körzetszámot**, amelyek a térképen látható módon oszlanak el. A nem 2-vel kezdődő telefonkódok nem kötődnek régióhoz, a 29-cel kezdődő kódok pedig vagy az Azori-szigetekre, vagy Madeirára vonatkoznak.
+A harmadik számjegyek teljes listájáért lásd [ezt az oldalt](https://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal#Prefix_list).
+
+# Portugal / Region-specific clues
+@ portugal-rEuU
+Az **olajfaültetvények** általában gyakoribbak az ország keleti felében, különösen a messzi északkeleti és kissé a délkeleti részen.
+MEGJEGYZÉS: Az olajfaültetvények és az előző tippben szereplő tölgyes mezők megkülönböztetésének legegyszerűbb módja, ha megnézed, milyen mintában ültették őket. Az olajfaültetvényeket jellemzően sűrű sorokba ültetik, míg a tölgyeket ritkábban és nem nyilvánvaló mintában.
+
+# Portugal / Region-specific clues
+@ portugal-sUvJ
+Madeira és az Azori-szigetek a szárazföldi Portugáliától délnyugatra, illetve nyugatra található. Az országsorozatok szempontjából mindkettő Portugáliának számít.
+A Plonk It részletesebb kalauza Madeiráról [itt](https://www.plonkit.net/madeira), az Azori-szigetekről szóló kalauz pedig [itt](https://www.plonkit.net/azores) található.
+
+# Azores / Spotlight
+@ azores-2fiy
+Egy kráter peremén haladó trekker látható az Ilha do Faialon.
+
+# Azores / Region-specific clues
+@ azores-HWk5
+Az Ilha do Faialon néha hagyományos meszelt kőfalakat találsz egyenetlen méretű, sötét bazaltkövekkel.
+
+# Azores / Region-specific clues
+@ azores-Lvxy
+Az Ilha de São Miguel az egyetlen sziget az Azori-szigeteken vagy Madeirán, ahol tavakat találsz.
+
+# Azores / Region-specific clues
+@ azores-Ukps
+A fehérre festett betontetejű kőfalak némileg gyakoriak az Ilha Terceirán.
+
+# Azores / Region-specific clues
+@ azores-j5G7
+Az egyetlen sziget **4. generációs** felvétellel az Ilha de São Miguel.
+
+# Azores / Region-specific clues
+@ azores-lyKf
+Az Azori-szigeteken az egyetlen szigetek autós felvétellel az Ilha de São Miguel, az Ilha Terceira és az Ilha do Faial.
+
+# Azores / Region-specific clues
+@ azores-yWA1
+A **shitcames** felvétel az Ilha de São Miguelen és az Ilha do Faialon található.
+A [São Miguelen](https://maps.app.goo.gl/JAvRHWSUTF1WN64C8) látható autón **behúzás** van a közepén, míg a [Faialon](https://maps.app.goo.gl/SFnsE3SAKAeeX8Pw7) lévő sima felületnek látszik, néha látható antennával.
+
+# Madeira / Spotlight
+@ madeira-2DE7
+A **Ribeira de Janela** szigetei, amelyek északnyugaton találhatók, híres fotós helyszínek a függőleges, szaggatott alakjukkal.
+
+# Madeira / Spotlight
+@ madeira-5Kfy
+A **Cascata dos Anjos** délnyugaton található, és népszerű helyszín a szigeten. Ez egy 100 méter magas vízesés, amely az alatta lévő útra zúdul.
+
+# Madeira / Spotlight
+@ madeira-6mIy
+A **Cristiano Ronaldo nemzetközi repülőtér** Madeira keleti részén található. Az északi része ezekre a számos betonpillérre épült.
+
+# Madeira / Regional clues
+@ madeira-7hDE
+A sziget középső-nyugati része egy **magasan fekvő fennsíknak** ad otthont. A szokatlan laposságról, a ködös felvételről és a szélturbinák jelenlétéről ismerhető fel.
+
+# Madeira / Spotlight
+@ madeira-8zkm
+Ezek a sötét, éles sziklaképződmények, háttérben egy szigettel, a **Porto Monizban** találhatók, északnyugaton.
+
+# Madeira / Regional clues
+@ madeira-BGSE
+A fennsíktól keletre fekvő út az egyedi hegyképződményeiről és az út szélén lévő fekete-sárga szalagkorlátról ismerhető fel.

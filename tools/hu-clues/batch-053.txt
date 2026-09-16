@@ -1,0 +1,261 @@
+# Japan / Regional and prefecture-specific clues
+@ japan-sdRS
+A hóvédelmi utak, amelyeket „sószecu” néven ismernek, főként az északnyugati part menti prefektúrákban találhatók. **Apró körökként** jelennek meg az útburkolatban, és meleg talajvizet permeteznek a hó eltakarításához.
+
+# Japan / Spotlight
+@ japan-tF8q
+A **cirill írás** a táblákon Vakkanai és Nemuro városában található, Észak-Hokkaidón.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-tSNC
+Ez az oszlopfej, amelyen **négy vastagabb rúd** és a tetején egy **kör alakú elem** van, gyakori a Csúbu régióban.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-tsJL
+Ezek a körülbelül **120 fokos szögű** kiegészítők gyakran megtalálhatók az oszlopokon Kanszaiban.
+MEGJEGYZÉS: Néha nincs szög, hanem csak egy [lefelé döntött kiegészítő](https://maps.app.goo.gl/LM3HD3nFCYj27xMUA).
+
+# Japan / Regional and prefecture-specific clues
+@ japan-uFy4
+Ezen a terelőoszlopon, amely Aomori prefektúrában található, **két sárga csík** és **egyetlen kör alakú fényvisszaverő** van, valamint **kihúzható**. Néha csak [egy vastagabb csík](https://goo.gl/maps/FznLNbxyMicDGqgaA) van a teteje közelében.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-vpIU
+A sikokui transzformátoroknál, amelyeknél szintén **kereszt alakú rúd** van az oszlop **közepére** erősítve, **fél háromszöggel** rögzítve, a végén [**„kalap alakú”, rövid vízszintes szigetelők**](https://maps.app.goo.gl/kFzbZ6yh1rfAGQV88) találhatók.
+A transzformátor aljára gyakran fehér matricát ragasztanak **fekete számokkal**.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-wVGg
+Ez a terelőoszlop, **nyolcszögletű** fényvisszaverővel és alatta **piros csíkkal**, kizárólag Okajama prefektúrára jellemző. Ezenkívül lejtős átmenet van ott, ahol az alap a fényvisszaverőhöz csatlakozik.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-wcDd
+Az **Ehimében** lévő kerékpárutak kívül fehér, belül **kék** vonalat használnak. Gyakrabban találhatók a part mentén, de beljebb is előfordulhatnak.
+Bár vannak kivételek, és más prefektúrákban is előfordulhatnak, ezek elenyésző kisebbségben vannak.
+
+# Japan / Spotlight
+@ japan-wtVB
+Megtalálhatod ezeket a „[Sísza](https://goo.gl/maps/q8uCFQh6YheQ7BdU8)” őrző oroszlánokat és a [jellegzetes karakterekkel](https://goo.gl/maps/8sY6Txd3QyUTAKWG8) ellátott háztáblákat Okinaván. Mindkettő színe és alakja változhat.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-xUOO
+Okinava gyakran a lapos tetejű fehér betonépületekről ismerhető fel.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-y6He
+Minél **északabbra** vagy, a tetők általában annál inkább cserepesből vízszintes vagy lapos lejtésűvé válnak, hogy ellensúlyozzák a nagy havazást. Az északi házak oldalára gyakran **létrákat** erősítenek, hogy a tetőre lehessen jutni a hó eltakarításához.
+MEGJEGYZÉS: Az észak–déli irány mellett a magasan fekvő hegyvidéki vagy nagy hóesésű területeken is gyakran használnak ilyen tetőket, még a középső vagy déli prefektúrákban is.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-yMq5
+Megtalálhatod ezeket a **nyílhegyszerű** matricákat, vagy ritkábban narancssárgákat, a szalagkorlátokon Hokkaidón.
+- A szalagkorlát [végén](https://goo.gl/maps/9JKVotxnj4pqYvLz7) vagy oldalán.
+- Drótkerítések közötti [fémoszlopokra](https://goo.gl/maps/iJBcacVCiaUCobVb8) ragasztva, amelyek gyakran megtalálhatók Hokkaidón.
+- Korlátokon, amelyek gyakran hidakon találhatók, a korlát belső oldalán [alul](https://goo.gl/maps/S75JPZKg6eYzrfAG6).
+
+# Japan / Spotlight
+@ japan-ydq3
+Ezek a művészien festett oszlopok, amelyeket **nyírfákra** hasonlítanak, kizárólag a hokkaidói Date városára jellemzők.
+
+# Japan / Regional and prefecture-specific clues
+@ japan-yru1
+Ezek a jellegzetes **fekete** táblák **két sárga körrel** Kagavában találhatók. Más változatok is láthatók, például [egymásra helyezve](https://goo.gl/maps/vu57GaqMEYEVbA8h6), vagy fölöttük [nyíllal](https://goo.gl/maps/ijaCjxnsvDk9ohwZ7).
+
+# Kenya / Regional/county-specific clues
+@ kenya-0UwZ
+Kenyában jellegzetes regionális éghajlatok vannak. Ezek közül néhány:
+- [Párás](https://goo.gl/maps/ikoiFyXWzkoo89Yd6)
+- [Félszáraz](https://goo.gl/maps/8pKMM9UmiABeQ5JWA)
+- [Száraz](https://goo.gl/maps/WM987ahC4aCCZtLB9)
+- [Nagyon száraz](https://goo.gl/maps/cysAiN7mGE66ZSJ97)
+Mivel a vidékek eltérnek, ez azt jelenti, hogy sok átmeneti éghajlat lesz. Használd ezt útmutatóként a nagyjábóli terület gyors meghatározásához, hogy segítsen a régiótippelésben.
+_A képre kattintva kinagyíthatod._
+
+# Kenya / Spotlight
+@ kenya-1AUr
+A C34-es nyugati szakasza sík, **kelet–nyugati** irányú út. Két hosszú, egyenes szakasza van rengeteg **cukornáddal**. Ezenkívül **északon** egy nagy **hegyvonulatot** látsz az említett útszakaszok teljes hosszában.
+
+# Kenya / Regional/county-specific clues
+@ kenya-1b3E
+A **véget nem érőnek tűnő** karókerítések gyakoriak Narok környékén.
+
+# Kenya / Regional/county-specific clues
+@ kenya-2BIS
+A part menti Kenya a **kókuszpálmák** jelenlétéről azonosítható; ritkán Taita-Taveta megye egyes területein is megtalálhatók.
+
+# Kenya / Regional/county-specific clues
+@ kenya-A27G
+A **sárból és karókból** épült házak gyakran láthatók az ország nyugati részén és a parton.
+
+# Kenya / Spotlight
+@ kenya-B91r
+Az Amboseli Nemzeti Parkban szürke autó jár kis hótoronnyal. Nagyon sík a terület **sárgásbarna fűvel, kevés fával** és kiszáradt tómedrekkel. Délen mindig látod a Kilimandzsáró alját, nagy részét felhők takarják.
+
+# Kenya / Spotlight
+@ kenya-CxYS
+Az A2-es Isiolo és Marsabit között sok növénnyel szegélyezett, és gyakran **nagy hegyeket** látsz a távolban. A Namunyak Vadvédelmi Alapítvány területén áthaladó szakaszon nyugaton nagyon nagy hegyvonulat lesz.
+
+# Kenya / Spotlight
+@ kenya-ElFx
+A B9-es északkeleten teljes egészében burkolatlan, és élénk **vörösesnarancs földje** van, sok fával az út körül. Nagy része nagyon sík, de az út nyugati végén lévő felvételen dombok és hegyek is lehetnek. A talaj emellett homokosabb színbe megy át.
+
+# Kenya / Spotlight
+@ kenya-Gu08
+A Kerio és Lodwar közötti, illetve az azokat körülvevő terület ugyanazt az autót használja, mint az Aberdare Nemzeti Park, de gyökeresen más tájjal. Nagyon **homokos, száraz**, és kevés a növényzet.
+Előfordulhat az is, hogy [3. generációs felvételen találod magad autós meta nélkül](https://goo.gl/maps/SVmfuG3XAkPt2ipv7).
+
+# Kenya / Spotlight
+@ kenya-HNI4
+Az Aberdare Nemzeti Parkban **szürke és barna** autó jár, amelyen nagy hótorony van. A felvétel szinte teljes egésze a nemzeti parkon kívül készült, a parkon belül csak két útról van felvétel. A parkon átvezető főúton [ezek](https://goo.gl/maps/g4D2K3mtsHqrAwKr7) a gumiszalagok vannak a tetőcsomagtartón, amelyek Kenyában csak egy másik nemzeti parkban találhatók meg.
+
+# Kenya / Regional/county-specific clues
+@ kenya-LuwZ
+A táblákat, hirdetőtáblákat és plakátokat közelebbről megnézve észreveheted, hogy gyakran ki van írva a **megye neve**. Ezért a kenyai megyék ismerete rendkívül hasznos lehet a régiótippelésben.
+_A kenyai megyéket a források részben található kvízzel gyakorolhatod._
+
+# Kenya / Regional/county-specific clues
+@ kenya-Nnps
+A kenyai irányítószámok a [PO BOX XXX-YYYZZ formátumú táblákról](https://maps.app.goo.gl/zkoZ8sYzmTGiRivA6) azonosíthatók, ahol az YYY szám (általában 3 számjegy, de néha 0) felel meg az irányítószámnak. Ezzel a számmal szűkítheted a tippedet. Gyakran a város neve is szerepel a PO BOX után.
+MEGJEGYZÉS: Néha láthatsz [PO BOX-ot a kötőjel utáni második szám nélkül](https://maps.app.goo.gl/sNta3QHeJpwVVgoDA), ami nem segít.
+_A képre kattintva kinagyíthatod. Íme egy _[kvíz](https://www.super-duper.fr/quiz2024/areacodes.php?country=POST_KE&language=en&tile=gmaps&border=thin&difficulty=false&timer=false&gmaplng=en)_ a kenyai irányítószámok gyakorlásához._
+
+# Kenya / Spotlight
+@ kenya-QUCR
+Wajir városában gyakran vakítóan fehér földutak vannak, amelyek az út szélén rendkívül vörös talajjal párosulnak.
+
+# Kenya / Regional/county-specific clues
+@ kenya-Rz26
+Ezek a **világos színű téglák** **túlzott mennyiségű habarccsal** a part mentén találhatók. Az ezekből a téglákból épült [falak](https://maps.app.goo.gl/k9LPg72T65jHNfLi8) gyakran láthatók ezen a területen.
+
+# Kenya / Spotlight
+@ kenya-TVBv
+A **Kilimandzsárótól** északra készült felvételek nagy részén a hegy látható délen, általában felhőkbe burkolva. [Oloitoktok](https://goo.gl/maps/aRSZy6jApL8BNXkm7) városában a hegy gyakran közvetlenül délre látható.
+MEGJEGYZÉS: A térkép a Kilimandzsáró helyét mutatja, de nagyon messziről is látható.
+
+# Kenya / Spotlight
+@ kenya-UIHO
+Nairobi az ország legnagyobb városa és Kenya fővárosa. Ez az egyetlen város, ahol jelentős számú **felhőkarcoló** található, és nagyon fejlett. Sűrűn lakott, és kis, szegény településeket vesznek körül.
+
+# Kenya / Spotlight
+@ kenya-VMnN
+Marsabittól északra **sokkal laposabb** a terület, a távolban néhány heggyel. A közvetlenül Marsabittól északra fekvő szakaszon délen látszanak hegyek, míg északabbra egy másik vonulat látható. Sokkal kevesebb növényzet is lesz.
+
+# Kenya / Spotlight
+@ kenya-Zc6E
+Az A3-as Garissától északra nagyon egyedi, **világos színű** talajjal és sok zöld fával az út mindkét oldalán.
+
+# Kenya / Spotlight
+@ kenya-aD58
+A Mara-háromszögben nincsenek számottevő hegyek, és nagy része vagy **sík, vagy dombos**. Fehér autó jár itt, amely más kenyai nemzeti parkokban is megtalálható. [4. generációs felvétel](https://maps.app.goo.gl/bKJA3RRXboNWPdgD8) is létezik itt.
+
+# Kenya / Regional/county-specific clues
+@ kenya-akOH
+A természetes domborzat nagy változatosságot mutat a vidékek között. A keleti rész és az északi rész nagy területei rendkívül síkok. Ezzel szemben minél délnyugatabbra mész, annál nagyobb átlagosan a tengerszint feletti magasság.
+_A képre kattintva kinagyíthatod._
+
+# Kenya / Spotlight
+@ kenya-dsJg
+Kitale és az Elgon-hegy között szintén megtalálod az aberdare-i autót, de itt mindig lesznek rajta **gumiszalagok**, ellentétben Aberdare-rel, ahol csak a parkon átvezető főutakon vannak. Aberdare-től a vörösebb földjéről és a **zöldebb** tájáról különböztethető meg.
+
+# Kenya / Regional/county-specific clues
+@ kenya-fUkM
+Az ország messzi nyugati területei, amelyek Kisumutól északnyugatra és délnyugatra fekszenek, az ország legmezőgazdaságibb részei. Gyakran látsz **gazdaságokat**, füves dombokat és magas **eukaliptuszfákat** az országnak ezen a vidékén.
+
+# Kenya / Regional/county-specific clues
+@ kenya-j1yc
+Az ország északnyugati részén nagyon korlátozott a felvétel, amelynek nagy része az A1-esen vagy a Sibiloi Nemzeti Parkban van. Halvány **sárgásbarna talaja** és ritkás, **alacsony fái** vannak. Az itteni felvétel nagy része nagyon sík, de dombokat vagy hegyeket is láthatsz.
+MEGJEGYZÉS: E felvételek többségén [piszkos, szabadon látszó autó](https://maps.app.goo.gl/AVaanekywEYdiAqm6) van.
+
+# Kenya / Regional/county-specific clues
+@ kenya-keVS
+A **vörös téglás építészet** gyakori az ország nyugati részén és egy nagy területen Nairobitól keletre.
+
+# Kenya / Spotlight
+@ kenya-m7bX
+Homa Baytől keletre ez a **kiemelkedő domb** található, amely gyakran látható.
+
+# Kenya / Regional/county-specific clues
+@ kenya-nQVJ
+A **fehér virágok**, különösen ha nagy számban fordulnak elő, gyakran megtalálhatók a Chyulu Hills Nemzeti Parktól keletre, valamint a Tsavo Nemzeti Parkban és az A109-es mentén Nairobitól délre.
+
+# Kenya / Regional/county-specific clues
+@ kenya-pf4x
+Kenyában sok **egyedi** Google-autó van a nemzeti parkjaiban és rezervátumaiban, illetve azok környékén. Ezek továbbra is azonosíthatók a hótoronyról, amely szinte mindegyiken megvan.
+A nemzeti parki és rezervátumi autók közül sokat a tájjal együtt kell használni, mivel több területen is előfordulhatnak.
+_Ezekről a nemzeti parkokról és rezervátumokról a kiemelt részben tudhatsz meg többet._
+
+# Kenya / Regional/county-specific clues
+@ kenya-t60C
+A Kitui körüli terület **félszáraz**, általában hegyvidéki, és világos narancssárga, homokos földje van.
+
+# Kenya / Spotlight
+@ kenya-us0A
+A B8-asnak ezen a szakaszán, közvetlenül Kibaonitól északra sok **pozsgás növény** van az út szélén.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-1351
+Délen az Özgöntől északnyugatra fekvő útszakaszt **borús** felvétel és sok **hó** jellemzi.
+MEGJEGYZÉS: Ezen az útszakaszon a déli tükör látható.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-1pTi
+A Narintól keletre vezető út szintén a Narin-völgyben van. Itt is látsz dombokat az úthoz közel délen, majd távolabb északon. Az úttól északra fekvő síkságok azonban kisebbek. Ez az oldal emellett **beépítettebb**, kivéve magát az utat, amely helyenként **burkolatlan**. Itt a déli dombokon is van egy kevés hó.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-2DrZ
+A Balikcsitól Csolpon-Atáig tartó szakasz **napos**, északon hegyekkel, délen pedig egy tóval.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-2Zlc
+Manasz (korábban Dzsalalabad) Kirgizisztán harmadik legnagyobb városa. Ozshoz hasonlóan a felvételén a **déli tükör** látható.
+Felismerheted a **rendkívül borús felvételről**, ahol a felhőkön nincs semmi rés. Így könnyen megkülönböztetheted Ozstól, ahol jobb az idő.
+Keleten láthatod ezt az [enyhén havas dombot](https://goo.gl/maps/ZUZ7tn1pTEmFmeF3A).
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-4fuX
+Ozs Kirgizisztán második legnagyobb városa. Egyike annak a több településnek, ahol a felvételen a **déli tükör** látható. Így könnyen megkülönböztetheted Biskektől.
+Ozsban meglehetősen jó az idő, némi felhővel, de **soha nem teljesen borús**.
+MEGJEGYZÉS: Manaszon (korábban Dzsalalabad), a másik nagy városban, ahol déli tükör van, mindig [nagyon borús a felvétel](https://www.google.com/maps/@?api=1&map_action=pano&pano=lb_vnjE_MggaJRTpdjrO4A&viewpoint=40.932859%2C72.985991&heading=79.44492827377147&pitch=42.14790148445914&fov=133.1640120049908#extra%5BloadMode%5D=latLng).
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-5TyF
+Ez az enyhén északkelet felé tartó út Biskektől északra könnyen felismerhető a **naplementés** felvételről.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-5vJo
+A Toktogul-víztározó jórészt **kiszáradt** része vagy az úttól délre, vagy északra látható. Minden oldalon meglehetősen közel magasabb hegyek vannak. Az északi fele elhagyatottabb, míg a déli részen több a növényzet és az épület is.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-62fd
+A Biskektől délre készült felvétel általában kissé dombos, és délen a **havas Tien-san hegységet** látod. Mivel pedig Biskek levegője a legszennyezettebb minden város közül, északon általában látható a **szmog**.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-67Zr
+Ezen a szakaszon szinte mindig látod az **Iszik-köl tavat** és a [Tien-san hegységet](https://goo.gl/maps/xN3btAAdfLjmejwv8). A talaj itt **homokos és köves**.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-6LBj
+Az osztott pályás EM-11 kezdőszakaszán ez a **füves elválasztó sáv** található egészen Khun-Csiig.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-7F9z
+Ezen az Arkit közelében lévő szakaszon mindenütt sok a **hó**, és körös-körül **alacsony lombhullató fák** vannak. Ez az amúgy is egyedi táj a dél–észak haladási iránnyal párosulva nagyon könnyen felismerhetővé teszi.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-7goI
+Jellegzetes **naplementét** figyelhetsz meg a Szokuluktól Kara-Baltáig tartó összes felvételen.
+MEGJEGYZÉS: Ezen az útszakaszon a fekete pontos tükör látható.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-7lI0
+Itt sok hegyet és dombot látsz délen, északon viszont csak néhány dombot, mögöttük látszólag semmivel. Akár az Iszik-költ is megpillanthatod mögöttük. Az utak szélén továbbra is sok a **homok**.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-8Juf
+A Karakoltól nyugatra vezető úton sok növényzetet látsz az utak szélén, azokon túl pedig hosszan elnyúló zöld és sárga mezőket. Északon a távolban általában láthatod a [Tien-san hegyvonulatot](https://goo.gl/maps/eas6MS21Stbsv2xSA). Délen is vannak [nagy hegyek](https://goo.gl/maps/CADnPrwmSH4cDRNz5), előttük kisebb dombokkal.
+MEGJEGYZÉS: [Ettől a kereszteződéstől](https://goo.gl/maps/pWreLeU7anq1h2kZ7) keletre teljesen tiszta az idő.
+
+# Kyrgyzstan / Spotlight
+@ kyrgyzstan-935k
+Az EM-10-es, amely a GeoGuessrben A363-asként is megjelenik, gyönyörű út, amely Karakolt köti össze Balikcsival. Itt is gyakran látod az Iszik-köl tavat, de ezúttal tőled északra látszik. Az autó nyugat felé halad.
+**5** tippet tartalmaz.

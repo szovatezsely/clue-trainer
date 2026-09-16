@@ -4,6 +4,7 @@ import io.ktor.http.HttpStatusCode
 import net.geoclue.trainer.data.ClueAmbiguity
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.PlonkItScraper
+import net.geoclue.trainer.data.Translations
 import net.geoclue.trainer.model.AnswerOption
 import net.geoclue.trainer.model.AnswerRequest
 import net.geoclue.trainer.model.AnswerResponse
@@ -11,6 +12,7 @@ import net.geoclue.trainer.model.Clue
 import net.geoclue.trainer.model.Country
 import net.geoclue.trainer.model.CountryOption
 import net.geoclue.trainer.model.ExplanationDto
+import net.geoclue.trainer.model.Lang
 import net.geoclue.trainer.model.QuestionDto
 import net.geoclue.trainer.model.StatsDto
 import kotlin.random.Random
@@ -37,20 +39,32 @@ class ApiException(
  * so the player is placing a Japanese pole plate in Shikoku rather than in
  * Japan. Which regions a country has, and which one a clue is about, are read
  * out of the guide text; see [net.geoclue.trainer.data.ClueRegions].
+ *
+ * The language is a property of the answer, not of the question: it decides how
+ * a clue is worded, never which clue is picked. That is why it is passed in per
+ * call rather than kept in [QuestionFilter] - switching language re-renders the
+ * question the player is already looking at instead of burning a clue.
  */
 class GameService(
     private val repository: ClueRepository,
     private val images: ImageAvailability = ImageAvailability.ALWAYS,
     private val minCachedPool: Int = MIN_CACHED_POOL,
+    private val translations: Translations = Translations.NONE,
 ) {
 
-    fun nextQuestion(session: GameSession, filter: QuestionFilter): QuestionDto {
+    fun nextQuestion(
+        session: GameSession,
+        filter: QuestionFilter,
+        lang: Lang = Lang.DEFAULT,
+    ): QuestionDto {
         val snapshot = repository.snapshot
         synchronized(session) {
             // A reload (or a double click) must not burn a clue: re-serve the
             // pending question as long as the player did not change the filters.
             session.pending?.let { pending ->
-                if (pending.filter == filter) return pending.toDto(snapshot, unseenCount(snapshot, session, filter))
+                if (pending.filter == filter) {
+                    return pending.toDto(snapshot, unseenCount(snapshot, session, filter), lang)
+                }
             }
 
             val pool = poolFor(snapshot, filter)
@@ -92,11 +106,15 @@ class GameService(
                 }
             }
             session.serve(question)
-            return question.toDto(snapshot, unseenCount(snapshot, session, filter))
+            return question.toDto(snapshot, unseenCount(snapshot, session, filter), lang)
         }
     }
 
-    fun answer(session: GameSession, request: AnswerRequest): AnswerResponse {
+    fun answer(
+        session: GameSession,
+        request: AnswerRequest,
+        lang: Lang = Lang.DEFAULT,
+    ): AnswerResponse {
         synchronized(session) {
             val pending = session.pending
                 ?: throw ApiException(HttpStatusCode.Conflict, "no_pending_question", "Ask for a clue first.")
@@ -115,18 +133,59 @@ class GameService(
                 )
             val correctOption = pending.options.first { it.value == pending.answer }
             val isCorrect = chosen.value == correctOption.value
-            session.score(isCorrect)
+            session.score(isCorrect, GradedAnswer(pending, chosen.value, isCorrect))
 
-            return AnswerResponse(
-                correct = isCorrect,
-                mode = pending.filter.mode.wire,
-                correctAnswer = correctOption,
-                chosenAnswer = chosen,
-                country = repository.snapshot.countriesByCode.getValue(pending.clue.countryCode).toOption(),
-                explanation = explain(pending.clue),
-                stats = session.stats(),
-            )
+            return render(pending, chosen.value, isCorrect, session.stats(), lang)
         }
+    }
+
+    /**
+     * The verdict the player is already looking at, re-rendered in [lang].
+     * Grading clears the pending question, so without this the explanation on
+     * screen would be the one place a language switch could not reach.
+     */
+    fun lastAnswer(session: GameSession, lang: Lang = Lang.DEFAULT): AnswerResponse {
+        synchronized(session) {
+            val graded = session.lastGraded ?: throw ApiException(
+                HttpStatusCode.NotFound,
+                "no_answer_yet",
+                "Nothing has been answered in this session yet.",
+            )
+            return render(graded.question, graded.chosen, graded.correct, session.stats(), lang)
+        }
+    }
+
+    private fun render(
+        pending: PendingQuestion,
+        chosen: String,
+        isCorrect: Boolean,
+        stats: StatsDto,
+        lang: Lang,
+    ): AnswerResponse {
+        val options = pending.options.map { localize(it, lang) }
+        return AnswerResponse(
+            correct = isCorrect,
+            mode = pending.filter.mode.wire,
+            correctAnswer = options.first { it.value == pending.answer },
+            chosenAnswer = options.first { it.value == chosen },
+            options = options,
+            country = repository.snapshot.countriesByCode
+                .getValue(pending.clue.countryCode)
+                .toOption(translations, lang),
+            explanation = explain(pending.clue, lang),
+            stats = stats,
+        )
+    }
+
+    /**
+     * A country option carries its ISO code, so the label can be swapped for the
+     * name in [lang]. A region option is the guide's own spelling of a place -
+     * the name written on the sign the player is learning to read - and is left
+     * exactly as it is.
+     */
+    private fun localize(option: AnswerOption, lang: Lang): AnswerOption {
+        val translated = translations.countryName(lang, option.value, option.label)
+        return if (translated == option.label) option else option.copy(label = translated)
     }
 
     /**
@@ -164,15 +223,16 @@ class GameService(
             GameMode.REGION -> snapshot.regionCluesFor(filter.continent)
         }
 
-    private fun explain(clue: Clue): ExplanationDto {
+    private fun explain(clue: Clue, lang: Lang): ExplanationDto {
         val country = repository.snapshot.countriesByCode[clue.countryCode]
         return ExplanationDto(
-            paragraphs = clue.text,
-            section = clue.section,
-            subsection = clue.subsection,
-            tags = clue.tags,
+            paragraphs = translations.clueText(lang, clue.id, clue.text),
+            section = translations.section(lang, clue.section),
+            subsection = translations.subsection(lang, clue.subsection),
+            tags = translations.tags(lang, clue.tags),
             sourceUrl = PlonkItScraper.BASE_URL + "/" + (country?.slug ?: ""),
             streetViewUrl = clue.streetView,
+            translated = translations.hasClueText(lang, clue.id),
         )
     }
 
@@ -227,18 +287,24 @@ class GameService(
         filter: QuestionFilter,
     ): Int = poolFor(snapshot, filter).count { it.id !in session.seenClueIds }
 
-    private fun PendingQuestion.toDto(snapshot: ClueRepository.Snapshot, remaining: Int) = QuestionDto(
+    private fun PendingQuestion.toDto(
+        snapshot: ClueRepository.Snapshot,
+        remaining: Int,
+        lang: Lang,
+    ) = QuestionDto(
         clueId = clue.id,
         mode = filter.mode.wire,
         // The region game is "which part of Japan?", so Japan comes with the question.
         country = when (filter.mode) {
             GameMode.COUNTRY -> null
-            GameMode.REGION -> snapshot.countriesByCode.getValue(clue.countryCode).toOption()
+            GameMode.REGION -> snapshot.countriesByCode
+                .getValue(clue.countryCode)
+                .toOption(translations, lang)
         },
         imageUrl = clue.imageUrl,
         imageWidth = clue.width,
-        tags = clue.tags,
-        options = options,
+        tags = translations.tags(lang, clue.tags),
+        options = options.map { localize(it, lang) },
         questionNumber = number,
         remainingClues = remaining,
     )
@@ -254,7 +320,16 @@ class GameService(
     }
 }
 
-fun Country.toOption() = CountryOption(code = code, name = name, flag = flag, continent = continent)
+fun Country.toOption(
+    translations: Translations = Translations.NONE,
+    lang: Lang = Lang.DEFAULT,
+) = CountryOption(
+    code = code,
+    name = translations.countryName(lang, code, name),
+    flag = flag,
+    // A grouping key the client sends back, not a label - see [CountryOption].
+    continent = continent,
+)
 
 /** A country on the board: the name is the answer, the code the quiet second line. */
 fun Country.toAnswerOption() = AnswerOption(value = code, label = name, note = code)

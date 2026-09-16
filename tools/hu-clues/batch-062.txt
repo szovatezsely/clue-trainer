@@ -1,0 +1,197 @@
+# Malaysia / Regional and state-specific clues
+@ malaysia-SLFX
+Azok a szemetesek, amelyeken ez a **napsütötte tájat** ábrázoló logó és az **„Alam Flora”** felirat szerepel, Pahangban, Kuala Lumpurban és Putradzsajában találhatók. A logó időnként hiányzik, és csak az „Alam Flora” felirat szerepel.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-VXzD
+Ez a lámpaoszlop, amelynek **bumerángra** emlékeztető lemeztámasza van, Sarawakban található.
+MEGJEGYZÉS: A Kucsingon kívüli városokban gyakoribb.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-VZEz
+Az **„S”-re emlékeztető logóval** ellátott szemetesek Negeri Sembilan, Malacca és Johor államban találhatók.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-ZWP5
+Feltéve, hogy Borneón vagy: Sabah állam **nagyon hegyvidékes**, és a felvétel nagy része ilyen hegyi utakon készült.
+MEGJEGYZÉS: Sarawakban általában laposabbak az utak. Még ha hegyeket látsz is, azok általában [távol](https://goo.gl/maps/5VrnWWJCBfNgREaP7) lesznek.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-c4nQ
+A támaszon **két kis körrel** rendelkező lámpaoszlopok főként a szárazföldi Malajziában találhatók.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-lopw
+A fekete kerettel ellátott **sárga utcanévtáblák** kizárólag Johor államra jellemzők.
+MEGJEGYZÉS: Ez a **nyíl alakú** utcanévtábla, színétől függetlenül, kizárólag Malajziára jellemző.
+MEGJEGYZÉS: Sárga táblák a déli [Negeri Sembilanban](https://maps.app.goo.gl/HG89SePzMd5WWheo6) is találhatók, ott azonban csak a nyíl hegye lesz fekete.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-m7su
+A **zöld** utcanévtáblák, amelyek nyíl alakot formálnak, és a bal oldalukon **sárga hatszögletű jelkép** van a **JKR** betűkkel, Sabahban találhatók.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-tGn7
+Minden malajziai államnak – a három szövetségi terület kivételével – saját útszámozási rendszere van, az útszám elején **egyedi betűvel**.
+MEGJEGYZÉS: Sabahban is vannak A utak, de csak az A2 és az A7.
+
+# Malaysia / Regional and state-specific clues
+@ malaysia-vYmT
+Ezek a **magányos sziklaképződmények**, amelyek hirtelen emelkednek ki egy egyébként sík tájból, a thai határ közelében, Perlis államban találhatók.
+
+# Namibia / Spotlight
+@ namibia-05Av
+Az A1-es út Windhoek és Okahandja között, amelyet szavannaszerű táj jellemez, egyike annak a mindössze két főútnak, amely **osztott pályás** Namíbiában. A [másik](https://maps.app.goo.gl/VVjMKLWS9dDQ2qLb8) közvetlenül Swakopmundtól délkeletre található, és száraz part menti táj jellemzi világos homokos talajjal és homokdűnékkel.
+
+# Namibia / Spotlight
+@ namibia-0a8T
+A B1-es út Mariental és Rehoboth közötti szakasza az általános **száraz sztyeppei táj**, a **burkolt út**, és főként a jellegzetes **ÉNy-i útirány kombinációjáról** ismerhető fel. Az is segíthet, ha tudod, hogy ezen a szakaszon a nap DK-en van.
+
+# Namibia / Spotlight
+@ namibia-0izS
+A gyakran meglehetősen **gyenge minőségű burkolat** [csak fehér útvonalakkal](https://maps.app.goo.gl/Jf6P3gTK1pfE144b9), [teljesen útvonalak nélkül](https://maps.app.goo.gl/RNMAWUQFhJFheYrK6), vagy csak kissé [megkopott útvonalakkal és vörös árnyalatú burkolattal](https://maps.app.goo.gl/JyFSRjp81cNB64Wz6) mind jó nyom a C49-esre a nyúlványban. A nyugati vég közelében a [nap](https://maps.app.goo.gl/tGh9NAzuqvDdPpjF7) nagyon alacsonyan jár az égen, és az idő teljesen derült.
+MEGJEGYZÉS: Egy [rövid szakaszon](https://maps.app.goo.gl/vvEApEqhL8fBQX6G6) Makolonga mellett jó a burkolat széles padkával, ezért keresd a narancssárga foltokat az úton.
+
+# Namibia / Spotlight
+@ namibia-1eVI
+A C14-es hasonlít az előző útra, kivéve hogy ez az út burkolatlan, és az eget felhőtakaró borítja, különösen az északi felében. A [déli vég](https://maps.app.goo.gl/aJvPPxGcTbmq5hnB7) közelében az ég kitisztul.
+MEGJEGYZÉS: A Bethanientől délre eső [szakasz](https://maps.app.goo.gl/HGx8m6SKyVvh5ngH9) burkolt.
+
+# Namibia / Spotlight
+@ namibia-2yzK
+Austól keletre az út néhány asztalhegy között kanyarog, a vasúttal továbbra is közvetlenül délen. [Hasonló táj](https://maps.app.goo.gl/TLHJpZNGFNWbJBDB7) rövid ideig keletebbre is előfordul az úton, közvetlenül a D432-essel való kereszteződéstől keletre, ott azonban a hegyek nagyobbak, közelebb vannak az úthoz, és vörösebb színűek.
+
+# Namibia / Spotlight
+@ namibia-3tsw
+Rehoboth környékén a táj fokozatosan növényzetben gazdagabbá válik, és ahogy Windhoekhoz közeledsz, a dombok kiemelkedőbbek lesznek, sok kissé hegyes, magányos dombbal, valamint látható gerincekkel. Az idő meglehetősen derült, apró felhőkkel az égen.
+
+# Namibia / Spotlight
+@ namibia-4SGm
+A vörös árnyalatú és kissé szemcsés burkolat, valamint a zöld, szavannaszerű füves táj, amelyet [alacsonyan járó gomolyfelhők](https://maps.app.goo.gl/sThNdCyePnA6XouS9) koronáznak, a C35-ös út északi szakaszának felismerésére használható.
+
+# Namibia / Spotlight
+@ namibia-5v5U
+A C22-es burkolt út, amely nagyjából keletre tart, és amelynek mentén frissen levágott, narancssárga fűcsomók vannak. Néhány [nagy, sziklás domb](https://maps.app.goo.gl/ftYtR38mWBSMU9Gs6) szinte az úthoz simul a szakasz közepe táján. A horizonton alacsonyan járó vakító nap keleten szintén hasznos lehet.
+MEGJEGYZÉS: Egy rövid szakasz Okakarara közelében más időpontban készült, ami kevésbé jellegzetessé teszi. Keresd az alacsony [gerincet](https://maps.app.goo.gl/kXwRLyf95Tyfq6sR6) É–ÉNy-on és a [napot](https://maps.app.goo.gl/LkeSTV4Wi2U1BpkB6) ÉÉK-en a megerősítéshez.
+
+# Namibia / Spotlight
+@ namibia-7T8C
+Ariamsvlei egyetlen lapos tetejű dombról ismerhető fel, amelynek a teteje közelében sziklás gerincvonalak vannak, és kis mennyiségű zöld bokor pettyezi a lejtőit. A domb a település részétől függően vagy északon, vagy keleten van. A talajnak sötétvörös árnyalata van, körös-körül sok bokorral és apró fával.
+
+# Namibia / Spotlight
+@ namibia-8tHZ
+Karibib szinte bármely pontjáról északon látható az [Erongo-hegy](https://maps.app.goo.gl/VZT5WhPkZaDvGadR9) sötét sziluettje. Bokrokkal borított száraz [dombok](https://maps.app.goo.gl/ix95xqTwU1d6oC1g7) szegélyezik a települést délen.
+
+# Namibia / Spotlight
+@ namibia-B9nv
+Néhány északi útról hiányoznak a jellemző szélső sárga vonalak.
+- A [C46-os](https://maps.app.goo.gl/A2iuCsBL27yXdx5L8), amely hosszú út, és nagyjából ÉNy-ról DK felé halad. A [Ruacana melletti K–Ny-i szakaszon](https://maps.app.goo.gl/TkmT5fLgDYyqJGRC7) nagyon gyenge a burkolat. [Oshikukutól DK-re](https://maps.app.goo.gl/8ETt6hv4choo1q9B6) a nap alacsonyan jár az égen ÉNy-on.
+- A [C41-es (M123)](https://maps.app.goo.gl/oe2n4NQt2GrYct8G6) szintén ÉNy-i irányú, de több felhő van az égen, mint a C46-oson.
+- A [B10-es](https://maps.app.goo.gl/pj18CXj2apN1rFNF9) Eenhanától nyugatra egy K–Ny-i szakasz, amely növényzetben gazdagabb, és ahol a nap szintén alacsonyan jár az égen nyugaton.
+- A [B10-es](https://maps.app.goo.gl/t2rL31dKFVdiAHhs7) Nkurenkurutól keletre egy másik ÉNy-i irányú szakasz alacsonyan járó nappal, de ez a rész sokkal növényzetesebb, mint a C46-os. Keleten a [holdat](https://maps.app.goo.gl/DSwUn3Fn5S9pfiVW7) is láthatod.
+- A [D3615-ös](https://maps.app.goo.gl/Xk6TXPZPYkXYuShh7) rövid út, állandó É–ÉK-i iránnyal, amelyen elvileg vannak szélső sárga vonalak, de azok erősen megkoptak.
+
+# Namibia / Region-specific clues
+@ namibia-BXmN
+Az Oshakati körüli sáv, és kisebb mértékben az északi rész többi része több **mezőgazdasági területtel** rendelkezik, és nagyon világos homokos talaja van. Ez a térkép szorosan egybeesik azzal is, ahol a [Hyphaene](https://maps.app.goo.gl/VFNb81hmYCpw6gNY8)[ petersiana](https://maps.app.goo.gl/VFNb81hmYCpw6gNY8)[ legyezőpálmák](https://maps.app.goo.gl/VFNb81hmYCpw6gNY8) megtalálhatók.
+
+# Namibia / Spotlight
+@ namibia-BbVk
+A C44-es **széles, burkolatlan homokos út**, amelyet fák szegélyeznek, és könnyen felismerhető a nagyjából K–DK-i irányról, valamint a **nyugati haladási irányról**.
+MEGJEGYZÉS: A [D3301-es](https://maps.app.goo.gl/wdf7hyQBdEfnhgXr8), kissé délebbre, hasonlónak látszik, de a talaj általában sokkal vörösebb, és az autó kelet felé halad.
+
+# Namibia / Spotlight
+@ namibia-CqNa
+Gobabis nagy, **észak–déli rácsos** város a sivatagban, **vörös talajjal**, amely áthatja a tájat és az utakat, utóbbiak nagyon gyakran burkolatlanok. Északon vagy északnyugaton néha halvány zöld gerinc látható. Az [utcanévtáblák](https://maps.app.goo.gl/yc9JLDVMMF9166Go7), bár ritkák, szintén zöldek, felül és alul ezüst kerettel. A [kék szemetesek](https://maps.app.goo.gl/nEKjHa3Md6L2VEtr8) szintén jó nyomot jelentenek Gobabisra.
+
+# Namibia / Spotlight
+@ namibia-EuPn
+A D3600-asnak és a Mpungu felé ÉK-re vezető [jelöletlen útnak](https://maps.app.goo.gl/RTqENPBLvJo7fsBd6) nagyon világos színű, helyenként szemcsés burkolata van, időnként [nagyon megkopott sárga vonalakkal](https://maps.app.goo.gl/X3ZNNmiVtCtcwsiC9), amelyeket még észrevenni is nehéz. A pontosan É–D-i vagy ÉK-i iránnyal, valamint az északi tájjal együtt ez nagyon jellegzetessé teszi ezt az utat.
+
+# Namibia / Spotlight
+@ namibia-G0pP
+**Narancssárga hegyek**, amelyeket **zöld növényzet borít**, veszik körül a részben dombos Opuwo települését, ahonnan [kiváló kilátás](https://maps.app.goo.gl/WwNYhsFjQYfs1DZm9) nyílik a hegyekre.
+
+# Namibia / Spotlight
+@ namibia-G6vI
+Bár nagyon hasonlít Swakopmundra és Walvis Bayre, Henties Bay kevésbé rácsos, és észrevehetően szegényebb, mivel a legtöbb út burkolatlan. Swakopmunddal ellentétben, ahol sárga lámpák csak a belváros közelében találhatók, itt időnként az egész településen előfordulhatnak.
+A felhős idő a település megerősítésére használható.
+
+# Namibia / Spotlight
+@ namibia-GQP9
+Egy magányos, **magas gerinc** **zord, sávozott felszínnel** fekszik Usakostól DDK-re. Egy másik, kisebb, sima felszínű hegy, amelynek vörös árnyalata van, közvetlenül keletre, illetve északkeletre található, a település részétől függően. A település északi részéről északon látszanak az [Erongo-hegy](https://maps.app.goo.gl/DSp83gUhu7qPXGCF7) sziklás peremei.
+
+# Namibia / Region-specific clues
+@ namibia-GV6Y
+A Windhoektől keletre fekvő táj erősen hasonlít Botswanáéra: általában **sík és száraz**, kissé vöröses talajjal, rövid **aranyszínű fűvel** és bokrokkal, valamint akáciafákkal.
+
+# Namibia / Spotlight
+@ namibia-HF3M
+Windhoek messze Namíbia legnagyobb és egyben leggazdagabb városa, sok [magasházzal](https://maps.app.goo.gl/2FUr1J4JEF7QN7D96) a belváros közelében. A jómódú, gyakran kerítéssel körülvett családi házak gyakori látványt nyújtanak a dombos utcák szélén, amelyeket gyakran egyszerű fehér utcanévtáblákkal jelölnek.
+A város északnyugati részén a dombokat [nyomornegyedek](https://maps.app.goo.gl/SfddeDfHCm1tL2Ds6) pettyezik.
+
+# Namibia / Spotlight
+@ namibia-HyM3
+Egy nagy, zord hegyképződmény látható nyugaton a burkolt C13-asról. Más kisebb dombok és hegyek más irányokban is láthatók. Világos színű talaj simul az úthoz, míg az úttól távolabb narancssárgább talaj látható, amellyel a világoszöld növényzet és a bokrok kontrasztot alkotnak.
+Az út azonosításának másik egyszerű módja, ha keresed a keleten [a napot elrejteni próbáló fátyolfelhőket](https://maps.app.goo.gl/PrvocmJ5bXzvv823A).
+
+# Namibia / Spotlight
+@ namibia-IOve
+Miután az út felkapaszkodik a Kuibistől keletre fekvő fennsíkra, a táj többnyire síknak tűnik egészen a [D432-essel való kereszteződésig](https://maps.app.goo.gl/LnyJcQw9FVFwQbiRA), de észreveheted, hogy az út hosszú szakaszokon [fokozatosan emelkedik](https://maps.app.goo.gl/uKxxvnhYT7HLAqBk7). A környező talaj nagyon vörös színű, kevés bokorral vagy az élet jeleivel. Az idő derült, a távolban némi felhővel.
+
+# Namibia / Spotlight
+@ namibia-J97p
+Karibibtől keletre az idő teljesen kitisztul, és a hegyek csak távolabb láthatók. A széles padkavonalak a K–ÉK-i útiránnyal párosulva jellegzetessé teszik ezt a szakaszt.
+
+# Namibia / Spotlight
+@ namibia-JGXq
+Ezek a némileg csaliszerű mezőgazdasági táblák közvetlenül Marientaltól nyugatra találhatók.
+
+# Namibia / Spotlight
+@ namibia-KiJ5
+Aus tája nagyon sziklás, körös-körül növényzet nélküli, száraz dombokkal. Az északi dombok alakja meglehetősen [sima lejtésű](https://maps.app.goo.gl/ikY4ReviAoc2v2iB9), míg a déli csúcsok [zordabbak](https://maps.app.goo.gl/vd5ixxRnz7hyxA6q9).
+
+# Namibia / Spotlight
+@ namibia-KlCK
+A C39-es nagy része egy széles völgyön halad át, mindkét oldalán apró, növényzettel borított dombokkal, amelyek többnyire [északon](https://maps.app.goo.gl/Z4Efxbhd9wpBQ5AR7) láthatók. Az É–ÉK-i irány és a napos eget pettyező pufók gomolyfelhők szintén említésre méltók.
+
+# Namibia / Spotlight
+@ namibia-LMYZ
+A nagyon vörös talaj és az utat szegélyező apró aranyszínű fűcsomók a burkolt C19-es felismerésére használhatók. Az eget többnyire [sötét felhők](https://maps.app.goo.gl/uvykRJGr5JqN4sXd7) borítják, különösen északon.
+
+# Namibia / Spotlight
+@ namibia-NUQc
+A C38-as egy újabb jellegtelen, burkolt északi út homokos talajjal, némileg zöld növényzettel és az utat szegélyező rövid fűvel. Az ég, amelyet foltos felhőtakaró borít, általában a legjellegzetesebb nyom. A [nap](https://maps.app.goo.gl/SY2Uwe1FJgutDk4QA) halványan átsüt a felhőkön északon.
+
+# Namibia / Spotlight
+@ namibia-NXKT
+Otavi több hegycsoport között fekszik, amelyek mind elég messze vannak, de a városból láthatók. Északi településként Otavi elég zöld, kissé vöröses homokos talajjal, ami az északabbi városokra jellemző. Az egész település északkelet–délnyugati rácson fekszik, ami kizárhat olyan hasonló megjelenésű városokat, mint [Grootfontein](https://maps.app.goo.gl/voT4iBmdxMiajBws8) és [Tsumeb](https://maps.app.goo.gl/7M38actJN9NSjZuz8).
+
+# Namibia / Spotlight
+@ namibia-OYpy
+A C34-es fekete homok sötétebb csíkjainak tűnik, amelyeket ameddig a szem ellát, további homok vesz körül. Néhány helyen part menti bokrok, sőt maga a [part](https://maps.app.goo.gl/iYzuJD2UtEKEzAh27) is látható. Az út mentén szabályos időközönként [egyedi fehér terelőoszlopok](https://maps.app.goo.gl/A9USD6ywaLZWggcN8) is láthatók, elöl két sárga, hátul egy piros fényvisszaverővel.
+
+# Namibia / Spotlight
+@ namibia-PiB6
+Langstrand kis üdülőtelepülés Swakopmund és Walvis Bay között, ahol szinte minden út mellett **rózsaszín téglás járda** van. Az idő mindig **borús** és komor.
+
+# Namibia / Region-specific clues
+@ namibia-QN1P
+A magas **rózsaszín homokdűnék** főként közvetlenül Sossusvleitől keletre találhatók, és néhány útról távolabbról is láthatók.
+
+# Namibia / Spotlight
+@ namibia-RnXY
+A C47-es **még szélesebb burkolatlan út**, a C44-eshez képest kissé **vörösebb talajjal**. Ennek az útnak az iránya ÉK-i, a haladási irány pedig DNy-i. Keresheted a [derült eget](https://maps.app.goo.gl/x2NHYCZsMCs2hKNz7) vagy a [fátyolfelhőket](https://maps.app.goo.gl/cdo4jnSLg1kDQJoz9) is.
+
+# Namibia / Spotlight
+@ namibia-TsmB
+A C43-as mentén találod a leglenyűgözőbb [vörös színű asztalhegyek](https://maps.app.goo.gl/q2ML2FED7ajJFLbb7) némelyikét. Az út széles és burkolatlan, világos színű murvával, amely elüt az egyébként vörös tájtól.
+
+# Namibia / Region-specific clues
+@ namibia-VnA8
+A namíbiai felvétel többnyire a főutakra korlátozódik, a mellékutakon csak ritkásan van felvétel.
+
+# Namibia / Spotlight
+@ namibia-WwD3
+Ez az elhagyatott burkolt út nagyjából K–DK-i irányban halad egy meglehetősen sík és száraz tájon át. Apró felhők pettyezik az eget. A bokrok többnyire eléggé zöldek, különösen [keleten](https://maps.app.goo.gl/J4HCC4RMMBLLk4659), amely nagyon dombos is.
+MEGJEGYZÉS: A legegyszerűbb módja annak, hogy megkülönböztesd a B4-es egyes szakaszaitól, az ezen az úton keleti haladási irány, szemben a B4-es nyugati irányával.

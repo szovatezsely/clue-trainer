@@ -47,6 +47,16 @@ data class PendingQuestion(
 )
 
 /**
+ * A question that has already been graded, kept so the reveal can be rendered
+ * again - in another language - after [GameSession.pending] has been cleared.
+ */
+data class GradedAnswer(
+    val question: PendingQuestion,
+    val chosen: String,
+    val correct: Boolean,
+)
+
+/**
  * Server-side state of one endless run.
  *
  * Keeping the score and the correct answer here (rather than in the browser)
@@ -68,16 +78,25 @@ class GameSession(val id: String) {
     /** Clues already shown in this run, so an endless game does not repeat itself. */
     val seenClueIds: MutableSet<String> = HashSet()
     var pending: PendingQuestion? = null
+
+    /** The last verdict, so switching language can re-word the reveal on screen. */
+    var lastGraded: GradedAnswer? = null
+        private set
+
     @Volatile
     var lastActiveAt: Instant = Instant.now()
 
     fun serve(question: PendingQuestion) {
+        // The previous verdict is off the screen the moment a new clue arrives,
+        // so nothing can ask to have it re-worded any more.
+        lastGraded = null
         pending = question
         seenClueIds += question.clue.id
         served = question.number
     }
 
-    fun score(isCorrect: Boolean) {
+    fun score(isCorrect: Boolean, graded: GradedAnswer? = null) {
+        lastGraded = graded
         if (isCorrect) {
             correct++
             streak++
@@ -106,6 +125,7 @@ class GameSession(val id: String) {
         served = 0
         seenClueIds.clear()
         pending = null
+        lastGraded = null
     }
 
     fun stats(): StatsDto {

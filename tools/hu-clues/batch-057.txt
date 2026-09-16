@@ -1,0 +1,300 @@
+# Liechtenstein / Region-specific clues
+@ liechtenstein-25UF
+Mauren környékén északon látod a fent említett gerincet, de a domboknak ez az oldala sokkal beépítettebb és városiasabb. Délen és délkeleten pedig azokat a jóval nagyobb hegyeket látod, amelyek általában keleten látszanak.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-5YU7
+A Liechtensteint kettészelő hegygerinctől keletre készült felvételeken körös-körül hegyek láthatók.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-9VvC
+A barna utcanévtáblák, amelyeken **nyíl alakú kialakítás** van, kizárólag Ruggellre jellemzők.
+MEGJEGYZÉS: A szokásos barna táblák szintén megtalálhatók Ruggellben.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-BTob
+Liechtenstein többi részével ellentétben Balzersben néha **fekete buszmegállótáblákat** használnak.
+MEGJEGYZÉS: A szokásos buszmegállók szintén megtalálhatók.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-Hu33
+A Balzerstől nyugatra fekvő sík területen, ahol az utak északkelet felé rácsot alkotnak, északon/északnyugaton gyakran láthatsz [két sziklás csúcsot](https://maps.app.goo.gl/8ZpQjESH7z189v4g9) a svájci oldalon.
+
+# Liechtenstein / Spotlight
+@ liechtenstein-NSbp
+Ez a meredek sziklafal, amelynek a tövében és a tetején fák vannak, Mälsben és környékén látható.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-PSiM
+A lapos fekete táblák Kelet-Liechtensteinben találhatók.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-Q2Ay
+A barna táblák, amelyeken „általánosabb” betűtípus szerepel, Plankenbe helyeznek téged.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-UTf6
+Ezek a barna utcanévtáblák, amelyek betűtípusa a **hagyományos német betűtípusokra** emlékeztet, fehér kerettel, Vaduzban és az északi településeken találhatók.
+
+# Liechtenstein / Spotlight
+@ liechtenstein-c1EG
+Liechtenstein egyetlen tava közvetlenül Stegtől délre található, nagyjából a hegyek közepén.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-fK9u
+Ruggell környékén délen egy kis, erdős gerincvonal található. Ez erős ellentétben áll a máshol látható, égbe nyúló hegyekkel.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-gG0N
+Liechtenstein többi részével ellentétben Vaduzban néha **piros buszmegállótáblákat** használnak.
+MEGJEGYZÉS: A szokásos buszmegállók szintén megtalálhatók.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-iJBv
+A vékony fehér kerettel ellátott kék utcanévtáblák vagy Liechtenstein déli részére, vagy északon Bendern környékére helyeznek téged.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-mKMX
+A fehér kerettel és domború betűkkel ellátott fekete táblák Schaanban találhatók.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-t5Ye
+A keret nélküli kék utcanévtáblák Eschenben találhatók.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-uDcT
+Benderntől északkeletre, az osztrák határig **hullámos dombok** sora húzódik. Liechtenstein többi része vagy nagyon sík, vagy a hegyekben van.
+
+# Liechtenstein / Region-specific clues
+@ liechtenstein-wjF4
+Triesenberg és környéke meglehetősen sűrűn lakott terület a hegyek lejtőjén, közvetlenül a Rajna folyó völgyétől keletre, amely nyugaton gyakran látható lent.
+
+# Sri Lanka / Regional and province-specific clues
+@ sri-lanka-1YKV
+A **tamil írás** jelenléte erősen összefügg a hinduizmus elterjedésével (bár nem minden tamil hindu, és fordítva).
+Két csoport használja a tamil írást:
+- A Srí Lanka-i őshonos tamilok, akik túlnyomórészt északon és keleten élnek.
+- Az indiai tamilok, akik többnyire a központi Nuwara Eliya körzetben és környékén élnek.
+Vedd figyelembe, hogy nem ritka a kétnyelvű szingaléz és tamil táblák előfordulása jóval azon a területen kívül is, ahol a tamil a domináns nyelv. A csak tamil nyelvű táblák azonban erős jelzést adhatnak valamelyik tamil többségű területre.
+_A képre kattintva kinagyíthatod._
+
+# Sri Lanka / Spotlight
+@ sri-lanka-52lk
+A **Horton Plains Nemzeti Parknak** nagyon jellegzetes és csaliszerű tája van, amelyet hosszú fűvel borított dombos síkságok alkotnak. A távolban erdőket látsz, de a park útjainak nagy része tágas, nyílt tájon kanyarog.
+
+# Sri Lanka / Regional and province-specific clues
+@ sri-lanka-5c1p
+A **teaültetvények** az ország középső és délnyugati részén találhatók. Leggyakoribbak a Nuwara Eliyától közvetlenül nyugatra fekvő területen.
+A teacserjék kis, tömör bokrokra hasonlítanak élénkzöld levelekkel. Általában rendezett sorokban vagy csoportokban ültetik őket a domboldalakon.
+
+# Sri Lanka / Regional and province-specific clues
+@ sri-lanka-JSpS
+Ezzel szemben az ország többi részének némileg **szárazabb az éghajlata**. A növényzet gyakran alacsonyabb és nyitottabb. A tájon általában barna és zöld tónusok keverednek.
+Vedd figyelembe, hogy a különbség nem szélsőséges, mivel Srí Lankán a táj soha nem válik igazán sivataggá. Némi gyakorlással azonban gyakran megtanulhatod felismerni a különbséget. Az eredményesség az évszaktól, a helyi erdőtakarótól vagy a felvétel típusától is függhet (a 3. generáció gyakran szárazabbnak mutatja a tájat, mint amilyen valójában).
+
+# Sri Lanka / Regional and province-specific clues
+@ sri-lanka-UbLa
+A Srí Lanka-i telefonszámok 10 számjegyűek.
+A vezetékes számok első három számjegye a **körzetszám**. Ennek a körzetszámnak az első számjegye mindig 0, a maradék két számjegy pedig a térképen látható.
+A mobilszámok mindig 07-tel kezdődnek, és nem kötődnek egyetlen konkrét régióhoz sem.
+_A képre kattintva kinagyíthatod. Kép: Maccem._
+
+# Sri Lanka / Regional and province-specific clues
+@ sri-lanka-wbsP
+Srí Lanka délnyugati részének **nedvesebb az éghajlata**, amelyet buja, sűrű növényzet jellemez. A tájat mélyzöld tónusok uralják.
+
+# Lesotho / Regional/district-specific clues
+@ lesotho-7YgM
+Lesothóban **nagyon ritkás** a felvétel, különösen a délkeleti félen, ahol többnyire a sárga utakra korlátozódik. Minden városi felvétel északnyugaton található.
+
+# Lesotho / Spotlight
+@ lesotho-EKt9
+Qacha's Nek nagyon felismerhető település, amely a legtöbb más településtől távol, a Dél-Afrikával közös délkeleti határon fekszik.
+Pontosan **zöld hegyek** közepén helyezkedik el, és észrevehetően **rossz idő** volt, amikor a Google-autó arra járt.
+
+# Lesotho / Regional/district-specific clues
+@ lesotho-ed3U
+Ezzel szemben a **hegyvidéki részen** az út általában közvetlenül a hegy oldalán fut, nem pedig kissé távolabb tőle. A hegyek gyakran nagyok, közelebb vannak az úthoz, és zöld fű borítja őket.
+Lesotho hegyvidéki részén nagyon ritkás a felvétel: csak 6 főútról (és néhány nagyon kis mellékútról) van felvétel, ami azt jelenti, hogy ha kedved tartja, minden utat kívülről megtanulhatsz.
+
+# Lesotho / Spotlight
+@ lesotho-k5TG
+Az A25-ös egy szakaszán, közvetlenül a nagy víztározótól keletre a kamerát az egyik irányban **esőcseppek** borítják.
+
+# Lesotho / Spotlight
+@ lesotho-p4dx
+Az egyetlen város, amelynek jelentősen **városias belvárosa** van, a főváros, Maseru. Minden más településnek Maseruhoz képest nagyon vidékies a hangulata.
+Vedd figyelembe, hogy Maseru külvárosainak hangulata ettől még nagyon vidékies lehet.
+
+# Lesotho / Spotlight
+@ lesotho-q6tO
+Lesotho hegyvidéki részén két nagy mesterséges víztározó található, amelyek több útszakaszról is láthatók.
+A nagyobb Katse-víztározó az A25-ös egyes szakaszairól látható. A kisebb Mohale-víztározó az A3-as egyik mellékútjáról látható.
+MEGJEGYZÉS: Ne keverd össze ezeket azzal a [kis ipari tóval](https://goo.gl/maps/E2pkBCdJhdXoezCD9), amely a Letseng gyémántbánya közelében található.
+
+# Lesotho / Spotlight
+@ lesotho-qWpp
+Az A5-ösnek több szakasza Nyakosobától délre építés alatt áll. Ennek eredményeként gyakran láthatsz egyfajta ideiglenes „terelőoszlopot” az út mellett, amely egy többnyire **fehérre** festett **karóból** áll.
+Még a terelőoszlop nélküli szakaszokon is gyakran felismerheted ezt az utat, mivel széles földút nagyon sötétbarna talajjal.
+
+# Lesotho / Regional/district-specific clues
+@ lesotho-rdOK
+Lesotho a táj alapján nagyjából két vidékre osztható: síkra és hegyvidékire.
+A **sík vidéken** maga az út többnyire sík vagy dombos tájon halad. A „sík” kissé félrevezető elnevezés, mivel általában továbbra is asztalszerű hegyeket látsz magad körül. Ezek azonban általában lényegesen távolabb vannak az úttól, tisztább rálátást biztosítva. Ez a „sík” rész az a vidék, ahol a legtöbb a felvétel, a település és a mezőgazdaság.
+
+# Lesotho / Spotlight
+@ lesotho-uroc
+A Ramatsedisótól a **Sehlabathebe Nemzeti Parkig** vezető út délkeleten, a Dél-Afrikával közös határon nagyon felismerhető. Fontold meg az odatippelést, ha a következő három dolog mind igaz a helyszínedre:
+- Burkolatlan út világosbarna talajjal.
+- Jó idő apró, bolyhos felhőkkel.
+- Füves táj magasan a hegyekben.
+Gyakran világos színű, kibukkanó sziklákat is látsz az út mellett.
+
+# Lesotho / Spotlight
+@ lesotho-ylee
+Az A2-es Maseru és Mafeteng közötti szakaszán messze a **legjobb az útminőség** egész Lesothóban.
+
+# Lithuania / Regional and county-specific clues
+@ lithuania-FSkc
+A **fém oszlopcímkék** túlnyomórészt az ország keleti részén találhatók.
+_A litván oszlopmatricákról és autós metákról további információért lásd ezt a [dokumentumot](https://docs.google.com/document/d/1IzsTIUFuTojmx2x4KtWyxB5ZZcoPcLtiNSE2w4fSXYo/edit?tab=t.0)._
+
+# Lithuania / Spotlight
+@ lithuania-evbw
+A Kur-földnyelven fából épült, gyakran piros, **skandináv kinézetű házakat** is találsz.
+
+# Lithuania / Spotlight
+@ lithuania-oTsA
+A Kur-földnyelv egy hosszú, keskeny homokdűnés [földnyelv](https://en.wikipedia.org/wiki/Spit_(landform)) Klaipėdától délre, amely elválasztja a Kur-öblöt a Balti-tengertől. Ezen a földnyelven a főútnak, a **167-es útnak**, a táj és az útirány felismerhető kombinációja jellemzi:
+- Az út nagyjából észak–déli irányban fut, és 4. generációs felvétel van róla.
+Az utat minden oldalról erdő veszi körül, sok [erdeifenyővel](https://en.wikipedia.org/wiki/Pinus_sylvestris). Sok helyen enyhén szélfútta fákat látsz (ez a példaképen is látszik).
+
+# Luxembourg / Regional and canton-specific clues
+@ luxembourg-F5fO
+A **szőlőültetvények** elsősorban az ország délkeleti részén találhatók.
+
+# Luxembourg / Regional and canton-specific clues
+@ luxembourg-S1pq
+A **helyi útszámok** háromjegyűek. Az első számjegy szerint földrajzilag csoportosulnak. Az első számjegy 1-től 3-ig terjed.
+- Az 1xx a déli félen található.
+- A 2xx a fővárosban és környékén található.
+- A 3xx az északi félen található.
+
+# Luxembourg / Regional and canton-specific clues
+@ luxembourg-oEEg
+Az ország északi része **dombosabb**, és összességében magasabban fekszik, mint a déli.
+
+# Luxembourg / Spotlight
+@ luxembourg-wuhb
+Luxembourg város belvárosának egy részéről **3. generációs városi trekkerrel** készült felvétel. Időnként látható a trekkert vivő személy napszemüvege és őszülő haja.
+
+# Latvia / Regional and municipality-specific clues
+@ latvia-PA6J
+A Jelgavától délre fekvő területet **tágas, nyílt táj** jellemzi, lényegesen kevesebb erdővel és több mezővel, mint Lettország legtöbb más részén.
+
+# Latvia / Spotlight
+@ latvia-b4Ic
+Riga történelmi belvárosát impozáns [**szecessziós**](https://en.wikipedia.org/wiki/Art_Nouveau) **építészet** jellemzi, amely helyenként a bécsi építészetre emlékeztet. Ez Lettországon belül, sőt az egész Baltikumon belül is egyedülálló.
+
+# Monaco / Spotlight
+@ monaco-Dzdt
+A kikötőben egy kiterjedt **3. generációs hajós trekker** található. A Google munkatársának barna haja és napszemüvege látható. Láthatod Monaco városképét és a mögötte lévő dombokat. Sok drága [jacht](https://goo.gl/maps/4Z8rnvc99PPCqQEL7) van a közelben.
+Ez a trekker sokszor felbukkan a hivatalos versenymódokban, ezért érdemes megjegyezni.
+
+# Montenegro / Regional and municipality-specific clues
+@ montenegro-59VX
+A **fenyvesek** északon és egy kis területen Nikšićtől északra találhatók, de leggyakrabban **keleten**.
+
+# Montenegro / Spotlight
+@ montenegro-9667
+Ezek a jellegzetes **lépcsőszerű** hegyoldalak a Cijevna folyó völgyében láthatók.
+
+# Montenegro / Regional and municipality-specific clues
+@ montenegro-BFX1
+A Durmitor Nemzeti Park a jellegzetes tájáról ismerhető fel, amelyet **füves, fátlan hegyek** alkotnak, magashegyi hangulattal.
+[Žabljak](https://goo.gl/maps/ityFp93bD3WQweCq5) települése ebben a nemzeti parkban fekszik, és a tájról, de az [egyedi](https://goo.gl/maps/1dyUEW1YaCgDS1SU9) [építészetről](https://goo.gl/maps/wQFbfwF88LLTbie77) is felismerhető.
+
+# Montenegro / Spotlight
+@ montenegro-CFIQ
+A Shkodrai-tó hídja a **vasútról** és az út mellett lévő kőterelőoszlopokról ismerhető fel.
+
+# Montenegro / Spotlight
+@ montenegro-Ifx0
+A **Slansko-tóban** sok kis sziget látható.
+
+# Montenegro / Spotlight
+@ montenegro-VuAe
+A pljevljai szénbánya a széles, mesterséges **murvafalról** ismerhető fel. A bánya gyakran [messziről](https://goo.gl/maps/45CwG7nnsD9NjzXE6) is látható.
+
+# Montenegro / Regional and municipality-specific clues
+@ montenegro-YLJY
+A fákban szegény, **száraz hegyek** Podgorica környékén és attól délre láthatók. A szőlőültetvények szintén gyakran láthatók ezen a vidéken.
+
+# Montenegro / Regional and municipality-specific clues
+@ montenegro-arxV
+A Kotori-öbölnek **turisztikai és lakott** hangulata van, sok fürdőruhás emberrel. Egy jellegzetes [meredek, sziklás gerinc](https://goo.gl/maps/Sj5ENoJMcprLyLzWA) is látható.
+
+# Montenegro / Spotlight
+@ montenegro-cJhu
+Podgorica Montenegró fővárosa és **legnagyobb városa**, és a modern épületekről, a széles utakról és a modern infrastruktúráról ismerhető fel.
+
+# Montenegro / Regional and municipality-specific clues
+@ montenegro-vHGt
+A zöld, **mezőgazdasági völgyek**, ahol a dombokat kiirtották a szántóföldek kedvéért, leggyakrabban északon láthatók.
+
+# Madagascar / Land coverage
+@ madagascar-0dG7
+Két felvételrész arról ismerhető fel, hogy két ember követi a trekkert: az egyiken **sárga trikó**, a másikon **kék póló** van. E két rész közül az első St Augustin településén található.
+
+# Madagascar / Land coverage
+@ madagascar-2sOi
+Az ugyanezzel a két emberrel készült második rész St Augustintól keletre található, egy **dombos tájon** halad át sok bokorral.
+
+# Madagascar / Land coverage
+@ madagascar-3Ucb
+Az Ambanjában készült felvétel egy **sötétkék pólót** és fekete napszemüveget viselő emberről ismerhető fel.
+
+# Madagascar / Land coverage
+@ madagascar-4v0Z
+Egy alig látható **szürke fém tetőcsomagtartóval** rendelkező autó látható Manahy mellett. Van néhány helyszín, ahol az autó teljesen [ki van homályosítva](https://www.google.com/maps/@-20.8635885,43.9144054,2a,75y,201.67h,54.09t,3.83r/data=!3m7!1e1!3m5!1sPAQm9O3ZuaHG6QXKk1Yzfg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DPAQm9O3ZuaHG6QXKk1Yzfg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D280%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656), ilyenkor az elmosás alakja a terület legjobb jelzése.
+
+# Madagascar / Land coverage
+@ madagascar-61Nb
+Egy falu, ahol a part **keletre** van, Andavadoakától északra található.
+
+# Madagascar / Land coverage
+@ madagascar-6Icy
+A középső nyugati parton néhány atoll látható a Street View-n. A legészakibb a legkisebb, és könnyen felismerhető, mivel csak **homokból** áll, és mindig ellátsz az egyik parttól a másikig.
+MEGJEGYZÉS: A szárazföldi felvétellel rendelkező öt atoll közül csak a két legdélibb jelenik meg a térképen.
+
+# Madagascar / Boat coverage
+@ madagascar-6fjx
+Egy főként **kék hajó** található a part mentén, Nosy Ambariovatótól délre.
+
+# Madagascar / Boat coverage
+@ madagascar-7g5M
+Az Andavadoakától északra lévő hajó többnyire a **nagy vitorláról** ismerhető fel, amely szinte az egész képernyőt betölti, valamint az [orráról](https://www.google.com/maps/@-21.9535228,43.2636268,2a,55.4y,36.5h,61.5t,0.68r/data=!3m6!1e1!3m4!1shdQMOTBRSEXz7sS9LL0q7w!2e0!7i13312!8i6656), amely sárgára és kékre van festve. Vedd figyelembe, hogy a felvétel északi részein a vitorla nincs jelen.
+
+# Madagascar / Land coverage
+@ madagascar-8CI7
+Az Antananarivóban készült felvétel nagy része egy **domboldalon** készült, ahonnan a városra nyílik kilátás, és amely a [Királynő Palotájához](https://goo.gl/maps/xU94ThbrNVjncEE27) vezet fel; ez a domb teteje közelében látható.
+
+# Madagascar / Land coverage
+@ madagascar-8VEn
+Ambiky a rengeteg **pálmáról** ismerhető fel, a **barna**, homokos földúttal párosulva. A felvétel nagy részén egy szürke pólót és barna hátizsákot viselő ember sétál a trekker előtt.
+
+# Madagascar / Land coverage
+@ madagascar-8VYx
+Az Andavadoakát körülvevő trekkeres felvétel fő része vagy a szürkés kalapot és világoskék inget viselő emberről, vagy egy [sárga pólót](https://goo.gl/maps/tk4eKhBmyttFugDG9) viselő emberről ismerhető fel.
+
+# Madagascar / Land coverage
+@ madagascar-8jw5
+Egy Ambikytől nyugatra fekvő part az **alacsony fákról** ismerhető fel, északnyugaton alacsony hegyekkel párosulva.
+
+# Madagascar / Land coverage
+@ madagascar-AmoS
+Az RN8-ason Andriamena és Marofandilia között készült felvétel könnyen felismerhető a Street View-autón lévő nagy **ezüst tetőcsomagtartóról**. A felvétel nagyon száraz és homokos.
+
+# Madagascar / Land coverage
+@ madagascar-D7s5
+Morondavának nagyon **sima homokos partja** van, északnyugaton az óceánnal. Sok pálma látható.

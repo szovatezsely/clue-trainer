@@ -1,15 +1,9 @@
 <script setup lang="ts">
+import LanguageSwitch from './LanguageSwitch.vue'
+import { formatDate, formatNumber, t } from '../i18n'
 import type { Meta } from '../types'
 
-const props = defineProps<{ meta: Meta | null }>()
-
-const scrapedOn = () => {
-  if (!props.meta) return ''
-  const date = new Date(props.meta.scrapedAt)
-  return Number.isNaN(date.getTime())
-    ? props.meta.scrapedAt
-    : date.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: 'numeric' })
-}
+defineProps<{ meta: Meta | null }>()
 </script>
 
 <template>
@@ -18,20 +12,23 @@ const scrapedOn = () => {
       <div class="wordmark">
         <span class="wordmark__text">clue trainer</span><span class="wordmark__dot">.</span>
       </div>
-      <dl v-if="meta" class="dataset">
-        <div class="dataset__item">
-          <dt>Clues</dt>
-          <dd>{{ meta.clueCount.toLocaleString('en-GB') }}</dd>
-        </div>
-        <div class="dataset__item">
-          <dt>Countries</dt>
-          <dd>{{ meta.countryCount }}</dd>
-        </div>
-        <div class="dataset__item">
-          <dt>Updated</dt>
-          <dd>{{ scrapedOn() }}</dd>
-        </div>
-      </dl>
+      <div class="masthead__end">
+        <LanguageSwitch />
+        <dl v-if="meta" class="dataset">
+          <div class="dataset__item">
+            <dt>{{ t.header.clues }}</dt>
+            <dd>{{ formatNumber(meta.clueCount) }}</dd>
+          </div>
+          <div class="dataset__item">
+            <dt>{{ t.header.countries }}</dt>
+            <dd>{{ meta.countryCount }}</dd>
+          </div>
+          <div class="dataset__item">
+            <dt>{{ t.header.updated }}</dt>
+            <dd>{{ formatDate(meta.scrapedAt) }}</dd>
+          </div>
+        </dl>
+      </div>
     </div>
   </header>
 </template>
@@ -51,6 +48,14 @@ const scrapedOn = () => {
   justify-content: space-between;
   gap: 24px;
   min-height: 72px;
+}
+
+/* The language switch leads the counts, and the group travels together at
+   the right edge. */
+.masthead__end {
+  display: flex;
+  align-items: center;
+  gap: 26px;
 }
 
 .wordmark {
@@ -90,13 +95,24 @@ const scrapedOn = () => {
   font-variant-numeric: tabular-nums;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 860px) {
+  /* The date is the first thing to go; the language switch never is. */
   .dataset__item:nth-child(3) {
     display: none;
   }
 
+  .masthead__end {
+    gap: 18px;
+  }
+
   .dataset {
     gap: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .dataset__item:nth-child(2) {
+    display: none;
   }
 }
 </style>

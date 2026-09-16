@@ -1,0 +1,314 @@
+# Thailand / Regional/province-specific clues
+@ thailand-JvSJ
+Thaiföldön két olyan vidék van, amely más területekhez képest viszonylag **sík és száraz**. Az egyik Bangkoktól északra, a másik keletebbre.
+MEGJEGYZÉS: A keleti terület néha kissé **szárazabbnak** hat, mint a Bangkoktól északra fekvő terület.
+
+# Thailand / Spotlight
+@ thailand-KSpq
+**Nagy észak–déli hegyek** láthatók a Phetcsabun-völgy mindkét oldalán.
+
+# Thailand / Regional/province-specific clues
+@ thailand-Lj1E
+Ezek a **fekete dobozok** gyakran megadják a tartomány **hárombetűs rövidítését**. Kétféle formátumot használnak:
+- A rövidítéssel kezdve, majd 4 szám következik.
+- TCC-L2-vel, vagy ritkán TCC-L1-gyel kezdve, majd a rövidítés következik.
+A képen az „NTB” rövidítés látható Nonthaburira. A rövidítések tartományonként kissé eltérhetnek a formátumtól függően.
+MEGJEGYZÉS: Más dobozokon eltérő formátumok lehetnek, amelyek a tartomány alkörzetének felelnek meg.
+
+# Thailand / Spotlight
+@ thailand-M10h
+Nyugat-Krabiban és Phangnga keleti részének egyes területein szintén **nagy, kibukkanó sziklás hegyek** találhatók észak–déli irányban.
+
+# Thailand / Regional/province-specific clues
+@ thailand-MZov
+A **murvás utak** Thaiföld egészén megtalálhatók, de leggyakoribbak a sötéten kiemelt területeken.
+
+# Thailand / Regional/province-specific clues
+@ thailand-MmZp
+A kissé ritkásabb **magas kókuszpálma**-ültetvények leggyakoribbak Pracsuapkhirikhanban.
+MEGJEGYZÉS: Az egész félszigeten sok kókuszpálma lesz, ez a tipp csak az ültetvényekre vonatkozik.
+
+# Thailand / Regional/province-specific clues
+@ thailand-NLmR
+A **fenyők**, konkrétan a [Pinus latteri](https://en.wikipedia.org/wiki/Pinus_latteri), vagyis a tenasserim fenyők, többé-kevésbé kizárólag az ország északi és északnyugati részére jellemzők.
+
+# Thailand / Regional/province-specific clues
+@ thailand-OGfz
+A **magas hegyek** leggyakrabban Északnyugat-Thaiföldön láthatók.
+MEGJEGYZÉS: A déli, félszigeti rész néhány területe szintén hegyvidékes.
+
+# Thailand / Regional/province-specific clues
+@ thailand-QXyi
+A **cukornádat** többnyire Közép- és Kelet-Thaiföldön termesztik.
+
+# Thailand / Regional/province-specific clues
+@ thailand-QZgS
+A [Tectona grandis](https://en.wikipedia.org/wiki/Teak), más néven **tíkfa**, leggyakrabban nagy sűrűségben az északi részen található. A nagy leveleiről és a sárga virágairól ismerhető fel.
+MEGJEGYZÉS: A tíkfákat gyakran használják díszítésre az [autópályák](https://maps.app.goo.gl/8ZVapgFjkxUqz6UB8) mentén.
+
+# Thailand / Spotlight
+@ thailand-Rqm9
+Bangkokban **rózsaszín** és **zöld alapon sárga taxik** vannak.
+MEGJEGYZÉS: A zöld alapon sárga taxik ritkán [máshol](https://maps.app.goo.gl/Jf25hEoRKt9tQhvEA) is láthatók, a rózsaszín taxik azonban gyakorlatilag kizárólagosak.
+
+# Thailand / Spotlight
+@ thailand-ThIf
+Ezek a piros kisteherautók, amelyeket **szongthaeu** néven ismernek, olyan szállítójárművek, amelyek leggyakrabban Csiangmajban találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-USoN
+A legkiterjedtebb **gyümölcsültetvények** a Csiangmaj és Lamphun közötti völgyben, valamint Szakeo és Cshanthaburi keleti részén találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-UnwR
+A thaiföldi **muszlimok** többsége az ország messzi déli részén él. Ezeken a területeken gyakran látsz iszlám vallási öltözéket, arab írásra épülő [dzsávi írást](https://en.wikipedia.org/wiki/Jawi_script) a [táblákon](https://maps.app.goo.gl/oy83kvBm8XWcc3ZEA), valamint mecseteket.
+
+# Thailand / Spotlight
+@ thailand-V83y
+A **hajókormány** alakú utcanévtáblák kizárólag Pattaya városára jellemzők.
+
+# Thailand / Spotlight
+@ thailand-VtmL
+**Phuket** szigete nagyon turisztikai és gazdag. Gyakran látsz modern épületeket, üdülőhelyeket és nagy forgalmat a dombok között.
+
+# Thailand / Regional/province-specific clues
+@ thailand-ZxIl
+Thaiföld **rizs**termesztésének nagy része a kiemelt területen belül zajlik.
+
+# Thailand / Regional/province-specific clues
+@ thailand-aVcK
+Az országutak az **első számjegyük** alapján négy vidékre csoportosulnak. Az 1-gyel kezdődő utak északon, a 2-vel kezdődők északkeleten, a 3-mal kezdődők középen, a 4-gyel kezdődők pedig az ország déli részén találhatók.
+MEGJEGYZÉS: A nagy egy- és kétjegyű autópályák több vidéken is áthaladhatnak. Ne feledd, hogy ez a térkép nem vonatkozik a tartományi utakra.
+
+# Thailand / Spotlight
+@ thailand-b81q
+A Krabin és Szuratthanin áthaladó 44-es főút **osztott pályás, négysávos főút**, amelynek a közepén **nagyon nagy a térköz**. Gyakran nem fogod látni az autópálya másik oldalát. Inkább egy sárga belső vonal utal arra, hogy az út osztott.
+
+# Thailand / Spotlight
+@ thailand-bIyP
+A **mélyvörös táblák** maniókával és kaucsukfákkal Kancsanaburiban találhatók.
+
+# Thailand / Spotlight
+@ thailand-cZKi
+Mukdahan tartományban sok **hosszú, alacsony domb** található rizs-, cukornád-, manióka- és kaucsukfatáblák között.
+
+# Thailand / Spotlight
+@ thailand-eRwQ
+A Khao Szok Nemzeti Park Phangnga északi és Szuratthani nyugati részén Thaiföld déli részének néhány **legmagasabb és legmeredekebb kibukkanó sziklás hegyét** tartalmazza. A hegyek általában kelet–nyugati irányban futnak.
+
+# Thailand / Spotlight
+@ thailand-eYu7
+A Khao Szamrojjot Nemzeti Park Pracsuapkhirikhan nyugati részén nagy, jellegzetes kibukkanó sziklás hegytömböket tartalmaz. Külön figyelemre méltó, hogy a hegyek a [tartomány központjából](https://maps.app.goo.gl/SNn2WAdVCjAdX8mf9) is láthatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-eo9N
+Az **eukaliptuszültetvények** leggyakoribbak Szakeo környékén.
+MEGJEGYZÉS: Az eukaliptusz kisebb mennyiségben, például az utat szegélyezve, más területeken is megtalálható. Ez a tipp kizárólag a sűrű ültetvényekről szól.
+
+# Thailand / Spotlight
+@ thailand-fymE
+Ezek a jellegzetes alakú hegyek **Lopburi délnyugati részén** találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-g8on
+Az alacsony, sima és erdős hegyek az ország középső-északi részén találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-gQgT
+A thaiföldi pálmaolaj több mint 90%-át a déli részen állítják elő. Ez azt jelenti, hogy a **pálmaültetvények** leggyakrabban Dél-Thaiföldön láthatók.
+
+# Thailand / Spotlight
+@ thailand-govn
+Dél-Lopburiban nagy, enyhén **észak-északnyugati rács** található rizs-, kukorica-, cukornád- és maniókatáblákkal. Északon, délen és nyugaton gyakran láthatók gerincek.
+
+# Thailand / Regional/province-specific clues
+@ thailand-hzDI
+A **szürke hullámlemez tetők** leggyakrabban az ország északi és déli részén találhatók, de időnként az egész országban előfordulnak.
+
+# Thailand / Spotlight
+@ thailand-jv6p
+A **barna burkolatú utak** banán-, durián-, kaucsuk- és kukoricatáblák között Sziszaket déli részén találhatók.
+MEGJEGYZÉS: Nakhonratcsaszima délkeleti része néha [hasonlónak](https://maps.app.goo.gl/3px9g5rxuA6NbzzL8) látszhat.
+
+# Thailand / Spotlight
+@ thailand-nnts
+Azok az utcanévtáblák, amelyeken egy kék szakasz alatt **kisebb zöld szakasz** van, Bangkokban és Nonthaburiban találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-peOM
+Ezzel szemben a kereszttartón **két szigetelővel** rendelkező oszlopok az ország többi részén találhatók.
+
+# Thailand / Spotlight
+@ thailand-qBp9
+Ez a ritka Google-autó **látható tükörrel** kizárólag Thaiföld messzi déli részén található.
+MEGJEGYZÉS: Mivel a felvétel nagy részét felülírta az új 4. generáció, ez az autó ritkán látható.
+
+# Thailand / Regional/province-specific clues
+@ thailand-r6yh
+A **száraz évszakban** termesztett **rizs** leggyakrabban a középső síkságokon fordul elő. A thaiföldi száraz évszakot jellemzően az égen lévő páráról lehet felismerni, amelyet a bozóttüzek okoznak.
+
+# Thailand / Regional/province-specific clues
+@ thailand-rOan
+A meredek hegyek sok **kibukkanó sziklával** leggyakrabban nyugaton és a félszigeten találhatók.
+
+# Thailand / Regional/province-specific clues
+@ thailand-rjs3
+A **7 vagy több bordával** rendelkező szigetelők a félsziget déli felében, valamint Csiangraj és Phajao autópályáin találhatók.
+MEGJEGYZÉS: Északon is találhatsz 5 vagy 6 bordát a szigetelőkön, mivel ez a szokásos mennyiség az egész országban.
+
+# Thailand / Regional/province-specific clues
+@ thailand-sHFO
+A thai **vezetékes telefonszámok** 9 számjegyűek. A telefonszámok első számjegyei a körzetszámot alkotják. Bangkok körzetszáma 02, a többi körzetszám háromjegyű. A körzetszámok csoportosulnak, ezért már az első számjegy megtanulása is hasznos.
+MEGJEGYZÉS: A mobilszámok 08-cal vagy 09-cel kezdődnek, és 10 számjegyűek. Ezek egyike sem fed át a körzetszámokkal. A 06-tal kezdődő számok szintén nem kötődnek régióhoz.
+
+# Thailand / Spotlight
+@ thailand-tQaR
+A Khao Yai Nemzeti Park körüli terület Nakhonratcsaszima déli részén **jelentős turisztikai látványosság**. Sok hirdetést, üzletet, éttermet és üdülőhelyet látsz az egyébként vidéki utak mentén. Nagy sziklás dombok láthatók a Nakhonnajokkal és Pracsinburival közös határhoz közelebb.
+
+# Thailand / Spotlight
+@ thailand-tWkN
+Csajaphumban **nagyon hosszú és lapos hegygerincek** találhatók, amelyek a tartomány szinte bármely pontjáról láthatók.
+
+# Thailand / Spotlight
+@ thailand-tgzM
+A kukorica- vagy cukornádtáblák **hullámos dombjai** Tak tartomány nyugati részén találhatók. Ezen a területen a burkolt utak gyakran [nagyon barnák](https://maps.app.goo.gl/gFH71bddWWbfX9Pz5).
+
+# Thailand / Regional/province-specific clues
+@ thailand-tqgy
+A **vörös talaj** leggyakoribb Thaiföld északkeleti részén, de az egész országban látható.
+
+# Thailand / Spotlight
+@ thailand-uY5m
+A **piros utcanévtáblák** arany díszes kerettel Mueang Csiangrajban találhatók.
+MEGJEGYZÉS: Lehetséges, hogy a városban kék utcanévtáblákat is látsz ugyanezzel a kerettel.
+
+# Thailand / Spotlight
+@ thailand-vdHm
+A **Phrao körzet** Csiangmajban meglehetősen sík völgy, amelyet minden irányban hegyek vesznek körül. A völgyben gyakran rizst és gyümölcsöt termesztenek.
+
+# Thailand / Spotlight
+@ thailand-wkCZ
+Egy nagy és enyhén szaggatott észak–déli hegygerinc fut végig **Phajao** közepén. Keleten messziről is látható.
+
+# Thailand / Regional/province-specific clues
+@ thailand-wtTr
+A [Codiaeum variegatum](https://en.wikipedia.org/wiki/Codiaeum_variegatum), más néven **kroton**, dísznövény, amely a sárga, narancssárga és piros leveleiről ismerhető fel. Leggyakoribb Ranong és más part menti tartományok környékén.
+
+# Thailand / Regional/province-specific clues
+@ thailand-zUbl
+Az **ananászültetvények** leggyakrabban Bangkoktól délkeletre és délnyugatra találhatók.
+
+# Tunisia / Spotlight
+@ tunisia-1mUD
+Könnyen felismerheted a Dzserba–Zarzisz gátutat a **mindkét oldalon lévő víznek** és a **csővezetéknek** köszönhetően, amely mindig jelen van tőled nyugatra.
+
+# Tunisia / Spotlight
+@ tunisia-3PaS
+A Bizertei-tó azonnal felismerhető a **türkiz színű** vizéről. Tőle délre enyhe dombok vannak, a tó körüli terület többi része pedig sík. Bizerte városa a tó északkeleti oldalán fekszik.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-3nZC
+Ez a **világoszöld Toyota** kísérőautó mindenütt megtalálható Tunézia legészakibb részén. Soha nem fogod látni Hammamettől délre.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-4ITK
+A Tunisz és Hammamet közötti terület hasonlít a Tunisztól északra fekvő területre, de a dombok általában magasabbak és növényzetben gazdagabbak.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-DECo
+Dzserba szigetének néha jellegzetes hangulata van. Általában sok pálmafa van. A meszelt, hagyományos épületek kék ajtókkal és ablakokkal gyakoriak.
+MEGJEGYZÉS: Nem minden helyszínnek lesz a szigeten ilyen jellegzetes hangulata. A kísérőautó hiánya egy másik jó módja annak, hogy megerősítsd, Dzserbán vagy.
+
+# Tunisia / Spotlight
+@ tunisia-GWjM
+Trekkerek az egész országban találhatók, még olyan helyeken is, amelyek messze vannak az autós felvétellel rendelkező területtől. A felvétel egyebek mellett tartalmaz [régészeti lelőhelyeket](https://goo.gl/maps/2UsBo8HPFhKwi1rs5), [erődöket](https://goo.gl/maps/UQP4Wuk1jgp4F58v5), [mecseteket](https://goo.gl/maps/xaFQEbu3Nq5kQ5Q37) és egy [Star Wars-díszletet](https://goo.gl/maps/y36NttMDLurqthHu5).
+
+# Tunisia / Spotlight
+@ tunisia-IJ7u
+A P12-es út egyik mellékútja Szúsztól délnyugatra a sötét burkolatról ismerhető fel, amelyet világos homokos talaj vesz körül, a kelet–nyugati útiránnyal párosulva. Az út keleti része meglehetősen növényzetes, sok fügekaktusszal, míg a nyugati része [nagyon száraz](https://maps.app.goo.gl/W7Q3a5DgLqsJuio59), alig vagy egyáltalán nem növényzettel.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-IOGg
+Dzserba szigete Tunézia egyetlen vidéke, ahol általában **nem** kísér kísérőautó. A felvétel nagy részén teljesen hiányzik.
+Bár ritka, ez a **fehér Mercedes** és a sötétzöld kísérőautó jelen lehet.
+
+# Tunisia / Spotlight
+@ tunisia-J8fI
+A P1-es úton Medenintől északnyugatra időnként találhatsz ilyen megjelenésű homokos dombokat. Ezek a dombok eléggé egyediek, mivel a dél-tunéziai felvétel nagy része nagyon sík területeken készült.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-K7Lw
+A Hammamet és Gábesz közötti nagy középső vidék nagyon sík és szárazabb. Az olajfaültetvények gyakoriak, és minél délebbre mész, annál szárazabbá válik a táj.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-NNjW
+Tunisznak, Tunézia fővárosának **sokféle kísérőautója** van. Többségük az egész városban megtalálható. A világoszöld Toyota is megpillantható itt.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-V6UL
+A felvétel többnyire a **keleti partra** korlátozódik, az északon fekvő Bizerte és a délen fekvő Medenin között. A felvétel nagy része nagyobb településeken és főutakon készült. A legnagyobb településeken és Dzserba szigetén elég kiterjedt mellékúti felvétel van.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-VJOK
+Gábesztől délre a táj sivataghoz hasonlóbbá válik. Sokkal több szemét és apró fehér kő található az utak mentén. Az olajfaültetvények továbbra is némileg gyakoriak. A távolban délnyugaton gyakran látható egy hegyvonulat.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-deGy
+Kairuán városának Tunézia középső-északi részén ez az egyedi kísérőautója van, egy **fehér Mitsubishi** fehér tükrökkel. A sötétzöld kísérőautó néha szintén megpillantható, amint a Mitsubishit követi.
+MEGJEGYZÉS: Néhány fehér kísérőautó Tunéziában hasonlíthat a kairuáni autóra. Egyik sem Mitsubishi azonban.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-jiMW
+A **sötétzöld Mazda** a leggyakoribb kísérőautó Tunéziában. Ez nyilvánvalóvá válik, ha megnézed a felvételtérképet: egészen Hammamettől Dzserbáig megtalálható. A sötétebb színen kívül a katonai rendszámáról is felismerhető, amelynek a bal oldalán **piros csík** van.
+
+# Tunisia / Regional and governorate-specific clues
+@ tunisia-jkNV
+A Tunisztól északra fekvő területnek mediterrán éghajlata van dombos terepen. A vidék nagyon mezőgazdasági, és a felvétel készítésekor szinte minden tábla parlagon hevert.
+
+# Tunisia / Spotlight
+@ tunisia-mxuQ
+Ha **nagy mennyiségű pálmafát** látsz egy helyen, akkor valószínűleg Gábeszben vagy.
+MEGJEGYZÉS: Bár Dzserbán is sok pálmafa van, a települések és a környező terület általában vidékiesebbnek látszik.
+
+# Turkey / Spotlight
+@ turkey-2jLg
+Az E99-es út Sanlıurfától délre osztott pályás főút, amely az enyhén párás 4. generációs napkeltés felvételről ismerhető fel, a sík mezőgazdasági tájjal és a nagyjából dél–északi útiránnyal párosulva.
+
+# Turkey / Region-specific clues
+@ turkey-3Nhk
+A 4. generációs **teherautós felvétel** főként az ország messzi keleti részén és a déli part mentén található, kisebb sávokkal nyugaton és Kasztamonu környékén.
+Részletesebb áttekintésért lásd ezt a [dokumentumot](https://docs.google.com/document/d/1VJQSEVVZxJHJebLwgQ2aEoS6ML0MENral7g-IiCnRlg/).
+
+# Turkey / Spotlight
+@ turkey-5hkj
+Ezek a világoskék és szürke **turisztikai táblák**, amelyek vagy nyíl alakúak, vagy téglalap alakúak félkörrel a tetejükön, Bozcaada szigetén találhatók.
+
+# Turkey / Region-specific clues
+@ turkey-5jfy
+A függőleges víztartályok **tetejére** helyezett vízszintes víztartályok elsősorban egy vonal mentén találhatók, amely a déli partot követi, és Elazığig húzódik fel.
+
+# Turkey / Spotlight
+@ turkey-7HDD
+Bodrum városa körül gyakran találsz ilyen **meszelt épületeket** lapos tetővel, amelyek gyakran [kék részletekkel](https://goo.gl/maps/jcmMEtAFzgkLEf466) vagy [festetlen kőfalakkal](https://goo.gl/maps/GvWo5wWdFEorZkaP8) párosulnak.
+
+# Turkey / Region-specific clues
+@ turkey-BSFD
+A négysávos osztott pályás főutak, amelyeknél a kettős középső útvonalakon kívül **nincs elválasztó**, szinte kizárólag az ország keleti felében találhatók.
+Vedd figyelembe, hogy [egyértelmű elválasztókkal](https://goo.gl/maps/SLzhkGpReMShmtDt9), például szalagkorlátokkal rendelkező osztott pályás főutak keleten is előfordulhatnak.
+
+# Turkey / Region-specific clues
+@ turkey-G6h2
+Ha **üvegházak** vesznek körül, valószínűleg a déli part mentén vagy, Adanától nyugatra.
+
+# Turkey / Region-specific clues
+@ turkey-Imt4
+A **teaültetvények** gyakoriak Rize tartományban.
+
+# Turkey / Spotlight
+@ turkey-NL3Y
+A burszai utcanévtáblák **zöldek**, és általában kissé **kidomborodó betűik** vannak, vagyis a táblák nem teljesen laposak.
+MEGJEGYZÉS: Bursában több más infrastruktúra, például a [kerítések](https://goo.gl/maps/EHzDyAUKLCQySbyB7) és a [szalagkorlátok](https://goo.gl/maps/nF72j1rxibsT8weR8) is lehet zöld színű.
+
+# Turkey / Spotlight
+@ turkey-QuGQ
+Az [Ararát](https://en.wikipedia.org/wiki/Mount_Ararat), amely a Google Térképen Ağrı Dağı néven szerepel, alvó vulkán Törökország messzi keleti részén, és az ország **legmagasabb hegye**. Gyakran együtt látható a Kis-Ararát vulkánnal, amely tőle délkeletre fekszik.

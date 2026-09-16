@@ -6,6 +6,7 @@ import GameControls from './components/GameControls.vue'
 import ScoreBoard from './components/ScoreBoard.vue'
 import SiteHeader from './components/SiteHeader.vue'
 import { useGame } from './composables/useGame'
+import { formatNumber, t } from './i18n'
 
 const {
   meta,
@@ -102,22 +103,14 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
     <!-- The intro gives way to the game itself once a run is on, so the clue,
          the options and the score all fit on one screen. -->
     <section v-if="!running" class="hero">
-      <p class="eyebrow">Endless meta practice</p>
+      <p class="eyebrow">{{ t.hero.eyebrow }}</p>
       <h1>
-        Spot the clue,<br />
-        name the
-        <span class="hero__accent">{{ regionMode ? 'region' : 'country' }}</span>.
+        {{ t.hero.titleLead }}<br />
+        {{ t.hero.titleTail }}
+        <span class="hero__accent">{{ regionMode ? t.hero.region : t.hero.country }}</span
+        >.
       </h1>
-      <p v-if="regionMode" class="hero__lead">
-        The harder half of every guide: clues that only hold in one part of one country. You are
-        told which country the clue is from — your job is to place it inside it, from three regions
-        of that same country.
-      </p>
-      <p v-else class="hero__lead">
-        Every clue is a real identification detail taken from a country guide: a road sign, a
-        bollard, a utility pole, a licence plate, a landscape. Pick the country it belongs to and
-        read why it works.
-      </p>
+      <p class="hero__lead">{{ regionMode ? t.hero.regionLead : t.hero.countryLead }}</p>
     </section>
 
     <GameControls
@@ -137,46 +130,46 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
     <div class="board">
       <!-- Something went wrong: the API is unreachable or the filters are empty. -->
       <div v-if="phase === 'error'" class="panel panel--error">
-        <p class="eyebrow">Problem</p>
+        <p class="eyebrow">{{ t.problem.eyebrow }}</p>
         <h2>{{ errorMessage }}</h2>
-        <button class="btn" type="button" @click="start()">Try again</button>
+        <button class="btn" type="button" @click="start()">{{ t.problem.retry }}</button>
       </div>
 
       <!-- Not started yet. -->
       <div v-else-if="!running && !question" class="panel">
-        <p class="eyebrow">Ready when you are</p>
-        <h2>Press start for an endless run of clues.</h2>
+        <p class="eyebrow">{{ t.idle.eyebrow }}</p>
+        <h2>{{ t.idle.title }}</h2>
         <ul class="keys">
           <li>
             <span class="keys__combo"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd></span>
-            <span class="keys__what">pick an answer</span>
+            <span class="keys__what">{{ t.idle.keyAnswer }}</span>
           </li>
           <li>
             <span class="keys__combo"><kbd>S</kbd></span>
-            <span class="keys__what">start and stop the run</span>
+            <span class="keys__what">{{ t.idle.keyStartStop }}</span>
           </li>
           <li>
             <span class="keys__combo"><kbd>Enter</kbd></span>
-            <span class="keys__what">next clue</span>
+            <span class="keys__what">{{ t.idle.keyNext }}</span>
           </li>
         </ul>
-        <p class="panel__text">Your score is kept until you reset it.</p>
+        <p class="panel__text">{{ t.idle.scoreKept }}</p>
         <button class="btn" type="button" @click="start()">
-          Start
+          {{ t.controls.start }}
           <span class="btn__key">S</span>
         </button>
       </div>
 
       <!-- Stopped mid-run: the clue is hidden so it stays a fair question. -->
       <div v-else-if="!running" class="panel">
-        <p class="eyebrow">Paused</p>
+        <p class="eyebrow">{{ t.paused.eyebrow }}</p>
         <h2>
-          {{ stats.correct }} right, {{ stats.wrong }} wrong
-          <template v-if="stats.answered"> — {{ stats.accuracy }}% accuracy</template>
+          {{ t.paused.score(stats.correct, stats.wrong)
+          }}<template v-if="stats.answered">{{ t.paused.accuracy(stats.accuracy) }}</template>
         </h2>
-        <p class="panel__text">The current clue is hidden while the game is stopped.</p>
+        <p class="panel__text">{{ t.paused.hidden }}</p>
         <button class="btn" type="button" @click="start()">
-          Continue
+          {{ t.paused.resume }}
           <span class="btn__key">S</span>
         </button>
       </div>
@@ -197,8 +190,8 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
         />
 
         <div v-if="!question" class="panel panel--quiet">
-          <p class="eyebrow">Loading</p>
-          <h2>Picking a clue…</h2>
+          <p class="eyebrow">{{ t.loading.eyebrow }}</p>
+          <h2>{{ t.loading.title }}</h2>
         </div>
 
         <p v-if="errorMessage" class="board__error">{{ errorMessage }}</p>
@@ -211,18 +204,23 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
   <footer class="footer">
     <div class="shell footer__inner">
       <p>
-        Clue texts and images come from the community-written GeoGuessr guides on
+        {{ t.footer.creditLead }}
         <a
           :href="meta ? meta.source : 'https://www.plonkit.net/guide'"
           target="_blank"
           rel="noopener noreferrer"
           >plonkit.net</a
-        >. This trainer only quizzes you on them — please support the original guides.
+        >{{ t.footer.creditTail }}
       </p>
       <p v-if="meta" class="footer__meta">
-        {{ meta.clueCount.toLocaleString('en-GB') }} clues · {{ meta.countryCount }} countries ·
-        {{ meta.continents.length }} continents ·
-        {{ meta.regionClueCount.toLocaleString('en-GB') }} placed in a named region
+        {{
+          t.footer.stats(
+            formatNumber(meta.clueCount),
+            meta.countryCount,
+            meta.continents.length,
+            formatNumber(meta.regionClueCount),
+          )
+        }}
       </p>
     </div>
   </footer>

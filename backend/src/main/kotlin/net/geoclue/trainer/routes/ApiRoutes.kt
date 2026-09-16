@@ -12,6 +12,7 @@ import kotlinx.coroutines.CoroutineScope
 import net.geoclue.trainer.AppConfig
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.RefreshState
+import net.geoclue.trainer.data.Translations
 import net.geoclue.trainer.game.ApiException
 import net.geoclue.trainer.game.GameMode
 import net.geoclue.trainer.game.GameService
@@ -22,6 +23,7 @@ import net.geoclue.trainer.game.toOption
 import net.geoclue.trainer.model.AnswerRequest
 import net.geoclue.trainer.model.ContinentDto
 import net.geoclue.trainer.model.HealthDto
+import net.geoclue.trainer.model.Lang
 import net.geoclue.trainer.model.MetaDto
 import net.geoclue.trainer.model.RefreshDto
 import net.geoclue.trainer.model.SessionDto
@@ -32,6 +34,7 @@ fun Route.apiRoutes(
     sessions: SessionStore,
     game: GameService,
     appScope: CoroutineScope,
+    translations: Translations = Translations.NONE,
 ) {
     route("/api") {
 
@@ -50,6 +53,7 @@ fun Route.apiRoutes(
         /** Everything the UI needs to render its filters and country labels. */
         get("/meta") {
             val snapshot = repository.snapshot
+            val lang = requestedLang()
             call.respond(
                 MetaDto(
                     source = snapshot.dataset.source,
@@ -63,6 +67,7 @@ fun Route.apiRoutes(
                         val countries = snapshot.countriesByContinent[continent].orEmpty()
                         ContinentDto(
                             name = continent,
+                            label = translations.continent(lang, continent),
                             countryCount = countries.size,
                             clueCount = countries.sumOf { it.clueCount },
                             coreClueCount = snapshot.coreClues.count {
@@ -73,10 +78,18 @@ fun Route.apiRoutes(
                             },
                         )
                     },
-                    countries = snapshot.playableCountries.map { it.toOption() },
-                    tags = snapshot.tags,
+                    countries = snapshot.playableCountries.map { it.toOption(translations, lang) },
+                    tags = translations.tags(lang, snapshot.tags),
                     refreshAllowed = config.allowRefresh,
                     refreshState = repository.refreshState.name.lowercase(),
+                    lang = lang.wire,
+                    // English is the language the guides are written in, so every
+                    // clue is "translated" into it by definition.
+                    translatedClueCount = if (lang == Lang.DEFAULT) {
+                        snapshot.clues.size
+                    } else {
+                        translations.clueCoverage(lang, snapshot.clues.map { it.id })
+                    },
                 ),
             )
         }
@@ -107,12 +120,23 @@ fun Route.apiRoutes(
                 // like a filter change and throwing the pending question away.
                 val coreOnly = mode == GameMode.COUNTRY &&
                     call.request.queryParameters["scope"].equals("core", ignoreCase = true)
-                call.respond(game.nextQuestion(session, QuestionFilter(mode, continent, coreOnly)))
+                call.respond(
+                    game.nextQuestion(session, QuestionFilter(mode, continent, coreOnly), requestedLang()),
+                )
             }
 
             post("/{id}/answer") {
                 val session = requireSession(sessions)
-                call.respond(game.answer(session, call.receive<AnswerRequest>()))
+                call.respond(game.answer(session, call.receive<AnswerRequest>(), requestedLang()))
+            }
+
+            /**
+             * The last verdict again, which is how switching language re-words a
+             * reveal that is already on screen.
+             */
+            get("/{id}/answer") {
+                val session = requireSession(sessions)
+                call.respond(game.lastAnswer(session, requestedLang()))
             }
 
             /** Gives up on the current clue - it is not scored either way. */
@@ -156,6 +180,10 @@ fun Route.apiRoutes(
         }
     }
 }
+
+/** The language this request wants its labels and explanations in. */
+private fun io.ktor.server.routing.RoutingContext.requestedLang(): Lang =
+    Lang.parse(call.request.queryParameters["lang"])
 
 private fun io.ktor.server.routing.RoutingContext.requireSession(sessions: SessionStore): GameSession {
     val id = call.parameters["id"].orEmpty()

@@ -1,5 +1,6 @@
 import { computed, ref, watch } from 'vue'
 import { ApiError, api } from '../api'
+import { errorMessage as messageFor, locale } from '../i18n'
 import { emptyStats } from '../types'
 import type { AnswerResult, GameMode, Meta, Question, Stats } from '../types'
 
@@ -189,6 +190,34 @@ export function useGame() {
     await loadNext()
   }
 
+  /**
+   * Re-fetches whatever is on screen in the newly chosen language.
+   *
+   * The clue itself never changes: an unanswered question is still pending
+   * server side, so asking for it again re-serves the same one with translated
+   * labels, and a graded one is re-rendered from what the session remembers.
+   * Switching language therefore costs the player nothing.
+   */
+  async function reloadForLocale(): Promise<void> {
+    await loadMeta()
+    if (!sessionId) return
+    try {
+      if (result.value) {
+        const answer = await withSession((id) => api.lastAnswer(id))
+        result.value = answer
+        // The board is still on screen behind the reveal, and the pending
+        // question it was built from is gone, so relabel it from the verdict.
+        if (question.value) question.value = { ...question.value, options: answer.options }
+      } else if (question.value && phase.value !== 'loading') {
+        question.value = await withSession((id) =>
+          api.nextQuestion(id, mode.value, continent.value, wholeGuide.value),
+        )
+      }
+    } catch (error) {
+      errorMessage.value = describe(error)
+    }
+  }
+
   async function resetScore(): Promise<void> {
     try {
       const session = await withSession((id) => api.resetScore(id))
@@ -201,6 +230,8 @@ export function useGame() {
       errorMessage.value = describe(error)
     }
   }
+
+  watch(locale, reloadForLocale)
 
   watch([mode, continent, wholeGuide], async () => {
     store(FILTER_KEY, {
@@ -245,7 +276,11 @@ export function useGame() {
   }
 }
 
+/**
+ * Turns a failure into a sentence in the player's language. The backend sends a
+ * machine-readable code alongside its own English message, and the code is what
+ * we word ourselves - see the `errors` block in the i18n bundles.
+ */
 function describe(error: unknown): string {
-  if (error instanceof ApiError) return error.message
-  return 'Unexpected error. Please try again.'
+  return messageFor(error instanceof ApiError ? error.code : 'unknown')
 }

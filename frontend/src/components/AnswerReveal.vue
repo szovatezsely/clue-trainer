@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { renderGuideMarkdown } from '../markdown'
+import { t } from '../i18n'
 import type { AnswerResult } from '../types'
 
 const props = defineProps<{ result: AnswerResult; busy: boolean }>()
@@ -15,8 +16,8 @@ const explanationHtml = computed(() => renderGuideMarkdown(props.result.explanat
 
 const heading = computed(() =>
   props.result.correct
-    ? 'Correct — ' + props.result.correctAnswer.label
-    : 'Not quite — it is ' + props.result.correctAnswer.label,
+    ? t.value.reveal.correct(props.result.correctAnswer.label)
+    : t.value.reveal.wrong(props.result.correctAnswer.label),
 )
 
 /**
@@ -35,13 +36,20 @@ const badge = computed(() =>
         {{ heading }}
         <span v-if="badge" class="reveal__code">{{ badge }}</span>
       </h2>
-      <button class="btn btn--accent reveal__next" type="button" :disabled="busy" @click="emit('next')">
-        Next clue
+      <button
+        class="btn btn--accent reveal__next"
+        type="button"
+        :disabled="busy"
+        @click="emit('next')"
+      >
+        {{ t.reveal.next }}
         <span class="btn__key">Enter</span>
       </button>
     </header>
 
-    <p v-if="!result.correct" class="reveal__chosen">You picked {{ result.chosenAnswer.label }}.</p>
+    <p v-if="!result.correct" class="reveal__chosen">
+      {{ t.reveal.youPicked(result.chosenAnswer.label) }}
+    </p>
 
     <div class="reveal__body">
       <p class="reveal__source">
@@ -50,12 +58,15 @@ const badge = computed(() =>
           — {{ result.explanation.subsection }}</template
         >
       </p>
+      <p v-if="!result.explanation.translated && t.reveal.untranslated" class="reveal__fallback">
+        {{ t.reveal.untranslated }}
+      </p>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div class="prose" v-html="explanationHtml" />
 
       <div class="reveal__links">
         <a :href="result.explanation.sourceUrl" target="_blank" rel="noopener noreferrer">
-          Read the full {{ result.country.name }} guide
+          {{ t.reveal.guideLink(result.country.name) }}
         </a>
         <a
           v-if="result.explanation.streetViewUrl"
@@ -63,7 +74,7 @@ const badge = computed(() =>
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open this spot in Street View
+          {{ t.reveal.streetViewLink }}
         </a>
       </div>
     </div>
@@ -122,6 +133,15 @@ const badge = computed(() =>
   margin: -4px 0 0;
   color: var(--text-dim);
   font-size: 0.9rem;
+}
+
+/* Says the paragraphs below are the guide's own English, not a failure. */
+.reveal__fallback {
+  margin: 0 0 12px;
+  padding: 7px 12px;
+  border-left: 2px solid var(--line-strong);
+  color: var(--text-faint);
+  font-size: 0.78rem;
 }
 
 .reveal__source {

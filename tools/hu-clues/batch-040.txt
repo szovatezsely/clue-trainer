@@ -1,0 +1,353 @@
+# Czechia / Spotlight
+@ czechia-dfwx
+A České Budějovice-i házszámok egy piros és egy fehér táblából állnak **aláhúzott számokkal**.
+
+# Czechia / Regional and province-specific clues
+@ czechia-n1YQ
+A Csehországban termelt bor nagyjából 95%-a a **morva borvidékről** származik.
+
+# Czechia / Regional and province-specific clues
+@ czechia-nRTP
+A sötét faházak, amelyeken **fehér csíkok** villannak át a fán, gyakoriak Észak-Csehország nagy részén.
+
+# Czechia / Regional and province-specific clues
+@ czechia-nepH
+A **kék feliratú** fehér utcanévtáblák leggyakrabban az ország keleti részén találhatók, de a középső északi részeken is láthatók.
+
+# Czechia / Regional and province-specific clues
+@ czechia-pe1N
+A morvaországi városi házaknak jellemzően két jellegzetességük van:
+- A házak hosszabb oldala **párhuzamos** az úttal, és gyakran nagy csoportokban vannak összeépítve.
+- A bejárati ajtók **szokatlanul nagyok**, méretükben és alakjukban az istállóajtókra hasonlítanak.
+MEGJEGYZÉS: Ez [Ausztria](https://www.google.com/maps/@48.7559741,16.4949051,3a,72y,332.39h,86.97t/data=!3m6!1e1!3m4!1sME9cWV1NiHnfiGEqqsE0NQ!2e0!7i16384!8i8192!5m1!1e4) északkeleti részén is gyakori.
+
+# Czechia / Regional and province-specific clues
+@ czechia-qmvg
+Ha fehér utcanévtáblát látsz **kék felirattal** és **piros kerettel**, ugyanúgy, ahogy az Szlovákiára jellemző, akkor a szlovák határ közelében kell lenned.
+
+# Czechia / Spotlight
+@ czechia-xxAw
+A šumperki utcanévtáblákat arról lehet felismerni, hogy kékek, és a **felirat** szinte a **teljes táblát** kitölti.
+
+# Czechia / Regional and province-specific clues
+@ czechia-zEn7
+A **fekete feliratú** fehér utcanévtáblák leggyakrabban az ország délkeleti részén találhatók. Vedd figyelembe, hogy ezek nagyon hasonlíthatnak a kék feliratúakra.
+
+# Germany / Regional and state-specific clues
+@ germany-0QTU
+Az **irányítószámok** az óramutató járásával ellentétesen rendeződnek: a 0-val kezdődnek Szászország környékén, és a 9-cel érnek véget Észak-Bajorországban és Türingia egyes részein.
+
+# Germany / Regional and state-specific clues
+@ germany-0ZC9
+A szokásosnál **sötétebb prizmájú** terelőoszlopok ezeken a vidékeken találhatók.
+
+# Germany / Regional and state-specific clues
+@ germany-0fgb
+Minden német tartománynak saját zászlaja van. Sokukat azonban ritkán lehet megtalálni.
+
+# Germany / Spotlight
+@ germany-1pPN
+Ez a ritka **3. generációs** autós felvétel **antennával** Hamburg központjában található.
+
+# Germany / Regional and state-specific clues
+@ germany-2hc8
+Ezek a **kerek betonoszlopok** szinte kizárólag az egykori Kelet-Németországra jellemzők.
+
+# Germany / Regional and state-specific clues
+@ germany-443T
+Ezek a **kerek fa** terelőoszlopok, amelyeknek festett a tetejük, Bajorországban találhatók.
+
+# Germany / Regional and state-specific clues
+@ germany-6w4I
+A Német-Alpok Németország leghegyvidékesebb vidéke, amely jobbára az osztrák határ mentén összpontosul.
+
+# Germany / Regional and state-specific clues
+@ germany-8sZa
+Ezeket az egyszerű **téglalap alakú** jelzőket **lekerekített élekkel** Alsó-Szászországban találod.
+
+# Germany / Regional and state-specific clues
+@ germany-9QQL
+Brandenburgban és Mecklenburg-Elő-Pomerániában sok fán vannak ezek az **apró zöld jelzők**. Nagyon ritkán Alsó-Szászországban is megtalálhatod őket.
+
+# Germany / Regional and state-specific clues
+@ germany-CnFf
+A német **körzetszámok** az első számjegyük szerint csoportosulnak. [Ezzel a térképpel](https://www.geoguessr.com/maps/64c1ac0288458417f7393668) gyakorolhatod őket.
+
+# Germany / Regional and state-specific clues
+@ germany-EHw4
+Néhány zöld sapkán az „**LVR**” felirat és egy kis **címer** szerepel. Ezek a bizonyos zöld sapkák kizárólag Észak-Rajna-Vesztfália déli részére jellemzők.
+
+# Germany / Spotlight
+@ germany-Eveq
+Ebben a Bielefeldtől délkeletre fekvő szafariparkban 3. generációs fekete autót találsz.
+A parkban gyakran látni [zebramintára](https://maps.app.goo.gl/nSyWSL2RwHDFEfFM7) festett terepjárókat.
+MEGJEGYZÉS: Ez az autó egész Európán belül csak erre a parkra jellemző.
+
+# Germany / Regional and state-specific clues
+@ germany-FIDL
+Ezek az oszlopfejek, ahol a vízszintes rúd **közepe vastagabb**, az egykori Kelet-Németország egész területén megtalálhatók.
+
+# Germany / Spotlight
+@ germany-FfPz
+A [**bokrokkal** és **homokkal** borított dombok](https://goo.gl/maps/S5iYEBFRs4prPQ5M8) kizárólag Sylt szigetére jellemzők. Az Észak-fríz-szigetek többi részéhez hasonlóan itt is gyakori a kőfal, a téglaház és a nádtető.
+MEGJEGYZÉS: Sylt egyes részei [jellegtelenebbnek](https://goo.gl/maps/YQfwxNwtUKZtoGYV9) tűnnek, de továbbra is nagyon laposak.
+
+# Germany / Regional and state-specific clues
+@ germany-KxEL
+A sárga oszlopok fehér táblával Szász-Anhaltban találhatók.
+MEGJEGYZÉS: Néha csak 1 tábla van, ami megnehezítheti a megkülönböztetést a brandenburgi oszloptól.
+
+# Germany / Regional and state-specific clues
+@ germany-Lhfc
+Bajorország ezeket a fehér, téglalap alakú útkilométer-jelzőket használja, amelyeket fekete vonalak **három részre** osztanak. A bal oldali rész azt az utat adja meg, amelyen éppen vagy.
+
+# Germany / Regional and state-specific clues
+@ germany-Lxxs
+Az **ívelt** vízszintes rudas oszlopfejek Bajorországban találhatók, bár ritkák.
+
+# Germany / Spotlight
+@ germany-MPmF
+Ez a **favázas** háztípus a földszinten **boltívekkel** nagyon gyakori Szászországnak ezen a vidékén.
+
+# Germany / Regional and state-specific clues
+@ germany-ONji
+A **teljesen sárga** oszlopok Brandenburg tartományban találhatók.
+
+# Germany / Regional and state-specific clues
+@ germany-VVId
+A **fekete palafalú**, halpikkelyre emlékeztető házak gyakran megtalálhatók Közép-Németország nagy területén.
+
+# Germany / Spotlight
+@ germany-ZowM
+A [szorb](https://en.wikipedia.org/wiki/Sorbian_languages), egy **szláv** nyelv, a lengyel és a cseh határ közelében beszélt. Ezeken a vidékeken sokféle táblán megtalálod.
+
+# Germany / Regional and state-specific clues
+@ germany-aFr3
+Minden német tartománynak saját címere is van. Ezek a kitakaratlan rendszámtáblákon és néhány középületen találhatók meg.
+
+# Germany / Regional and state-specific clues
+@ germany-agJb
+Ezek az **egyszerű narancssárga oszlopok** leggyakrabban Bajorországban, valamint a többi kiemelt tartományban találhatók.
+
+# Germany / Regional and state-specific clues
+@ germany-dPiq
+A **Regensburgtól** délkeletre fekvő lapos síkságokat az északkeleten gyakran látható **enyhe hegygerincről** lehet felismerni. Maguk a síkságok **laposak** és meglehetősen **mezőgazdasági** jellegűek.
+
+# Germany / Regional and state-specific clues
+@ germany-e2UJ
+Ezek a **fehér** oszlopok **piros sapkával** az egykori Kelet-Németország egész területén megtalálhatók, de leggyakrabban Szász-Anhalt tartományban.
+
+# Germany / Regional and state-specific clues
+@ germany-evf5
+Néhány észak-rajna-vesztfáliai terelőoszlop tetején **zöld** rész van. A teteje [más színű](https://goo.gl/maps/U6GkPR5z4NMDGqZc6) is lehet.
+
+# Germany / Regional and state-specific clues
+@ germany-fnjg
+Ezeken a vidékeken [komló](https://en.wikipedia.org/wiki/Hops)földeket találsz. Gyakran láthatók közvetlenül Münchentől északra.
+
+# Germany / Spotlight
+@ germany-fv9L
+A kölni lámpaoszlopokon gyakran vannak ezek az élénk**sárga** számok **fekete** műanyagdarabon.
+MEGJEGYZÉS: Hasonló dolgok máshol is megtalálhatók.
+
+# Germany / Regional and state-specific clues
+@ germany-gUz2
+A szőlőültetvények jobbára Németország **délnyugati** részén összpontosulnak. Van azonban néhány vidék keletebbre is.
+
+# Germany / Regional and state-specific clues
+@ germany-jGsh
+Az erdeifenyő, vagyis [Pinus sylvestris](https://en.wikipedia.org/wiki/Pinus_sylvestris), általában Németország **északkeleti** részén összpontosul. A narancsos árnyalatú törzséről lehet felismerni.
+MEGJEGYZÉS: Ez a térkép nagyon hozzávetőleges.
+
+# Germany / Regional and state-specific clues
+@ germany-njj7
+Az ilyen **fekete korongokon** álló terelőoszlopok gyakran megtalálhatók egész **Kelet**-Németországban.
+
+# Germany / Regional and state-specific clues
+@ germany-np9D
+A csehországi és szlovákiai oszlopfejekhez hasonló **háromszög** alakú oszlopfejek gyakoriak Nyugat-Németországban.
+MEGJEGYZÉS: Lehetnek kivételek a kiemelt területeken kívül is.
+
+# Germany / Regional and state-specific clues
+@ germany-o1vB
+Ezek a **nagy**, célszerű **lakóépületek**, amelyeket a szocialista időkben építettek, és „[panelházak](https://en.wikipedia.org/wiki/Urban_planning_in_communist_countries)” néven is ismertek, az egykori Kelet-Németország egész területén gyakoriak.
+
+# Germany / Regional and state-specific clues
+@ germany-rNPD
+Ezek a szabálytalan kinézetű terelőoszlopok, amelyeknek az alsó felén nincs fehér borítás, a K jelű utakon találhatók **Alsó-Szászország** ezen vidékén. Ezen a vidéken a K jelű utakon nem lesz semmilyen más terelőoszlop-típus.
+
+# Germany / Regional and state-specific clues
+@ germany-sp9A
+Északkeleten olyan fákat vehetsz észre, amelyeket a törzsük alja közelében fehérre festettek.
+MEGJEGYZÉS: A jelölt vidéken kívül ritkán találsz ilyeneket.
+
+# Germany / Spotlight
+@ germany-sviz
+Minden városállamnak felismerhető szemetesei vannak a város egész területén.
+- Berlin **élénknarancs** szemeteseket használ fehér felirattal.
+- Hamburg **élénkpiros** szemeteseket használ **fehér szövegbuborékokkal**.
+- Bremenben zöld és szürke szemetesek vannak **narancssárga szövegbuborékokkal**.
+Bremerhaven jellegtelenebb **zöld** kialakítást használ **fekete logóval**.
+
+# Germany / Regional and state-specific clues
+@ germany-uRqh
+Rajna-vidék-Pfalz az egyetlen tartomány, ahol a terelőoszlopokon lévő táblák fehér helyett **narancssárgák**.
+
+# Germany / Regional and state-specific clues
+@ germany-ucwE
+Hasonlóképpen Baden-Württemberg az egyetlen tartomány, ahol a terelőoszlopokon lévő táblák fehér helyett **szürkék** lehetnek.
+
+# Germany / Regional and state-specific clues
+@ germany-vfTH
+Ezek a téglaházak általában Németország **északnyugati** részén összpontosulnak.
+MEGJEGYZÉS: Ez a térkép nagyon hozzávetőleges.
+
+# Germany / Regional and state-specific clues
+@ germany-vzOg
+Ezek a jelzők, amelyek körül **fémkeret** fut, Schleswig-Holsteinben és Alsó-Szászországban találhatók.
+MEGJEGYZÉS: A vessző utáni számok az alsó-szászországi jelzőkön általában kisebbek.
+
+# Germany / Spotlight
+@ germany-wnBA
+Minden városállam egyedi és felismerhető buszmegállót használ.
+- Berlin **tagolt** buszmegállókat használ **sárga** táblatartó oszloppal.
+- A hamburgi buszmegállóknak **piros a táblatartó oszlopuk**, és a járatszámok **hatszögeken** belül vannak. Vedd figyelembe, hogy ezek Hamburgon kívül is megtalálhatók.
+- Bremen városa egyszerű buszmegállókat használ, ahol a megálló neve **piros mezőben** van. Az élek lekerekítettek lehetnek.
+- Bremerhaven, amely szintén Bremen része, olyan buszmegállókat használ, ahol a táblatartó oszlop másik oldalán **szürke mező** van. A megálló neve pedig **piros** egy **sárga** mezőben.
+
+# Germany / Regional and state-specific clues
+@ germany-xKwF
+Ezek az egyszerű **fehér táblák** a terelőoszlopokon ezekben a tartományokban találhatók.
+
+# Germany / Regional and state-specific clues
+@ germany-y24J
+A **nádtető** és a **kőfal** leggyakoribb az [Észak-fríz-szigeteken](https://en.wikipedia.org/wiki/North_Frisian_Islands), valamint a schleswig-holsteini szárazföldön. Gyakran megtalálod őket a mecklenburg-elő-pomerániai parti **üdülőtelepüléseken** is.
+
+# Germany / Regional and state-specific clues
+@ germany-ygrs
+Ezek a **háromágú** oszlopfejek Bajorországban, Szász-Anhaltban és Baden-Württembergben találhatók.
+
+# Denmark / Spotlight
+@ denmark-95gK
+Ezek a hagyományos „hínártetők” Læsø szigetén találhatók. Egyfajta [tengeri fűből](https://en.wikipedia.org/wiki/Zostera) készülnek.
+
+# Denmark / Regional clues
+@ denmark-AQr9
+A **Feröer szigetek** egyesült szigetcsoport az Észak-Atlanti-óceánon, és Dánia autonóm területe.
+_A Plonk It külön kalauza a Feröer szigetekről [itt](https://www.plonkit.net/faroe-islands) található._
+
+# Denmark / Regional clues
+@ denmark-Fhf5
+Dániában hat vidék van, amelyek mindegyike más **buszközlekedési vállalatot** használ. Minden busz elején szerepel a márka, és egyedi színösszeállítású.
+_A képre kattintva kinagyíthatod._
+
+# Denmark / Regional clues
+@ denmark-Hx8L
+Dániának könnyen megtanulható **útszámozási** rendszere van. Az utakat keletről nyugatra rendezik.
+A 2-től 5-ig terjedő számokkal kezdődő utak vidékenként csoportosulnak.
+Az 1-gyel kezdődő utak országszerte megtalálhatók, de a második számjegy továbbra is durva regionális eloszlást követ. Feltűnő, hogy Bornholmon csak 1-gyel kezdődő utak vannak.
+_A képre kattintva kinagyíthatod._
+
+# Denmark / Regional clues
+@ denmark-N0Lu
+**Grönland** a világ legnagyobb szigetországa, és Dánia része.
+_A Plonk It külön kalauza Grönlandról [itt](https://www.plonkit.net/greenland) található._
+
+# Denmark / Spotlight
+@ denmark-PXr5
+Ezek a **zöld kerékpáros táblák** Bornholm szigetén találhatók.
+
+# Denmark / Regional clues
+@ denmark-Wd1V
+A **körgyűrűk** különleges gyorsforgalmi utak a nagyobb városok közelében, O1-től O4-ig jelölve. A szám a központtól kifelé növekszik, és mindegyik teljesen vagy részben körbeveszi a várost.
+Ezeknek a városoknak van körgyűrűjük: Koppenhága, Odense, Aarhus, Aalborg, Hillerød, Kolding és Vejle.
+
+# Denmark / Spotlight
+@ denmark-bVRk
+A **buszmegállók** Bornholm szigetén ezt az egyedi zöld, piros és fehér színösszeállítást használják.
+
+# Denmark / Regional clues
+@ denmark-cK6E
+Ezenkívül mindegyik vidéknek saját **buszmegálló-táblája** van.
+_A képre kattintva kinagyíthatod._
+
+# Denmark / Spotlight
+@ denmark-mbZq
+**Anholt** szigetén csak 2. generációs felvétel van, jellegzetes komor, borult időjárással. A felvételek nagy része felismerhető az út menti homokos földről.
+
+# Dominican Republic / Spotlight
+@ dominican-republic-2Vae
+A Santo Domingó-i felvételek egy kis része **késő este** készült. Hasonló felvétel Santiago de los Caballerosban nem létezik.
+
+# Dominican Republic / Regional and province-specific clues
+@ dominican-republic-6BE0
+Fővárosként és legnagyobb városként Santo Domingónak **fejlettebb belvárosa** van, magas épületekkel és széles sugárutakkal.
+
+# Dominican Republic / Regional and province-specific clues
+@ dominican-republic-EOjT
+A **sárga jelzőlámpaoszlopok** jellemzően Santiago de los Caballeros városában találhatók.
+MEGJEGYZÉS: Ez csak a jelzőlámpaoszlopokra vonatkozik – a sárga táblatartó oszlop mindkét városban gyakori.
+
+# Dominican Republic / Regional and province-specific clues
+@ dominican-republic-ftK6
+Ezek a **fekete-lila** oszlopjelölések kizárólag a Santo Domingó-i térség oszlopain találhatók.
+
+# Dominican Republic / Regional and province-specific clues
+@ dominican-republic-jtB1
+A Santo Domingó-i utcanévtáblákon gyakran szerepelnek az **„ADN”** betűk, utalva a Distrito Nacionalra, amelyben a város fekszik.
+
+# Dominican Republic / Regional and province-specific clues
+@ dominican-republic-npXt
+Ez a tájtípus Santo Domingo külvárosaiban található. Keskeny földutak, fehéres föld, **kiszáradt zöld cserjék** és az út melletti törmelék jellemzi.
+
+# Dominican Republic / Regional and province-specific clues
+@ dominican-republic-pfJU
+Ha **északra hegyek** vannak, mindig Santiago de los Caballerosban leszel.
+MEGJEGYZÉS: Bár Santo Domingo egyes részei dombosak, ott soha nem fogsz ilyen igazi hegyet látni.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-4Cwf
+A **banánnövények**, és különösen az ültetvények, leggyakrabban az ország délnyugati részén találhatók.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-6GsD
+Guayas tartományban a szalagkorlátokat gyakran **feketére-sárgára** festik, szemben a jellegtelen ezüst vagy egyszínű sárga változatokkal.
+
+# Ecuador / Spotlight
+@ ecuador-7DsW
+Az E-40 Salinas és Guayaquil között Ecuador egyik egyetlen **osztott pályás útja**, és az egyetlen a délnyugati part közeli **száraz vidéken**.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-7ek9
+Az ecuadori felvételek nagy része az ország **nyugati részére** összpontosul. Az amazóniai esőerdő nagy részéről nincs felvétel.
+A Galápagos-szigeteken szintén van némi trekkeres felvétel.
+A hivatalos lefedettség kiterjedését [ezen a weboldalon](https://sv-map.netlify.app#base=roadmap&cov=official&zoom=7&center=-1.7300837111164604%2C-77.11303710937501) nézheted meg.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-H10J
+A taxik nagyon gyakoriak Ecuadorban, és az egyes taxikon szereplő **első betűből** meg lehet állapítani, melyik tartományban vagy. A taxi első betűje és a tartomány nevének első betűje gyakran megegyezik.
+MEGJEGYZÉS: Ez a betű a hagyományos rendszámtáblákon is első betűként jelenik meg az egyes vidékeken. Vedd figyelembe, hogy a P betű – Pichincha, vagyis a Quitót magában foglaló vidék betűje – időnként több vidéken is felbukkan.
+
+# Ecuador / Spotlight
+@ ecuador-N2lV
+[A Galápagos-szigetek](https://www.google.com/maps/place/Gal%C3%A1pagos+Islands/@-0.383106,-90.4233344,8z/data=!3m1!4b1!4m6!3m5!1s0x9021d9b43bec07cd:0xfb3e68fef05dae23!8m2!3d-0.383106!4d-90.4233344!16zL20vMDE2empq?entry=ttu) az ecuadori szárazföldtől nyugatra fekvő szigetcsoport. A szigeteken és körülöttük csak **trekkeres** és **hajós felvétel** van. Sokféle táj található itt, köztük vulkáni talaj, alacsony cserjék és kráterek (galápagosi teknősök figyelő tekintetével).
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-QajZ
+Az **ovális, átmenő lyukakkal** ellátott villanyoszlopok leggyakrabban Loja tartományban fordulnak elő. Időnként a szomszédos tartományokban is megtalálhatók.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-T07k
+**Esmeraldas** tartomány hasonlíthat az amazóniai vidékre, de jelentősen dombosabb.
+
+# Ecuador / Spotlight
+@ ecuador-Z3gQ
+Barna cső látható néhány északkelet-ecuadori út szélén.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-blv0
+Chimborazo tartomány félszáraz, és bőségesen akad benne **fenyőfa**.
+
+# Ecuador / Regional and province-specific clues
+@ ecuador-dewU
+A **leglaposabb** vidék Guayaquil városa körül található. Ez legkönnyebben az [E-25-ön](https://www.google.com/maps/@-2.3393014,-79.635075,3a,90y,317.73h,97.87t/data=!3m6!1e1!3m4!1s7gNj0DBNsq092c8zyxNlsg!2e0!7i13312!8i6656?entry=ttu) és az [E-48-on](https://www.google.com/maps/@-1.6742465,-79.9878759,3a,90y,224.78h,88.98t/data=!3m6!1e1!3m4!1sFvgH8Prb3g9q16A6jg0ecw!2e0!7i13312!8i6656?entry=ttu) látható. Az amazóniai terület szintén nagyon lapos, erről alább lesz szó.
