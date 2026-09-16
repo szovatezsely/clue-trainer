@@ -64,6 +64,78 @@ class GameServiceTest {
     }
 
     @Test
+    fun `a country the explanation also vouches for is never a wrong answer`() {
+        // FR's clue says the trait holds in DE and IT too, so neither may be
+        // offered against it; the other Europeans still can be.
+        val dataset = testDataset()
+        val clue = Clue(
+            id = "FR-shared",
+            countryCode = "FR",
+            imageUrl = "/images/fr/shared.png",
+            text = listOf("NOTE: Country DE, Country IT and Country FR are the only ones with this bollard."),
+            section = "Identifying Country FR",
+        )
+        val game = GameService(repository(dataset.copy(clues = dataset.clues + clue)))
+        val session = SessionStore(ttlHours = 1).create()
+
+        repeat(40) {
+            val question = game.nextQuestion(session, QuestionFilter(continent = "Europe", coreOnly = true))
+            if (question.clueId == clue.id) {
+                assertEquals(3, question.options.size)
+                assertTrue(
+                    question.options.none { it.code == "DE" || it.code == "IT" },
+                    "offered a country the explanation calls correct: " + question.options.map { it.code },
+                )
+            }
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+        }
+    }
+
+    @Test
+    fun `the board still fills when almost every country is ambiguous`() {
+        // Only two countries exist and the clue vouches for the other one.
+        val dataset = ClueDataset(
+            source = "test",
+            scrapedAt = "2026-01-01T00:00:00Z",
+            countries = listOf(
+                Country("FR", "France", "france", "Europe", clueCount = 1),
+                Country("DE", "Germany", "germany", "Europe", clueCount = 1),
+            ),
+            clues = listOf(
+                Clue("fr-1", "FR", "/i/1.png", text = listOf("The same bollards are also used in Germany.")),
+            ),
+        )
+        val game = GameService(repository(dataset))
+        val session = SessionStore(ttlHours = 1).create()
+
+        val question = game.nextQuestion(session, QuestionFilter())
+
+        assertEquals(2, question.options.size, "a board short of countries must still offer what it has")
+    }
+
+    @Test
+    fun `no board built from the real guides contradicts its own explanation`() {
+        // The bundled dataset, not a fixture: this is the check that the game
+        // as shipped never marks a player wrong for an answer the explanation
+        // below the question calls right.
+        val repository = seedRepository()
+        val game = GameService(repository)
+        val session = SessionStore(ttlHours = 1).create()
+
+        repeat(600) {
+            val question = game.nextQuestion(session, QuestionFilter(coreOnly = false))
+            val clue = repository.snapshot.clues.first { it.id == question.clueId }
+            val ambiguous = repository.snapshot.ambiguousFor(clue)
+            assertTrue(
+                question.options.none { it.code in ambiguous },
+                clue.id + " offered " + question.options.map { it.code } + " against " + ambiguous,
+            )
+            assertEquals(3, question.options.size, "the real dataset should always fill a board")
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+        }
+    }
+
+    @Test
     fun `scoring tracks right, wrong and the streak`() {
         val repository = repository()
         val game = GameService(repository)
@@ -244,6 +316,10 @@ class GameServiceTest {
 
     private fun correctCodeFor(repository: ClueRepository, clueId: String): String =
         repository.snapshot.clues.first { it.id == clueId }.countryCode
+
+    /** A repository over the real bundled guides: an empty data dir falls back to the seed. */
+    private fun seedRepository(): ClueRepository =
+        ClueRepository(AppConfig(dataDir = Files.createTempDirectory("clue-trainer-seed"))).also { it.load() }
 
     /** Builds a repository over a dataset written to a throwaway directory. */
     private fun repository(dataset: ClueDataset = testDataset()): ClueRepository {

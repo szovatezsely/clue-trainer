@@ -100,6 +100,16 @@ precedence from then on.
 drawn from the same continent. A territory is never offered next to its parent country (Alaska vs
 United States), since the clue would be true for both.
 
+Nor is a country the clue's own explanation vouches for. The guides say so out loud often enough —
+"NOTE: Peru, Brazil and Argentina are the only South American countries with smallcam" — and
+offering Peru against that clue would mark a player wrong and then show them a note agreeing with
+them. Every explanation is read for which of the two kinds of mention it makes: a claim of a shared
+trait ("also", "the same", "similar", "found in", "like Sweden", "the other countries where …"), or
+a country merely listed beside the answer, takes that country off the board; a contrast keeps it,
+because "NOTE: Canada uses the word 'Maximum' on their speed signs" is exactly the distractor a US
+speed sign deserves. A mention that says neither reads as a contrast and stays. This covers 602 of
+the 5,107 clues; see `ClueAmbiguity.kt`.
+
 Scores, the clues you have already seen, and the correct answer all live in a server-side session —
 `/next` returns the image and the three options and nothing else, so the answer cannot be read out
 of the network tab. When every clue in the current pool has been shown, the pool starts over: the

@@ -48,6 +48,16 @@ class ClueRepository(private val config: AppConfig) {
         val continents: List<String> = countriesByContinent.keys.sorted()
         val tags: List<String> = clues.flatMap { it.tags }.distinct().sorted()
 
+        /**
+         * Per clue, the other countries its own explanation presents as fitting
+         * the clue too - never offer one of those as the wrong answer.
+         */
+        val ambiguousCountries: Map<String, Set<String>> =
+            ClueAmbiguity(dataset.countries).index(clues)
+
+        /** The countries [clue] cannot be told apart from by its own explanation. */
+        fun ambiguousFor(clue: Clue): Set<String> = ambiguousCountries[clue.id].orEmpty()
+
         /** Image paths we are willing to proxy - anything else is not ours to fetch. */
         val allowedImagePaths: Set<String> =
             (clues.map { it.imageUrl } + dataset.countries.mapNotNull { it.heroImage }).toSet()

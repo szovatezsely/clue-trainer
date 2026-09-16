@@ -1,6 +1,7 @@
 package net.geoclue.trainer.game
 
 import io.ktor.http.HttpStatusCode
+import net.geoclue.trainer.data.ClueAmbiguity
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.PlonkItScraper
 import net.geoclue.trainer.model.AnswerRequest
@@ -26,7 +27,8 @@ class ApiException(
  * A question is one clue image plus [OPTION_COUNT] country choices: the country
  * the clue actually belongs to, plus distractors drawn from the same continent,
  * which is what makes the exercise useful - "Canada vs USA vs Mexico" teaches
- * something, "Canada vs Japan vs Peru" does not.
+ * something, "Canada vs Japan vs Peru" does not. A distractor the clue's own
+ * explanation names as fitting too is left off the board; see [ClueAmbiguity].
  */
 class GameService(
     private val repository: ClueRepository,
@@ -150,10 +152,15 @@ class GameService(
         // from the same prefix are either ambiguous (the clue holds for both) or
         // merely confusing, so a prefix may appear on the board only once.
         val usedPrefixes = mutableSetOf(answer.codePrefix)
+        // The same goes for a country the clue's own explanation vouches for:
+        // "Peru, Brazil and Argentina are the only ones with smallcam" makes
+        // Peru a right answer, so marking it wrong would teach the opposite.
+        val ambiguous = snapshot.ambiguousFor(clue)
 
-        fun fill(candidates: List<Country>) {
+        fun fill(candidates: List<Country>, allowAmbiguous: Boolean = false) {
             for (candidate in candidates.shuffled()) {
                 if (board.size == OPTION_COUNT) return
+                if (!allowAmbiguous && candidate.code in ambiguous) continue
                 if (usedPrefixes.add(candidate.codePrefix)) board += candidate
             }
         }
@@ -161,6 +168,8 @@ class GameService(
         fill(snapshot.countriesByContinent[answer.continent].orEmpty())
         // Tiny continents (Antarctica) cannot fill a board on their own.
         if (board.size < OPTION_COUNT) fill(snapshot.playableCountries)
+        // Only if the world itself ran out: a full board beats a perfect one.
+        if (board.size < OPTION_COUNT) fill(snapshot.playableCountries, allowAmbiguous = true)
 
         return board.map { it.toOption() }.shuffled()
     }
