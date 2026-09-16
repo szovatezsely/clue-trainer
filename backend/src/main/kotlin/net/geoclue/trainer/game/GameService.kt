@@ -4,6 +4,7 @@ import io.ktor.http.HttpStatusCode
 import net.geoclue.trainer.data.ClueAmbiguity
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.PlonkItScraper
+import net.geoclue.trainer.model.AnswerOption
 import net.geoclue.trainer.model.AnswerRequest
 import net.geoclue.trainer.model.AnswerResponse
 import net.geoclue.trainer.model.Clue
@@ -24,11 +25,18 @@ class ApiException(
 /**
  * Builds questions and grades answers.
  *
- * A question is one clue image plus [OPTION_COUNT] country choices: the country
- * the clue actually belongs to, plus distractors drawn from the same continent,
- * which is what makes the exercise useful - "Canada vs USA vs Mexico" teaches
- * something, "Canada vs Japan vs Peru" does not. A distractor the clue's own
- * explanation names as fitting too is left off the board; see [ClueAmbiguity].
+ * In the country game a question is one clue image plus [OPTION_COUNT] country
+ * choices: the country the clue actually belongs to, plus distractors drawn
+ * from the same continent, which is what makes the exercise useful - "Canada vs
+ * USA vs Mexico" teaches something, "Canada vs Japan vs Peru" does not. A
+ * distractor the clue's own explanation names as fitting too is left off the
+ * board; see [ClueAmbiguity].
+ *
+ * The region game asks the next question down. The country is handed over with
+ * the clue, and the choices are [OPTION_COUNT] regions of that one country -
+ * so the player is placing a Japanese pole plate in Shikoku rather than in
+ * Japan. Which regions a country has, and which one a clue is about, are read
+ * out of the guide text; see [net.geoclue.trainer.data.ClueRegions].
  */
 class GameService(
     private val repository: ClueRepository,
@@ -42,10 +50,10 @@ class GameService(
             // A reload (or a double click) must not burn a clue: re-serve the
             // pending question as long as the player did not change the filters.
             session.pending?.let { pending ->
-                if (pending.filter == filter) return pending.toDto(unseenCount(snapshot, session, filter))
+                if (pending.filter == filter) return pending.toDto(snapshot, unseenCount(snapshot, session, filter))
             }
 
-            val pool = snapshot.cluesFor(filter.continent, filter.coreOnly)
+            val pool = poolFor(snapshot, filter)
             if (pool.isEmpty()) {
                 throw ApiException(
                     HttpStatusCode.NotFound,
@@ -62,14 +70,29 @@ class GameService(
             }
 
             val clue = pickPlayable(candidates)
-            val question = PendingQuestion(
-                clue = clue,
-                options = buildOptions(snapshot, clue),
-                filter = filter,
-                number = session.served + 1,
-            )
+            val question = when (filter.mode) {
+                GameMode.COUNTRY -> PendingQuestion(
+                    clue = clue,
+                    options = buildCountryOptions(snapshot, clue).map { it.toAnswerOption() },
+                    answer = clue.countryCode,
+                    filter = filter,
+                    number = session.served + 1,
+                )
+
+                GameMode.REGION -> {
+                    val region = snapshot.regions.regionOf(clue)
+                        ?: error("region clue " + clue.id + " lost its region")
+                    PendingQuestion(
+                        clue = clue,
+                        options = buildRegionOptions(snapshot, clue, region),
+                        answer = region,
+                        filter = filter,
+                        number = session.served + 1,
+                    )
+                }
+            }
             session.serve(question)
-            return question.toDto(unseenCount(snapshot, session, filter))
+            return question.toDto(snapshot, unseenCount(snapshot, session, filter))
         }
     }
 
@@ -84,20 +107,22 @@ class GameService(
                     "That answer belongs to an older clue.",
                 )
             }
-            val chosen = pending.options.firstOrNull { it.code == request.countryCode }
+            val chosen = pending.options.firstOrNull { it.value == request.answer }
                 ?: throw ApiException(
                     HttpStatusCode.BadRequest,
                     "invalid_option",
-                    "\"" + request.countryCode + "\" was not one of the offered countries.",
+                    "\"" + request.answer + "\" was not one of the offered answers.",
                 )
-            val correctOption = pending.options.first { it.code == pending.clue.countryCode }
-            val isCorrect = chosen.code == correctOption.code
+            val correctOption = pending.options.first { it.value == pending.answer }
+            val isCorrect = chosen.value == correctOption.value
             session.score(isCorrect)
 
             return AnswerResponse(
                 correct = isCorrect,
-                correctCountry = correctOption,
-                chosenCountry = chosen,
+                mode = pending.filter.mode.wire,
+                correctAnswer = correctOption,
+                chosenAnswer = chosen,
+                country = repository.snapshot.countriesByCode.getValue(pending.clue.countryCode).toOption(),
                 explanation = explain(pending.clue),
                 stats = session.stats(),
             )
@@ -133,6 +158,12 @@ class GameService(
         }
     }
 
+    private fun poolFor(snapshot: ClueRepository.Snapshot, filter: QuestionFilter): List<Clue> =
+        when (filter.mode) {
+            GameMode.COUNTRY -> snapshot.cluesFor(filter.continent, filter.coreOnly)
+            GameMode.REGION -> snapshot.regionCluesFor(filter.continent)
+        }
+
     private fun explain(clue: Clue): ExplanationDto {
         val country = repository.snapshot.countriesByCode[clue.countryCode]
         return ExplanationDto(
@@ -145,7 +176,7 @@ class GameService(
         )
     }
 
-    private fun buildOptions(snapshot: ClueRepository.Snapshot, clue: Clue): List<CountryOption> {
+    private fun buildCountryOptions(snapshot: ClueRepository.Snapshot, clue: Clue): List<Country> {
         val answer = snapshot.countriesByCode.getValue(clue.countryCode)
         val board = mutableListOf(answer)
         // Territories share their parent's code prefix (US / US-AK). Two options
@@ -171,17 +202,39 @@ class GameService(
         // Only if the world itself ran out: a full board beats a perfect one.
         if (board.size < OPTION_COUNT) fill(snapshot.playableCountries, allowAmbiguous = true)
 
-        return board.map { it.toOption() }.shuffled()
+        return board.shuffled()
+    }
+
+    /**
+     * The clue's own region plus other regions of the same country - a board of
+     * Japanese regions, never a Japanese one against a Brazilian one.
+     */
+    private fun buildRegionOptions(
+        snapshot: ClueRepository.Snapshot,
+        clue: Clue,
+        region: String,
+    ): List<AnswerOption> {
+        val others = snapshot.regions.regionsOf(clue.countryCode)
+            .filterNot { it == region }
+            .shuffled()
+            .take(OPTION_COUNT - 1)
+        return (listOf(region) + others).shuffled().map { AnswerOption(value = it, label = it) }
     }
 
     private fun unseenCount(
         snapshot: ClueRepository.Snapshot,
         session: GameSession,
         filter: QuestionFilter,
-    ): Int = snapshot.cluesFor(filter.continent, filter.coreOnly).count { it.id !in session.seenClueIds }
+    ): Int = poolFor(snapshot, filter).count { it.id !in session.seenClueIds }
 
-    private fun PendingQuestion.toDto(remaining: Int) = QuestionDto(
+    private fun PendingQuestion.toDto(snapshot: ClueRepository.Snapshot, remaining: Int) = QuestionDto(
         clueId = clue.id,
+        mode = filter.mode.wire,
+        // The region game is "which part of Japan?", so Japan comes with the question.
+        country = when (filter.mode) {
+            GameMode.COUNTRY -> null
+            GameMode.REGION -> snapshot.countriesByCode.getValue(clue.countryCode).toOption()
+        },
         imageUrl = clue.imageUrl,
         imageWidth = clue.width,
         tags = clue.tags,
@@ -202,3 +255,6 @@ class GameService(
 }
 
 fun Country.toOption() = CountryOption(code = code, name = name, flag = flag, continent = continent)
+
+/** A country on the board: the name is the answer, the code the quiet second line. */
+fun Country.toAnswerOption() = AnswerOption(value = code, label = name, note = code)

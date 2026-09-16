@@ -1,7 +1,7 @@
 import { computed, ref, watch } from 'vue'
 import { ApiError, api } from '../api'
 import { emptyStats } from '../types'
-import type { AnswerResult, Meta, Question, Stats } from '../types'
+import type { AnswerResult, GameMode, Meta, Question, Stats } from '../types'
 
 type Phase = 'idle' | 'loading' | 'question' | 'answered' | 'error'
 
@@ -34,7 +34,11 @@ function store(key: string, value: unknown): void {
  * not been answered yet, with the same clue on screen.
  */
 export function useGame() {
-  const storedFilters = readStored(FILTER_KEY, { continent: 'all', includeRegional: false })
+  const storedFilters = readStored(FILTER_KEY, {
+    mode: 'country' as GameMode,
+    continent: 'all',
+    wholeGuide: false,
+  })
 
   const meta = ref<Meta | null>(null)
   const stats = ref<Stats>({ ...emptyStats })
@@ -43,8 +47,10 @@ export function useGame() {
   const phase = ref<Phase>('idle')
   const running = ref(false)
   const errorMessage = ref<string | null>(null)
+  const mode = ref<GameMode>(storedFilters.mode === 'region' ? 'region' : 'country')
   const continent = ref<string>(storedFilters.continent)
-  const includeRegional = ref<boolean>(storedFilters.includeRegional)
+  // Coerced, because a filter stored by an older build has no such field.
+  const wholeGuide = ref<boolean>(storedFilters.wholeGuide === true)
   const imageReady = ref(false)
   const imageFailed = ref(false)
   const imageRetryIn = ref(0)
@@ -108,7 +114,7 @@ export function useGame() {
     imageRetryIn.value = 0
     try {
       question.value = await withSession((id) =>
-        api.nextQuestion(id, continent.value, includeRegional.value),
+        api.nextQuestion(id, mode.value, continent.value, wholeGuide.value),
       )
       phase.value = 'question'
     } catch (error) {
@@ -117,13 +123,13 @@ export function useGame() {
     }
   }
 
-  async function submit(countryCode: string): Promise<void> {
+  async function submit(choice: string): Promise<void> {
     const current = question.value
     if (!current || !canAnswer.value) return
     const previous = phase.value
     phase.value = 'loading'
     try {
-      const answer = await withSession((id) => api.answer(id, current.clueId, countryCode))
+      const answer = await withSession((id) => api.answer(id, current.clueId, choice))
       result.value = answer
       stats.value = answer.stats
       phase.value = 'answered'
@@ -196,8 +202,12 @@ export function useGame() {
     }
   }
 
-  watch([continent, includeRegional], async () => {
-    store(FILTER_KEY, { continent: continent.value, includeRegional: includeRegional.value })
+  watch([mode, continent, wholeGuide], async () => {
+    store(FILTER_KEY, {
+      mode: mode.value,
+      continent: continent.value,
+      wholeGuide: wholeGuide.value,
+    })
     // Switching the training set mid-run pulls a fresh clue from the new pool.
     if (running.value) await loadNext()
     else if (phase.value !== 'idle') {
@@ -215,8 +225,9 @@ export function useGame() {
     phase,
     running,
     errorMessage,
+    mode,
     continent,
-    includeRegional,
+    wholeGuide,
     imageReady,
     imageFailed,
     imageRetryIn,

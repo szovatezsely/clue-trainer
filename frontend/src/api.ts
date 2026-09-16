@@ -1,4 +1,4 @@
-import type { AnswerResult, ImageStatus, Meta, Question, SessionInfo } from './types'
+import type { AnswerResult, GameMode, ImageStatus, Meta, Question, SessionInfo } from './types'
 
 /** An error carrying the machine-readable code the backend sent along. */
 export class ApiError extends Error {
@@ -44,19 +44,23 @@ export const api = {
   session: (sessionId: string) =>
     request<SessionInfo>('/api/game/sessions/' + encodeURIComponent(sessionId)),
 
-  nextQuestion: (sessionId: string, continent: string, includeRegional: boolean) => {
+  nextQuestion: (sessionId: string, mode: GameMode, continent: string, wholeGuide: boolean) => {
     const params = new URLSearchParams()
+    params.set('mode', mode)
     if (continent && continent !== 'all') params.set('continent', continent)
-    params.set('scope', includeRegional ? 'all' : 'core')
+    // The scope only means something to the country game - every clue the
+    // region game plays comes from the regional chapters anyway, so the
+    // backend ignores this there.
+    params.set('scope', wholeGuide ? 'all' : 'core')
     return request<Question>(
       '/api/game/sessions/' + encodeURIComponent(sessionId) + '/next?' + params.toString(),
     )
   },
 
-  answer: (sessionId: string, clueId: string, countryCode: string) =>
+  answer: (sessionId: string, clueId: string, answer: string) =>
     request<AnswerResult>('/api/game/sessions/' + encodeURIComponent(sessionId) + '/answer', {
       method: 'POST',
-      body: JSON.stringify({ clueId, countryCode }),
+      body: JSON.stringify({ clueId, answer }),
     }),
 
   /** Gives up on the current clue without scoring it. */

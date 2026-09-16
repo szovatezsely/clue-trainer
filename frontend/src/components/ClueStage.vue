@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { clueImageUrl } from '../api'
-import type { AnswerResult, CountryOption, Question } from '../types'
+import type { AnswerOption, AnswerResult, Question } from '../types'
 
 const props = defineProps<{
   question: Question | null
@@ -15,13 +15,26 @@ const props = defineProps<{
 }>()
 
 const emit = defineEmits<{
-  pick: [code: string]
+  pick: [value: string]
   imageLoaded: []
   imageFailed: []
   skip: []
 }>()
 
 const answered = computed(() => props.result !== null)
+
+/**
+ * The country game hides the country, so the question is "which one?". The
+ * region game hands it over - without it, "which part?" would be a guess
+ * between every region on earth - and asks for the part instead.
+ */
+const prompt = computed(() => {
+  const question = props.question
+  if (!question) return ''
+  return question.mode === 'region' && question.country
+    ? 'Which part of ' + question.country.name + ' is this clue from?'
+    : 'Which country is this clue from?'
+})
 
 /** How long the guide site wants us to wait, in words. */
 const retryWait = computed(() => {
@@ -32,10 +45,10 @@ const retryWait = computed(() => {
 })
 
 /** Colour state for one option once the answer is in. */
-function stateOf(option: CountryOption): string {
+function stateOf(option: AnswerOption): string {
   if (!props.result) return ''
-  if (option.code === props.result.correctCountry.code) return 'option--correct'
-  if (option.code === props.result.chosenCountry.code) return 'option--wrong'
+  if (option.value === props.result.correctAnswer.value) return 'option--correct'
+  if (option.value === props.result.chosenAnswer.value) return 'option--wrong'
   return 'option--dimmed'
 }
 </script>
@@ -67,7 +80,13 @@ function stateOf(option: CountryOption): string {
         <img
           :key="question.clueId"
           :src="clueImageUrl(question.imageUrl)"
-          :alt="'Clue ' + question.questionNumber + ' — a photo that identifies one country'"
+          :alt="
+            'Clue ' +
+            question.questionNumber +
+            (question.country
+              ? ' — a photo from one part of ' + question.country.name
+              : ' — a photo that identifies one country')
+          "
           decoding="async"
           @load="emit('imageLoaded')"
           @error="emit('imageFailed')"
@@ -77,7 +96,12 @@ function stateOf(option: CountryOption): string {
 
     <div class="prompt">
       <div class="prompt__head">
-        <h2 class="prompt__title">Which country is this clue from?</h2>
+        <h2 class="prompt__title">
+          <span v-if="question.country" class="prompt__flag" aria-hidden="true">{{
+            question.country.flag
+          }}</span>
+          {{ prompt }}
+        </h2>
         <span class="clue__number">Clue #{{ question.questionNumber }}</span>
         <span v-for="tag in question.tags" :key="tag" class="tag">{{ tag }}</span>
       </div>
@@ -85,18 +109,18 @@ function stateOf(option: CountryOption): string {
       <div class="options">
         <button
           v-for="(option, index) in question.options"
-          :key="option.code"
+          :key="option.value"
           type="button"
           class="option"
           :class="stateOf(option)"
-          :aria-label="option.name"
+          :aria-label="option.label"
           :disabled="!canAnswer || busy"
-          @click="emit('pick', option.code)"
+          @click="emit('pick', option.value)"
         >
           <span class="option__index">{{ index + 1 }}</span>
           <span class="option__name">
-            {{ option.name }}
-            <small class="option__code">{{ option.code }}</small>
+            {{ option.label }}
+            <small v-if="option.note" class="option__code">{{ option.note }}</small>
           </span>
           <span v-if="answered && stateOf(option) === 'option--correct'" class="option__mark">
             correct
@@ -187,6 +211,10 @@ function stateOf(option: CountryOption): string {
 
 .prompt__title {
   margin: 0;
+}
+
+.prompt__flag {
+  margin-right: 2px;
 }
 
 .clue__number {

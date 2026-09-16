@@ -48,8 +48,10 @@ class ImageWarmer(
         val snapshot = repository.snapshot
         // Country-level clues first, always: they are what the default game mode
         // plays from, so a run that is interrupted still leaves the useful half.
+        // Then the region game's clues, then the rest of the regional chapters,
+        // which no game mode plays from on its own.
         val clues = if (config.warmCacheAll) {
-            snapshot.coreClues + snapshot.clues.filterNot { it.isCore }
+            snapshot.coreClues + snapshot.regionClues + snapshot.clues.filterNot { it.isCore }
         } else {
             snapshot.coreClues
         }

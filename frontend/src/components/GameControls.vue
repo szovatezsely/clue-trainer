@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import SelectMenu from './SelectMenu.vue'
 import type { SelectOption } from './SelectMenu.vue'
-import type { Meta } from '../types'
+import type { GameMode, Meta } from '../types'
 
 const props = defineProps<{
   meta: Meta | null
@@ -10,27 +10,39 @@ const props = defineProps<{
   busy: boolean
 }>()
 
+const mode = defineModel<GameMode>('mode', { required: true })
 const continent = defineModel<string>('continent', { required: true })
-const includeRegional = defineModel<boolean>('includeRegional', { required: true })
+const wholeGuide = defineModel<boolean>('wholeGuide', { required: true })
 
-/** Clues from the regional and spotlight chapters of each guide. */
-const regionalCount = computed(() =>
+/** What the country game gains beyond the "identifying X" chapter. */
+const beyondCoreCount = computed(() =>
   props.meta ? props.meta.clueCount - props.meta.coreClueCount : 0,
 )
 
-/** The region menu counts only what the current scope actually serves. */
-const regionOptions = computed<SelectOption[]>(() => [
+/** How many clues the current mode and scope actually serve, per continent. */
+function servedBy(counts: { clueCount: number; coreClueCount: number; regionClueCount: number }) {
+  if (mode.value === 'region') return counts.regionClueCount
+  return wholeGuide.value ? counts.clueCount : counts.coreClueCount
+}
+
+const continentOptions = computed<SelectOption[]>(() => [
   {
     value: 'all',
-    label: 'All regions',
+    label: 'Everywhere',
     hint: props.meta
-      ? String(includeRegional.value ? props.meta.clueCount : props.meta.coreClueCount)
+      ? String(
+          servedBy({
+            clueCount: props.meta.clueCount,
+            coreClueCount: props.meta.coreClueCount,
+            regionClueCount: props.meta.regionClueCount,
+          }),
+        )
       : undefined,
   },
   ...(props.meta?.continents ?? []).map((item) => ({
     value: item.name,
     label: item.name,
-    hint: String(includeRegional.value ? item.clueCount : item.coreClueCount),
+    hint: String(servedBy(item)),
   })),
 ])
 
@@ -39,6 +51,11 @@ const emit = defineEmits<{
   stop: []
   reset: []
 }>()
+
+const modes: { value: GameMode; label: string }[] = [
+  { value: 'country', label: 'Countries' },
+  { value: 'region', label: 'Regions' },
+]
 </script>
 
 <template>
@@ -58,18 +75,45 @@ const emit = defineEmits<{
     </div>
 
     <div class="controls__filters">
-      <SelectMenu v-model="continent" label="Region" :options="regionOptions" />
+      <!-- Which question the clue is asked as: name the country, or, for a clue
+           that only holds in one part of one country, name that part. -->
+      <div class="modes" role="group" aria-label="What to guess">
+        <span class="modes__label">Guess</span>
+        <div class="modes__switch">
+          <button
+            v-for="item in modes"
+            :key="item.value"
+            type="button"
+            class="modes__option"
+            :class="{ 'modes__option--on': mode === item.value }"
+            :aria-pressed="mode === item.value"
+            @click="mode = item.value"
+          >
+            {{ item.label }}
+          </button>
+        </div>
+      </div>
 
-      <label class="toggle">
-        <input v-model="includeRegional" type="checkbox" />
+      <SelectMenu v-model="continent" label="Continent" :options="continentOptions" />
+
+      <!-- Scope, not a second region switch: how much of each guide the
+           country game draws its questions from. -->
+      <label v-if="mode === 'country'" class="toggle">
+        <input v-model="wholeGuide" type="checkbox" />
         <span class="toggle__track"><span class="toggle__thumb" /></span>
         <span class="toggle__text">
-          Include regional clues
+          Play the whole guide
           <small v-if="meta">
-            +{{ regionalCount.toLocaleString() }} harder ones, often with a location map
+            +{{ beyondCoreCount.toLocaleString() }} clues from the regional and spotlight chapters.
+            Harder, and some carry a locator map.
           </small>
         </span>
       </label>
+      <p v-else-if="meta" class="hint">
+        {{ meta.regionClueCount.toLocaleString() }} clues across
+        {{ meta.regionCountryCount }} countries.
+        Name which region they belong to.
+      </p>
     </div>
   </section>
 </template>
@@ -96,6 +140,67 @@ const emit = defineEmits<{
   align-items: flex-end;
   gap: 28px;
   flex-wrap: wrap;
+}
+
+.modes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.modes__label {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+/* One track, two halves: the chosen one is filled in, exactly like the toggle. */
+.modes__switch {
+  display: inline-flex;
+  padding: 3px;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+.modes__option {
+  padding: 7px 16px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition:
+    background var(--transition),
+    color var(--transition);
+}
+
+.modes__option:hover:not(.modes__option--on) {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.modes__option--on {
+  background: var(--green);
+  color: var(--green-ink);
+}
+
+.modes__option:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
+.hint {
+  margin: 0;
+  padding-bottom: 8px;
+  max-width: 34ch;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--text-faint);
 }
 
 .toggle {
@@ -162,6 +267,8 @@ const emit = defineEmits<{
 
 .toggle__text small {
   display: block;
+  /* Wrapped on purpose, so the explanation cannot stretch the controls row. */
+  max-width: 42ch;
   font-size: 0.72rem;
   color: var(--text-faint);
 }
@@ -176,6 +283,14 @@ const emit = defineEmits<{
     width: 100%;
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .modes__switch {
+    width: 100%;
+  }
+
+  .modes__option {
+    flex: 1;
   }
 }
 </style>

@@ -13,6 +13,7 @@ import net.geoclue.trainer.AppConfig
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.RefreshState
 import net.geoclue.trainer.game.ApiException
+import net.geoclue.trainer.game.GameMode
 import net.geoclue.trainer.game.GameService
 import net.geoclue.trainer.game.GameSession
 import net.geoclue.trainer.game.QuestionFilter
@@ -55,7 +56,9 @@ fun Route.apiRoutes(
                     scrapedAt = snapshot.dataset.scrapedAt,
                     clueCount = snapshot.clues.size,
                     coreClueCount = snapshot.coreClues.size,
+                    regionClueCount = snapshot.regionClues.size,
                     countryCount = snapshot.playableCountries.size,
+                    regionCountryCount = snapshot.regionCountryCount,
                     continents = snapshot.continents.map { continent ->
                         val countries = snapshot.countriesByContinent[continent].orEmpty()
                         ContinentDto(
@@ -63,6 +66,9 @@ fun Route.apiRoutes(
                             countryCount = countries.size,
                             clueCount = countries.sumOf { it.clueCount },
                             coreClueCount = snapshot.coreClues.count {
+                                snapshot.continentOfCode[it.countryCode] == continent
+                            },
+                            regionClueCount = snapshot.regionClues.count {
                                 snapshot.continentOfCode[it.countryCode] == continent
                             },
                         )
@@ -95,8 +101,13 @@ fun Route.apiRoutes(
                 if (continent != null && continent !in snapshot.continents) {
                     throw ApiException(HttpStatusCode.BadRequest, "unknown_continent", "No such continent: $continent")
                 }
-                val coreOnly = call.request.queryParameters["scope"].equals("core", ignoreCase = true)
-                call.respond(game.nextQuestion(session, QuestionFilter(continent, coreOnly)))
+                val mode = GameMode.parse(call.request.queryParameters["mode"])
+                // Every region clue is a regional one, so the scope is the country
+                // game's alone - and pinning it keeps a stray `scope` from looking
+                // like a filter change and throwing the pending question away.
+                val coreOnly = mode == GameMode.COUNTRY &&
+                    call.request.queryParameters["scope"].equals("core", ignoreCase = true)
+                call.respond(game.nextQuestion(session, QuestionFilter(mode, continent, coreOnly)))
             }
 
             post("/{id}/answer") {

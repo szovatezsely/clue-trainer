@@ -3,6 +3,7 @@ package net.geoclue.trainer
 import kotlinx.serialization.json.Json
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.game.ApiException
+import net.geoclue.trainer.game.GameMode
 import net.geoclue.trainer.game.GameService
 import net.geoclue.trainer.game.ImageAvailability
 import net.geoclue.trainer.game.QuestionFilter
@@ -17,6 +18,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
 import kotlin.test.assertFalse
+import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 
 class GameServiceTest {
@@ -29,24 +31,25 @@ class GameServiceTest {
         repeat(60) {
             val question = game.nextQuestion(session, QuestionFilter())
             assertEquals(3, question.options.size)
-            assertEquals(3, question.options.map { it.code }.distinct().size)
-            val answer = game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
-            assertTrue(question.options.any { it.code == answer.correctCountry.code })
+            assertEquals(3, question.options.map { it.value }.distinct().size)
+            val answer = game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
+            assertTrue(question.options.any { it.value == answer.correctAnswer.value })
         }
     }
 
     @Test
     fun `distractors come from the same continent when there are enough of them`() {
-        val game = GameService(repository())
+        val repository = repository()
+        val game = GameService(repository)
         val session = SessionStore(ttlHours = 1).create()
 
         repeat(40) {
             val question = game.nextQuestion(session, QuestionFilter(continent = "Europe", coreOnly = false))
             assertTrue(
-                question.options.all { it.continent == "Europe" },
-                "expected a European board, got " + question.options.map { it.name },
+                question.options.all { continentOf(repository, it.value) == "Europe" },
+                "expected a European board, got " + question.options.map { it.label },
             )
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
     }
 
@@ -57,9 +60,9 @@ class GameServiceTest {
 
         repeat(60) {
             val question = game.nextQuestion(session, QuestionFilter())
-            val prefixes = question.options.map { it.code.take(2) }
-            assertEquals(prefixes.size, prefixes.distinct().size, "ambiguous board: " + question.options.map { it.code })
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            val prefixes = question.options.map { it.value.take(2) }
+            assertEquals(prefixes.size, prefixes.distinct().size, "ambiguous board: " + question.options.map { it.value })
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
     }
 
@@ -83,11 +86,11 @@ class GameServiceTest {
             if (question.clueId == clue.id) {
                 assertEquals(3, question.options.size)
                 assertTrue(
-                    question.options.none { it.code == "DE" || it.code == "IT" },
-                    "offered a country the explanation calls correct: " + question.options.map { it.code },
+                    question.options.none { it.value == "DE" || it.value == "IT" },
+                    "offered a country the explanation calls correct: " + question.options.map { it.value },
                 )
             }
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
     }
 
@@ -127,11 +130,11 @@ class GameServiceTest {
             val clue = repository.snapshot.clues.first { it.id == question.clueId }
             val ambiguous = repository.snapshot.ambiguousFor(clue)
             assertTrue(
-                question.options.none { it.code in ambiguous },
-                clue.id + " offered " + question.options.map { it.code } + " against " + ambiguous,
+                question.options.none { it.value in ambiguous },
+                clue.id + " offered " + question.options.map { it.value } + " against " + ambiguous,
             )
             assertEquals(3, question.options.size, "the real dataset should always fill a board")
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
     }
 
@@ -149,8 +152,8 @@ class GameServiceTest {
             assertTrue(answer.correct)
         }
         val question = game.nextQuestion(session, QuestionFilter())
-        val wrong = question.options.first { it.code != correctCodeFor(repository, question.clueId) }
-        val answer = game.answer(session, AnswerRequest(question.clueId, wrong.code))
+        val wrong = question.options.first { it.value != correctCodeFor(repository, question.clueId) }
+        val answer = game.answer(session, AnswerRequest(question.clueId, wrong.value))
 
         assertFalse(answer.correct)
         assertEquals(2, answer.stats.correct)
@@ -170,20 +173,21 @@ class GameServiceTest {
         val second = game.nextQuestion(session, QuestionFilter())
 
         assertEquals(first.clueId, second.clueId)
-        assertEquals(first.options.map { it.code }, second.options.map { it.code })
+        assertEquals(first.options.map { it.value }, second.options.map { it.value })
         assertEquals(1, second.questionNumber)
     }
 
     @Test
     fun `changing the filter replaces the pending question`() {
-        val game = GameService(repository())
+        val repository = repository()
+        val game = GameService(repository)
         val session = SessionStore(ttlHours = 1).create()
 
         val all = game.nextQuestion(session, QuestionFilter())
         val european = game.nextQuestion(session, QuestionFilter(continent = "Europe"))
 
         assertEquals(2, european.questionNumber)
-        assertTrue(european.options.all { it.continent == "Europe" })
+        assertTrue(european.options.all { continentOf(repository, it.value) == "Europe" })
         assertTrue(all.clueId != european.clueId || all.options != european.options)
     }
 
@@ -195,7 +199,7 @@ class GameServiceTest {
 
         val served = (1..6).map {
             val question = game.nextQuestion(session, QuestionFilter())
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
             question.clueId
         }
 
@@ -217,7 +221,7 @@ class GameServiceTest {
                 question.imageUrl in onDisk,
                 "offered " + question.imageUrl + ", which cannot load while throttled",
             )
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
     }
 
@@ -232,7 +236,7 @@ class GameServiceTest {
         repeat(40) {
             val question = game.nextQuestion(session, QuestionFilter())
             if (question.imageUrl in onDisk) fromCache++
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
 
         // Roughly 10% of picks explore; allow plenty of slack for randomness.
@@ -248,6 +252,79 @@ class GameServiceTest {
         val question = game.nextQuestion(session, QuestionFilter())
 
         assertEquals(3, question.options.size)
+    }
+
+    @Test
+    fun `the region game asks about one country and offers three of its regions`() {
+        val repository = seedRepository()
+        val game = GameService(repository)
+        val session = SessionStore(ttlHours = 1).create()
+        val regions = repository.snapshot.regions
+
+        repeat(300) {
+            val question = game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION))
+            val clue = repository.snapshot.clues.first { it.id == question.clueId }
+            val country = assertNotNull(question.country, "the region game has to name which country it means")
+
+            assertEquals("region", question.mode)
+            assertEquals(clue.countryCode, country.code)
+            assertEquals(3, question.options.size)
+            assertEquals(3, question.options.map { it.value }.distinct().size)
+            assertTrue(
+                question.options.all { it.value in regions.regionsOf(clue.countryCode) },
+                "board mixes countries: " + question.options.map { it.value },
+            )
+            assertTrue(
+                question.options.any { it.value == regions.regionOf(clue) },
+                "the right region was not on the board for " + clue.id,
+            )
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
+        }
+    }
+
+    @Test
+    fun `the region game grades the region, and still points at the country guide`() {
+        val repository = seedRepository()
+        val game = GameService(repository)
+        val session = SessionStore(ttlHours = 1).create()
+
+        val question = game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION))
+        val clue = repository.snapshot.clues.first { it.id == question.clueId }
+        val right = repository.snapshot.regions.regionOf(clue)
+        val answer = game.answer(session, AnswerRequest(question.clueId, right!!))
+
+        assertTrue(answer.correct)
+        assertEquals("region", answer.mode)
+        assertEquals(right, answer.correctAnswer.label)
+        assertEquals(clue.countryCode, answer.country.code)
+        assertTrue(answer.explanation.paragraphs.isNotEmpty())
+    }
+
+    @Test
+    fun `switching game mode pulls a question from the other pool`() {
+        val repository = seedRepository()
+        val game = GameService(repository)
+        val session = SessionStore(ttlHours = 1).create()
+
+        val country = game.nextQuestion(session, QuestionFilter(mode = GameMode.COUNTRY))
+        val region = game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION))
+
+        assertEquals(2, region.questionNumber, "the mode is part of the filter, so the question is replaced")
+        assertEquals(null, country.country, "the country game must not give the country away")
+        assertNotNull(region.country)
+    }
+
+    @Test
+    fun `a country without enough named regions never reaches the region game`() {
+        // The fixture guides name no places at all, so the region pool is empty.
+        val game = GameService(repository())
+        val session = SessionStore(ttlHours = 1).create()
+
+        val error = assertFailsWith<ApiException> {
+            game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION))
+        }
+
+        assertEquals("no_clues", error.code)
     }
 
     private fun availability(cached: Set<String>, throttled: Boolean) = object : ImageAvailability {
@@ -268,7 +345,7 @@ class GameServiceTest {
         assertTrue(replacement.clueId != broken.clueId, "the skipped clue came straight back")
 
         val error = assertFailsWith<ApiException> {
-            game.answer(session, AnswerRequest(broken.clueId, broken.options[0].code))
+            game.answer(session, AnswerRequest(broken.clueId, broken.options[0].value))
         }
         assertEquals("stale_answer", error.code)
     }
@@ -280,7 +357,7 @@ class GameServiceTest {
         val question = game.nextQuestion(session, QuestionFilter())
 
         val stale = assertFailsWith<ApiException> {
-            game.answer(session, AnswerRequest("not-the-current-clue", question.options[0].code))
+            game.answer(session, AnswerRequest("not-the-current-clue", question.options[0].value))
         }
         assertEquals("stale_answer", stale.code)
 
@@ -295,10 +372,10 @@ class GameServiceTest {
         val game = GameService(repository())
         val session = SessionStore(ttlHours = 1).create()
         val question = game.nextQuestion(session, QuestionFilter())
-        game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+        game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
 
         val error = assertFailsWith<ApiException> {
-            game.answer(session, AnswerRequest(question.clueId, question.options[0].code))
+            game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
         assertEquals("no_pending_question", error.code)
     }
@@ -316,6 +393,9 @@ class GameServiceTest {
 
     private fun correctCodeFor(repository: ClueRepository, clueId: String): String =
         repository.snapshot.clues.first { it.id == clueId }.countryCode
+
+    private fun continentOf(repository: ClueRepository, code: String): String? =
+        repository.snapshot.countriesByCode[code]?.continent
 
     /** A repository over the real bundled guides: an empty data dir falls back to the seed. */
     private fun seedRepository(): ClueRepository =

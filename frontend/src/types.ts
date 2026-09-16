@@ -1,8 +1,17 @@
+export type GameMode = 'country' | 'region'
+
 export interface CountryOption {
   code: string
   name: string
   flag: string
   continent: string
+}
+
+/** One button on the board: a country in the country game, a region in the region game. */
+export interface AnswerOption {
+  value: string
+  label: string
+  note: string
 }
 
 export interface Stats {
@@ -16,10 +25,13 @@ export interface Stats {
 
 export interface Question {
   clueId: string
+  mode: GameMode
+  /** Given away in the region game, where it is the premise, withheld otherwise. */
+  country: CountryOption | null
   imageUrl: string
   imageWidth: number
   tags: string[]
-  options: CountryOption[]
+  options: AnswerOption[]
   questionNumber: number
   remainingClues: number
 }
@@ -35,8 +47,10 @@ export interface Explanation {
 
 export interface AnswerResult {
   correct: boolean
-  correctCountry: CountryOption
-  chosenCountry: CountryOption
+  mode: GameMode
+  correctAnswer: AnswerOption
+  chosenAnswer: AnswerOption
+  country: CountryOption
   explanation: Explanation
   stats: Stats
 }
@@ -46,6 +60,7 @@ export interface Continent {
   countryCount: number
   clueCount: number
   coreClueCount: number
+  regionClueCount: number
 }
 
 export interface Meta {
@@ -53,7 +68,9 @@ export interface Meta {
   scrapedAt: string
   clueCount: number
   coreClueCount: number
+  regionClueCount: number
   countryCount: number
+  regionCountryCount: number
   continents: Continent[]
   countries: CountryOption[]
   tags: string[]

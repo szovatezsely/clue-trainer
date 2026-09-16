@@ -58,12 +58,24 @@ class ClueRepository(private val config: AppConfig) {
         /** The countries [clue] cannot be told apart from by its own explanation. */
         fun ambiguousFor(clue: Clue): Set<String> = ambiguousCountries[clue.id].orEmpty()
 
+        /** Which part of its own country each regional clue is about; see [ClueRegions]. */
+        val regions: ClueRegions.Index = ClueRegions(dataset.countries).index(clues)
+
+        /** The clues the region game can ask about: one named region, on a fillable board. */
+        val regionClues: List<Clue> = clues.filter { it.id in regions.regionOfClue }
+
+        val regionCountryCount: Int = regions.regionsByCountry.size
+
         /** Image paths we are willing to proxy - anything else is not ours to fetch. */
         val allowedImagePaths: Set<String> =
             (clues.map { it.imageUrl } + dataset.countries.mapNotNull { it.heroImage }).toSet()
 
-        fun cluesFor(continent: String?, coreOnly: Boolean): List<Clue> {
-            val base = if (coreOnly) coreClues else clues
+        fun cluesFor(continent: String?, coreOnly: Boolean): List<Clue> =
+            inContinent(if (coreOnly) coreClues else clues, continent)
+
+        fun regionCluesFor(continent: String?): List<Clue> = inContinent(regionClues, continent)
+
+        private fun inContinent(base: List<Clue>, continent: String?): List<Clue> {
             if (continent == null) return base
             val codes = countriesByContinent[continent]?.mapTo(HashSet()) { it.code } ?: return emptyList()
             return base.filter { it.countryCode in codes }

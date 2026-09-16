@@ -15,8 +15,16 @@ const explanationHtml = computed(() => renderGuideMarkdown(props.result.explanat
 
 const heading = computed(() =>
   props.result.correct
-    ? 'Correct — ' + props.result.correctCountry.name
-    : 'Not quite — it is ' + props.result.correctCountry.name,
+    ? 'Correct — ' + props.result.correctAnswer.label
+    : 'Not quite — it is ' + props.result.correctAnswer.label,
+)
+
+/**
+ * The region game already named the country in the question, so repeating it
+ * would say nothing; the code beside a country answer is the useful extra.
+ */
+const badge = computed(() =>
+  props.result.mode === 'region' ? props.result.country.name : props.result.correctAnswer.note,
 )
 </script>
 
@@ -25,7 +33,7 @@ const heading = computed(() =>
     <header class="reveal__head">
       <h2 class="reveal__title">
         {{ heading }}
-        <span class="reveal__code">{{ result.correctCountry.code }}</span>
+        <span v-if="badge" class="reveal__code">{{ badge }}</span>
       </h2>
       <button class="btn btn--accent reveal__next" type="button" :disabled="busy" @click="emit('next')">
         Next clue
@@ -33,7 +41,7 @@ const heading = computed(() =>
       </button>
     </header>
 
-    <p v-if="!result.correct" class="reveal__chosen">You picked {{ result.chosenCountry.name }}.</p>
+    <p v-if="!result.correct" class="reveal__chosen">You picked {{ result.chosenAnswer.label }}.</p>
 
     <div class="reveal__body">
       <p class="reveal__source">
@@ -47,7 +55,7 @@ const heading = computed(() =>
 
       <div class="reveal__links">
         <a :href="result.explanation.sourceUrl" target="_blank" rel="noopener noreferrer">
-          Read the full {{ result.correctCountry.name }} guide
+          Read the full {{ result.country.name }} guide
         </a>
         <a
           v-if="result.explanation.streetViewUrl"

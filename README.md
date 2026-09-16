@@ -3,13 +3,22 @@
 An endless practice game for GeoGuessr country metas.
 
 You get one real identification clue — a road sign, a bollard, a utility pole, a licence plate,
-a landscape — and three countries to choose from. Pick the country the clue belongs to. Whether
-you are right or wrong, the guide text that explains the clue is revealed, so every answer
-teaches you the meta instead of just scoring you.
+a landscape — and three answers to choose from. Whether you are right or wrong, the guide text
+that explains the clue is revealed, so every answer teaches you the meta instead of just scoring
+you.
+
+There are two games, and a switch between them:
+
+- **Countries** — pick the country the clue belongs to.
+- **Regions** — the harder half of every guide. Many clues only hold in one part of one country
+  (*"these orange and black pole bands can often be found in Shikoku"*). You are told which
+  country the clue is from, and pick which part of **that** country it is from, again out of
+  three.
 
 The clues are extracted from the community-written GeoGuessr guides on
 [plonkit.net](https://www.plonkit.net/guide): **5,107 clues across 136 covered countries and
-territories**, of which 1,711 are country-level "how to identify this country" clues.
+territories**, of which 1,711 are country-level "how to identify this country" clues, and 699 say
+which region of their own country they belong to.
 
 - **Backend:** Kotlin + Ktor (scraper, dataset, game rules, image proxy)
 - **Frontend:** Vue 3 + TypeScript + Vite, served by nginx
@@ -49,7 +58,7 @@ For a public, always-on deployment see [Deploy it for free, always on](#deploy-i
 | Action | Mouse | Keyboard |
 | --- | --- | --- |
 | Start / stop the endless run | **Start** / **Stop** | <kbd>S</kbd> |
-| Answer | click a country | <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> |
+| Answer | click an option | <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> |
 | Next clue | **Next clue** | <kbd>Enter</kbd> |
 | Clear the score | **Reset score** | — |
 
@@ -61,15 +70,21 @@ and is only cleared by **Reset score**.
 The intro text steps aside once a run starts, and the clue image is sized against the viewport, so
 the clue, the three answers and the score stay visible together without scrolling.
 
-Two filters shape the training set:
+Three controls shape the training set:
 
-- **Region** — restrict the clues, and the answer options, to one continent. Practising
+- **Guess** — *Countries* or *Regions*. In the region game the country is part of the question
+  rather than the answer, so the board is three regions of that one country: Shikoku vs Kansai vs
+  Tohoku, never Japan vs Brazil. 699 clues across 46 countries can be asked this way.
+- **Continent** — restrict the clues, and the answer options, to one continent. Practising
   "Estonia vs Latvia vs Lithuania" is a very different exercise from "Estonia vs Peru vs Laos".
-  The number next to each region is how many clues it currently offers.
-- **Include regional clues** — off by default. The guides also contain regional and spotlight
-  clues (*"this pole type is specific to northern Ghana"*). They make good hard practice, but
-  many of those images have a small map of the country pinned into the corner, which gives the
-  answer away. Turn this on to add them anyway (+3,396 clues).
+  The number next to each continent is how many clues it currently offers in the chosen game.
+- **Play the whole guide** — country game only, off by default. It is a scope choice, not a
+  second region switch: off, the country game asks only the 1,711 "identifying X" clues, which is
+  what that chapter is written for. On, it draws from every chapter as well (+3,396 clues). Those
+  make good hard practice, but they were written to tell parts of a country apart rather than
+  countries, and many of their images have a small map pinned into the corner which gives the
+  answer away. The region game always plays from those chapters, so the switch does not apply to
+  it.
 
 ## How it works
 
@@ -96,9 +111,9 @@ backend image**, so the game is playable the moment the container is up, with no
 network. A live re-scrape is written to `${DATA_DIR}/clues.json` in the Docker volume and takes
 precedence from then on.
 
-**3. The game.** A question is one clue plus three countries: the right one, and two distractors
-drawn from the same continent. A territory is never offered next to its parent country (Alaska vs
-United States), since the clue would be true for both.
+**3. The country game.** A question is one clue plus three countries: the right one, and two
+distractors drawn from the same continent. A territory is never offered next to its parent country
+(Alaska vs United States), since the clue would be true for both.
 
 Nor is a country the clue's own explanation vouches for. The guides say so out loud often enough —
 "NOTE: Peru, Brazil and Argentina are the only South American countries with smallcam" — and
@@ -110,12 +125,41 @@ because "NOTE: Canada uses the word 'Maximum' on their speed signs" is exactly t
 speed sign deserves. A mention that says neither reads as a contrast and stays. This covers 602 of
 the 5,107 clues; see `ClueAmbiguity.kt`.
 
+**4. The region game.** The guides file their regional clues under headings like "Infrastructure"
+and "Landscape" and name the place only in the prose, so there is no field to read the region out
+of. [`ClueRegions`](backend/src/main/kotlin/net/geoclue/trainer/data/ClueRegions.kt) reads it out
+of the sentence instead, and only where the sentence is unmistakably pointing at a place:
+
+- a capitalised name counts when a spatial preposition points at it (*in*, *around*, *across*,
+  *near*, …), or when *of* does after a word that makes it spatial (*north of*, *the coast of*).
+  The weaker prepositions are deliberately left out: "related **to Portuguese**" and "a mix
+  **of Spanish** and Basque signs" name languages, not places;
+- a lowercase modifier in front of the name is skipped ("in **southern** Chelyabinsk Oblast"), a
+  capitalised one is part of it, which keeps "Lower Saxony" and "North Carolina" whole;
+- a name the guide mostly uses as an adjective is dropped, because that is what a demonym looks
+  like: "Brazilian **state**", "Catalan **word**" and "Russian **olive**" all put a lowercase noun
+  straight after the name, while "in Skåne **you will find**" does not;
+- a name has to be mentioned by two clues of the country before it is quizzed on, which drops the
+  one-off villages and the parsing accidents, and a name another country claims more often belongs
+  to that country — British Columbia is Canada's, however many US clues mention it;
+- spellings that differ only in their accents collapse onto one (*Goiás* / *Goias*), so a board
+  can never offer the same state twice.
+
+A clue is finally only playable when it names exactly **one** region — "found in Schleswig-Holstein
+and Lower Saxony" would otherwise be a question with two right answers — and only for a country
+with three regions to fill a board with. That leaves 699 clues over 46 countries and 419 regions.
+
+It is a heuristic reading of English prose and it is not perfect: a couple of language names
+("Catalan" for Spain, "French" for France) survive every filter above and turn up as board options.
+They read as odd rather than as wrong answers, and the explanation below the question is still the
+guide's own.
+
 Scores, the clues you have already seen, and the correct answer all live in a server-side session —
 `/next` returns the image and the three options and nothing else, so the answer cannot be read out
 of the network tab. When every clue in the current pool has been shown, the pool starts over: the
 run really is endless.
 
-**4. Images.** `/api/image?path=…` fetches the clue image from the origin with the required
+**5. Images.** `/api/image?path=…` fetches the clue image from the origin with the required
 headers, caches it under `${DATA_DIR}/images`, and serves it with a one-year cache header. Only
 paths that appear in the dataset are proxied, so the endpoint cannot be used as an open relay.
 
@@ -126,7 +170,7 @@ can explain itself. The game avoids the situation in the first place by preferri
 already cached — see [The image cache](#the-image-cache). A clue whose image cannot be fetched can
 still be skipped, which drops it without scoring it.
 
-**5. Explanations.** The guide texts are markdown, and 679 of the 7,657 paragraphs have their bold
+**6. Explanations.** The guide texts are markdown, and 679 of the 7,657 paragraphs have their bold
 markers padded on the wrong side (`has their own** unique plate **design`), which markdown cannot
 pair up — the asterisks would show in the text. `frontend/src/markdown.ts` moves the padding out
 of the run before rendering (`has their own **unique plate** design`), leaves correct markdown
@@ -462,11 +506,11 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 | Method | Path | Purpose |
 | --- | --- | --- |
 | `GET` | `/api/health` | Liveness plus dataset size |
-| `GET` | `/api/meta` | Countries, continents, clue counts, dataset timestamp |
+| `GET` | `/api/meta` | Countries, continents, clue counts (per game), dataset timestamp |
 | `POST` | `/api/game/sessions` | Start a run, returns a `sessionId` |
 | `GET` | `/api/game/sessions/{id}` | Current score of a run |
-| `GET` | `/api/game/sessions/{id}/next` | Next question — `?continent=Europe&scope=core\|all` |
-| `POST` | `/api/game/sessions/{id}/answer` | `{"clueId":"…","countryCode":"…"}` → verdict, explanation, score |
+| `GET` | `/api/game/sessions/{id}/next` | Next question — `?mode=country\|region&continent=Europe&scope=core\|all` |
+| `POST` | `/api/game/sessions/{id}/answer` | `{"clueId":"…","answer":"…"}` → verdict, explanation, score |
 | `POST` | `/api/game/sessions/{id}/skip` | Drop the current clue without scoring it |
 | `POST` | `/api/game/sessions/{id}/reset` | Clear the score of a run |
 | `GET` | `/api/image?path=/images/…` | Clue image, proxied and cached |
@@ -474,8 +518,14 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 | `GET` | `/api/dataset/status` | Dataset timestamp and refresh state |
 | `POST` | `/api/dataset/refresh` | Trigger a background re-scrape |
 
-Country options carry a `flag` emoji as well as the ISO code; the UI shows the code, because
-flag emoji do not render as flags on every platform (notably Windows).
+A question's three `options` are `{value, label, note}`: in the country game the `value` is the
+ISO code and the `note` repeats it under the name, in the region game the `value` is the region
+name itself and there is no note. `answer` echoes back the `value` you picked. The region game
+also returns the clue's `country` with the question — it is the premise, not the answer — while
+the country game leaves that field `null` so the answer cannot be read out of the network tab.
+
+Country objects carry a `flag` emoji as well as the ISO code; the country game's board shows the
+code, because flag emoji do not render as flags on every platform (notably Windows).
 
 ## Local development
 
@@ -491,8 +541,8 @@ Frontend (needs Node 20+; Vite proxies `/api` to `localhost:8080`):
 cd frontend && npm install && npm run dev
 ```
 
-Tests — game rules, scraper extraction against a fixture page, and a consistency check over the
-bundled dataset:
+Tests — game rules for both games, region extraction, scraper extraction against a fixture page,
+and consistency checks over the bundled dataset:
 
 ```bash
 cd backend && ./gradlew test
@@ -510,6 +560,8 @@ backend/
     model/                      dataset models and API DTOs
     data/PlonkItScraper.kt      guide extraction
     data/ClueRepository.kt      dataset loading, caching, refresh
+    data/ClueAmbiguity.kt       which other countries an explanation vouches for
+    data/ClueRegions.kt         which part of its country a regional clue is about
     data/ImageWarmer.kt         background, self-slowing image prefetch
     game/GameService.kt         question building and grading
     game/GameSession.kt         per-run state and the session store
@@ -523,7 +575,7 @@ frontend/
   src/markdown.ts               guide-markdown repair and rendering
   src/styles/base.css           design tokens (dark theme, green accent)
   src/components/               header, controls, score strip, clue stage,
-                                answer reveal, region menu
+                                answer reveal, continent menu
   nginx.conf                    static hosting + /api proxy
 docker-compose.yml              local stack: backend + frontend
 docker-compose.prod.yml         server stack: the same two, plus Caddy for TLS

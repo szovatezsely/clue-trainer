@@ -1,6 +1,7 @@
 # build output
 backend/build/
 backend/.gradle/
+backend/.kotlin/
 frontend/node_modules/
 frontend/dist/
 

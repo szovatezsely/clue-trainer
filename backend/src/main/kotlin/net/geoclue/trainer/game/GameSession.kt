@@ -1,20 +1,47 @@
 package net.geoclue.trainer.game
 
+import net.geoclue.trainer.model.AnswerOption
 import net.geoclue.trainer.model.Clue
-import net.geoclue.trainer.model.CountryOption
 import net.geoclue.trainer.model.StatsDto
 import java.time.Instant
 import java.util.concurrent.ConcurrentHashMap
 import java.util.UUID
 import java.util.concurrent.atomic.AtomicLong
 
+/**
+ * What the player is asked to name.
+ *
+ * [COUNTRY] shows a clue and three countries. [REGION] shows a regional clue,
+ * says which country it is from - hiding it would make the question a guess
+ * between 250 countries' worth of regions - and asks which part of that country
+ * it belongs to.
+ */
+enum class GameMode {
+    COUNTRY,
+    REGION,
+    ;
+
+    val wire: String get() = name.lowercase()
+
+    companion object {
+        fun parse(value: String?): GameMode =
+            entries.firstOrNull { it.wire.equals(value, ignoreCase = true) } ?: COUNTRY
+    }
+}
+
 /** Which slice of the dataset a player is currently training on. */
-data class QuestionFilter(val continent: String? = null, val coreOnly: Boolean = false)
+data class QuestionFilter(
+    val mode: GameMode = GameMode.COUNTRY,
+    val continent: String? = null,
+    /** Country game only: leave out the regional chapters, which are far harder. */
+    val coreOnly: Boolean = false,
+)
 
 /** The question a player is currently looking at. The answer never leaves the server. */
 data class PendingQuestion(
     val clue: Clue,
-    val options: List<CountryOption>,
+    val options: List<AnswerOption>,
+    val answer: String,
     val filter: QuestionFilter,
     val number: Int,
 )

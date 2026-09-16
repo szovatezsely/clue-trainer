@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted } from 'vue'
+import { computed, onMounted, onUnmounted } from 'vue'
 import AnswerReveal from './components/AnswerReveal.vue'
 import ClueStage from './components/ClueStage.vue'
 import GameControls from './components/GameControls.vue'
@@ -15,8 +15,9 @@ const {
   phase,
   running,
   errorMessage,
+  mode,
   continent,
-  includeRegional,
+  wholeGuide,
   imageReady,
   imageFailed,
   imageRetryIn,
@@ -32,6 +33,8 @@ const {
   submit,
   resetScore,
 } = useGame()
+
+const regionMode = computed(() => mode.value === 'region')
 
 /** Text entry must keep every key; a checkbox or select only keeps its own. */
 function isTextEntry(target: HTMLElement | null): boolean {
@@ -67,7 +70,7 @@ function onKeydown(event: KeyboardEvent) {
     const option = question.value?.options[Number(key) - 1]
     if (option) {
       event.preventDefault()
-      submit(option.code)
+      submit(option.value)
     }
     return
   }
@@ -102,9 +105,15 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
       <p class="eyebrow">Endless meta practice</p>
       <h1>
         Spot the clue,<br />
-        name the <span class="hero__accent">country</span>.
+        name the
+        <span class="hero__accent">{{ regionMode ? 'region' : 'country' }}</span>.
       </h1>
-      <p class="hero__lead">
+      <p v-if="regionMode" class="hero__lead">
+        The harder half of every guide: clues that only hold in one part of one country. You are
+        told which country the clue is from — your job is to place it inside it, from three regions
+        of that same country.
+      </p>
+      <p v-else class="hero__lead">
         Every clue is a real identification detail taken from a country guide: a road sign, a
         bollard, a utility pole, a licence plate, a landscape. Pick the country it belongs to and
         read why it works.
@@ -112,8 +121,9 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
     </section>
 
     <GameControls
+      v-model:mode="mode"
       v-model:continent="continent"
-      v-model:includeRegional="includeRegional"
+      v-model:wholeGuide="wholeGuide"
       :meta="meta"
       :running="running"
       :busy="busy"
@@ -139,7 +149,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
         <ul class="keys">
           <li>
             <span class="keys__combo"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd></span>
-            <span class="keys__what">pick a country</span>
+            <span class="keys__what">pick an answer</span>
           </li>
           <li>
             <span class="keys__combo"><kbd>S</kbd></span>
@@ -211,7 +221,8 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
       </p>
       <p v-if="meta" class="footer__meta">
         {{ meta.clueCount.toLocaleString('en-GB') }} clues · {{ meta.countryCount }} countries ·
-        {{ meta.continents.length }} regions
+        {{ meta.continents.length }} continents ·
+        {{ meta.regionClueCount.toLocaleString('en-GB') }} placed in a named region
       </p>
     </div>
   </footer>
