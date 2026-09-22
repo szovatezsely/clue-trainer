@@ -115,6 +115,14 @@ precedence from then on.
 distractors drawn from the same continent. A territory is never offered next to its parent country
 (Alaska vs United States), since the clue would be true for both.
 
+Not every country is asked equally often. A real round lands in Brazil far more often than on São
+Tomé, so each country sits in one of four tiers — major, common, minor, rare — and both the clue and
+its distractors are drawn in proportion to the tier (8 : 4 : 2 : 1). The weight is per clue, so it
+comes on top of the big countries' longer guides: the rare tier drops from about 5% of the clues to
+1%. The bias is strongest at the start of a run and eases off over the first 150 questions to its
+square root, so the islands and micro-states still come up, just not while the staples are being
+learned; see `CountryPopularity.kt`.
+
 Nor is a country the clue's own explanation vouches for. The guides say so out loud often enough —
 "NOTE: Peru, Brazil and Argentina are the only South American countries with smallcam" — and
 offering Peru against that clue would mark a player wrong and then show them a note agreeing with
@@ -564,6 +572,7 @@ backend/
     data/ClueRegions.kt         which part of its country a regional clue is about
     data/ImageWarmer.kt         background, self-slowing image prefetch
     game/GameService.kt         question building and grading
+    game/CountryPopularity.kt   how often each country is asked
     game/GameSession.kt         per-run state and the session store
     game/ImageAvailability.kt   what the game asks the cache before picking a clue
     routes/                     API routes and the image proxy

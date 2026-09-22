@@ -15,6 +15,7 @@ import net.geoclue.trainer.model.ExplanationDto
 import net.geoclue.trainer.model.Lang
 import net.geoclue.trainer.model.QuestionDto
 import net.geoclue.trainer.model.StatsDto
+import kotlin.math.pow
 import kotlin.random.Random
 
 /** Any error we want to surface to the client as a structured JSON body. */
@@ -39,6 +40,9 @@ class ApiException(
  * so the player is placing a Japanese pole plate in Shikoku rather than in
  * Japan. Which regions a country has, and which one a clue is about, are read
  * out of the guide text; see [net.geoclue.trainer.data.ClueRegions].
+ *
+ * In both games the big, frequently met countries come up more often than the
+ * islands and micro-states, most of all early in a run; see [CountryPopularity].
  *
  * The language is a property of the answer, not of the question: it decides how
  * a clue is worded, never which clue is picked. That is why it is passed in per
@@ -83,11 +87,11 @@ class GameService(
                 candidates = pool
             }
 
-            val clue = pickPlayable(candidates)
+            val clue = pickPlayable(candidates, session.served)
             val question = when (filter.mode) {
                 GameMode.COUNTRY -> PendingQuestion(
                     clue = clue,
-                    options = buildCountryOptions(snapshot, clue).map { it.toAnswerOption() },
+                    options = buildCountryOptions(snapshot, clue, session.served).map { it.toAnswerOption() },
                     answer = clue.countryCode,
                     filter = filter,
                     number = session.served + 1,
@@ -195,18 +199,38 @@ class GameService(
      * A small share of picks still reaches for an uncached clue, so the cache
      * keeps growing while people play - but never while the origin is actively
      * throttling, when an uncached clue could only disappoint.
+     *
+     * Whichever pool that leaves, the clue is drawn by [pickByPopularity].
      */
-    private fun pickPlayable(candidates: List<Clue>): Clue {
+    private fun pickPlayable(candidates: List<Clue>, served: Int): Clue {
         val cached = candidates.filter { images.isCached(it.imageUrl) }
-        return when {
+        val pool = when {
             // Nothing cached yet: anything is as good as anything else.
-            cached.isEmpty() -> candidates.random()
-            images.isThrottled() -> cached.random()
+            cached.isEmpty() -> candidates
+            images.isThrottled() -> cached
             // Too small a pool to play from without repeating; keep filling it.
-            cached.size < minCachedPool -> candidates.random()
-            Random.nextInt(100) < EXPLORE_PERCENT -> candidates.random()
-            else -> cached.random()
+            cached.size < minCachedPool -> candidates
+            Random.nextInt(100) < EXPLORE_PERCENT -> candidates
+            else -> cached
         }
+        return pickByPopularity(pool, served)
+    }
+
+    /**
+     * Draws a clue with odds in proportion to its country's [CountryPopularity].
+     * The weight is per clue, so a big country's longer guide counts on top of
+     * its tier - and the dozens of small islands cannot, between them, crowd
+     * out the countries a player actually meets.
+     */
+    private fun pickByPopularity(pool: List<Clue>, served: Int): Clue {
+        val weights = pool.map { CountryPopularity.weight(it.countryCode, served) }
+        var ticket = Random.nextDouble(weights.sum())
+        pool.forEachIndexed { index, clue ->
+            ticket -= weights[index]
+            if (ticket < 0) return clue
+        }
+        // Only reachable through floating-point rounding on the last clue.
+        return pool.last()
     }
 
     /** Abandons the current question, for instance when its image is unavailable. */
@@ -236,7 +260,11 @@ class GameService(
         )
     }
 
-    private fun buildCountryOptions(snapshot: ClueRepository.Snapshot, clue: Clue): List<Country> {
+    private fun buildCountryOptions(
+        snapshot: ClueRepository.Snapshot,
+        clue: Clue,
+        served: Int,
+    ): List<Country> {
         val answer = snapshot.countriesByCode.getValue(clue.countryCode)
         val board = mutableListOf(answer)
         // Territories share their parent's code prefix (US / US-AK). Two options
@@ -248,8 +276,10 @@ class GameService(
         // Peru a right answer, so marking it wrong would teach the opposite.
         val ambiguous = snapshot.ambiguousFor(clue)
 
+        // Distractors are weighted like the clues are: "Brazil vs Argentina vs
+        // Chile" is the board worth learning, not one padded with Falklands.
         fun fill(candidates: List<Country>, allowAmbiguous: Boolean = false) {
-            for (candidate in candidates.shuffled()) {
+            for (candidate in weightedShuffle(candidates, served) { it.code }) {
                 if (board.size == OPTION_COUNT) return
                 if (!allowAmbiguous && candidate.code in ambiguous) continue
                 if (usedPrefixes.add(candidate.codePrefix)) board += candidate
@@ -280,6 +310,16 @@ class GameService(
             .take(OPTION_COUNT - 1)
         return (listOf(region) + others).shuffled().map { AnswerOption(value = it, label = it) }
     }
+
+    /**
+     * [items] in a random order where more popular countries tend to come first
+     * (Efraimidis-Spirakis: each item draws `u^(1/w)` and the largest go first).
+     */
+    private fun <T> weightedShuffle(items: Collection<T>, served: Int, codeOf: (T) -> String): List<T> =
+        items
+            .map { it to Random.nextDouble().pow(1.0 / CountryPopularity.weight(codeOf(it), served)) }
+            .sortedByDescending { it.second }
+            .map { it.first }
 
     private fun unseenCount(
         snapshot: ClueRepository.Snapshot,

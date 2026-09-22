@@ -3,6 +3,7 @@ package net.geoclue.trainer
 import kotlinx.serialization.json.Json
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.game.ApiException
+import net.geoclue.trainer.game.CountryPopularity
 import net.geoclue.trainer.game.GameMode
 import net.geoclue.trainer.game.GameService
 import net.geoclue.trainer.game.ImageAvailability
@@ -205,6 +206,63 @@ class GameServiceTest {
 
         assertEquals(6, served.size)
         assertEquals(setOf("a-1", "b-1"), served.toSet())
+    }
+
+    @Test
+    fun `big countries are asked far more often than tiny islands early in a run`() {
+        // Same number of clues each, so only popularity can tell them apart.
+        val game = GameService(repository(popularityDataset()))
+        val session = SessionStore(ttlHours = 1).create()
+
+        // 60 of the 240 clues, so no country can run out of clues on the way.
+        val asked = (1..60).map {
+            val question = game.nextQuestion(session, QuestionFilter())
+            val answer = game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
+            answer.correctAnswer.value
+        }
+
+        // Brazil and Argentina against the Falklands and Pitcairn start at 8 : 8 : 1 : 1.
+        val staples = asked.count { it == "BR" || it == "AR" }
+        assertTrue(staples >= 40, "only $staples of 60 clues were staples: " + asked.groupingBy { it }.eachCount())
+        assertTrue(staples < 60, "the rare countries must still come up")
+    }
+
+    @Test
+    fun `popular countries are the likelier distractors`() {
+        // Only the Falklands has clues, so every board is "which of these is
+        // the Falklands?", and two of Brazil, Argentina and Pitcairn fill it.
+        val dataset = popularityDataset().let { it.copy(clues = it.clues.filter { clue -> clue.countryCode == "FK" }) }
+        val game = GameService(repository(dataset))
+        val sessions = SessionStore(ttlHours = 1)
+
+        val boards = 300
+        val withPitcairn = (1..boards).count {
+            // A fresh run each time, so every board is built at full bias.
+            sessions.create().let { session -> game.nextQuestion(session, QuestionFilter()) }
+                .options.any { it.value == "PN" }
+        }
+
+        // Uniformly Pitcairn would sit on two boards in three; weighted, about one in six.
+        assertTrue(withPitcairn < boards / 3, "Pitcairn was offered on $withPitcairn of $boards boards")
+        assertTrue(withPitcairn > 0, "a rare country must still be offered sometimes")
+    }
+
+    @Test
+    fun `the popularity bias eases off but never disappears`() {
+        val early = CountryPopularity.weight("BR", 0) / CountryPopularity.weight("ST", 0)
+        val late = CountryPopularity.weight("BR", 1_000) / CountryPopularity.weight("ST", 1_000)
+
+        assertEquals(8.0, early, 1e-9)
+        assertTrue(late in 1.5..early, "late ratio was $late")
+    }
+
+    @Test
+    fun `every country in the bundled guides has a popularity tier`() {
+        val untiered = seedRepository().snapshot.dataset.countries
+            .map { it.code }
+            .filterNot { CountryPopularity.hasTier(it) }
+
+        assertTrue(untiered.isEmpty(), "no tier for " + untiered)
     }
 
     @Test
@@ -437,6 +495,22 @@ class GameServiceTest {
             }
         }
         return ClueDataset("test", "2026-01-01T00:00:00Z", countries, clues)
+    }
+
+    /** Two staples and two islands on one continent, with sixty clues each. */
+    private fun popularityDataset(): ClueDataset {
+        val codes = listOf("BR", "AR", "FK", "PN")
+        return ClueDataset(
+            source = "test",
+            scrapedAt = "2026-01-01T00:00:00Z",
+            countries = codes.map { Country(it, "Country " + it, it.lowercase(), "South America", clueCount = 60) },
+            clues = codes.flatMap { code ->
+                (0 until 60).map { index ->
+                    Clue(code + "-" + index, code, "/images/" + code.lowercase() + "/" + index + ".png",
+                        text = listOf("Reason " + index + "."), section = "Identifying Country " + code)
+                }
+            },
+        )
     }
 
     private fun smallDataset() = ClueDataset(
