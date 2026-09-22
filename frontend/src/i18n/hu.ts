@@ -15,6 +15,7 @@ export const hu: Messages = {
   header: {
     clues: 'Nyomok',
     countries: 'Országok',
+    scraped: 'Begyűjtve',
     updated: 'Frissítve',
     language: 'Nyelv',
   },

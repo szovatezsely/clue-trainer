@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import LanguageSwitch from './LanguageSwitch.vue'
 import { formatDate, formatNumber, t } from '../i18n'
+import { APP_UPDATED } from '../release'
 import type { Meta } from '../types'
 
 defineProps<{ meta: Meta | null }>()
@@ -24,8 +25,12 @@ defineProps<{ meta: Meta | null }>()
             <dd>{{ meta.countryCount }}</dd>
           </div>
           <div class="dataset__item">
-            <dt>{{ t.header.updated }}</dt>
+            <dt>{{ t.header.scraped }}</dt>
             <dd>{{ formatDate(meta.scrapedAt) }}</dd>
+          </div>
+          <div class="dataset__item">
+            <dt>{{ t.header.updated }}</dt>
+            <dd>{{ formatDate(APP_UPDATED) }}</dd>
           </div>
         </dl>
       </div>
@@ -75,7 +80,7 @@ defineProps<{ meta: Meta | null }>()
   margin: 0;
 }
 
-/* Label and value are centred on each other, so the trio reads as a block. */
+/* Label and value are centred on each other, so the row reads as a block. */
 .dataset__item {
   text-align: center;
 }
@@ -96,8 +101,9 @@ defineProps<{ meta: Meta | null }>()
 }
 
 @media (max-width: 860px) {
-  /* The date is the first thing to go; the language switch never is. */
-  .dataset__item:nth-child(3) {
+  /* The dates are the first thing to go; the language switch never is. */
+  .dataset__item:nth-child(3),
+  .dataset__item:nth-child(4) {
     display: none;
   }
 

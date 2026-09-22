@@ -16,6 +16,9 @@ export const en = {
   header: {
     clues: 'Clues',
     countries: 'Countries',
+    /** When the clues were scraped from the guides. */
+    scraped: 'Scraped',
+    /** When the app itself last changed. */
     updated: 'Updated',
     language: 'Language',
   },
