@@ -2,6 +2,7 @@ package net.geoclue.trainer.game
 
 import io.ktor.http.HttpStatusCode
 import net.geoclue.trainer.data.ClueAmbiguity
+import net.geoclue.trainer.data.ClueRegions
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.PlonkItScraper
 import net.geoclue.trainer.data.Translations
@@ -98,7 +99,9 @@ class GameService(
                 )
 
                 GameMode.REGION -> {
-                    val region = snapshot.regions.regionOf(clue)
+                    // "Common in Utah, Arizona, and Idaho": any one of them will do,
+                    // since the board around it holds none of the others.
+                    val region = snapshot.regions.answersOf(clue).randomOrNull()
                         ?: error("region clue " + clue.id + " lost its region")
                     PendingQuestion(
                         clue = clue,
@@ -185,10 +188,15 @@ class GameService(
      * A country option carries its ISO code, so the label can be swapped for the
      * name in [lang]. A region option is the guide's own spelling of a place -
      * the name written on the sign the player is learning to read - and is left
-     * exactly as it is.
+     * exactly as it is. Only a compass bearing ("North") is a word rather than a
+     * name, and is translated.
      */
     private fun localize(option: AnswerOption, lang: Lang): AnswerOption {
-        val translated = translations.countryName(lang, option.value, option.label)
+        val translated = if (option.value in ClueRegions.COMPASS_LABELS) {
+            translations.bearing(lang, option.value)
+        } else {
+            translations.countryName(lang, option.value, option.label)
+        }
         return if (translated == option.label) option else option.copy(label = translated)
     }
 
@@ -297,15 +305,16 @@ class GameService(
 
     /**
      * The clue's own region plus other regions of the same country - a board of
-     * Japanese regions, never a Japanese one against a Brazilian one.
+     * Japanese regions, never a Japanese one against a Brazilian one. A clue
+     * placed by bearing gets a board of bearings instead: "North" against
+     * "South-west" and "Centre", never against a named region it may lie in.
      */
     private fun buildRegionOptions(
         snapshot: ClueRepository.Snapshot,
         clue: Clue,
         region: String,
     ): List<AnswerOption> {
-        val others = snapshot.regions.regionsOf(clue.countryCode)
-            .filterNot { it == region }
+        val others = snapshot.regions.distractorsOf(clue)
             .shuffled()
             .take(OPTION_COUNT - 1)
         return (listOf(region) + others).shuffled().map { AnswerOption(value = it, label = it) }

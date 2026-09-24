@@ -6,4 +6,4 @@
  * Bump this by hand with each release. It cannot come from git at build time,
  * because the Docker build only sees the `frontend/` directory.
  */
-export const APP_UPDATED = '2026-09-22'
+export const APP_UPDATED = '2026-09-24'

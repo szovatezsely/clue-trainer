@@ -1,6 +1,7 @@
 package net.geoclue.trainer
 
 import kotlinx.serialization.json.Json
+import net.geoclue.trainer.data.ClueRegions
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.data.ContentBundle
 import net.geoclue.trainer.data.Translations
@@ -133,7 +134,13 @@ class TranslationsTest {
         val game = GameService(repository, translations = translations)
         val session = SessionStore(ttlHours = 1).create()
 
-        val question = game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION), Lang.HU)
+        // A compass board is the one kind that is translated (see below), so
+        // play until a board of named regions comes up.
+        val question = generateSequence {
+            game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION), Lang.HU).also { game.skip(session) }
+        }.take(2_000).first { q ->
+            !repository.snapshot.regions.isCompass(repository.snapshot.clues.first { it.id == q.clueId })
+        }
         val clue = repository.snapshot.clues.first { it.id == question.clueId }
         val regions = repository.snapshot.regions.regionsOf(clue.countryCode)
 
@@ -143,6 +150,28 @@ class TranslationsTest {
             "a region label is the name written on the sign, not something to translate: " +
                 question.options.map { it.label },
         )
+    }
+
+    @Test
+    fun `compass answers are words, and are translated`() {
+        val repository = seedRepository()
+        val game = GameService(repository, translations = translations)
+        val session = SessionStore(ttlHours = 1).create()
+        val compass = repository.snapshot.regionClues.count { repository.snapshot.regions.isCompass(it) }
+        assertTrue(compass > 0, "the bundled guides place no clue by bearing")
+
+        // Play until a compass board comes up; the region pool is endless.
+        val question = generateSequence {
+            game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION), Lang.HU).also {
+                game.skip(session)
+            }
+        }.take(2_000).first { q -> q.options.all { it.value in ClueRegions.COMPASS_LABELS } }
+
+        val hungarian = mapOf("North" to "Észak", "South" to "Dél", "East" to "Kelet", "West" to "Nyugat")
+        for (option in question.options) {
+            assertEquals(translations.bearing(Lang.HU, option.value), option.label)
+            hungarian[option.value]?.let { assertEquals(it, option.label) }
+        }
     }
 
     // Each country under test owns its continent, so filtering by continent
@@ -161,6 +190,11 @@ class TranslationsTest {
                 "Identifying Country DE" to "Németország azonosítása",
             ),
             subsections = mapOf("Infrastructure" to "Infrastruktúra"),
+            bearings = mapOf(
+                "North" to "Észak", "North-east" to "Északkelet", "East" to "Kelet",
+                "South-east" to "Délkelet", "South" to "Dél", "South-west" to "Délnyugat",
+                "West" to "Nyugat", "North-west" to "Északnyugat", "Centre" to "Közép",
+            ),
         ),
         clueText = mapOf("FR-clue" to listOf("Magyarul erről szól.")),
     )

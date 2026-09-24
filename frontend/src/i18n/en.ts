@@ -15,6 +15,8 @@ export const en = {
 
   header: {
     clues: 'Clues',
+    /** The same count in the region game, where only placed clues are in play. */
+    regionClues: 'Region clues',
     countries: 'Countries',
     /** When the clues were scraped from the guides. */
     scraped: 'Scraped',
@@ -125,7 +127,7 @@ export const en = {
     creditLead: 'Clue texts and images come from the community-written GeoGuessr guides on',
     creditTail: '. This trainer only quizzes you on them — please support the original guides.',
     stats: (clues: string, countries: number, continents: number, regional: string) =>
-      `${clues} clues · ${countries} countries · ${continents} continents · ${regional} placed in a named region`,
+      `${clues} clues · ${countries} countries · ${continents} continents · ${regional} placed in a region`,
   },
 
   /**

@@ -1,10 +1,34 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import LanguageSwitch from './LanguageSwitch.vue'
 import { formatDate, formatNumber, t } from '../i18n'
 import { APP_UPDATED } from '../release'
-import type { Meta } from '../types'
+import type { GameMode, Meta } from '../types'
 
-defineProps<{ meta: Meta | null }>()
+const props = defineProps<{
+  meta: Meta | null
+  /** Which game is selected; the counts describe that game's pool, not the whole scrape. */
+  mode: GameMode
+  /** Country game only: every chapter rather than just the "identifying X" ones. */
+  wholeGuide: boolean
+}>()
+
+/**
+ * The clues and countries the selected game can actually ask about. The region
+ * game plays only from clues placed in a part of their country, and the country
+ * game, by default, only from the "identifying X" chapters.
+ */
+const pool = computed(() => {
+  const meta = props.meta
+  if (!meta) return null
+  if (props.mode === 'region') {
+    return { clues: meta.regionClueCount, countries: meta.regionCountryCount }
+  }
+  return {
+    clues: props.wholeGuide ? meta.clueCount : meta.coreClueCount,
+    countries: meta.countryCount,
+  }
+})
 </script>
 
 <template>
@@ -15,14 +39,14 @@ defineProps<{ meta: Meta | null }>()
       </div>
       <div class="masthead__end">
         <LanguageSwitch />
-        <dl v-if="meta" class="dataset">
+        <dl v-if="meta && pool" class="dataset">
           <div class="dataset__item">
-            <dt>{{ t.header.clues }}</dt>
-            <dd>{{ formatNumber(meta.clueCount) }}</dd>
+            <dt>{{ mode === 'region' ? t.header.regionClues : t.header.clues }}</dt>
+            <dd>{{ formatNumber(pool.clues) }}</dd>
           </div>
           <div class="dataset__item">
             <dt>{{ t.header.countries }}</dt>
-            <dd>{{ meta.countryCount }}</dd>
+            <dd>{{ pool.countries }}</dd>
           </div>
           <div class="dataset__item">
             <dt>{{ t.header.scraped }}</dt>

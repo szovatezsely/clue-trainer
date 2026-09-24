@@ -61,10 +61,10 @@ class ClueRepository(private val config: AppConfig) {
         /** Which part of its own country each regional clue is about; see [ClueRegions]. */
         val regions: ClueRegions.Index = ClueRegions(dataset.countries).index(clues)
 
-        /** The clues the region game can ask about: one named region, on a fillable board. */
+        /** The clues the region game can ask about: one region or bearing, on a fillable board. */
         val regionClues: List<Clue> = clues.filter { it.id in regions.regionOfClue }
 
-        val regionCountryCount: Int = regions.regionsByCountry.size
+        val regionCountryCount: Int = regionClues.mapTo(HashSet()) { it.countryCode }.size
 
         /** Image paths we are willing to proxy - anything else is not ours to fetch. */
         val allowedImagePaths: Set<String> =

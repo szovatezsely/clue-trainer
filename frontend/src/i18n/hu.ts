@@ -14,6 +14,7 @@ export const hu: Messages = {
 
   header: {
     clues: 'Nyomok',
+    regionClues: 'Régiós nyomok',
     countries: 'Országok',
     scraped: 'Begyűjtve',
     updated: 'Frissítve',
@@ -126,7 +127,7 @@ export const hu: Messages = {
       'A nyomok szövege és képei a közösség által írt GeoGuessr-kalauzokból származnak:',
     creditTail: '. Ez a gyakorló csak kérdez belőlük — kérjük, támogasd az eredeti kalauzokat.',
     stats: (clues: string, countries: number, continents: number, regional: string) =>
-      `${clues} nyom · ${countries} ország · ${continents} kontinens · ebből ${regional} tartozik megnevezett régióhoz`,
+      `${clues} nyom · ${countries} ország · ${continents} kontinens · ebből ${regional} tartozik régióhoz`,
   },
 
   errors: {

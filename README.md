@@ -17,8 +17,8 @@ There are two games, and a switch between them:
 
 The clues are extracted from the community-written GeoGuessr guides on
 [plonkit.net](https://www.plonkit.net/guide): **5,107 clues across 136 covered countries and
-territories**, of which 1,711 are country-level "how to identify this country" clues, and 699 say
-which region of their own country they belong to.
+territories**, of which 1,711 are country-level "how to identify this country" clues, and 1,617 say
+which part of their own country they belong to — 1,324 by naming regions, 293 by compass bearing.
 
 - **Backend:** Kotlin + Ktor (scraper, dataset, game rules, image proxy)
 - **Frontend:** Vue 3 + TypeScript + Vite, served by nginx
@@ -74,7 +74,9 @@ Three controls shape the training set:
 
 - **Guess** — *Countries* or *Regions*. In the region game the country is part of the question
   rather than the answer, so the board is three regions of that one country: Shikoku vs Kansai vs
-  Tohoku, never Japan vs Brazil. 699 clues across 46 countries can be asked this way.
+  Tohoku, never Japan vs Brazil. A clue that only gives a bearing ("common in northern Finland")
+  gets a board of bearings instead: North vs South-west vs Centre. 1,617 clues across 102 countries
+  can be asked this way.
 - **Continent** — restrict the clues, and the answer options, to one continent. Practising
   "Estonia vs Latvia vs Lithuania" is a very different exercise from "Estonia vs Peru vs Laos".
   The number next to each continent is how many clues it currently offers in the chosen game.
@@ -139,28 +141,64 @@ of. [`ClueRegions`](backend/src/main/kotlin/net/geoclue/trainer/data/ClueRegions
 of the sentence instead, and only where the sentence is unmistakably pointing at a place:
 
 - a capitalised name counts when a spatial preposition points at it (*in*, *around*, *across*,
-  *near*, …), or when *of* does after a word that makes it spatial (*north of*, *the coast of*).
-  The weaker prepositions are deliberately left out: "related **to Portuguese**" and "a mix
-  **of Spanish** and Basque signs" name languages, not places;
+  *near*, …), when *of* does after a word that makes it spatial (*north of*, *the coast of*,
+  *the state of*), or when *to* does after one that makes it exclusive (*unique to*, *specific
+  to*). Otherwise the weaker prepositions are deliberately left out: "related **to Portuguese**"
+  and "a mix **of Spanish** and Basque signs" name languages, not places;
 - a lowercase modifier in front of the name is skipped ("in **southern** Chelyabinsk Oblast"), a
   capitalised one is part of it, which keeps "Lower Saxony" and "North Carolina" whole;
 - a name the guide mostly uses as an adjective is dropped, because that is what a demonym looks
   like: "Brazilian **state**", "Catalan **word**" and "Russian **olive**" all put a lowercase noun
   straight after the name, while "in Skåne **you will find**" does not;
-- a name has to be mentioned by two clues of the country before it is quizzed on, which drops the
-  one-off villages and the parsing accidents, and a name another country claims more often belongs
-  to that country — British Columbia is Canada's, however many US clues mention it;
-- spellings that differ only in their accents collapse onto one (*Goiás* / *Goias*), so a board
-  can never offer the same state twice.
+- a name has to be placed by one clue of the country and mentioned by a second before it is quizzed
+  on ("**In Oklahoma**, you can often find…" plus "Oklahoma uses…"), which drops the one-off
+  villages and the parsing accidents, and a name another country claims more often belongs to that
+  country — British Columbia is Canada's, however many US clues mention it;
+- a division word after the name makes it a place rather than a demonym ("the **Kanto region**",
+  "**Aomori prefecture**"), unless the name itself looks like one ("the Bavarian region");
+- spellings that differ only in their accents or their division word collapse onto one (*Goiás* /
+  *Goias*, *Akita* / *Akita Prefecture*, *Tuva* / *Tuva Republic*), so a board can never offer the
+  same state twice.
 
-A clue is finally only playable when it names exactly **one** region — "found in Schleswig-Holstein
-and Lower Saxony" would otherwise be a question with two right answers — and only for a country
-with three regions to fill a board with. That leaves 699 clues over 46 countries and 419 regions.
+Those rules decide which names are regions. Once they have, a clue is placed by *any* mention of
+one of its country's regions — "**Queensland** features these pole tops", "stickers on
+**Queensland** poles", "shrubby trees in **Southwest Texas**" — and the guide's own abbreviations
+count as the full name (*NSW*, *QLD*), so they never turn up as a second state on the board.
 
-It is a heuristic reading of English prose and it is not perfect: a couple of language names
-("Catalan" for Spain, "French" for France) survive every filter above and turn up as board options.
-They read as odd rather than as wrong answers, and the explanation below the question is still the
-guide's own.
+The first sentence of the main text that names a region says where the clue is. When it names
+several — "square reflectors are common in **Utah, Arizona, and Idaho**" — each is a right answer:
+the board shows **one** of them against two regions the clue never mentions, so there is still
+exactly one right option. A sentence that compares or spans ("hilly, **like** Sucre", "**except**
+in Yamaguchi", "**stretching from** Pennsylvania to Georgia") only counts when it names a single
+region, a sentence naming more than four regions is not placed at all, and every other region the
+clue mentions — a later "they can rarely be seen in Haryana", or a *NOTE* paragraph — is kept off
+its board rather than costing the clue. So are regions the guide names together with an answer in a
+two-region clue ("Kangaroo Island in South Australia").
+
+A board only holds regions of one kind: a name the guide ever calls a city ("the city of Cusco",
+"Mexico City") or a prefecture ("Aomori prefecture") is only offered against others of its kind, so
+a prefecture never faces the region that holds it. Areas that span several regions (*Deep South*,
+*Amazon*, *Borneo*, *Rocky Mountains*, *North Island*) are not offered at all: "Deep South" against
+"Louisiana" would be two right answers.
+
+Many clues name no region and give a bearing instead: "common in **northern Finland**", "**in the
+northeast** you will find", "**the southern half of the country**". Those become compass questions
+(North, North-east, …, Centre), with wrong answers that point at least 135° away from the right
+one, so "North" is never up against "North-east". Only phrases that must mean the country's own
+north count — "north of Turku", "the west of the reserve" and "not found in the northwest" place
+nothing — and a clue that names a region is never asked by bearing, since "Lapland" and "North"
+could both be right.
+
+That leaves 1,617 clues over 102 countries: 1,324 over 60 countries by named region (691 regions,
+252 of those clues with several right answers to choose from), and 293 by bearing. The guide's
+own chapters hold no more than that to find: every tip on the country pages is already in the
+dataset, and what is left over is mostly country-wide ("each state has its own licence plate"),
+spotlights of one national park, or sentences naming half the country.
+
+It is a heuristic reading of English prose and it is not perfect. Language names ("in Catalan")
+are filtered out by name, but a city and the state that holds it can still share a board when the
+guide never names them together (a "Miami" clue against "Florida"). Those are rare, and the
+explanation below the question is still the guide's own.
 
 Scores, the clues you have already seen, and the correct answer all live in a server-side session —
 `/next` returns the image and the three options and nothing else, so the answer cannot be read out

@@ -97,7 +97,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
 </script>
 
 <template>
-  <SiteHeader :meta="meta" />
+  <SiteHeader :meta="meta" :mode="mode" :whole-guide="wholeGuide" />
 
   <main class="shell page">
     <!-- The intro gives way to the game itself once a run is on, so the clue,

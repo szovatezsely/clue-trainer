@@ -1,6 +1,7 @@
 package net.geoclue.trainer
 
 import kotlinx.serialization.json.Json
+import net.geoclue.trainer.data.ClueRegions
 import net.geoclue.trainer.data.ClueRepository
 import net.geoclue.trainer.game.ApiException
 import net.geoclue.trainer.game.CountryPopularity
@@ -328,13 +329,21 @@ class GameServiceTest {
             assertEquals(clue.countryCode, country.code)
             assertEquals(3, question.options.size)
             assertEquals(3, question.options.map { it.value }.distinct().size)
+            // A board is either named regions of that one country or compass
+            // bearings, never a mix of the two.
+            val allowed = if (regions.isCompass(clue)) ClueRegions.COMPASS_LABELS else regions.regionsOf(clue.countryCode)
             assertTrue(
-                question.options.all { it.value in regions.regionsOf(clue.countryCode) },
-                "board mixes countries: " + question.options.map { it.value },
+                question.options.all { it.value in allowed },
+                "board mixes countries or kinds: " + question.options.map { it.value },
             )
             assertTrue(
-                question.options.any { it.value == regions.regionOf(clue) },
-                "the right region was not on the board for " + clue.id,
+                question.options.all { it.value in regions.answersOf(clue) || it.value in regions.distractorsOf(clue) },
+                "a wrong answer the clue's own text vouches for reached the board: " + question.options.map { it.value },
+            )
+            assertTrue(
+                question.options.count { it.value in regions.answersOf(clue) } == 1,
+                "the board must hold exactly one of the clue's regions for " + clue.id + ": " +
+                    question.options.map { it.value },
             )
             game.answer(session, AnswerRequest(question.clueId, question.options[0].value))
         }
@@ -348,8 +357,8 @@ class GameServiceTest {
 
         val question = game.nextQuestion(session, QuestionFilter(mode = GameMode.REGION))
         val clue = repository.snapshot.clues.first { it.id == question.clueId }
-        val right = repository.snapshot.regions.regionOf(clue)
-        val answer = game.answer(session, AnswerRequest(question.clueId, right!!))
+        val right = question.options.first { it.value in repository.snapshot.regions.answersOf(clue) }.value
+        val answer = game.answer(session, AnswerRequest(question.clueId, right))
 
         assertTrue(answer.correct)
         assertEquals("region", answer.mode)

@@ -434,5 +434,16 @@
     "Vegetation & Landscape": "Növényzet és tájkép",
     "Åland Islands": "Åland-szigetek",
     "”Bamako” Mosque": "„Bamakói” mecset"
+  },
+  "bearings": {
+    "North": "Észak",
+    "North-east": "Északkelet",
+    "East": "Kelet",
+    "South-east": "Délkelet",
+    "South": "Dél",
+    "South-west": "Délnyugat",
+    "West": "Nyugat",
+    "North-west": "Északnyugat",
+    "Centre": "Közép"
   }
 }

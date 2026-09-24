@@ -15,6 +15,8 @@ data class ContentBundle(
     /** Guide chapter headings, keyed by the English heading. */
     val sections: Map<String, String> = emptyMap(),
     val subsections: Map<String, String> = emptyMap(),
+    /** The region game's compass answers ("North", "South-west", "Centre"). */
+    val bearings: Map<String, String> = emptyMap(),
 )
 
 /**
@@ -56,6 +58,8 @@ class Translations private constructor(private val bundles: Map<Lang, Bundle>) {
      */
     fun subsection(lang: Lang, name: String): String =
         bundles[lang]?.content?.subsections?.get(name) ?: name
+
+    fun bearing(lang: Lang, label: String): String = bundles[lang]?.content?.bearings?.get(label) ?: label
 
     /** The clue's explanation, or the English paragraphs when it is not translated yet. */
     fun clueText(lang: Lang, clueId: String, fallback: List<String>): List<String> =
